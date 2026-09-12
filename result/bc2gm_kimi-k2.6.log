@@ -1,0 +1,321 @@
+2026-09-08 12:46:30,143 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-08 12:51:09,378 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-08 12:51:18,537 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-08 12:54:26,728 - INFO - Retrying request to /chat/completions in 0.434470 seconds
+2026-09-08 12:54:27,172 - INFO - Retrying request to /chat/completions in 0.896106 seconds
+2026-09-08 12:55:50,131 - INFO - Retrying request to /chat/completions in 0.385429 seconds
+2026-09-08 12:55:50,521 - INFO - Retrying request to /chat/completions in 0.785350 seconds
+2026-09-08 12:56:56,840 - INFO - Retrying request to /chat/completions in 0.468815 seconds
+2026-09-08 12:56:57,314 - INFO - Retrying request to /chat/completions in 0.823423 seconds
+2026-09-08 13:02:02,319 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-08 13:03:08,609 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 13:04:29,110 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 13:04:33,599 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 13:04:40,680 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 13:04:40,969 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 13:04:40,970 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 13:04:42,067 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 13:04:42,068 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 13:04:43,141 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 13:06:14,213 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 13:53:29,928 - INFO - Retrying request to /chat/completions in 0.416770 seconds
+2026-09-08 13:53:30,357 - INFO - Retrying request to /chat/completions in 0.993430 seconds
+2026-09-08 16:22:48,485 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:23:16,107 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:23:44,149 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:24:21,265 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:24:47,802 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:25:15,571 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:25:41,804 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:26:07,800 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:26:39,748 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:27:20,561 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:27:46,944 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:28:14,427 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:28:40,787 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:29:12,564 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:29:38,448 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:30:07,800 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:30:28,806 - INFO - Precision: 0.0000
+2026-09-08 16:30:28,807 - INFO - Recall: 0.0000
+2026-09-08 16:30:28,807 - INFO - F1: 0.0000
+2026-09-08 16:31:59,952 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:32:56,984 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:01,765 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:08,147 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:26,122 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:31,840 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:33:32,043 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:32,043 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:33,299 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:33,299 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:34,393 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:34,396 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:33:34,589 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:34,590 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:35,686 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:35,687 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:36,786 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:36,787 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:33:36,968 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:36,969 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:38,056 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:38,056 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:39,151 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:39,152 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:33:39,716 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:39,717 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:40,835 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:40,836 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:42,244 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:42,245 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:33:42,868 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:42,868 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:43,948 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:43,949 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:33:45,389 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:33:45,390 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:33:45,390 - INFO - Precision: 0.0000
+2026-09-08 16:33:45,390 - INFO - Recall: 0.0000
+2026-09-08 16:33:45,391 - INFO - F1: 0.0000
+2026-09-08 16:38:16,775 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:38:21,632 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:38:33,802 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:38:33,975 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:33,975 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:35,121 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:35,121 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:36,252 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:36,253 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:36,439 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:36,440 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:37,538 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:37,539 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:38,632 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:38,633 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:38,884 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:38,884 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:39,955 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:39,956 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:41,060 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:41,061 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:41,237 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:41,237 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:42,334 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:42,335 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:43,419 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:43,420 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:43,658 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:43,658 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:44,744 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:44,744 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:45,838 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:45,839 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:46,034 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:46,034 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:47,179 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:47,180 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:48,307 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:48,307 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:48,487 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:48,487 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:49,572 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:49,573 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:38:50,669 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:38:50,670 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:38:50,671 - INFO - Precision: 0.0000
+2026-09-08 16:38:50,671 - INFO - Recall: 0.0000
+2026-09-08 16:38:50,671 - INFO - F1: 0.0000
+2026-09-08 16:48:44,407 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:48:49,147 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:48:57,420 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:48:57,639 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:48:57,640 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:48:58,739 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:48:58,740 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:11,426 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:49:16,768 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:49:24,271 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 16:49:24,704 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:24,705 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:25,802 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:25,803 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:26,878 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:26,880 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:49:27,094 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:27,095 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:28,189 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:28,189 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:29,269 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:29,270 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:49:29,464 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:29,465 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:30,529 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:30,530 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:31,618 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:31,619 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:49:31,822 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:31,822 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:32,920 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:32,920 - INFO - Retrying request to /chat/completions in 1.000000 seconds
+2026-09-08 16:49:34,017 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-08 16:49:34,018 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'Your account org-9b860889862642099bf806fbf7d62582<ak-fchsf73ue6b111aj7d61> request reached organization max RPM: 3, please try again after 1 seconds', 'type': 'rate_limit_reached_error'}}
+2026-09-08 16:49:34,018 - INFO - Precision: 0.0000
+2026-09-08 16:49:34,018 - INFO - Recall: 0.0000
+2026-09-08 16:49:34,018 - INFO - F1: 0.0000
+2026-09-08 17:05:59,754 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:06:29,551 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:07:04,870 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:07:41,129 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:08:11,469 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:08:42,568 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:09:14,593 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:09:46,307 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:10:16,089 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:10:52,906 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:11:17,910 - INFO - Precision: 0.0000
+2026-09-08 17:11:17,910 - INFO - Recall: 0.0000
+2026-09-08 17:11:17,910 - INFO - F1: 0.0000
+2026-09-08 17:36:05,851 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:36:34,988 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:37:06,685 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:37:44,439 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:38:13,943 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:38:44,402 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:39:13,837 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:39:47,608 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:40:18,447 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:40:56,234 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 17:41:21,240 - INFO - Sample-level Accuracy: 1.0000
+2026-09-08 18:10:04,258 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:10:34,203 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:11:08,610 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:11:48,342 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:12:23,213 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:12:55,006 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:13:26,073 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:13:59,152 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:14:31,508 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:15:01,876 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:15:33,540 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:16:06,536 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:16:37,892 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:17:09,513 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:17:38,186 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:18:09,827 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:18:46,353 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:19:21,963 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:19:51,000 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:20:21,833 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:20:52,912 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:21:26,445 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:21:58,195 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:22:34,866 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:23:04,063 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:23:39,375 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:24:08,917 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:24:41,718 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:25:34,261 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:26:08,553 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:26:54,913 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:27:26,275 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:28:02,458 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:28:36,404 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:29:08,547 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:29:40,631 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:30:12,268 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:30:46,982 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:31:15,963 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:31:53,030 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:32:45,517 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:33:18,408 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:33:51,783 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:34:23,264 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:34:56,476 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:35:31,382 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:36:06,166 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:36:37,635 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:37:07,709 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:37:49,538 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:38:20,680 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:38:54,833 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:39:25,234 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:39:58,584 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:40:27,904 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:40:56,208 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:41:28,493 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:41:58,147 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:42:33,932 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:43:27,946 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:43:59,411 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:44:31,926 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:45:08,652 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:45:38,569 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:46:09,569 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:46:39,219 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:47:15,989 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:47:54,097 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:48:23,703 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:49:04,458 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:50:03,736 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:50:38,720 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:51:20,932 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:51:52,449 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:52:24,161 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:52:56,787 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:53:24,661 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:54:31,400 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:55:06,798 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:56:07,460 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:56:41,072 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:57:15,320 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:57:57,408 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:58:31,983 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:59:07,754 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 18:59:56,870 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:00:27,776 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:00:59,606 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:01:47,605 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:02:28,872 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:02:58,634 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:04:23,765 - INFO - Retrying request to /chat/completions in 0.432712 seconds
+2026-09-08 19:04:40,447 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:05:18,278 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:06:43,405 - INFO - Retrying request to /chat/completions in 0.475140 seconds
+2026-09-08 19:07:35,168 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:08:09,973 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:09:35,420 - INFO - Retrying request to /chat/completions in 0.461035 seconds
+2026-09-08 19:10:36,032 - INFO - Retrying request to /chat/completions in 0.996622 seconds
+2026-09-08 19:11:37,114 - WARNING - LLM 调用失败：Request timed out.
+2026-09-08 19:12:24,027 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:13:02,811 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:13:41,977 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:14:28,993 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-08 19:14:54,009 - INFO - Sample-level Accuracy: 0.8200
+2026-09-10 17:52:47,156 - INFO - Experiment: bc2gm_kimi-k2.6
+2026-09-10 17:52:47,159 - INFO - Model: kimi-k2.6
+2026-09-10 17:52:59,323 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:53:29,171 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:54:03,653 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:54:39,597 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:55:13,014 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:55:47,589 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:56:19,437 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:56:56,670 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:57:26,694 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:57:58,559 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:58:31,663 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:59:02,149 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 17:59:31,539 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:00:03,079 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:00:34,458 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:01:04,305 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:01:44,483 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:02:20,375 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:02:49,614 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:03:19,688 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:03:50,304 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:04:23,074 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:04:54,631 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:05:29,076 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-10 18:06:01,157 - INFO - HTTP Request: POST https://api.moonshot.cn/v1/chat/completions "HTTP/1.1 200 OK"

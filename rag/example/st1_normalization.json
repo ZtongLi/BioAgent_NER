@@ -1,0 +1,15 @@
+[
+  {
+    "id": "gene_001",
+    "type": "gene",
+    "name": "A1BG",
+    "aliases": [
+      "A1B",
+      "ABG"
+    ],
+    "description": "alpha-1-B glycoprotein 1 is a protein-coding human gene located at chromosome 19q13.43.",
+    "source": "HGNC",
+    "source_id": "HGNC:5",
+    "description_method": "structured_fields"
+  }
+]

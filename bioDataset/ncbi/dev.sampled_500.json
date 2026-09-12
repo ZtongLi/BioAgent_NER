@@ -1,0 +1,5623 @@
+[
+  {
+    "sentence": "The PAX3 - FKHR fusion product retains the DNA binding domains of the PAX3 protein and the putative activator domain of the FKHR protein .",
+    "entities": []
+  },
+  {
+    "sentence": "Loss of heterozygosity was studied in seven renal hamartomas from two affected individuals in the first family , as well as in a jaw tumor and a parathyroid tumor from the second family .",
+    "entities": [
+      {
+        "name": "renal hamartomas",
+        "type": "DISEASE",
+        "pos": [
+          44,
+          60
+        ]
+      },
+      {
+        "name": "jaw tumor",
+        "type": "DISEASE",
+        "pos": [
+          129,
+          138
+        ]
+      },
+      {
+        "name": "parathyroid tumor",
+        "type": "DISEASE",
+        "pos": [
+          145,
+          162
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "2 - p11 .",
+    "entities": []
+  },
+  {
+    "sentence": "The study evaluated 4 patients with FMF who had been taking colchicine on a long - term basis .",
+    "entities": [
+      {
+        "name": "FMF",
+        "type": "DISEASE",
+        "pos": [
+          36,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Thus , the combination of a unique mutation and polymorphism causes conformational change in the GALC enzyme , resulting in low enzymatic activity .",
+    "entities": []
+  },
+  {
+    "sentence": "Using a specific radioimmunoassay , we determined colchicine concentrations in the serum and breast milk of 4 patients at various time points , following oral administration of the drug .",
+    "entities": []
+  },
+  {
+    "sentence": "The rate of cleavage increases with the length of the huntingtin polyglutamine tract , providing an explanation for the gain - of - function associated with CAG expansion .",
+    "entities": []
+  },
+  {
+    "sentence": "On all D - 2 alleles N314D occurred in cis with two intronic sequence changes , on the D - 1 alleles in cis with a neutral mutation in exon 7 .",
+    "entities": []
+  },
+  {
+    "sentence": "Germline mutations in the adenomatous polyposis coli ( APC ) gene are responsible for most cases of FAP .",
+    "entities": [
+      {
+        "name": "adenomatous polyposis coli",
+        "type": "DISEASE",
+        "pos": [
+          26,
+          52
+        ]
+      },
+      {
+        "name": "APC",
+        "type": "DISEASE",
+        "pos": [
+          55,
+          58
+        ]
+      },
+      {
+        "name": "FAP",
+        "type": "DISEASE",
+        "pos": [
+          100,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Truncated ATM protein was not detected in lymphoblasts from ataxia - telangiectasia patients homozygous for mutations leading to premature protein termination .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          60,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The Wiskott - Aldrich syndrome protein ( WASP ) gene was found to be mutated in patients presenting with WAS and in patients showing X - linked thrombocytopenia .",
+    "entities": [
+      {
+        "name": "Wiskott - Aldrich syndrome",
+        "type": "DISEASE",
+        "pos": [
+          4,
+          30
+        ]
+      },
+      {
+        "name": "WAS",
+        "type": "DISEASE",
+        "pos": [
+          105,
+          108
+        ]
+      },
+      {
+        "name": "X - linked thrombocytopenia",
+        "type": "DISEASE",
+        "pos": [
+          133,
+          160
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Here , we report the identification and characterization of the chromosome 3 - derived translocation partner gene , which we have designated LPP ( lipoma preferred partner gene ) .",
+    "entities": [
+      {
+        "name": "lipoma",
+        "type": "DISEASE",
+        "pos": [
+          147,
+          153
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Mice lacking the myotonic dystrophy protein kinase develop a late onset progressive myopathy .",
+    "entities": [
+      {
+        "name": "myotonic dystrophy",
+        "type": "DISEASE",
+        "pos": [
+          17,
+          35
+        ]
+      },
+      {
+        "name": "myopathy",
+        "type": "DISEASE",
+        "pos": [
+          84,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The molecular basis of C7 deficiency has been investigated in two Irish families and a number of Israeli families of Moroccan Sephardic Jewish origin .",
+    "entities": [
+      {
+        "name": "C7 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          23,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This suggests that genomic sequences may play a critical role in influencing repeat instability . .",
+    "entities": []
+  },
+  {
+    "sentence": "Over 100 distinct disease - associated mutations have been identified in the breast - ovarian cancer susceptibility gene BRCA1 .",
+    "entities": [
+      {
+        "name": "breast - ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          77,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We identified one first intron of 928 b in the mouse gene .",
+    "entities": []
+  },
+  {
+    "sentence": "The Duarte biochemical phenotype has a molecular genotype of N314D / N314D .",
+    "entities": []
+  },
+  {
+    "sentence": "This question is of particular interest for the human enzyme galactose - l - phosphate uridylyl - transferase ( GALT ) , impairment of which results in the inherited metabolic disorder galactosemia , because many if not most patients studied to date are compound heterozygotes rather than true molecular homozygotes .",
+    "entities": [
+      {
+        "name": "inherited metabolic disorder",
+        "type": "DISEASE",
+        "pos": [
+          156,
+          184
+        ]
+      },
+      {
+        "name": "galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          185,
+          197
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This corresponds well to the previous assignment of the locus for the human alkaptonuria gene ( AKU ) to the same chromosomal region by multipoint linkage analysis .",
+    "entities": [
+      {
+        "name": "alkaptonuria",
+        "type": "DISEASE",
+        "pos": [
+          76,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Germline VHL gene mutations predispose to the development of retinal , cerebellar and spinal haemangioblastomas , renal cell carcinoma and phaeochromocytoma .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          9,
+          12
+        ]
+      },
+      {
+        "name": "retinal , cerebellar and spinal haemangioblastomas",
+        "type": "DISEASE",
+        "pos": [
+          61,
+          111
+        ]
+      },
+      {
+        "name": "renal cell carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          114,
+          134
+        ]
+      },
+      {
+        "name": "phaeochromocytoma",
+        "type": "DISEASE",
+        "pos": [
+          139,
+          156
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Thus , it appears that severe G6PD deficiency affects adversely the proliferation or the survival of nucleated blood cells and that this phenotypic characteristic is critical during hematopoiesis . .",
+    "entities": [
+      {
+        "name": "G6PD deficiency",
+        "type": "DISEASE",
+        "pos": [
+          30,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "C9 is a single - chain serum protein that is encoded by a gene located on chromosome 5p .",
+    "entities": []
+  },
+  {
+    "sentence": "The human complement C9 gene : identification of two mutations causing deficiency and revision of the gene structure .",
+    "entities": []
+  },
+  {
+    "sentence": "These results suggest that even in a referral clinic specializing in screening women from high - risk families , the majority of tests for BRCA1 mutations will be negative and therefore uninformative . .",
+    "entities": []
+  },
+  {
+    "sentence": "Most multiple case families of young onset breast cancer and ovarian cancer are thought to be due to highly penetrant mutations in the predisposing genes BRCA1 and BRCA2 .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          43,
+          56
+        ]
+      },
+      {
+        "name": "ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          61,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "One patient was found to have no alternative pathway activity but a low normal classical pathway .",
+    "entities": []
+  },
+  {
+    "sentence": "Cleavage of huntingtin by apopain , a proapoptotic cysteine protease , is modulated by the polyglutamine tract .",
+    "entities": []
+  },
+  {
+    "sentence": "The order of genes on the chromosome is centromere - 1FP 35 - VAT1 - Rho7 - BRCA1 - 1A1 - 3B - telomere",
+    "entities": []
+  },
+  {
+    "sentence": "The results indicate that mutation of the VHL gene is associated exclusively with the development of non - papillary renal cell carcinoma . .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          45
+        ]
+      },
+      {
+        "name": "non - papillary renal cell carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Heterodimer formation and activity in the human enzyme galactose - 1 - phosphate uridylyltransferase .",
+    "entities": []
+  },
+  {
+    "sentence": "Chromosomal mapping in an interspecific M .",
+    "entities": []
+  },
+  {
+    "sentence": "Thus , the death of Brca1 ( 5 - 6 ) mutant embryos prior to gastrulation may be due to a failure of the proliferative burst required for the development of the different germ layers .",
+    "entities": []
+  },
+  {
+    "sentence": "68 ( P = . 008 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Muscle expression of glucose - 6 - phosphate dehydrogenase deficiency in different variants .",
+    "entities": [
+      {
+        "name": "glucose - 6 - phosphate dehydrogenase deficiency",
+        "type": "DISEASE",
+        "pos": [
+          21,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The entire coding sequence of the Atm transcript was cloned and found to contain an open reading frame encoding a protein of 3066 amino acids with 84 % overall identity and 91 % similarity to the human ATM protein .",
+    "entities": []
+  },
+  {
+    "sentence": "We postulate that these overexpression mechanisms ensure a critical level of gene product for the oncogenic effects of these fusions . .",
+    "entities": []
+  },
+  {
+    "sentence": "We report the functional definition of a novel genetic locus within human chromosome 10pter - q11 that mediates both in vivo tumor suppression and in vitro apoptosis of prostatic adenocarcinoma cells .",
+    "entities": [
+      {
+        "name": "prostatic adenocarcinoma",
+        "type": "DISEASE",
+        "pos": [
+          169,
+          193
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "DNA chip - based assays may provide a valuable new technology for high - throughput cost - efficient detection of genetic alterations .",
+    "entities": []
+  },
+  {
+    "sentence": "Southern blot analysis of genomic DNA from hybrid cell lines was used to localize the VLCAD gene to human chromosome 17p11 .",
+    "entities": []
+  },
+  {
+    "sentence": "The age of cancer onset was not always distinct from typical sporadic cases .",
+    "entities": [
+      {
+        "name": "cancer",
+        "type": "DISEASE",
+        "pos": [
+          11,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Limitations of the current dietary treatment for PKU have led to the development of potential treatments based on somatic gene transfer .",
+    "entities": [
+      {
+        "name": "PKU",
+        "type": "DISEASE",
+        "pos": [
+          49,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Reference and test samples were co - hybridized to these arrays and differences in hybridization patterns quantitated by two - colour analysis .",
+    "entities": []
+  },
+  {
+    "sentence": "An L21 ribosomal protein pseudogene is embedded in BRCA1 intron 13 .",
+    "entities": []
+  },
+  {
+    "sentence": "3 percent and 33 .",
+    "entities": []
+  },
+  {
+    "sentence": "Five were splice site mutations ( one in the donor site of intron 4 , two in the donor site of intron 6 , one in each of the acceptor sites of introns 8 and 9 ) and five were nonsense mutations in exons 8 , 9 , 10 , 11 , and 12 .",
+    "entities": []
+  },
+  {
+    "sentence": "Therefore , these mutations are sufficient to explain the complete deficiency of both the probands studied .",
+    "entities": []
+  },
+  {
+    "sentence": "A statistically significant relationship was found in the activity of G6PD between erythrocytes and muscle of the male subjects ( r = 0 . 968 ; p = 0 . 00008 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "VEGF promoter - luciferase constructs were transiently cotransfected with a wild - type VHL ( wt - VHL ) vector in several cell lines , including 293 embryonic kidney and RCC cell lines .",
+    "entities": [
+      {
+        "name": "RCC",
+        "type": "DISEASE",
+        "pos": [
+          171,
+          174
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Inherited mutant alleles of familial tumour suppressor genes predispose individuals to particular types of cancer .",
+    "entities": [
+      {
+        "name": "tumour",
+        "type": "DISEASE",
+        "pos": [
+          37,
+          43
+        ]
+      },
+      {
+        "name": "cancer",
+        "type": "DISEASE",
+        "pos": [
+          107,
+          113
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The disease in these two kindreds was linked to five markers in the 1q21 - q32 region ( logarithm - of - odds scores 3 . 2 - 4 2 - 4 . 2 ) , whereas linkage to the MEN1 and MEN2 regions was excluded .",
+    "entities": [
+      {
+        "name": "MEN1",
+        "type": "DISEASE",
+        "pos": [
+          164,
+          168
+        ]
+      },
+      {
+        "name": "MEN2",
+        "type": "DISEASE",
+        "pos": [
+          173,
+          177
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Tumor suppression and apoptosis of human prostate carcinoma mediated by a genetic locus within human chromosome 10pter - q11 .",
+    "entities": [
+      {
+        "name": "Tumor",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "prostate carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          41,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The high frequencies of disease - associated alleles in the general population suggest that IDDM2 locus is not responsible for the low incidence of IDDM in Japanese .",
+    "entities": [
+      {
+        "name": "IDDM",
+        "type": "DISEASE",
+        "pos": [
+          148,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To identify possible features of the BRCA1 genomic region that may contribute to chromosomal instability as well as potential transcriptional regulatory elements , a 117 , 143 - bp DNA sequence encompassing BRCA1 was obtained by random sequencing of four cosmids identified from a human chromosome 17 specific library .",
+    "entities": []
+  },
+  {
+    "sentence": "The ataxia - telangiectasia gene product , a constitutively expressed nuclear protein that is not up - regulated following genome damage .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          4,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In 5 of 14 patients ( 35 % ) , elevated plasma concentrations of very long chain fatty acids were detected .",
+    "entities": []
+  },
+  {
+    "sentence": "Here , we report that a mutation predicting the substitution of Gly 230 by glutamic acid ( G230E ) between segments D3 and D4 dramatically alters the pore properties of a recombinant human muscle Cl - channel ( hCIC - 1 ) expressed in a mammalian cell line ( tsA201 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "This mutation , 103C - - > T , results in a stop codon at position 35 of the ATM protein .",
+    "entities": []
+  },
+  {
+    "sentence": "Genetic analysis was undertaken to establish linkage between the breast or ovarian cancer cases and markers on chromosomes 17q ( BRCA1 ) and 13q ( BRCA2 ) .",
+    "entities": [
+      {
+        "name": "breast or ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          65,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These homologies suggest that PTEN may suppress tumor cell growth by antagonizing protein tyrosine kinases and may regulate tumor cell invasion and metastasis through interactions at focal adhesions . .",
+    "entities": [
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          48,
+          53
+        ]
+      },
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          124,
+          129
+        ]
+      },
+      {
+        "name": "metastasis",
+        "type": "DISEASE",
+        "pos": [
+          148,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This implies that the irradiation - induced atm and p53 apoptotic pathways are not completely congruent .",
+    "entities": []
+  },
+  {
+    "sentence": "However , one or more additional genes may yet be found that explain some proportion of hereditary breast cancer . .",
+    "entities": [
+      {
+        "name": "hereditary breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          88,
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Similarly , while the cumulative data revealed a predominance of missense mutations among the WASP gene lesions observed in boys with isolated thrombocytopenia , missense mutations were not exclusively associated with milder WAS phenotypes , but also comprised a substantial portion ( 38 % ) of the WASP gene defects found in patients with severe disease .",
+    "entities": [
+      {
+        "name": "isolated thrombocytopenia",
+        "type": "DISEASE",
+        "pos": [
+          134,
+          159
+        ]
+      },
+      {
+        "name": "WAS",
+        "type": "DISEASE",
+        "pos": [
+          225,
+          228
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Wiskott - Aldrich syndrome : no strict genotype - phenotype correlations but clustering of missense mutations in the amino - terminal part of the WASP gene product .",
+    "entities": [
+      {
+        "name": "Wiskott - Aldrich syndrome",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The frequency of codon 50 mutation is roughly the same in pancreatic tumors as in the other types of tumors previously examined .",
+    "entities": [
+      {
+        "name": "pancreatic tumors",
+        "type": "DISEASE",
+        "pos": [
+          58,
+          75
+        ]
+      },
+      {
+        "name": "tumors",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Codon 344 is a key residue within the tetramerisation domain , and the amino acid substitution of a proline for a leucine is predicted to have profound implications for tetramerisation and potentially DNA binding .",
+    "entities": []
+  },
+  {
+    "sentence": "FISH studies in a patient with sporadic aniridia and t ( 7 ; 11 ) ( q31 . 2 ; p13 ) .",
+    "entities": [
+      {
+        "name": "sporadic aniridia",
+        "type": "DISEASE",
+        "pos": [
+          31,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Overexpression of ATM cDNA in A - T cells enhanced the survival of these cells in response to radiation exposure , decreased radiation - induced chromosome aberrations , reduced radio - resistant DNA synthesis , and partially corrected defective cell cycle checkpoints and induction of stress - activated protein kinase .",
+    "entities": [
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          30,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Rather , translation of the CAG is crucial for the pathogenesis of HD .",
+    "entities": [
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          67,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A major cytogenetic subgroup of lipomas is characterized by recurrent chromosome aberrations , mainly translocations , that involve chromosome segment 12q13 - q15 .",
+    "entities": [
+      {
+        "name": "lipomas",
+        "type": "DISEASE",
+        "pos": [
+          32,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Atm - deficient mice are retarded in growth , do not produce mature sperm , and exhibit severe defects in T cell maturation while going on to develop thymomas .",
+    "entities": [
+      {
+        "name": "thymomas",
+        "type": "DISEASE",
+        "pos": [
+          150,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "No germ - line BRCA1 mutations were found .",
+    "entities": []
+  },
+  {
+    "sentence": "52 % for the 6174delT mutation .",
+    "entities": []
+  },
+  {
+    "sentence": "To define the possible role of the VHL gene in the development of sporadic renal cell carcinomas , 91 different parenchymal tumours of the kidney have been investigated for mutation of the VHL gene by single strand conformation polymorphism ( SSCP ) and / or heteroduplex ( HD ) techniques .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          35,
+          38
+        ]
+      },
+      {
+        "name": "sporadic renal cell carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          66,
+          96
+        ]
+      },
+      {
+        "name": "parenchymal tumours of the kidney",
+        "type": "DISEASE",
+        "pos": [
+          112,
+          145
+        ]
+      },
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          189,
+          192
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Human orythrocytes that are homozygous for the Duarte enzyme variant of galactosemia ( D / D ) have a characteristic isoform on isoelectric focusing and 50 % reduction in galactose - 1 - phosphate uridyltransferase ( GALT ) enzyme activity .",
+    "entities": [
+      {
+        "name": "Duarte enzyme variant of galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          47,
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In the adult , type III collagen is a major component of the extracellular matrix in a variety of internal organs and skin .",
+    "entities": []
+  },
+  {
+    "sentence": "By using this approach , we were able to identify mutation in 22 new patients , but the overall efficiency of the procedure when we used a single - pass regimen was only 48 % .",
+    "entities": []
+  },
+  {
+    "sentence": "The mutated allele was transmitted through the mouse germ line and homozygous mutant animals were derived from heterozygous intercrosses .",
+    "entities": []
+  },
+  {
+    "sentence": "The ATM gene is responsible for the autosomal recessive disorder ataxia - telangiectasia ( A - T ) , characterized by cerebellar degeneration , immunodeficiency and cancer predisposition .",
+    "entities": [
+      {
+        "name": "autosomal recessive disorder",
+        "type": "DISEASE",
+        "pos": [
+          36,
+          64
+        ]
+      },
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          65,
+          88
+        ]
+      },
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          91,
+          96
+        ]
+      },
+      {
+        "name": "cerebellar degeneration",
+        "type": "DISEASE",
+        "pos": [
+          118,
+          141
+        ]
+      },
+      {
+        "name": "immunodeficiency",
+        "type": "DISEASE",
+        "pos": [
+          144,
+          160
+        ]
+      },
+      {
+        "name": "cancer predisposition",
+        "type": "DISEASE",
+        "pos": [
+          165,
+          186
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "All variants showed the enzyme defect in muscle .",
+    "entities": []
+  },
+  {
+    "sentence": "The majority of patients with Canavan disease are from an Ashkenazi Jewish background .",
+    "entities": [
+      {
+        "name": "Canavan disease",
+        "type": "DISEASE",
+        "pos": [
+          30,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A unique sequence human Rb1 cosmid DNA probe has been used to localize this region on apes Chr 14 by the FISH technique .",
+    "entities": []
+  },
+  {
+    "sentence": "Eight single nucleotide polymorphisms were also readily detected .",
+    "entities": []
+  },
+  {
+    "sentence": "Targeted disruption of ATM leads to growth retardation , chromosomal fragmentation during meiosis , immune defects , and thymic lymphoma .",
+    "entities": [
+      {
+        "name": "growth retardation",
+        "type": "DISEASE",
+        "pos": [
+          36,
+          54
+        ]
+      },
+      {
+        "name": "chromosomal fragmentation during meiosis",
+        "type": "DISEASE",
+        "pos": [
+          57,
+          97
+        ]
+      },
+      {
+        "name": "immune defects",
+        "type": "DISEASE",
+        "pos": [
+          100,
+          114
+        ]
+      },
+      {
+        "name": "thymic lymphoma",
+        "type": "DISEASE",
+        "pos": [
+          121,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Founding BRCA1 mutations in hereditary breast and ovarian cancer in southern Sweden .",
+    "entities": [
+      {
+        "name": "hereditary breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          28,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These findings help to outline the relationship and evolution of mutations in the human G6PD locus . .",
+    "entities": []
+  },
+  {
+    "sentence": "The equation for the best fit line was Y = 0 .",
+    "entities": []
+  },
+  {
+    "sentence": "Buttressing these in vivo observations is the fact that mutant blastocyst growth is grossly impaired in vitro .",
+    "entities": []
+  },
+  {
+    "sentence": "Somatic - cell selection is a major determinant of the blood - cell phenotype in heterozygotes for glucose - 6 - phosphate dehydrogenase mutations causing severe enzyme deficiency .",
+    "entities": [
+      {
+        "name": "enzyme deficiency",
+        "type": "DISEASE",
+        "pos": [
+          162,
+          179
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "2 2 .",
+    "entities": []
+  },
+  {
+    "sentence": "Six years on , we review 100 reports of intragenic WT1 mutations and examine the accompanying clinical phenotypes .",
+    "entities": []
+  },
+  {
+    "sentence": "In addition , ATM - / - mouse thymocytes are more resistant to apoptosis induced by gamma - irradiation than normal thymocytes .",
+    "entities": []
+  },
+  {
+    "sentence": "A further seven ( 13 % ) of the patients reported breast / ovarian cancer in at least one second - degree relative and in no first - degree relatives .",
+    "entities": [
+      {
+        "name": "breast / ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          50,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Genetic linkage between SJS and chromosomal region 1q36 - 34 has been observed in several families , but the gene has not yet been identified .",
+    "entities": [
+      {
+        "name": "SJS",
+        "type": "DISEASE",
+        "pos": [
+          24,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "G6PD activity was detected in samples obtained from biopsies on the quadriceps muscle of seven males and one female .",
+    "entities": []
+  },
+  {
+    "sentence": "The genomic structure of the mouse WASP gene is expressed as an approximately 2 .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutation of MSH3 in endometrial cancer and evidence for its functional role in heteroduplex repair .",
+    "entities": [
+      {
+        "name": "endometrial cancer",
+        "type": "DISEASE",
+        "pos": [
+          20,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "No mutation was observed in exons 25 - 27 , although this region contains two CGA codons .",
+    "entities": []
+  },
+  {
+    "sentence": "In addition , somatic Inactivation of the VHL gene is frequent in sporadic renal cell carcinoma and haemangioblastoma .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          45
+        ]
+      },
+      {
+        "name": "sporadic renal cell carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          66,
+          95
+        ]
+      },
+      {
+        "name": "haemangioblastoma",
+        "type": "DISEASE",
+        "pos": [
+          100,
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Absence of disease phenotype and intergenerational stability of the CAG repeat in transgenic mice expressing the human Huntington disease transcript .",
+    "entities": [
+      {
+        "name": "Huntington disease",
+        "type": "DISEASE",
+        "pos": [
+          119,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Regulation of transcript elongation is an important control mechanism for gene expression and the VHL gene might modify the expression of proto - oncogenes and growth suppressor genes during embryogenesis .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          98,
+          101
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "BRCA1 R841W : a strong candidate for a common mutation with moderate phenotype .",
+    "entities": []
+  },
+  {
+    "sentence": "To investigate if the two isoforms are differentially expressed during embryogenesis , VHL mRNA was reverse transcribed from 13 fetal tissues ( 8 - 10 weeks gestation ) .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          87,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In case 2 , a homozygous 2 - bp deletion ( 2137delTG / 2138delGT / 2139delTG ) caused a frameshift , generating a premature termination codon 4 to 6 nucleotides downstream .",
+    "entities": []
+  },
+  {
+    "sentence": "This mutation has not been found so far in 8 analyzed ACG1B patients , suggesting that it allows some residual activity of the sulfate transporter . .",
+    "entities": [
+      {
+        "name": "ACG1B",
+        "type": "DISEASE",
+        "pos": [
+          54,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Furthermore , based on our clinical experience , nursing appears to be safe for lactating women with FMF who continue to take colchicine .",
+    "entities": [
+      {
+        "name": "FMF",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Abnormal myotonic dystrophy protein kinase levels produce only mild myopathy in mice .",
+    "entities": [
+      {
+        "name": "myotonic dystrophy",
+        "type": "DISEASE",
+        "pos": [
+          9,
+          27
+        ]
+      },
+      {
+        "name": "myopathy",
+        "type": "DISEASE",
+        "pos": [
+          68,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The ability to scan a large gene rapidly and accurately for all possible heterozygous mutations in large numbers of patient samples will be critical for the future of medicine .",
+    "entities": []
+  },
+  {
+    "sentence": "We studied a previously described Swiss family with inherited C9 deficiency .",
+    "entities": [
+      {
+        "name": "inherited C9 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          52,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To directly study the role of Col3a1 in development and disease , we have inactivated the Col3a1 gene in embryonic stem cells by homologous recombination .",
+    "entities": []
+  },
+  {
+    "sentence": "Introducing chromosome 5 , encoding the MSH3 gene , into the mutant cell line increased the stability of some but not all microsatellites .",
+    "entities": []
+  },
+  {
+    "sentence": "Furthermore , we demonstrate that the Atm protein exists as two discrete molecular species , and that loss of one or of both of these can lead to the development of the disease . .",
+    "entities": []
+  },
+  {
+    "sentence": "Eleven of the 15 kindreds manifesting BRCA1 mutations were breast - ovarian cancer families , several of them with a predominant ovarian cancer phenotype .",
+    "entities": [
+      {
+        "name": "breast - ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          59,
+          82
+        ]
+      },
+      {
+        "name": "ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          129,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Although this microsatellite instability has been attributed to mutations in four DNA mismatch repair genes in hereditary nonpolyposis colorectal cancer ( HNPCC ) kindreds , many sporadic tumours exhibit instability but no detectable mutations in these genes .",
+    "entities": [
+      {
+        "name": "microsatellite instability",
+        "type": "DISEASE",
+        "pos": [
+          14,
+          40
+        ]
+      },
+      {
+        "name": "hereditary nonpolyposis colorectal cancer",
+        "type": "DISEASE",
+        "pos": [
+          111,
+          152
+        ]
+      },
+      {
+        "name": "HNPCC",
+        "type": "DISEASE",
+        "pos": [
+          155,
+          160
+        ]
+      },
+      {
+        "name": "sporadic tumours",
+        "type": "DISEASE",
+        "pos": [
+          179,
+          195
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Sequence similarities to human expressed sequence tags ( EST ) clones ranged from 70 % to 20 % .",
+    "entities": []
+  },
+  {
+    "sentence": "Conformation - sensitive gel electrophoresis and DNA sequencing were used to identify BRCA1 mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "Autosomal dominant myotonia congenita is an inherited disorder of skeletal muscle caused by mutations in a voltage - gated Cl - channel gene ( CLCN1 , 7q35 ) .",
+    "entities": [
+      {
+        "name": "Autosomal dominant myotonia congenita",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          37
+        ]
+      },
+      {
+        "name": "inherited disorder of skeletal muscle",
+        "type": "DISEASE",
+        "pos": [
+          44,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We conclude that the codon change N314D in cis with the base - pair transition 1721C - - > T produces the LA variant of galactosemia and that this nucleotide change increases GALT activity by increasing GALT protein abundance without increasing transcription or decreasing thermal lability .",
+    "entities": [
+      {
+        "name": "LA variant of galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          106,
+          132
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "55 ( P = . 02 ) ; after additional adjustment for HDL levels , the RR was 1 .",
+    "entities": []
+  },
+  {
+    "sentence": "In all , 12 of 16 kindreds manifesting BRCA1 mutation or linkage contained ovarian cancer , as compared with only 6 of the remaining 31 families ( P < . 001 ) .",
+    "entities": [
+      {
+        "name": "ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          75,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Identification and expression of eight novel mutations among non - Jewish patients with Canavan disease .",
+    "entities": [
+      {
+        "name": "Canavan disease",
+        "type": "DISEASE",
+        "pos": [
+          88,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Deletion analysis defined a 144 - bp region of the VEGF promoter necessary for VHL repression .",
+    "entities": []
+  },
+  {
+    "sentence": "5 of embryogenesis .",
+    "entities": []
+  },
+  {
+    "sentence": "BRCA1 mutations cause increased risk for breast and ovarian cancer , frequently of early onset .",
+    "entities": [
+      {
+        "name": "breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          41,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Exon - intron structure of the human neuronal nicotinic acetylcholine receptor alpha 4 subunit ( CHRNA4 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "The common hereditary forms of breast cancer have been largely attributed to the inheritance of mutations in the BRCA1 or BRCA2 genes .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          31,
+          44
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To address this issue we characterized WASP mutations in 24 unrelated WAS patients , including 18 boys with severe classical WAS and 6 boys expressing mild forms of the disease , and then examined the degree of correlation of these as well as all previously published WASP mutations with disease severity .",
+    "entities": [
+      {
+        "name": "WAS",
+        "type": "DISEASE",
+        "pos": [
+          70,
+          73
+        ]
+      },
+      {
+        "name": "WAS",
+        "type": "DISEASE",
+        "pos": [
+          125,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Screening for ESR mutations in breast and ovarian cancer patients .",
+    "entities": [
+      {
+        "name": "breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          31,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "At the cytogenetic level this region is frequently deleted in a variety of different solid tumors , although not in pancreatic cancer .",
+    "entities": [
+      {
+        "name": "solid tumors",
+        "type": "DISEASE",
+        "pos": [
+          85,
+          97
+        ]
+      },
+      {
+        "name": "pancreatic cancer",
+        "type": "DISEASE",
+        "pos": [
+          116,
+          133
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A tentative clinico - radiological classification can be useful for the characterization of patients and the development of genotype - phenotype correlations . .",
+    "entities": []
+  },
+  {
+    "sentence": "Recent work has identified a mouse gene ( tsg101 ) whose inactivation in fibroblasts results in cellular transformation and the ability to produce metastatic tumors in nude mice .",
+    "entities": [
+      {
+        "name": "metastatic tumors",
+        "type": "DISEASE",
+        "pos": [
+          147,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The TSG101 tumor susceptibility gene is located in chromosome 11 band p15 and is mutated in human breast cancer .",
+    "entities": [
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          11,
+          16
+        ]
+      },
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          98,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "One clone from this library contained the complete cDNA - insert for HGO as determined by sequencing .",
+    "entities": []
+  },
+  {
+    "sentence": "G6PD Santamaria might have been produced by recombination between G6PD A and G6PD Malaga ; however haplotype analysis , including the use of a new silent polymorphism , suggests that the same 542 A - - > T mutation has taken place independently in a G6PD B gene to give G6PD Malaga and in a G6PD A gene to give G6PD Santamaria .",
+    "entities": []
+  },
+  {
+    "sentence": "The mutations were small insertions and deletions and point mutations in roughly equal proportions . .",
+    "entities": []
+  },
+  {
+    "sentence": "A favorable codon bias for the mutated codon with consequently increased translation rates is postulated as the mechanism . .",
+    "entities": []
+  },
+  {
+    "sentence": "Chromosome 3p deletion was detected in 98 per cent of non - papillary renal cell carcinomas and in 25 per cent of chromophobe renal cell carcinomas .",
+    "entities": [
+      {
+        "name": "non - papillary renal cell carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          54,
+          91
+        ]
+      },
+      {
+        "name": "renal cell carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          126,
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Finally , this report provides a widely applicable strategy which ensures fast and effective screening for intronic defects that underlie differential gene expression . .",
+    "entities": []
+  },
+  {
+    "sentence": "In previous studies , it has been shown that the high mobility group ( HMG ) protein gene HMGIC at 12q15 is consistently rearranged as a consequence of these translocations .",
+    "entities": []
+  },
+  {
+    "sentence": "ATM , the gene mutated in the inherited human disease ataxia - telangiectasia , is a member of a family of kinases involved in DNA metabolism and cell - cycle checkpoint control .",
+    "entities": [
+      {
+        "name": "inherited human disease",
+        "type": "DISEASE",
+        "pos": [
+          30,
+          53
+        ]
+      },
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          54,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "All the mAbs recognised a 34 kDa protein in all tissues tested , though minor emerin - related bands were also detected in some tissues .",
+    "entities": []
+  },
+  {
+    "sentence": "Myotonic dystrophy ( DM ) is associated with the expansion of a ( CTG ) n trinucleotide repeat in the 3 untranslated region ( UTR ) of the DM protein kinase gene ( DMPK ) .",
+    "entities": [
+      {
+        "name": "Myotonic dystrophy",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          18
+        ]
+      },
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          21,
+          23
+        ]
+      },
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          139,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Within this latter group , there are differences in age of manifestation , clinical course and pattern of bone changes .",
+    "entities": []
+  },
+  {
+    "sentence": "Extracts of these cells repaired certain substrates containing extra nucleotides , but were deficient in repair of those containing mismatches or other extra nucleotides .",
+    "entities": []
+  },
+  {
+    "sentence": "We report about Dr . Kniest , who first described the condition in 1952 , and his patient , who , at the age of 50 years is severely handicapped with short stature , restricted joint mobility , and blindness but is mentally alert and leads an active life .",
+    "entities": [
+      {
+        "name": "severely handicapped",
+        "type": "DISEASE",
+        "pos": [
+          124,
+          144
+        ]
+      },
+      {
+        "name": "short stature",
+        "type": "DISEASE",
+        "pos": [
+          150,
+          163
+        ]
+      },
+      {
+        "name": "restricted joint mobility",
+        "type": "DISEASE",
+        "pos": [
+          166,
+          191
+        ]
+      },
+      {
+        "name": "blindness",
+        "type": "DISEASE",
+        "pos": [
+          198,
+          207
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Classical galactosemia is caused by one common missense mutation ( Q188R ) and by several rare mutations in the galactose - 1 - phosphate uridyltransferase ( GALT ) gene .",
+    "entities": [
+      {
+        "name": "Classical galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The eight novel mutations identified included 1 - and 4 - bp deletions ( 32 deltaT and 876 deltaAGAA , respectively ) and I16T , G27R , D114E , G123E , C152Y , and R168C missense mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "The 5 ' end of the BRCA1 gene lies within a duplicated region of human chromosome 17q21 .",
+    "entities": []
+  },
+  {
+    "sentence": "Loss of the wild - type allele in > 90 % of tumors from patients with inherited BRCA1 mutations indicates tumor suppressive function .",
+    "entities": [
+      {
+        "name": "tumors",
+        "type": "DISEASE",
+        "pos": [
+          44,
+          50
+        ]
+      },
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          106,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The nucleotide sequence obtained from the genomic regions adjacent to the exon boundaries enabled us to develop a set of primer pairs for PCR amplification of the complete coding region .",
+    "entities": []
+  },
+  {
+    "sentence": "All but one of the mutations are predicted to give rise to premature translation termination and include seven frameshift insertions or deletions , a nonsense mutation , and a splice acceptor site mutation .",
+    "entities": []
+  },
+  {
+    "sentence": "By combining these oligos , we were able to amplify fragments from 100 to 300 bases ( b ) from mouse liver cDNA by polymerase chain reaction after reverse transcription ( RT - PCR ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Recently , a missense mutation in transmembrane domain 2 of CHRNA4 was found to be associated with autosomal dominant nocturnal frontal lobe epilepsy in one extended pedigree .",
+    "entities": [
+      {
+        "name": "autosomal dominant nocturnal frontal lobe epilepsy",
+        "type": "DISEASE",
+        "pos": [
+          99,
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We describe a novel family with ALPS in which three affected siblings carry two distinct missense mutations on both the Fas gene alleles and show lack of Fas - induced apoptosis .",
+    "entities": [
+      {
+        "name": "ALPS",
+        "type": "DISEASE",
+        "pos": [
+          32,
+          36
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The results suggest that , for a given variant , the extent of the enzyme defect in muscle may be determined , using this equation , from the G6PD activity of erythrocytes",
+    "entities": []
+  },
+  {
+    "sentence": "Although we found no FEN1 mutations , a frameshift mutation in MSH3 was observed in an endometrial carcinoma and in an endometrial carcinoma cell line .",
+    "entities": [
+      {
+        "name": "endometrial carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          87,
+          108
+        ]
+      },
+      {
+        "name": "endometrial carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          119,
+          140
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The apparently healthy survival into old age of some individuals with 36 - 39 repeats suggests that the HD mutation may not always be fully penetrant . .",
+    "entities": [
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          104,
+          106
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The molecular mechanisms of triplet instability remain elusive .",
+    "entities": []
+  },
+  {
+    "sentence": "We report in this work the molecular bases of C7D in two unrelated Japanese males .",
+    "entities": [
+      {
+        "name": "C7D",
+        "type": "DISEASE",
+        "pos": [
+          46,
+          49
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Only 7 percent of women from families with a history of breast cancer but not ovarian cancer had BRCA1 mutations .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          56,
+          69
+        ]
+      },
+      {
+        "name": "ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          78,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Comparison of the linkage map of mouse chromosome 9 ( MMU9 ) and that of human chromosome 11 ( HSA11 ) indicates that there is a chromosomal rearrangement due to an inversion between Ets1 and Atm - Npat - Acat1 and that the inversion of MMU9 originated from the chromosomal breakage at the boundary between Gria4 and Atm - Npat - Acat1 on HSA11 .",
+    "entities": []
+  },
+  {
+    "sentence": "Nonsense mutation in exon 3 of the proteolipid protein gene ( PLP ) in a family with an unusual form of Pelizaeus - Merzbacher disease .",
+    "entities": [
+      {
+        "name": "Pelizaeus - Merzbacher disease",
+        "type": "DISEASE",
+        "pos": [
+          104,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "RNA in situ hybridization revealed expression in retina , brain and the olfactory bulb and epithelium of 2 week old mice .",
+    "entities": []
+  },
+  {
+    "sentence": "Both genes were colocalized to the C - D band of mouse chromosome 9 , the proximal end of q24 .",
+    "entities": []
+  },
+  {
+    "sentence": "No genotype - phenotype correlation emerged after a comparison of the identified mutations with the resulting clinical picture for a classical WAS phenotype .",
+    "entities": [
+      {
+        "name": "WAS",
+        "type": "DISEASE",
+        "pos": [
+          143,
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "X - linked adrenoleukodystrophy is a frequent cause of idiopathic Addison ' s disease in young adult male patients .",
+    "entities": [
+      {
+        "name": "X - linked adrenoleukodystrophy",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          31
+        ]
+      },
+      {
+        "name": "Addison ' s disease",
+        "type": "DISEASE",
+        "pos": [
+          66,
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To guard against the possible problem of differential PCR amplification rates based on the lengths of the alleles , the sperm were also typed at another closely linked marker whose allele size was unrelated to the allele size at the DM locus .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          233,
+          235
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Characterisation of the expression of this gene in patient tissues has thus far generated conflicting data on alterations in the steady state levels of DMPK mRNA , and on the final DMPK protein levels in the presence of the expansion .",
+    "entities": []
+  },
+  {
+    "sentence": "These findings strongly implicate TSG101 mutations in human breast cancer",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          60,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Despite high levels of mRNA expression , there was no evidence of the HD gene product in any of these transgenic mice .",
+    "entities": [
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          70,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The characteristic Duarte isoform is also associated with a variant called the \" Los Angeles ( LA ) phenotype , \" which has increased GALT enzyme activity .",
+    "entities": []
+  },
+  {
+    "sentence": "Two of the patients had only the I66M mutant mRNA , and one only the G27OD mutant mRNA .",
+    "entities": []
+  },
+  {
+    "sentence": "3 cM proximal to D9Mit102 .",
+    "entities": []
+  },
+  {
+    "sentence": "Nine different germ - line mutations in the BRCA1 breast and ovarian cancer susceptibility gene were identified in 15 of 47 kindreds from southern Sweden , by use of SSCP and heteroduplex analysis of all exons and flanking intron region and by a protein - truncation test for exon 11 , followed by direct sequencing .",
+    "entities": [
+      {
+        "name": "breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          50,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "ALD is due to mutation of a gene located in Xq28 that encodes a peroxisomal transporter protein of unknown function .",
+    "entities": [
+      {
+        "name": "ALD",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Therefore , disease - causing mutations at CpGs in RB1 appear to be determined by several factors , including the constitutive presence of DNA methylation at cytosines within CpGs , the specific codon within which the methylated cytosine is located , and the particular region of the gene within which that codon resides . .",
+    "entities": []
+  },
+  {
+    "sentence": "A high prevalence of two different CETP gene mutations ( D442G , 5 . 1 % ; intron 14G A , 0 . 5 % ) , was found in 3 , 469 men of Japanese ancestry in the Honolulu Heart Program and mutations were associated with decreased CETP ( - 35 % ) and increased HDL chol levels ( + 10 % for D442G ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Administration of drugs that inhibit adenine phosphoribosyltransferase ( APRT ) in HPRT - deficient mice has produced the suggestion that deficiency of APRT in combination with HPRT - deficiency in mice may lead to self - mutilation behavior [ C . L . Wu and D . W . Melton ( 1993 ) Nature Genet . 3 , 235 - 240 ] .",
+    "entities": [
+      {
+        "name": "HPRT - deficient",
+        "type": "DISEASE",
+        "pos": [
+          83,
+          99
+        ]
+      },
+      {
+        "name": "deficiency of APRT",
+        "type": "DISEASE",
+        "pos": [
+          138,
+          156
+        ]
+      },
+      {
+        "name": "HPRT - deficiency",
+        "type": "DISEASE",
+        "pos": [
+          177,
+          194
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "57 and 0 .",
+    "entities": []
+  },
+  {
+    "sentence": "We have conducted a large - scale population study to investigate the prevalence of specific BRCA1 and BRCA2 mutations in Ashkenazi Jewish individuals who were unselected for breast cancer .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          175,
+          188
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The remaining mutation is a missense mutation ( Cys61Gly ) in the zinc - binding motif .",
+    "entities": []
+  },
+  {
+    "sentence": "Whereas heterozygotes suffer from iris hypoplasia , homozygous mice lack eyes and nasal cavities and exhibit brain abnormalities .",
+    "entities": [
+      {
+        "name": "iris hypoplasia",
+        "type": "DISEASE",
+        "pos": [
+          34,
+          49
+        ]
+      },
+      {
+        "name": "brain abnormalities",
+        "type": "DISEASE",
+        "pos": [
+          109,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We have developed a multiplex heteroduplex analysis that is designed to analyze one - quarter of the coding sequence in a single - step screening procedure and that will detect approximately 50 % of all BRCA1 mutations so far reported in breast / ovarian cancer families .",
+    "entities": [
+      {
+        "name": "breast / ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          238,
+          261
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Nucleotide sequence analysis of a composite cDNA of LPP revealed an open reading frame of 1836 nucleotides encoding a proline - rich protein containing a leucine - zipper motif in its amino - terminal region and three LIM domains in its carboxy - terminal region .",
+    "entities": []
+  },
+  {
+    "sentence": "RESULTS Four missense mutations producing amino acid substitutions and a somatic 12 - base pair deletion in the coding region of the DPC4 gene were detected in the 31 cancers ( 16 % ; 5 of 31 ) .",
+    "entities": [
+      {
+        "name": "cancers",
+        "type": "DISEASE",
+        "pos": [
+          167,
+          174
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In addition to BRCA1 , the contig contains two complete genes Rho7 , a member of the rho family of GTP binding proteins , and VAT1 , an abundant membrane protein of cholinergic synaptic vesicles .",
+    "entities": []
+  },
+  {
+    "sentence": "Fluorescence in situ hybridisation ( FISH ) studies with distal 11p13 specific cosmids showed that the chromosome 11 breakpoint lay between the aniridia ( PAX6 ) locus and a region approximately 100 kb distal to PAX6 defined by the cosmid FO2121 .",
+    "entities": [
+      {
+        "name": "aniridia",
+        "type": "DISEASE",
+        "pos": [
+          144,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The causes of heterogeneity are not known yet but are likely to include both different mutations at the SJS locus on chromosome 1 and the presence of a second SJS locus .",
+    "entities": [
+      {
+        "name": "SJS",
+        "type": "DISEASE",
+        "pos": [
+          104,
+          107
+        ]
+      },
+      {
+        "name": "SJS",
+        "type": "DISEASE",
+        "pos": [
+          159,
+          162
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We also suggest that C9 deficiency may be more common among Caucasians than has been reported . .",
+    "entities": [
+      {
+        "name": "C9 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          21,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "By analysis of these compiled mutation data , we demonstrated clustering of WASP mutations within the four most N - terminal exons of the gene and also identified several sites within this region as hotspots for WASP mutation .",
+    "entities": []
+  },
+  {
+    "sentence": "It is therefore of interest to identify other genes that contribute to this instability .",
+    "entities": []
+  },
+  {
+    "sentence": "Each molecular defect has also been found in isolation and has the expected effect . .",
+    "entities": []
+  },
+  {
+    "sentence": "These ocular findings are consistent with observations in ND patients and the generated mouse line provides a faithful model for study of early pathogenic events in this severe X - linked recessive neurological disorder . .",
+    "entities": [
+      {
+        "name": "ND",
+        "type": "DISEASE",
+        "pos": [
+          58,
+          60
+        ]
+      },
+      {
+        "name": "X - linked recessive neurological disorder",
+        "type": "DISEASE",
+        "pos": [
+          177,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Together the data suggest that the MSH3 gene encodes a product that functions in repair of some but not all pre - mutational intermediates , its mutation in tumours can result in genomic instability and , as in yeast , MSH3 and MSH6 are partially redundant for mismatch repair . .",
+    "entities": [
+      {
+        "name": "tumours",
+        "type": "DISEASE",
+        "pos": [
+          157,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To answer these questions , we have established a yeast system for the coexpression of epitope - tagged alleles of human GALT and investigated both the extent of specific GALT subunit interactions and the activity of defined heterodimer pools .",
+    "entities": []
+  },
+  {
+    "sentence": "We evaluated GALT enzyme activity and screened the GALT genes of 145 patients with one or more N314D - containing alleles .",
+    "entities": []
+  },
+  {
+    "sentence": "For improvement over previous studies , a new set of primers has been designed , which allow for amplification of the coding and splicing sequences only .",
+    "entities": []
+  },
+  {
+    "sentence": "Deletion of small nuclear ribonucleoprotein polypeptide N ( SNRPN ) in Prader - Willi syndrome detected by fluorescence in situ hybridization : two sibs with the typical phenotype without a cytogenetic deletion in chromosome 15q .",
+    "entities": [
+      {
+        "name": "Prader - Willi syndrome",
+        "type": "DISEASE",
+        "pos": [
+          71,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The homozygous 32 deltaT deletion was identified in the only known patient of African - American origin with Canavan disease .",
+    "entities": [
+      {
+        "name": "Canavan disease",
+        "type": "DISEASE",
+        "pos": [
+          109,
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Hence , a possible clinical significance of the glycine into cysteine cannot be completely ruled out and should be further investigated .",
+    "entities": []
+  },
+  {
+    "sentence": "wt - VHL protein inhibited VEGF promoter activity in a dose - dependent manner up to 5 - to 10 - fold .",
+    "entities": []
+  },
+  {
+    "sentence": "The most common phenotype of ALD is the cerebral form ( 45 % ) that develops in boys between 5 - 12 yr .",
+    "entities": [
+      {
+        "name": "ALD",
+        "type": "DISEASE",
+        "pos": [
+          29,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cloning of the homogentisate 1 , 2 - dioxygenase gene , the key enzyme of alkaptonuria in mouse .",
+    "entities": [
+      {
+        "name": "alkaptonuria",
+        "type": "DISEASE",
+        "pos": [
+          74,
+          86
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The 6174delT mutation in BRCA2 was recently identified as a frequent mutation in 8 out of 107 Ashkenazi Jewish women diagnosed with breast cancer by age 50 ( ref . 8 ) , as well as in three Ashkenazi male breast cancer patients .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          132,
+          145
+        ]
+      },
+      {
+        "name": "male breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          200,
+          218
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "BACKGROUND To define the incidence of BRCA1 mutations among patients seen in clinics that evaluate the risk of breast cancer , we analyzed DNA samples from women seen in this setting and constructed probability tables to provide estimates of the likelihood of finding a BRCA1 mutation in individual families .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          111,
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In the Caucasian population , it has been demonstrated that the insulin gene ( INS ) region contains the insulin - dependent diabetes mellitus locus ( IDDM2 ) .",
+    "entities": [
+      {
+        "name": "insulin - dependent diabetes mellitus",
+        "type": "DISEASE",
+        "pos": [
+          105,
+          142
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A sex - dependent penetrance of primary HPT , resulting in predominantly male - affected cases was evident in the two families .",
+    "entities": [
+      {
+        "name": "primary HPT",
+        "type": "DISEASE",
+        "pos": [
+          32,
+          43
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We now show that BRCA1 encodes a 190 - kD protein with sequence homology and biochemical analogy to the granin protein family .",
+    "entities": []
+  },
+  {
+    "sentence": "This is in accordance with molecular findings in other patients with Kniest dysplasia and confirms , in the original patient , that the disorder is caused by small inframe deletions often due to exon skipping as a result of COL2A1 splice site mutations . .",
+    "entities": [
+      {
+        "name": "Kniest dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          69,
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Dual roles of ATM in the cellular response to radiation and in cell growth control .",
+    "entities": []
+  },
+  {
+    "sentence": "To study the molecular genetics of classical and Duarte galactosemia , we analyzed the GALT mutations in 30 families with classical galactosemia , in 10 families with the D - 2 variant and in 3 individuals carrying the D - 1 allele by denaturing gradient gel electrophoresis ( DGGE ) .",
+    "entities": [
+      {
+        "name": "classical and Duarte galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          35,
+          68
+        ]
+      },
+      {
+        "name": "classical galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          122,
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cellular expression of epitope - tagged WASP produces clusters of WASP that are highly enriched in polymerized actin .",
+    "entities": []
+  },
+  {
+    "sentence": "In one family , both alleles were normal in the parents and one sister ; thus , the mutation originated de novo in the proposita .",
+    "entities": []
+  },
+  {
+    "sentence": "Eight novel candidate galactosemia mutations were found .",
+    "entities": [
+      {
+        "name": "galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          22,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Although this patient did not have a detectable deletion within PAX6 , her aniridia may have resulted from a disruption of the distal chromatin domain containing either enhancers or regulators for PAX6 .",
+    "entities": [
+      {
+        "name": "aniridia",
+        "type": "DISEASE",
+        "pos": [
+          75,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Other tumor types found in BRCA1 mutation / haplotype carriers included prostatic , pancreas , skin , and lung cancer , a malignant melanoma , an oligodendroglioma , and a carcinosarcoma .",
+    "entities": [
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          6,
+          11
+        ]
+      },
+      {
+        "name": "prostatic , pancreas , skin , and lung cancer",
+        "type": "DISEASE",
+        "pos": [
+          72,
+          117
+        ]
+      },
+      {
+        "name": "malignant melanoma",
+        "type": "DISEASE",
+        "pos": [
+          122,
+          140
+        ]
+      },
+      {
+        "name": "oligodendroglioma",
+        "type": "DISEASE",
+        "pos": [
+          146,
+          163
+        ]
+      },
+      {
+        "name": "carcinosarcoma",
+        "type": "DISEASE",
+        "pos": [
+          172,
+          186
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "13 % for the 5382insC mutation .",
+    "entities": []
+  },
+  {
+    "sentence": "Moderate intergenerational and somatic instability of a 55 - CTG repeat in transgenic mice .",
+    "entities": []
+  },
+  {
+    "sentence": "No families were attributed to BRCA2 .",
+    "entities": []
+  },
+  {
+    "sentence": "Complete hypoxanthine - guanine phosphoribosyl - transferase ( HPRT ) deficiency in humans results in the Lesch - Nyhan syndrome which is characterized , among other features , by compulsive self - injurious behavior .",
+    "entities": [
+      {
+        "name": "Complete hypoxanthine - guanine phosphoribosyl - transferase ( HPRT ) deficiency",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          80
+        ]
+      },
+      {
+        "name": "Lesch - Nyhan syndrome",
+        "type": "DISEASE",
+        "pos": [
+          106,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The second patient also had asymptomatic parents who , however , were not available for study .",
+    "entities": []
+  },
+  {
+    "sentence": "In conclusion , we demonstrated that a point mutation in a lariat branchpoint consensus sequence causes a null allele in a patient with FED .",
+    "entities": [
+      {
+        "name": "FED",
+        "type": "DISEASE",
+        "pos": [
+          136,
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We found that DNA methylation within RB1 exons 8 , 14 , 25 , and 27 appeared to be restricted to CpGs , including six CGA codons .",
+    "entities": []
+  },
+  {
+    "sentence": "Hemizygous mice carrying a replacement mutation in exon 2 of the ND gene developed retrolental structures in the vitreous body and showed an overall disorganization of the retinal ganglion cell layer .",
+    "entities": [
+      {
+        "name": "ND",
+        "type": "DISEASE",
+        "pos": [
+          65,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "CONCLUSIONS Among women with breast cancer and a family history of the disease , the percentage with BRCA1 coding - region mutations is less than the 45 percent predicted by genetic - linkage analysis .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          29,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We show that the less severe phenotype in these patients is caused by some degree of normal splicing , which occurs as an alternative product from the insertion - containing allele .",
+    "entities": []
+  },
+  {
+    "sentence": "Hereditary hyperparathyroidism - jaw tumor syndrome ( HPT - JT ) is an autosomal dominant disease ( OMIM 145001 ) that has recently been mapped to chromosomal region 1q21 - q32 ( HRPT2 ) .",
+    "entities": [
+      {
+        "name": "Hereditary hyperparathyroidism - jaw tumor syndrome",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          51
+        ]
+      },
+      {
+        "name": "HPT - JT",
+        "type": "DISEASE",
+        "pos": [
+          54,
+          62
+        ]
+      },
+      {
+        "name": "autosomal dominant disease",
+        "type": "DISEASE",
+        "pos": [
+          71,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "For RT - PCR products , only the translated portion of the gene was screened .",
+    "entities": []
+  },
+  {
+    "sentence": "To elucidate the role of DMPK in DM pathogenesis we have developed Dmpk deficient ( Dmpk - / - ) mice .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          33,
+          35
+        ]
+      },
+      {
+        "name": "Dmpk deficient",
+        "type": "DISEASE",
+        "pos": [
+          67,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A subsequent search revealed a second gene mutation in HHUA cells , a missense mutation in the MSH6 gene .",
+    "entities": []
+  },
+  {
+    "sentence": "In contrast , PAX7 - FKHR overexpression results from fusion gene amplification .",
+    "entities": []
+  },
+  {
+    "sentence": "Our results indicate that the pathogenesis of C7D is heterogeneous like most of the other deficiencies of complement components . .",
+    "entities": [
+      {
+        "name": "C7D",
+        "type": "DISEASE",
+        "pos": [
+          46,
+          49
+        ]
+      },
+      {
+        "name": "deficiencies of complement components",
+        "type": "DISEASE",
+        "pos": [
+          90,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The Rb1 gene has been implicated with retinoblastoma and is located on human Chromosome ( Chr ) 13q14 .",
+    "entities": [
+      {
+        "name": "retinoblastoma",
+        "type": "DISEASE",
+        "pos": [
+          38,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In the four polymorphic variants that have two point mutations , one of the mutations is always 376 A - - > G ( 126 Asn - - > Asp ) , which on its own gives rise to the nondeficient polymorphic variant , G6PD A .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutations in the diastrophic dysplasia sulfate transporter gene DTDST have been associated with a family of chondrodysplasias that comprises , in order of increasing severity , diastrophic dysplasia ( DTD ) , atelosteogenesis type 2 ( AO2 ) , and achondrogenesis type 1B ( ACG1B ) .",
+    "entities": [
+      {
+        "name": "diastrophic dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          17,
+          38
+        ]
+      },
+      {
+        "name": "chondrodysplasias",
+        "type": "DISEASE",
+        "pos": [
+          108,
+          125
+        ]
+      },
+      {
+        "name": "diastrophic dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          177,
+          198
+        ]
+      },
+      {
+        "name": "DTD",
+        "type": "DISEASE",
+        "pos": [
+          201,
+          204
+        ]
+      },
+      {
+        "name": "atelosteogenesis type 2",
+        "type": "DISEASE",
+        "pos": [
+          209,
+          232
+        ]
+      },
+      {
+        "name": "AO2",
+        "type": "DISEASE",
+        "pos": [
+          235,
+          238
+        ]
+      },
+      {
+        "name": "achondrogenesis type 1B",
+        "type": "DISEASE",
+        "pos": [
+          247,
+          270
+        ]
+      },
+      {
+        "name": "ACG1B",
+        "type": "DISEASE",
+        "pos": [
+          273,
+          278
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The von Hippel - Lindau tumor suppressor gene ( VHL ) has a critical role in the pathogenesis of clear - cell renal cell carcinoma ( RCC ) , as VHL mutations have been found in both von Hippel - Lindau disease - associated and sporadic RCCs .",
+    "entities": [
+      {
+        "name": "von Hippel - Lindau tumor",
+        "type": "DISEASE",
+        "pos": [
+          4,
+          29
+        ]
+      },
+      {
+        "name": "clear - cell renal cell carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          97,
+          130
+        ]
+      },
+      {
+        "name": "RCC",
+        "type": "DISEASE",
+        "pos": [
+          133,
+          136
+        ]
+      },
+      {
+        "name": "von Hippel - Lindau disease - associated and sporadic RCCs",
+        "type": "DISEASE",
+        "pos": [
+          182,
+          240
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Extracts of the cell line were deficient in repair of DNA substrates containing mismatches or extra nucleotides .",
+    "entities": []
+  },
+  {
+    "sentence": "Here we investigate the rate of BRCA2 mutation in sporadic breast cancers and in a set of cell lines that represent twelve other tumour types .",
+    "entities": [
+      {
+        "name": "sporadic breast cancers",
+        "type": "DISEASE",
+        "pos": [
+          50,
+          73
+        ]
+      },
+      {
+        "name": "tumour",
+        "type": "DISEASE",
+        "pos": [
+          129,
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Q188R accounted for 60 % , K285N accounted for 28 % of these alleles .",
+    "entities": []
+  },
+  {
+    "sentence": "Previous work from our laboratory demonstrated that a DNase l - hypersensitive site located adjacent to the repeats on the wild - type allele is eliminated by repeat expansion , indicating that large CTG - repeat arrays may be associated with a local chromatin environment that represses gene expression .",
+    "entities": []
+  },
+  {
+    "sentence": "3 .",
+    "entities": []
+  },
+  {
+    "sentence": "Two alternative HMGIC / LPP hybrid transcripts have been detected ; the difference between them is mainly the presence of either two or three LIM domains in the predicted HMGI - C / LPP fusion proteins . .",
+    "entities": []
+  },
+  {
+    "sentence": "Furthermore , PAX3 - FKHR and PAX7 - FKHR overexpression occurs by distinct mechanisms .",
+    "entities": []
+  },
+  {
+    "sentence": "We tentatively isolate three different types of SJS type 1A , usually recognized in childhood , with moderate bone dysplasia , corresponding to the original descriptions of Schwartz , Jampel and Aberfeld ; type 1B , similar to type 1A but recognizable at birth , with more pronounced bone dysplasia resembling Kniest dysplasia ; and type 2 , manifest at birth , with increased mortality and bone dysplasia resembling Pyle disease .",
+    "entities": [
+      {
+        "name": "SJS type 1A",
+        "type": "DISEASE",
+        "pos": [
+          48,
+          59
+        ]
+      },
+      {
+        "name": "bone dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          110,
+          124
+        ]
+      },
+      {
+        "name": "bone dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          284,
+          298
+        ]
+      },
+      {
+        "name": "Kniest dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          310,
+          326
+        ]
+      },
+      {
+        "name": "bone dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          391,
+          405
+        ]
+      },
+      {
+        "name": "Pyle disease",
+        "type": "DISEASE",
+        "pos": [
+          417,
+          429
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The positions of 122 conserved amino acids could be determined by multiple sequence alignment .",
+    "entities": []
+  },
+  {
+    "sentence": "Other codons containing methylated cytosines have not been reported to be mutated .",
+    "entities": []
+  },
+  {
+    "sentence": "All 178 samples were reanalyzed in Cambridge by using assays specific for the CAG repeats .",
+    "entities": []
+  },
+  {
+    "sentence": "All renal hamartomas showed loss of heterozygosity at the 1q21 - q32 region .",
+    "entities": [
+      {
+        "name": "renal hamartomas",
+        "type": "DISEASE",
+        "pos": [
+          4,
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "However , in a small subset of hemizygous males who suffer from chronic nonspherocytic hemolytic anemia , the underlying mutations ( designated class I ) cause more - severe G6PD deficiency , and this might provide an opportunity for selection in heterozygous females during development .",
+    "entities": [
+      {
+        "name": "chronic nonspherocytic hemolytic anemia",
+        "type": "DISEASE",
+        "pos": [
+          64,
+          103
+        ]
+      },
+      {
+        "name": "G6PD deficiency",
+        "type": "DISEASE",
+        "pos": [
+          174,
+          189
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This VHL - responsive element is GC rich and specifically binds the transcription factor Sp1 in crude nuclear extracts .",
+    "entities": []
+  },
+  {
+    "sentence": "Human 5 - HT transporter ( 5 - HTT ) gene transcription is modulated by a common polymorphism in its upstream regulatory region .",
+    "entities": []
+  },
+  {
+    "sentence": "We believe that these findings could not only confound BRCA1 mutation analysis , but could have implications for the normal and abnormal regulation of BRCA1 transcription , translation and function . .",
+    "entities": []
+  },
+  {
+    "sentence": "Rapid detection of regionally clustered germ - line BRCA1 mutations by multiplex heteroduplex analysis .",
+    "entities": []
+  },
+  {
+    "sentence": "Somatic mutations were not detected in any of the tumours studied , and the present data do not provide support for somatic ESR base mutations as an important mechanism for hormonal therapy resistance in estrogen receptor - positive breast carcinomas . .",
+    "entities": [
+      {
+        "name": "tumours",
+        "type": "DISEASE",
+        "pos": [
+          50,
+          57
+        ]
+      },
+      {
+        "name": "estrogen receptor - positive breast carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          204,
+          250
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Type III collagen is crucial for collagen I fibrillogenesis and for normal cardiovascular development .",
+    "entities": []
+  },
+  {
+    "sentence": "The Emery - Dreifuss muscular dystrophy protein , emerin , is a nuclear membrane protein .",
+    "entities": [
+      {
+        "name": "Emery - Dreifuss muscular dystrophy",
+        "type": "DISEASE",
+        "pos": [
+          4,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Moreover , we detected a novel polymorphism in intron 11 that presumably is linked to the mutation responsible for C7D in case 1 .",
+    "entities": [
+      {
+        "name": "C7D",
+        "type": "DISEASE",
+        "pos": [
+          115,
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We identified three missense mutations ( I66M , G270D , L618S ) and one exon - 6 skipping ( 535 - 573del ) .",
+    "entities": []
+  },
+  {
+    "sentence": "The ( CTG ) n repeat is polymorphic and varies in size between 5 and 37 repeats in unaffected individuals whereas in affected patients there are between 50 and 4 , 000 CTGs .",
+    "entities": []
+  },
+  {
+    "sentence": "Only one of the two male breast cancer patients carrying a BRCA2 mutation had a family history of cancer , with one case of ovarian cancer in a first - degree relative .",
+    "entities": [
+      {
+        "name": "male breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          20,
+          38
+        ]
+      },
+      {
+        "name": "cancer",
+        "type": "DISEASE",
+        "pos": [
+          98,
+          104
+        ]
+      },
+      {
+        "name": "ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          124,
+          138
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Pleiotropic defects in ataxia - telangiectasia protein - deficient mice .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          23,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The mutation underlying Huntington disease ( HD ) is CAG expansion in the first exon of the HD gene .",
+    "entities": [
+      {
+        "name": "Huntington disease",
+        "type": "DISEASE",
+        "pos": [
+          24,
+          42
+        ]
+      },
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          45,
+          47
+        ]
+      },
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          92,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The predicted PTEN product has a protein tyrosine phosphatase domain and extensive homology to tensin , a protein that interacts with actin filaments at focal adhesions .",
+    "entities": []
+  },
+  {
+    "sentence": "This clustering is not observed with a C - terminally deleted WASP and is inhibited by coexpression with dominant negative CDC42Hs - N17 , but not with dominant negative forms of Rac or Rho .",
+    "entities": []
+  },
+  {
+    "sentence": "These results strengthen the contention that simple loss - or gain - of - expression of DMPK is not the only crucial requirement for development of the disease . .",
+    "entities": []
+  },
+  {
+    "sentence": "The two genes are believed to interact in a number of pathways , including regulation of DNA damage - induced cell - cycle checkpoints , apoptosis and radiation sensitivity , and cellular proliferation .",
+    "entities": []
+  },
+  {
+    "sentence": "We investigated whether the expression of the DCC protein in tumor cells is a prognostic marker in colorectal carcinoma .",
+    "entities": [
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          61,
+          66
+        ]
+      },
+      {
+        "name": "colorectal carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          99,
+          119
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "On genomic products exons 1 to 13 ( including 740 bp of the 3 untranslated sequence and all intron / exon boundaries ) were screened , as was a neuroretina specific enhancer in intron 4 .",
+    "entities": []
+  },
+  {
+    "sentence": "In contrast to that seen in humans , the CAG repeat in these mice was remarkably stable in 97 meioses .",
+    "entities": []
+  },
+  {
+    "sentence": "Type II complement protein C2 deficiency is characterized by a selective block in C2 secretion .",
+    "entities": [
+      {
+        "name": "Type II complement protein C2 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The demonstration of mutations giving rise to a slightly milder phenotype in A - T raises the interesting question of what range of phenotypes might occur in individuals in whom both mutations are milder .",
+    "entities": [
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          77,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Mutation analysis in 19 families of German , Swiss and Turkish descent by single - strand conformation polymorphism and sequencing resulted in the detection of seven novel and 10 known mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "METHODS Mutation analyses of the DPC4 gene were performed on complementary DNA samples from 31 primary colorectal cancer specimens using a combination of polymerase chain reaction , single - strand conformation polymorphism , and DNA sequencing .",
+    "entities": [
+      {
+        "name": "colorectal cancer",
+        "type": "DISEASE",
+        "pos": [
+          103,
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "None of these patients had adrenocortical antibodies .",
+    "entities": []
+  },
+  {
+    "sentence": "We have examined the frequency of four of these polymorphisms Gln356Arg , Pro871Leu , Glu1038Gly and Ser1613Gly in large series of breast and ovarian cancer cases and matched controls .",
+    "entities": [
+      {
+        "name": "breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          131,
+          156
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "One mutation , a C to A exchange , was detected in exon 2 at cDNA position 166 , the other , a C to T exchange , was located in exon 4 ( cDNA position 464 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Defective dimerization of von Willebrand factor subunits due to a Cys - > Arg mutation in type IID von Willebrand disease .",
+    "entities": [
+      {
+        "name": "von Willebrand",
+        "type": "DISEASE",
+        "pos": [
+          26,
+          40
+        ]
+      },
+      {
+        "name": "type IID von Willebrand disease",
+        "type": "DISEASE",
+        "pos": [
+          90,
+          121
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "However , these mutations are uncommon in the population and they probably account for only a few percent of all breast cancer incidence .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          113,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "After digestion with trypsin , peptides were separated by reversed phase chromatography and amino acid sequenced .",
+    "entities": []
+  },
+  {
+    "sentence": "Nullizygous ( - / - ) mice showed only inconsistent and minor size changes in head and neck muscle fibres at older age , animals with the highest DMPK transgene expression showed hypertrophic cardiomyopathy and enhanced neonatal mortality .",
+    "entities": [
+      {
+        "name": "hypertrophic cardiomyopathy",
+        "type": "DISEASE",
+        "pos": [
+          179,
+          206
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Women who carry a mutation in the BRCA1 gene ( on chromosome 17q21 ) , have an 80 % risk of breast cancer and a 40 % risk of ovarian cancer by the age of 70 ( ref . 1 ) .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          92,
+          105
+        ]
+      },
+      {
+        "name": "ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          125,
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Increased coronary heart disease in Japanese - American men with mutation in the cholesteryl ester transfer protein gene despite increased HDL levels .",
+    "entities": [
+      {
+        "name": "coronary heart disease",
+        "type": "DISEASE",
+        "pos": [
+          10,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "X - Linked adrenoleukodystrophy ( ALD ) is a genetic disease associated with demyelination of the central nervous system , adrenal insufficiency , and accumulation of very long chain fatty acids in tissue and body fluids .",
+    "entities": [
+      {
+        "name": "X - Linked adrenoleukodystrophy",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          31
+        ]
+      },
+      {
+        "name": "ALD",
+        "type": "DISEASE",
+        "pos": [
+          34,
+          37
+        ]
+      },
+      {
+        "name": "genetic disease",
+        "type": "DISEASE",
+        "pos": [
+          45,
+          60
+        ]
+      },
+      {
+        "name": "demyelination of the central nervous system",
+        "type": "DISEASE",
+        "pos": [
+          77,
+          120
+        ]
+      },
+      {
+        "name": "adrenal insufficiency",
+        "type": "DISEASE",
+        "pos": [
+          123,
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This agrees well with the fact that cardiac and muscle symptoms are characteristic for patients with VLCAD deficiency .",
+    "entities": [
+      {
+        "name": "VLCAD deficiency",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We have analyzed the 27 exons and the promoter region of the RB1 gene in familial or sporadic bilateral retinoblastoma by using single - strand conformation polymorphism analysis .",
+    "entities": [
+      {
+        "name": "familial or sporadic bilateral retinoblastoma",
+        "type": "DISEASE",
+        "pos": [
+          73,
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Comparative genome mapping of the ataxia - telangiectasia region in mouse , rat , and Syrian hamster .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          34,
+          57
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We conducted an association study of IDDM in a large number of Japanese subjects with multiple polymorphisms in INS region .",
+    "entities": [
+      {
+        "name": "IDDM",
+        "type": "DISEASE",
+        "pos": [
+          37,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This is the same mutation as previously found in association with the mutation of G6PD A in the double mutant , G6PD Santamaria .",
+    "entities": []
+  },
+  {
+    "sentence": "However , in the 229 female controls in whom family history of cancer was known , one of two who had a sister with breast cancer was carrying the variant allele .",
+    "entities": [
+      {
+        "name": "cancer",
+        "type": "DISEASE",
+        "pos": [
+          63,
+          69
+        ]
+      },
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          115,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Thus , at least five different eye phenotypes are associated with changes in PAX6 expression .",
+    "entities": []
+  },
+  {
+    "sentence": "198 198 .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutations have been found throughout the gene ; however , these genetic alterations do not appear to be homogeneously distributed .",
+    "entities": []
+  },
+  {
+    "sentence": "G6PD Malaga is associated with enzyme deficiency ( class III ) , and the enzymic properties of G6PD Malaga and G6PD Santamaria are quite similar , indicating that in this case the effects of the two mutations are additive rather than synergistic .",
+    "entities": [
+      {
+        "name": "enzyme deficiency",
+        "type": "DISEASE",
+        "pos": [
+          31,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Atm - deficient mice then exhibit many of the same symptoms found in ataxia - telangiectasia patients and in cells derived from them .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          69,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Three patients with a family history of cancer were carrying a Gly160Cys germline substitution .",
+    "entities": [
+      {
+        "name": "cancer",
+        "type": "DISEASE",
+        "pos": [
+          40,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Three different vector systems have been examined .",
+    "entities": []
+  },
+  {
+    "sentence": "From these results , together with sequence and structural homologies between emerin , thymopoietins and the nuclear lamina - associated protein , LAP2 , we suggest that emerin will prove to be one member of a family of inner nuclear membrane proteins . .",
+    "entities": []
+  },
+  {
+    "sentence": "2 , a region proposed to contain tumor suppressor gene ( s ) , is mutated at high frequency in human breast cancer .",
+    "entities": [
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          33,
+          38
+        ]
+      },
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The DM region of chromosome 19 is gene rich , and it is possible that the repeat expansion may lead to dysfunction of a number of transcription units in the vicinity , perhaps as a consequence of chromatin disruption .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          4,
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Strikingly , mice carrying multiple copies on a wild - type background show specific developmental abnormalities of the eye , but not of other tissues expressing the gene .",
+    "entities": [
+      {
+        "name": "developmental abnormalities of the eye",
+        "type": "DISEASE",
+        "pos": [
+          85,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "As a regulated secretory protein , BRCA1 appears to function by a mechanism not previously described for tumour suppressor gene products . .",
+    "entities": [
+      {
+        "name": "tumour",
+        "type": "DISEASE",
+        "pos": [
+          105,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Combined subtotal deficiency of C6 and C7 , in which both proteins are expressed at very low levels , has been observed in homozygous form in two families .",
+    "entities": [
+      {
+        "name": "Combined subtotal deficiency of C6 and C7",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The homozygous mutant ( ATM - / - ) mice are viable , growth - retarded , and infertile .",
+    "entities": []
+  },
+  {
+    "sentence": "In vivo , mutant embryos do not exhibit increased apoptosis but show reduced cell proliferation accompanied by decreased expression of cyclin E and mdm - 2 , a regulator of p53 activity .",
+    "entities": []
+  },
+  {
+    "sentence": "1 - 15 1 - 15 .",
+    "entities": []
+  },
+  {
+    "sentence": "Kniest dysplasia is a severe chondrodysplasia caused by the defective formation of type II collagen .",
+    "entities": [
+      {
+        "name": "Kniest dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          16
+        ]
+      },
+      {
+        "name": "chondrodysplasia",
+        "type": "DISEASE",
+        "pos": [
+          29,
+          45
+        ]
+      },
+      {
+        "name": "defective formation of type II collagen",
+        "type": "DISEASE",
+        "pos": [
+          60,
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We found a significant association of the INS region with IDDM .",
+    "entities": [
+      {
+        "name": "IDDM",
+        "type": "DISEASE",
+        "pos": [
+          58,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We therefore investigated the expression of VHL mRNA during human embryogenesis by in situ hybridization studies at 4 , 6 and 10 weeks post conception .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          44,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Heterogeneity in Schwartz - Jampel chondrodystrophic myotonia .",
+    "entities": [
+      {
+        "name": "Schwartz - Jampel chondrodystrophic myotonia",
+        "type": "DISEASE",
+        "pos": [
+          17,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Sequence analysis of the duplicated exons of BRCA1 and 1A1 - 3B and flanking genomic DNA reveals maintenance of the intron - exon structure and a high degree of nucleotide sequence identity , suggesting that these are non - processed pseudogenes and that the duplication is a recent event in evolutionary terms .",
+    "entities": []
+  },
+  {
+    "sentence": "The BRCA2 coding sequence is huge , composed of 26 exons that span 10 , 443 bp .",
+    "entities": []
+  },
+  {
+    "sentence": "Adrenomyeloneuropathy ( AMN ) involves the spinal cord and peripheral nerves in young adults ( 35 % ) .",
+    "entities": [
+      {
+        "name": "Adrenomyeloneuropathy",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          21
+        ]
+      },
+      {
+        "name": "AMN",
+        "type": "DISEASE",
+        "pos": [
+          24,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The aim of the present study was to determine if it might also be altered in colorectal cancers .",
+    "entities": [
+      {
+        "name": "colorectal cancers",
+        "type": "DISEASE",
+        "pos": [
+          77,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The clinical picture resembles somewhat that of X - linked spastic paraplegia ( SPG ) .",
+    "entities": [
+      {
+        "name": "X - linked spastic paraplegia",
+        "type": "DISEASE",
+        "pos": [
+          48,
+          77
+        ]
+      },
+      {
+        "name": "SPG",
+        "type": "DISEASE",
+        "pos": [
+          80,
+          83
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These observations support a new mechanism for VHL - mediated transcriptional repression via a direct inhibitory action on Sp1 and suggest that loss of Sp1 inhibition may be important in the pathogenesis of von Hippel - Lindau disease and RCC . .",
+    "entities": [
+      {
+        "name": "von Hippel - Lindau disease",
+        "type": "DISEASE",
+        "pos": [
+          207,
+          234
+        ]
+      },
+      {
+        "name": "RCC",
+        "type": "DISEASE",
+        "pos": [
+          239,
+          242
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Moreover , mitotic instability analysis of different human DM tissues shows length mosaicism between different cell lineages .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          59,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This type of inversion appeared to be conserved in the three rodent species , mouse , rat , and Syrian hamster , using additional comparative mapping data with the Rck gene",
+    "entities": []
+  },
+  {
+    "sentence": "Insulin gene region contributes to genetic susceptibility to , but may not to low incidence of , insulin - dependent diabetes mellitus in Japanese .",
+    "entities": [
+      {
+        "name": "insulin - dependent diabetes mellitus",
+        "type": "DISEASE",
+        "pos": [
+          97,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "5 is detected in any of the models .",
+    "entities": []
+  },
+  {
+    "sentence": "The regions in the mouse and rat were homologous to human chromosome 11q .",
+    "entities": []
+  },
+  {
+    "sentence": "To investigate whether the presence of rare HRAS1 alleles increases susceptibility to hereditary breast and ovarian cancer , we have typed a panel of 307 female BRCA1 carriers at this locus using a PCR - based technique .",
+    "entities": [
+      {
+        "name": "hereditary breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          86,
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A population - based series of 54 male breast cancer cases from Southern California were analyzed for germ - line mutations in the inherited breast / ovarian cancer genes , BRCA1 and BRCA2 .",
+    "entities": [
+      {
+        "name": "male breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          34,
+          52
+        ]
+      },
+      {
+        "name": "inherited breast / ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          131,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Atm - deficient fibroblasts grow poorly in culture and display a high level of double - stranded chromosome breaks .",
+    "entities": []
+  },
+  {
+    "sentence": "Mapping of homozygous deletions on human chromosome 10q23 has led to the isolation of a candidate tumor suppressor gene , PTEN , that appears to be mutated at considerable frequency in human cancers .",
+    "entities": [
+      {
+        "name": "tumor",
+        "type": "DISEASE",
+        "pos": [
+          98,
+          103
+        ]
+      },
+      {
+        "name": "cancers",
+        "type": "DISEASE",
+        "pos": [
+          191,
+          198
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The sequence analysis provides the basis for a comprehensive mutation screening of CHRNA4 in the above - mentioned phenotypes and possibly in other types of idiopathic epilepsies . .",
+    "entities": [
+      {
+        "name": "idiopathic epilepsies",
+        "type": "DISEASE",
+        "pos": [
+          157,
+          178
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Atm , the mouse homolog of the human ATM gene defective in ataxia - telangiectasia ( A - T ) , has been identified .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          59,
+          82
+        ]
+      },
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          85,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We used exon - specific PCR / single - strand conformation polymorphism analysis as a screening step for mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "A second , recently identified familial breast cancer gene , BRCA2 ( refs 5 - 8 ) , accounts for a proportion of breast cancer roughly equal to BRCA1 .",
+    "entities": [
+      {
+        "name": "familial breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          31,
+          53
+        ]
+      },
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          113,
+          126
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A cell line has been established from the tumour of the proband and cytogenetic and molecular studies carried out , providing an extensive analysis in this family . .",
+    "entities": [
+      {
+        "name": "tumour",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "An intronic mutation in a lariat branchpoint sequence is a direct cause of an inherited human disorder ( fish - eye disease ) .",
+    "entities": [
+      {
+        "name": "inherited human disorder",
+        "type": "DISEASE",
+        "pos": [
+          78,
+          102
+        ]
+      },
+      {
+        "name": "fish - eye disease",
+        "type": "DISEASE",
+        "pos": [
+          105,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These findings may thus have therapeutic implications in this group of patients",
+    "entities": []
+  },
+  {
+    "sentence": "Mutations in ASPA that lead to loss of enzymatic activity have been identified , and E285A and Y231X are the two predominant mutations that account for 97 % of the mutant chromosomes in Ashkenazi Jewish patients .",
+    "entities": []
+  },
+  {
+    "sentence": "To investigate the role of genomic sequences in instability , we produced transgenic mice containing a 45 - kb genomic segment with a 55 - CTG repeat cloned from a mildly affected patient .",
+    "entities": []
+  },
+  {
+    "sentence": "Northern analysis of sf tissue samples indicated the presence of WASP mRNA in liver and skin , presumably as a consequence of lymphocytic infiltration , but non abnormalities in the amount or size of mRNA present .",
+    "entities": []
+  },
+  {
+    "sentence": "D - 1 increases , whereas D - 2 decreases GALT activity .",
+    "entities": []
+  },
+  {
+    "sentence": "515 for all models considered , and no statistically significant difference from .",
+    "entities": []
+  },
+  {
+    "sentence": "The first step in the splicing of an intron from nuclear precursors of mRNA results in the formation of a lariat structure .",
+    "entities": []
+  },
+  {
+    "sentence": "To investigate the role of gene dosage in more detail , we have generated yeast artificial chromosome transgenic mice carrying the human PAX6 locus .",
+    "entities": []
+  },
+  {
+    "sentence": "This founder effect provides a unique opportunity for population - based screening for A - T carriers in a large Jewish community . .",
+    "entities": [
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          87,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The DCC protein and prognosis in colorectal cancer .",
+    "entities": [
+      {
+        "name": "colorectal cancer",
+        "type": "DISEASE",
+        "pos": [
+          33,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The ATM protein is therefore critical both for cellular responses to ionizing radiation and for normal cell - cycle progression .",
+    "entities": []
+  },
+  {
+    "sentence": "Cumulative mutation data have revealed that WASP genotypes are also highly variable among WAS patients , but the relationship of phenotype with genotype in this disease remains unclear .",
+    "entities": [
+      {
+        "name": "WAS",
+        "type": "DISEASE",
+        "pos": [
+          90,
+          93
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Twenty microsatellite markers in the HRPT2 region were typed , in addition to markers in the multiple endocrine neoplasia ( MEN ) types 1 and 2 regions at 11q13 and 10q11 .",
+    "entities": [
+      {
+        "name": "multiple endocrine neoplasia ( MEN ) types 1 and 2",
+        "type": "DISEASE",
+        "pos": [
+          93,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The human neuronal nicotinic acetylcholine receptor alpha 4 subunit gene ( CHRNA4 ) is located in the candidate region for three different phenotypes benign familial neonatal convulsions , autosomal dominant nocturnal frontal lobe epilepsy , and low - voltage EEG .",
+    "entities": [
+      {
+        "name": "benign familial neonatal convulsions",
+        "type": "DISEASE",
+        "pos": [
+          150,
+          186
+        ]
+      },
+      {
+        "name": "autosomal dominant nocturnal frontal lobe epilepsy",
+        "type": "DISEASE",
+        "pos": [
+          189,
+          239
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To clarify whether colchicine is excreted in breast milk , and to compare its concentrations in the serum and breast milk of lactating women who have familial Mediterranean fever ( FMF ) .",
+    "entities": [
+      {
+        "name": "familial Mediterranean fever",
+        "type": "DISEASE",
+        "pos": [
+          150,
+          178
+        ]
+      },
+      {
+        "name": "FMF",
+        "type": "DISEASE",
+        "pos": [
+          181,
+          184
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "09 % for the 185delAG mutation and 0 .",
+    "entities": []
+  },
+  {
+    "sentence": "We have designed high - density arrays consisting of over 96 , 600 oligonucleotides 20 - nucleotides ( nt ) in length to screen for a wide range of heterozygous mutations in the 3 .",
+    "entities": []
+  },
+  {
+    "sentence": "Adrenal insufficiency ( Addisons disease ) is frequently associated with AMN or cerebral ALD and may remain the only clinical expression of ALD ( 8 % of cases ) .",
+    "entities": [
+      {
+        "name": "Adrenal insufficiency",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          21
+        ]
+      },
+      {
+        "name": "Addisons disease",
+        "type": "DISEASE",
+        "pos": [
+          24,
+          40
+        ]
+      },
+      {
+        "name": "AMN",
+        "type": "DISEASE",
+        "pos": [
+          73,
+          76
+        ]
+      },
+      {
+        "name": "cerebral ALD",
+        "type": "DISEASE",
+        "pos": [
+          80,
+          92
+        ]
+      },
+      {
+        "name": "ALD",
+        "type": "DISEASE",
+        "pos": [
+          140,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This localization makes Wasp a candidate for involvement in scurfy , a T cell - mediated fatal lymphoreticular disease of mice that has previously been proposed as a mouse homolog of Wiskott - Aldrich syndrome .",
+    "entities": [
+      {
+        "name": "fatal lymphoreticular disease",
+        "type": "DISEASE",
+        "pos": [
+          89,
+          118
+        ]
+      },
+      {
+        "name": "Wiskott - Aldrich syndrome",
+        "type": "DISEASE",
+        "pos": [
+          183,
+          209
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Twenty - three families were identified through two high - risk breast cancer research programs .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          64,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The outer plexiform layer disappears occasionally , resulting in a juxtaposed inner and outer nuclear layer .",
+    "entities": []
+  },
+  {
+    "sentence": "Within the kidney , VHL mRNA was differentially expressed within renal tubules suggesting that the VHL gene product may have a specific role in kidney development .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          20,
+          23
+        ]
+      },
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          99,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In most people with red - blood - cell glucose - 6 - phosphate dehydrogenase ( G6PD ) deficiency , the enzyme - deficient phenotype is only moderately expressed in nucleated cells .",
+    "entities": [
+      {
+        "name": "glucose - 6 - phosphate dehydrogenase ( G6PD ) deficiency",
+        "type": "DISEASE",
+        "pos": [
+          39,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The hybrid PAX3 - FKHR fusion protein of alveolar rhabdomyosarcoma transforms fibroblasts in culture .",
+    "entities": [
+      {
+        "name": "alveolar rhabdomyosarcoma",
+        "type": "DISEASE",
+        "pos": [
+          41,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "BACKGROUND & AIMS The chromosome region 18q21 has been shown to be frequently deleted in colorectal cancers , and such frequent allelic loss is a hallmark of the presence of a tumor - suppressor gene .",
+    "entities": [
+      {
+        "name": "colorectal cancers",
+        "type": "DISEASE",
+        "pos": [
+          89,
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "An Arg > Ser codon substitution in exon 11 is the only molecular alteration within the mature C7 protein .",
+    "entities": []
+  },
+  {
+    "sentence": "These findings are consistent with a role for the ATM protein in ensuring the fidelity of DNA repair and cell cycle regulation following genome damage . .",
+    "entities": []
+  },
+  {
+    "sentence": "Three sisters were shown to suffer from fish - eye disease ( FED ) , a disorder which is caused by mutations in the gene coding for lecithin cholesterol acyltransferase ( LCAT ) .",
+    "entities": [
+      {
+        "name": "fish - eye disease",
+        "type": "DISEASE",
+        "pos": [
+          40,
+          58
+        ]
+      },
+      {
+        "name": "FED",
+        "type": "DISEASE",
+        "pos": [
+          61,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "FISH with a SNRPN probe will permit analysis of PWS patients with limited deletions not detectable with other probes . .",
+    "entities": [
+      {
+        "name": "PWS",
+        "type": "DISEASE",
+        "pos": [
+          48,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Kniest dysplasia : Dr . W .",
+    "entities": [
+      {
+        "name": "Kniest dysplasia",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The Fas / Apo - 1 receptor plays a crucial role in the regulation of apoptosis , as demonstrated by lymphoproliferation in MRL - lpr / lpr mice and by the recently described autoimmune lymphoproliferative syndrome ( ALPS ) in humans , both of which are due to mutations in the Fas gene .",
+    "entities": [
+      {
+        "name": "autoimmune lymphoproliferative syndrome",
+        "type": "DISEASE",
+        "pos": [
+          174,
+          213
+        ]
+      },
+      {
+        "name": "ALPS",
+        "type": "DISEASE",
+        "pos": [
+          216,
+          220
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In order to investigate the role of CAG expansion in the pathogenesis of HD , we have produced transgenic mice containing the full length human HD cDNA with 44 CAG repeats .",
+    "entities": [
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          73,
+          75
+        ]
+      },
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          144,
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Here we report that the hypersensitive site contains an enhancer element that regulates transcription of the adjacent DMAHP homeobox gene .",
+    "entities": []
+  },
+  {
+    "sentence": "We have used the very fast , Rapid Amplification of cDNA Ends ( RACE ) based strategy to obtain the sequence of cDNAs encoding human VLCAD from placenta and fibroblasts .",
+    "entities": []
+  },
+  {
+    "sentence": "Individuals without apparent symptoms or signs of HD were found at 36 repeats ( aged 74 , 78 , 79 , and 87 years ) , 37 repeats ( aged 69 years ) , 38 repeats ( aged 69 and 90 years ) , and 39 repeats ( aged 67 , 90 , and 95 years ) .",
+    "entities": [
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          50,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Homozygous Brca1 ( 5 - 6 ) mutant mice die before day 7 .",
+    "entities": []
+  },
+  {
+    "sentence": "In yeast , mutations in several genes , including RTH and MSH3 , cause microsatellite instability .",
+    "entities": []
+  },
+  {
+    "sentence": "In the pediatric solid tumor alveolar rhabdomyosarcoma , a consistent t ( 2 ; 13 ) ( q35 ; q14 ) or variant t ( 1 ; 13 ) ( p36 ; q14 ) translocation generates PAX3 - FKHR or PAX7 - FKHR fusion proteins , respectively .",
+    "entities": [
+      {
+        "name": "solid tumor",
+        "type": "DISEASE",
+        "pos": [
+          17,
+          28
+        ]
+      },
+      {
+        "name": "alveolar rhabdomyosarcoma",
+        "type": "DISEASE",
+        "pos": [
+          29,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Common BRCA1 variants and susceptibility to breast and ovarian cancer in the general population .",
+    "entities": [
+      {
+        "name": "breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          44,
+          69
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Recurrent transitions were observed at most of the 14 codons within the RB1 .",
+    "entities": []
+  },
+  {
+    "sentence": "A - T carriers were reported to be moderately cancer - prone .",
+    "entities": [
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "cancer - prone",
+        "type": "DISEASE",
+        "pos": [
+          46,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Alignment of the predicted amino acid sequence of human VLCAD with those of the other human ACD enzymes revealed extensive sequence homology .",
+    "entities": []
+  },
+  {
+    "sentence": "Moreover , human VLCAD and human acyl - CoA oxidase showed extensive sequence homology corroborating the notion that these genes are evolutionarily related .",
+    "entities": []
+  },
+  {
+    "sentence": "A rapid carrier detection assay detected this mutation in three out of 488 ATM alleles of Jewish Moroccan or Tunisian origin .",
+    "entities": []
+  },
+  {
+    "sentence": "To determine the mechanism for increased activity of the LA variant , we compared GALT mRNA , protein abundance , and enzyme thermal stability in lymphoblast cell lines of D and LA phenotypes with comparable genotypes .",
+    "entities": []
+  },
+  {
+    "sentence": "The spectrum comprises 15 % large deletions , 26 % small length alterations , and 42 % base substitutions .",
+    "entities": []
+  },
+  {
+    "sentence": "Although the specific gene inactivated by this allelic loss has not been elucidated , the DCC ( deleted in colorectal cancer ) gene is a candidate .",
+    "entities": [
+      {
+        "name": "colorectal cancer",
+        "type": "DISEASE",
+        "pos": [
+          107,
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Meiotic drive at the myotonic dystrophy ( DM ) locus has recently been suggested as being responsible for maintaining the frequency , in the human population , of DM chromosomes capable of expansion to the disease state .",
+    "entities": [
+      {
+        "name": "myotonic dystrophy",
+        "type": "DISEASE",
+        "pos": [
+          21,
+          39
+        ]
+      },
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          44
+        ]
+      },
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          163,
+          165
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The detailed case histories of an exceptional case from this series will be presented a 95 - year - old man with 39 repeats who did not have classical features of HD .",
+    "entities": [
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          163,
+          165
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Serological analysis by ELISA revealed that he has trace concentrations of a non - functional C9 molecule .",
+    "entities": []
+  },
+  {
+    "sentence": "To evaluate this prevalence , we performed biochemical analysis of very long chain fatty acids in 14 male patients ( age ranging from 12 - 45 yr at diagnosis ) previously diagnosed as having primary idiopathic adrenocortical insufficiency .",
+    "entities": [
+      {
+        "name": "adrenocortical insufficiency",
+        "type": "DISEASE",
+        "pos": [
+          210,
+          238
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Ovarian cancer risk in BRCA1 carriers is modified by the HRAS1 variable number of tandem repeat ( VNTR ) locus .",
+    "entities": [
+      {
+        "name": "Ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These data suggest that IDDM2 is involved in the genetic susceptibility to IDDM in Japanese .",
+    "entities": [
+      {
+        "name": "IDDM",
+        "type": "DISEASE",
+        "pos": [
+          75,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "ATM protein levels and localization remain constant throughout all stages of the cell cycle .",
+    "entities": []
+  },
+  {
+    "sentence": "SSCP analysis of individually amplified exons , with which nine of the 10 mutations were seen , was the most useful detection method for PAX6 . .",
+    "entities": []
+  },
+  {
+    "sentence": "Complement C7 deficiency ( C7D ) is associated frequently with recurrent bacterial infections , especially meningitis caused by Neisseria meningitidis .",
+    "entities": [
+      {
+        "name": "Complement C7 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          24
+        ]
+      },
+      {
+        "name": "C7D",
+        "type": "DISEASE",
+        "pos": [
+          27,
+          30
+        ]
+      },
+      {
+        "name": "bacterial infections",
+        "type": "DISEASE",
+        "pos": [
+          73,
+          93
+        ]
+      },
+      {
+        "name": "meningitis",
+        "type": "DISEASE",
+        "pos": [
+          107,
+          117
+        ]
+      },
+      {
+        "name": "Neisseria meningitidis",
+        "type": "DISEASE",
+        "pos": [
+          128,
+          150
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Fourteen of fifteen patient samples with known mutations were accurately diagnosed , and no false positive mutations were identified in 20 control samples .",
+    "entities": []
+  },
+  {
+    "sentence": "13105 .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutation analysis of BRCA1 and BRCA2 in a male breast cancer population .",
+    "entities": [
+      {
+        "name": "male breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Subsequent molecular biology , biosynthetic , and immunofluorescence studies demonstrated that C2 secretion is impaired in Type II C2 deficiency because of different missense mutations at highly conserved residues in each of the C2Q0 alleles .",
+    "entities": [
+      {
+        "name": "Type II C2 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          123,
+          144
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Both BRCA1 and the granins localize to secretory vesicles , are secreted by a regulated pathway , are post - translationally glycosylated and are responsive to hormones .",
+    "entities": []
+  },
+  {
+    "sentence": "The current study was aimed at finding the molecular basis of Canavan disease in 25 independent patients of non - Jewish background .",
+    "entities": [
+      {
+        "name": "Canavan disease",
+        "type": "DISEASE",
+        "pos": [
+          62,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The extraembryonic region is abnormal , but aggregation with wild - type tetraploid embryos does not rescue the lethality .",
+    "entities": []
+  },
+  {
+    "sentence": "Each of the three patients was found to be heterozygous for a c862t transition predicting a R279W substitution in the third extracellular loop of DTDST .",
+    "entities": []
+  },
+  {
+    "sentence": "Adult onset globoid cell leukodystrophy ( Krabbe disease ) : analysis of galactosylceramidase cDNA from four Japanese patients .",
+    "entities": [
+      {
+        "name": "Adult onset globoid cell leukodystrophy",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          39
+        ]
+      },
+      {
+        "name": "Krabbe disease",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Molecular heterogeneity of classical and Duarte galactosemia : mutation analysis by denaturing gradient gel electrophoresis .",
+    "entities": [
+      {
+        "name": "classical and Duarte galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          27,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A mutation in autosomal dominant myotonia congenita affects pore properties of the muscle chloride channel .",
+    "entities": [
+      {
+        "name": "autosomal dominant myotonia congenita",
+        "type": "DISEASE",
+        "pos": [
+          14,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "However , both models lack other frequent DM symptoms including the fibre - type dependent atrophy , myotonia , cataract and male - infertility .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          42,
+          44
+        ]
+      },
+      {
+        "name": "atrophy",
+        "type": "DISEASE",
+        "pos": [
+          91,
+          98
+        ]
+      },
+      {
+        "name": "myotonia",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          109
+        ]
+      },
+      {
+        "name": "cataract",
+        "type": "DISEASE",
+        "pos": [
+          112,
+          120
+        ]
+      },
+      {
+        "name": "male - infertility",
+        "type": "DISEASE",
+        "pos": [
+          125,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A clinical overview of WT1 gene mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "Furthermore , DNA marker studies were conducted using known polymorphisms of the C6 , C7 , and C9 genes , confirming the linkage of the observed C9 mutations with defined haplotypes . .",
+    "entities": []
+  },
+  {
+    "sentence": "We examined galactosylceramidase ( GALC ) cDNA in four Japanese patients with adult onset globoid cell leukodystrophy ( Krabbe disease ; AO - GLD ) by polymerase chain reaction / single - strand conformation polymorphism ( PCR - SSCP ) analysis , subsequent sequence determination , and restriction enzyme digestion of PCR products , initial symptoms were the onset of slowly progressive spastic paraplegia from the middle of the second decade , and all patients had diminished GALC activity in their leukocytes .",
+    "entities": [
+      {
+        "name": "adult onset globoid cell leukodystrophy",
+        "type": "DISEASE",
+        "pos": [
+          78,
+          117
+        ]
+      },
+      {
+        "name": "Krabbe disease",
+        "type": "DISEASE",
+        "pos": [
+          120,
+          134
+        ]
+      },
+      {
+        "name": "AO - GLD",
+        "type": "DISEASE",
+        "pos": [
+          137,
+          145
+        ]
+      },
+      {
+        "name": "spastic paraplegia",
+        "type": "DISEASE",
+        "pos": [
+          388,
+          406
+        ]
+      },
+      {
+        "name": "diminished GALC activity",
+        "type": "DISEASE",
+        "pos": [
+          467,
+          491
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Sequencing of the LCAT gene of all three probands revealed compound heterozygosity for a missense mutation in exon 4 which is reported to underlie the FED phenotype , and a point mutation located in intron 4 ( IVS4 T - 22C ) .",
+    "entities": [
+      {
+        "name": "FED",
+        "type": "DISEASE",
+        "pos": [
+          151,
+          154
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Consistent with cellular defects of AT patients , the ATM - / - cells are hypersensitive to gamma - irradiation and defective in cell - cycle arrest following radiation , correlating with a defective up - regulation of p53 .",
+    "entities": [
+      {
+        "name": "AT",
+        "type": "DISEASE",
+        "pos": [
+          36,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Individuals who inherit one mutant allele are at increased risk for breast cancer , and the tumours they develop lose the wild - type allele by heterozygous deletion .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          68,
+          81
+        ]
+      },
+      {
+        "name": "tumours",
+        "type": "DISEASE",
+        "pos": [
+          92,
+          99
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We describe the proportion of hereditary breast cancer explained by BRCA1 or BRCA2 in a sample of North American hereditary breast cancers and assess the evidence for additional susceptibility genes that may confer hereditary breast or ovarian cancer risk .",
+    "entities": [
+      {
+        "name": "hereditary breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          30,
+          54
+        ]
+      },
+      {
+        "name": "hereditary breast cancers",
+        "type": "DISEASE",
+        "pos": [
+          113,
+          138
+        ]
+      },
+      {
+        "name": "hereditary breast or ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          215,
+          250
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Molecular basis for Duarte and Los Angeles variant galactosemia .",
+    "entities": [
+      {
+        "name": "Duarte and Los Angeles variant galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          20,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Molecular bases of C7 deficiency : three different defects .",
+    "entities": [
+      {
+        "name": "C7 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          19,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To study the interactions of these two genes on an organismal level , we bred mice heterozygous for null alleles of both atm and p53 to produce all genotypic combinations .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutant embryos are poorly developed , with no evidence of mesoderm formation .",
+    "entities": []
+  },
+  {
+    "sentence": "The patient was shown to be heterozygous for DNA markers in the C6 , C7 and C9 region of chromosome 5 and therefore appears to be a compound heterozygote for two uncharacterized C9 deficiency genes .",
+    "entities": [
+      {
+        "name": "C9 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          178,
+          191
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "While only 5 % of sporadic Wilms tumours have intragenic WT1 mutations , > 90 % of patients with the Denys - Drash syndrome ( renal nephropathy , gonadal anomaly , predisposition to WT ) carry constitutional intragenic WT1 mutations .",
+    "entities": [
+      {
+        "name": "sporadic Wilms tumours",
+        "type": "DISEASE",
+        "pos": [
+          18,
+          40
+        ]
+      },
+      {
+        "name": "Denys - Drash syndrome",
+        "type": "DISEASE",
+        "pos": [
+          101,
+          123
+        ]
+      },
+      {
+        "name": "renal nephropathy",
+        "type": "DISEASE",
+        "pos": [
+          126,
+          143
+        ]
+      },
+      {
+        "name": "gonadal anomaly",
+        "type": "DISEASE",
+        "pos": [
+          146,
+          161
+        ]
+      },
+      {
+        "name": "predisposition to WT",
+        "type": "DISEASE",
+        "pos": [
+          164,
+          184
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The I66M mutation in the wild - type GALC cDNA ( I289 ) had normal activity , but when this mutation and the V289 polymorphism were introduced into the same allele , it had decreased activity .",
+    "entities": []
+  },
+  {
+    "sentence": "Atm , Acat1 , and Npat , which is a new gene isolated from the AT region , and 12 flanking microsatellite DNA markers were examined .",
+    "entities": []
+  },
+  {
+    "sentence": "Also the delta c418 allele was underrepresented in the cDNA , in accordance with previous observations that premature stop codons reduce mRNA levels .",
+    "entities": []
+  },
+  {
+    "sentence": "However , there appeared to be a considerable variation in colchicine milk concentration among the different patients , which might be related to individual breast milk composition and , possibly , to other nutritional or metabolic factors .",
+    "entities": []
+  },
+  {
+    "sentence": "Apoptosis has recently been recognized as a mode of cell death in Huntington disease ( HD ) .",
+    "entities": [
+      {
+        "name": "Huntington disease",
+        "type": "DISEASE",
+        "pos": [
+          66,
+          84
+        ]
+      },
+      {
+        "name": "HD",
+        "type": "DISEASE",
+        "pos": [
+          87,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These findings suggest that Gly 230 is critical for normal ion conductance in hClC - 1 and that this residue resides within the channel pore . .",
+    "entities": []
+  },
+  {
+    "sentence": "We therefore conclude that the HGO cDNA encodes the gene responsible for alkaptonuria .",
+    "entities": [
+      {
+        "name": "alkaptonuria",
+        "type": "DISEASE",
+        "pos": [
+          73,
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Germline mutations in BRCA1 are responsible for most cases of inherited breast and ovarian cancer .",
+    "entities": [
+      {
+        "name": "inherited breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          62,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Analysis of meiotic segregation , using single - sperm typing : meiotic drive at the myotonic dystrophy locus .",
+    "entities": [
+      {
+        "name": "myotonic dystrophy",
+        "type": "DISEASE",
+        "pos": [
+          85,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A striking clustering of missense mutations in the first four exons contrasted with a random distribution of nonsense mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "Comparison of genomic sequences downstream ( centromeric ) of the repeat in human and mouse identified regions of significant homology .",
+    "entities": []
+  },
+  {
+    "sentence": "Colchicine was found to be excreted in breast milk .",
+    "entities": []
+  },
+  {
+    "sentence": "The quantitative distribution of VHL mRNA within fetal tissues reflected that seen by in situ hybridization and the ratio of the two VHL isoforms was similar between tissues .",
+    "entities": [
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          33,
+          36
+        ]
+      },
+      {
+        "name": "VHL",
+        "type": "DISEASE",
+        "pos": [
+          133,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The spectrum of RB1 germ - line mutations in hereditary retinoblastoma .",
+    "entities": [
+      {
+        "name": "hereditary retinoblastoma",
+        "type": "DISEASE",
+        "pos": [
+          45,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The mutation , which creates a second AluI restriction site , results in a nonsense mutation in PLP .",
+    "entities": []
+  },
+  {
+    "sentence": "Pediatric alveolar rhabdomyosarcoma is characterized by a chromosomal translocation that fuses parts of the PAX3 and FKHR genes .",
+    "entities": [
+      {
+        "name": "Pediatric alveolar rhabdomyosarcoma",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Type II human complement C2 deficiency .",
+    "entities": [
+      {
+        "name": "Type II human complement C2 deficiency",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "RESULTS BRCA1 mutations were identified in 16 percent of women with a family history of breast cancer .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          88,
+          101
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "3 % .",
+    "entities": []
+  },
+  {
+    "sentence": "A further four families who do not have this insertion have been identified .",
+    "entities": []
+  },
+  {
+    "sentence": "X - chromosome inactivation in mammals is regarded as an essentially random process , but the resulting somatic - cell mosaicism creates the opportunity for cell selection .",
+    "entities": []
+  },
+  {
+    "sentence": "The G230E mutation causes substantial changes in anion and cation selectivity as well as a fundamental change in rectification of the current - voltage relationship .",
+    "entities": []
+  },
+  {
+    "sentence": "Type III collagen is a fibrillar forming collagen comprising three alpha1 ( III ) chains and is expressed in early embryos and throughout embryogenesis .",
+    "entities": []
+  },
+  {
+    "sentence": "A much larger fraction of breast cancer might , in principle , be due to common variants which confer more modest individual risks .",
+    "entities": [
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          26,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Constitutively methylated CpG dinucleotides as mutation hot spots in the retinoblastoma gene ( RB1 ) .",
+    "entities": [
+      {
+        "name": "retinoblastoma",
+        "type": "DISEASE",
+        "pos": [
+          73,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Mutation of the VHL gene is associated exclusively with the development of non - papillary renal cell carcinomas .",
+    "entities": [
+      {
+        "name": "non - papillary renal cell carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          75,
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Such recurrent CpG mutations , including those found in RB1 , are likely the result of the deamination of 5 - methylcytosine within these CpGs .",
+    "entities": []
+  },
+  {
+    "sentence": "Chromosomal locations of the Atm ( ataxia - telangiectasia ( AT ) - mutated ) and Acat1 ( mitochondrial acetoacetyl - CoA thiolase ) genes in mouse , rat , and Syrian hamster were determined by direct R - banding FISH .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          35,
+          58
+        ]
+      },
+      {
+        "name": "AT",
+        "type": "DISEASE",
+        "pos": [
+          61,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A substitution at codon 86 resulted in an extremely variable expression of the disease in a large Swiss family .",
+    "entities": []
+  },
+  {
+    "sentence": "HPRT - APRT - deficient mice are not a model for lesch - nyhan syndrome .",
+    "entities": [
+      {
+        "name": "HPRT - APRT - deficient",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          23
+        ]
+      },
+      {
+        "name": "lesch - nyhan syndrome",
+        "type": "DISEASE",
+        "pos": [
+          49,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We found seven with the LA biochemical phenotype , and all had a 1721C - - > T transition in exon 7 in cis with the N314D missense mutation .",
+    "entities": []
+  },
+  {
+    "sentence": "Both binding sites are preserved in the mutant but have decreased affinities for iodide .",
+    "entities": []
+  },
+  {
+    "sentence": "This interaction is dependent on the presence of the G protein - binding domain .",
+    "entities": []
+  },
+  {
+    "sentence": "A distinct feature of the mouse gene is an expanded polymorphic GGA trinucleotide repeat that codes for polyglycine and varies from 15 to 17 triplets in different Mus musculus strains .",
+    "entities": []
+  },
+  {
+    "sentence": "Definition of the genetic events that trigger apoptosis in the prostate could provide important insights into critical pathways in normal development as well as elucidate the perturbations of those key pathways in neoplastic transformation .",
+    "entities": []
+  },
+  {
+    "sentence": "In order to test this hypothesis , we have studied samples of single sperm from three individuals heterozygous at the DM locus , each with one allele larger and one allele smaller than 19 CTG repeats .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          118,
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In preliminary screens , mutations of PTEN were detected in 31 % ( 13 / 42 ) of glioblastoma cell lines and xenografts , 100 % ( 4 / 4 ) of prostate cancer cell lines , 6 % ( 4 / 65 ) of breast cancer cell lines and xenografts , and 17 % ( 3 / 18 ) of primary glioblastomas .",
+    "entities": [
+      {
+        "name": "glioblastoma",
+        "type": "DISEASE",
+        "pos": [
+          80,
+          92
+        ]
+      },
+      {
+        "name": "prostate cancer",
+        "type": "DISEASE",
+        "pos": [
+          140,
+          155
+        ]
+      },
+      {
+        "name": "breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          187,
+          200
+        ]
+      },
+      {
+        "name": "primary glioblastomas",
+        "type": "DISEASE",
+        "pos": [
+          252,
+          273
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Furthermore , the cation - to - anion permeability ratio of the mutant is much greater than that of the wild - type channel .",
+    "entities": []
+  },
+  {
+    "sentence": "2 kb and contain the intragenic microsatellite markers D17S1323 , D17S1322 , and D17S855 , which localize to introns 12 , 19 , and 20 , respectively .",
+    "entities": []
+  },
+  {
+    "sentence": "This case may therefore be another example of aniridia caused by a position effect as recently described in two familial aniridia patients in which the phenotype cosegregated with chromosome abnormalities with 11p13 breakpoints . .",
+    "entities": [
+      {
+        "name": "aniridia",
+        "type": "DISEASE",
+        "pos": [
+          46,
+          54
+        ]
+      },
+      {
+        "name": "familial aniridia",
+        "type": "DISEASE",
+        "pos": [
+          112,
+          129
+        ]
+      },
+      {
+        "name": "chromosome abnormalities",
+        "type": "DISEASE",
+        "pos": [
+          180,
+          204
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A defect at the 5 splice donor site of intron 15 of the C6 gene explains the low molecular weight of the C6 protein and is probably responsible for its low expressed concentration .",
+    "entities": []
+  },
+  {
+    "sentence": "No region of the RB1 gene was preferentially involved in single base substitutions .",
+    "entities": []
+  },
+  {
+    "sentence": "3 ( refs 1 - 3 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "The BRCA1 or BRCA2 status of four families ( 17 % ) could not be determined .",
+    "entities": []
+  },
+  {
+    "sentence": "If this finding can be confirmed , it may provide an insight into the structural features of the BRCA1 protein that are important for its function .",
+    "entities": []
+  },
+  {
+    "sentence": "When LA / D and D / D GALT biochemical phenotypes were compared to N / N GALT phenotypes , both had 50 % , as compared to 21 % , reduction in GALT activity in the wild type ( N / N ) after exposure at identical initial enzyme activity to 50 degrees C for 15 min .",
+    "entities": []
+  },
+  {
+    "sentence": "However , the overall prevalence of definite CHD was 21 % in men with mutations and 16 % in men without mutations .",
+    "entities": [
+      {
+        "name": "CHD",
+        "type": "DISEASE",
+        "pos": [
+          45,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The variable penetrance of BRCA1 suggests that other genetic and non - genetic factors play a role in tumourigenesis in these individuals .",
+    "entities": []
+  },
+  {
+    "sentence": "The level of the 137 - bp PCR product containing the insertion was lowest in two patients who showed a later onset of cerebellar ataxia .",
+    "entities": [
+      {
+        "name": "cerebellar ataxia",
+        "type": "DISEASE",
+        "pos": [
+          118,
+          135
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We hypothesize that the patient is heterozygous for a complete deficiency of C9 and for a gene directing hyposynthesis of a defective C9 .",
+    "entities": [
+      {
+        "name": "complete deficiency of C9",
+        "type": "DISEASE",
+        "pos": [
+          54,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "With respect to their roles in apoptosis , loss of atm rendered thymocytes only partly resistant to irradiation - induced apoptosis , whereas additional loss of p53 engendered complete resistance .",
+    "entities": []
+  },
+  {
+    "sentence": "The relative risk ( RR ) of CHD was 1 .",
+    "entities": [
+      {
+        "name": "CHD",
+        "type": "DISEASE",
+        "pos": [
+          28,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Colchicine in breast milk of patients with familial Mediterranean fever .",
+    "entities": [
+      {
+        "name": "familial Mediterranean fever",
+        "type": "DISEASE",
+        "pos": [
+          43,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "However , one individual is heterozygous for markers at adjacent C6 loci , showing that there has been an intergenic recombination and suggesting that the deficiency mutation is of appreciable antiquity . .",
+    "entities": []
+  },
+  {
+    "sentence": "This is the first report of a mutation at this residue in either sporadic tumours or in the germline and the first report of a germline mutation within the tetramerisation domain .",
+    "entities": [
+      {
+        "name": "sporadic tumours",
+        "type": "DISEASE",
+        "pos": [
+          65,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Germline mutations in the 3 ' part of APC exon 15 do not result in truncated proteins and are associated with attenuated adenomatous polyposis coli .",
+    "entities": [
+      {
+        "name": "APC",
+        "type": "DISEASE",
+        "pos": [
+          38,
+          41
+        ]
+      },
+      {
+        "name": "adenomatous polyposis coli",
+        "type": "DISEASE",
+        "pos": [
+          121,
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The expression of cyclin - dependent kinase inhibitor p21 is dramatically increased in the mutant embryos .",
+    "entities": []
+  },
+  {
+    "sentence": "The prevalence of ALD among adults with Addisons disease remains unknown .",
+    "entities": [
+      {
+        "name": "ALD",
+        "type": "DISEASE",
+        "pos": [
+          18,
+          21
+        ]
+      },
+      {
+        "name": "Addisons disease",
+        "type": "DISEASE",
+        "pos": [
+          40,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Analysis of DMAHP expression in the cells of DM patients with loss of the hypersensitive site revealed a two - to fourfold reduction in steady - state DMAHP transcript levels relative to wild - type controls .",
+    "entities": [
+      {
+        "name": "DM",
+        "type": "DISEASE",
+        "pos": [
+          45,
+          47
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To begin to address the hypothesis that abnormal regulation of the breast / ovarian cancer susceptibility gene BRCA1 is a critical step in sporadic breast / ovarian tumorigenesis , we have determined the detailed structure of the BRCA1 genomic region .",
+    "entities": [
+      {
+        "name": "breast / ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          67,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Analysis of the intragenic polymorphism D17S855 supports common origins of the mutations .",
+    "entities": []
+  },
+  {
+    "sentence": "CONCLUSIONS SJS is clinically and radiologically heterogeneous .",
+    "entities": [
+      {
+        "name": "SJS",
+        "type": "DISEASE",
+        "pos": [
+          12,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Mutations associated with variant phenotypes in ataxia - telangiectasia .",
+    "entities": [
+      {
+        "name": "ataxia - telangiectasia",
+        "type": "DISEASE",
+        "pos": [
+          48,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In 7 of 15 uncultured primary human breast carcinomas , intragenic deletions were shown in TSG101 genomic DNA and transcripts by gel and sequence analysis , and mutations affecting two TSG101 alleles were identified in four of these cancers .",
+    "entities": [
+      {
+        "name": "breast carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          36,
+          53
+        ]
+      },
+      {
+        "name": "cancers",
+        "type": "DISEASE",
+        "pos": [
+          233,
+          240
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We have reported the presence of a specific mutation ( ATG50 - - > AGG ) or deletion of codon 50 of the ARP gene in different tumor types ( Shridhar et al . , 1996 , 1996a ) .",
+    "entities": [
+      {
+        "name": "tumor types",
+        "type": "DISEASE",
+        "pos": [
+          126,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Low incidence of BRCA2 mutations in breast carcinoma and other cancers .",
+    "entities": [
+      {
+        "name": "breast carcinoma",
+        "type": "DISEASE",
+        "pos": [
+          36,
+          52
+        ]
+      },
+      {
+        "name": "cancers",
+        "type": "DISEASE",
+        "pos": [
+          63,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Neither a cytogenetically detectable 15q12 deletion nor a deletion for the D15S11 , D15S10 , and GABRB3 cosmid probes were found in either patient .",
+    "entities": []
+  },
+  {
+    "sentence": "However , a single mutation was observed in 32 / 33 defective ATM alleles in Jewish A - T families of North African origin , coming from various regions of Morocco and Tunisia .",
+    "entities": [
+      {
+        "name": "A - T",
+        "type": "DISEASE",
+        "pos": [
+          84,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The nonsense mutation , which is in exon 3B , should block the synthesis of normal PLP but spare DM20 , the isoform whose persistence has been associated with mild forms of PLP - associated disease in both humans and mice . .",
+    "entities": [
+      {
+        "name": "PLP - associated disease",
+        "type": "DISEASE",
+        "pos": [
+          173,
+          197
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "11 times greater for BRCA1 carriers harbouring one or two rare HRAS1 alleles , compared to carriers with only common alleles ( P = 0 . 015 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "At the same regions , the outer segments of the photoreceptor cell layer are no longer present .",
+    "entities": []
+  },
+  {
+    "sentence": "Wiskott - Aldrich syndrome protein , a novel effector for the GTPase CDC42Hs , is implicated in actin polymerization .",
+    "entities": [
+      {
+        "name": "Wiskott - Aldrich syndrome",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Programmed cell death ( or apoptosis ) is a physiological process essential to the normal development and homeostatic maintenance of the immune system .",
+    "entities": []
+  },
+  {
+    "sentence": "Variable levels of expression of Atm were observed in different tissues .",
+    "entities": []
+  },
+  {
+    "sentence": "6 percent ( P < 0 . 001 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Whereas wild - type channels are characterized by pronounced inward rectification and a Cl > thiocyanate > Br > NO ( 3 ) > I > CH ( 3 ) SO ( 3 ) selectivity , G230E exhibits outward rectification at positive potentials and a thiocyanate > NO ( 3 ) > I > Br > Cl > CH ( 3 ) SO ( 3 ) selectivity .",
+    "entities": []
+  },
+  {
+    "sentence": "Immune defects also are evident in ATM - / - mice , including reduced numbers of B220 + CD43 - pre - B cells , thymocytes , and peripheral T cells , as well as functional impairment of T - cell - dependent immune responses .",
+    "entities": [
+      {
+        "name": "Immune defects",
+        "type": "DISEASE",
+        "pos": [
+          0,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A fragment of 200 b was cloned and used as a probe to screen a mouse liver cDNA library .",
+    "entities": []
+  },
+  {
+    "sentence": "5 kb and is interrupted by the ( CTG ) n repeat .",
+    "entities": []
+  },
+  {
+    "sentence": "These results are significant not only in terms of their implications for furthering our understanding of galactosemia and GALT holoenzyme structure - function relationships but also because the system described may serve as a model for similar studies of other complexes composed of multiple subunits . .",
+    "entities": [
+      {
+        "name": "galactosemia",
+        "type": "DISEASE",
+        "pos": [
+          106,
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "PTEN , a putative protein tyrosine phosphatase gene mutated in human brain , breast , and prostate cancer .",
+    "entities": [
+      {
+        "name": "brain , breast , and prostate cancer",
+        "type": "DISEASE",
+        "pos": [
+          69,
+          105
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The protein truncation test ( PTT ) was used on RT - PCR products , SSCP on genomic PCR amplifications , and chemical cleavage of mismatch on both RT - PCR and genomic amplifications .",
+    "entities": []
+  },
+  {
+    "sentence": "Prostate secretory epithelial cells and androgen - dependent prostate carcinomas undergo apoptosis in response to androgen deprivation and , furthermore , most prostate carcinomas become androgen independent and refractory to further therapeutic manipulations during disease progression .",
+    "entities": [
+      {
+        "name": "prostate carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          61,
+          80
+        ]
+      },
+      {
+        "name": "prostate carcinomas",
+        "type": "DISEASE",
+        "pos": [
+          160,
+          179
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The mouse homolog of the Wiskott - Aldrich syndrome protein ( WASP ) gene is highly conserved and maps near the scurfy ( sf ) mutation on the X chromosome .",
+    "entities": [
+      {
+        "name": "Wiskott - Aldrich syndrome",
+        "type": "DISEASE",
+        "pos": [
+          25,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "45 - kilobases ( kb ) exon 11 of the hereditary breast and ovarian cancer gene BRCA1 .",
+    "entities": [
+      {
+        "name": "hereditary breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          37,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This difference in mutation sites may affect the clinical features of GLD .",
+    "entities": [
+      {
+        "name": "GLD",
+        "type": "DISEASE",
+        "pos": [
+          70,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The rates were higher among women from families with a history of both breast and ovarian cancer .",
+    "entities": [
+      {
+        "name": "breast and ovarian cancer",
+        "type": "DISEASE",
+        "pos": [
+          71,
+          96
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "BRCA1 and BRCA2 probably explain the majority of hereditary breast cancer that exists in the North American population .",
+    "entities": [
+      {
+        "name": "hereditary breast cancer",
+        "type": "DISEASE",
+        "pos": [
+          49,
+          73
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "About 10 % of the homozygous mutant animals survived to adulthood but have a much shorter life span compared with wild - type mice .",
+    "entities": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "experiment_name": "bc2gm_kimi-k2.6",
+  "dataset": "bc2gm",
+  "test_file_path": "bioDataset/bc2gm1/test.json",
+  "save_file_path": "result/bc2gm_kimi-k2.6_predictions.jsonl",
+  "log_file_path": "result/bc2gm_kimi-k2.6.log",
+  "model_name": "kimi-k2.6",
+  "api_keys": "sk-e7Vw2cSceS5u30QewCajDjI76arDSct71bRFn7CdXCje876k",
+  "base_url": "https://api.moonshot.cn/v1",
+  "max_loop": 100,
+  "sleep_seconds": 25
+}

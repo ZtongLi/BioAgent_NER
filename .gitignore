@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Generated predictions
+*_predictions.jsonl
+*.jsonl.bak.*
+baseline/llm_predictions.jsonl
+
+# Keep the canonical experiment result directory in Git.
+!result/
+!result/**
+
+# Local vector databases / generated RAG indexes
+rag/vector_db/
+chroma/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
