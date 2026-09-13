@@ -5,7 +5,7 @@
   "save_file_path": "result/bc2gm_deepseek_predictions.jsonl",
   "log_file_path": "result/bc2gm_deepseek.log",
   "model_name": "deepseek-v4-flash",
-  "api_keys": "sk-2c61024e80cc446eb80812253f0f4711",
+  "api_keys": "",
   "base_url": "https://api.deepseek.com",
   "max_loop": 100,
   "sleep_seconds": 2
