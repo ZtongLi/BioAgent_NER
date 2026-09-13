@@ -108,27 +108,40 @@ def call_llm(prompt, config):
     return response.choices[0].message.content
 
 
-def calculate_accuracy(correct, total):
-    # 根据预测完全正确的样本数和总样本数，计算样本级准确率。
-    return correct / total if total else 0
+def calculate_metrics(true_positive, predicted_total, gold_total):
+    # 根据实体级匹配结果计算 Precision、Recall 和 F1。
+    precision = true_positive / predicted_total if predicted_total else 0
+    recall = true_positive / gold_total if gold_total else 0
+    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0
+    return precision, recall, f1
 
 
-def save_summary(config, accuracy):
-    # 把当前实验的关键信息和最终结果追加保存到 result/summary.csv。
-    summary_path = PROJECT_ROOT / "result" / "summary.csv"
+def save_summary(config, precision, recall, f1):
+    # 把当前实验的实体级指标追加保存到独立文件，避免和旧 accuracy 记录混在一起。
+    summary_path = PROJECT_ROOT / "result" / "summary_prf1.csv"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     file_exists = summary_path.exists()
 
     with open(summary_path, "a", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         if not file_exists:
-            writer.writerow(["experiment_name", "dataset", "model_name", "max_loop", "accuracy"])
+            writer.writerow([
+                "experiment_name",
+                "dataset",
+                "model_name",
+                "max_loop",
+                "precision",
+                "recall",
+                "f1",
+            ])
         writer.writerow([
             config["experiment_name"],
             config["dataset"],
             config["model_name"],
             config["max_loop"],
-            f"{accuracy:.4f}",
+            f"{precision:.4f}",
+            f"{recall:.4f}",
+            f"{f1:.4f}",
         ])
 
 
@@ -167,9 +180,10 @@ def main():
     with open(test_file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # 统计预测完全正确的样本数。
-    correct = 0
-    total = 0
+    # 统计实体级 TP、预测实体总数和金标实体总数。
+    true_positive = 0
+    predicted_total = 0
+    gold_total = 0
 
     with open(save_file_path, "w", encoding="utf-8") as f:
         for sample in data[:max_loop]:
@@ -201,10 +215,10 @@ def main():
                 for entity in pred_entities
             }
 
-            # 样本级评估：整条样本的预测实体集合和金标实体集合完全一致，才算正确。
-            total += 1
-            if gold_entities == pred_entities:
-                correct += 1
+            # 实体级评估：实体文本和类型都匹配才算一个 true positive。
+            true_positive += len(gold_entities & pred_entities)
+            predicted_total += len(pred_entities)
+            gold_total += len(gold_entities)
 
             # 保存当前样本的句子、金标实体和预测实体，方便后续查看错误案例。
             f.write(json.dumps({
@@ -215,13 +229,17 @@ def main():
             f.flush()
 
     # 计算并写入最终评估结果。
-    accuracy = calculate_accuracy(correct, total)
-    logging.info("Sample-level Accuracy: %.4f", accuracy)
-    save_summary(config, accuracy)
+    precision, recall, f1 = calculate_metrics(true_positive, predicted_total, gold_total)
+    logging.info("Precision: %.4f", precision)
+    logging.info("Recall: %.4f", recall)
+    logging.info("F1: %.4f", f1)
+    save_summary(config, precision, recall, f1)
 
     print(f"Experiment: {experiment_name}")
     print(f"Model: {config['model_name']}")
-    print(f"Sample-level Accuracy: {accuracy:.4f}")
+    print(f"Precision: {precision:.4f}")
+    print(f"Recall: {recall:.4f}")
+    print(f"F1: {f1:.4f}")
 
 
 if __name__ == "__main__":
