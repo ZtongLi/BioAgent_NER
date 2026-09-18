@@ -1,28 +1,26 @@
 import argparse
+import csv
 import json
 import logging
-import time
-import csv
+import os
+import re
 import shutil
-from pathlib import Path
+import time
 from datetime import datetime
+from pathlib import Path
+
 from openai import OpenAI
 
 
-# 项目路径。
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-
-# 不同数据集对应的实体类型，用于构建 prompt。
 ENTITY_TYPES = {
-    "bc2gm": "Gene/Protein",
-    "bc5cdr": "Chemical, Disease",
-    "ncbi_disease": "Disease",
+    "bc2gm": ["GENE"],
+    "bc5cdr": ["CHEMICAL", "DISEASE"],
+    "ncbi_disease": ["DISEASE"],
 }
 
 
 def setup_logging(log_path):
-    # 初始化日志，把运行过程和最终指标写入当前实验的日志文件。
     log_path.parent.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(
         filename=log_path,
@@ -43,21 +41,12 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Run biomedical NER evaluation with an explicit LLM config and output file."
     )
-    parser.add_argument(
-        "--config",
-        required=True,
-        help="配置文件路径，例如 config/bc2gm_deepseek.json",
-    )
-    parser.add_argument(
-        "--output",
-        required=True,
-        help="预测结果 jsonl 保存路径，例如 result/bc2gm_deepseek_predictions.jsonl",
-    )
+    parser.add_argument("--config", required=True, help="配置文件路径，例如 config/bc2gm_deepseek.json")
+    parser.add_argument("--output", help="预测结果 jsonl 保存路径；默认使用配置中的 save_file_path")
     return parser.parse_args()
 
 
 def load_config(config_path):
-    # 从实验配置文件中读取数据集、输入输出路径、模型名等参数。
     with open(config_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -73,14 +62,25 @@ def backup_existing_output(output_path):
 
 
 def build_prompt(sentence, dataset):
-    # 根据当前数据集的实体类型和输入句子，构建发给 LLM 的 NER 提示词。
     entity_types = ENTITY_TYPES[dataset]
+    quoted_types = ", ".join(f'"{entity_type}"' for entity_type in entity_types)
+    type_instruction = (
+        f'The only valid entity type is: {quoted_types}. '
+        f'For each entity, the "type" value must be exactly {quoted_types}.'
+        if len(entity_types) == 1
+        else f'The only valid entity types are: {quoted_types}. '
+        f'For each entity, the "type" value must be exactly one of these labels.'
+    )
     return f"""You are performing biomedical named entity recognition.
 
-Identify all {entity_types} entities in the following biomedical sentence.
+Identify all entities that belong to the valid entity type labels.
+{type_instruction}
 
 Return only a JSON list. Each item must have this schema:
-{{"text": "entity text", "type": "entity type"}}
+{{"text": "entity text", "type": "entity type", "start": 0, "end": 0}}
+The start and end values are character offsets in the sentence (start inclusive, end exclusive).
+Return a separate item for each occurrence of an entity.
+Do not output combined labels such as "CHEMICAL, DISEASE".
 Do not wrap the JSON in markdown.
 If there is no entity, return [].
 
@@ -89,19 +89,25 @@ Sentence:
 """
 
 
+def get_api_key(config):
+    if config.get("api_key_env"):
+        api_key = os.getenv(config["api_key_env"])
+        if not api_key:
+            raise ValueError(f"Environment variable {config['api_key_env']} is not set.")
+        return api_key
+    return config["api_keys"]
+
+
 def call_llm(prompt, config):
-    # LLM 调用入口：使用 config 中的 model_name/api_keys/base_url 请求模型。
     client = OpenAI(
-        api_key=config["api_keys"],
+        api_key=get_api_key(config),
         base_url=config["base_url"],
         timeout=config.get("timeout", 60),
     )
 
     response = client.chat.completions.create(
         model=config["model_name"],
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
+        messages=[{"role": "user", "content": prompt}],
         temperature=1,
     )
 
@@ -109,137 +115,153 @@ def call_llm(prompt, config):
 
 
 def calculate_metrics(true_positive, predicted_total, gold_total):
-    # 根据实体级匹配结果计算 Precision、Recall 和 F1。
     precision = true_positive / predicted_total if predicted_total else 0
     recall = true_positive / gold_total if gold_total else 0
     f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0
     return precision, recall, f1
 
 
+def normalize_pred_entities(pred_entities, sentence):
+    """Resolve predictions to mention spans; unmatched text remains a false positive."""
+    normalized = set()
+    text_only = []
+    if not isinstance(pred_entities, list):
+        logging.warning("LLM 返回 JSON 不是 list：%s", pred_entities)
+        return normalized
+
+    for index, entity in enumerate(pred_entities):
+        if not isinstance(entity, dict):
+            logging.warning("跳过非 dict 实体：%s", entity)
+            continue
+
+        text = entity.get("text") or entity.get("name")
+        entity_type = entity.get("type")
+        if not text or not entity_type:
+            logging.warning("跳过字段不完整的实体：%s", entity)
+            continue
+
+        text = str(text)
+        entity_type = str(entity_type).upper()
+        start, end = entity.get("start"), entity.get("end")
+        if start is not None or end is not None:
+            if (isinstance(start, int) and not isinstance(start, bool)
+                    and isinstance(end, int) and not isinstance(end, bool)
+                    and 0 <= start < end <= len(sentence)
+                    and sentence[start:end].casefold() == text.casefold()):
+                normalized.add((start, end, entity_type))
+            else:
+                normalized.add((-index - 1, -index - 1, entity_type))
+            continue
+        text_only.append((index, text, entity_type))
+
+    # 兼容只返回 text/type 的模型：在显式位置之后分配尚未使用的出现位置。
+    for index, text, entity_type in text_only:
+        for match in re.finditer(re.escape(text), sentence, flags=re.IGNORECASE):
+            candidate = (match.start(), match.end(), entity_type)
+            if candidate not in normalized:
+                normalized.add(candidate)
+                break
+        else:
+            # 无法定位的预测仍计入分母，不能当作没有预测。
+            normalized.add((-index - 1, -index - 1, entity_type))
+
+    return normalized
+
+
 def save_summary(config, precision, recall, f1):
-    # 把当前实验的实体级指标追加保存到独立文件，避免和旧 accuracy 记录混在一起。
-    summary_path = PROJECT_ROOT / "result" / "summary_prf1.csv"
+    summary_path = PROJECT_ROOT / "result" / config["dataset"] / "summary_prf1.csv"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     file_exists = summary_path.exists()
 
     with open(summary_path, "a", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         if not file_exists:
-            writer.writerow([
-                "experiment_name",
-                "dataset",
-                "model_name",
-                "max_loop",
-                "precision",
-                "recall",
-                "f1",
-            ])
+            writer.writerow(["experiment_name", "dataset", "model_name", "max_loop", "precision", "recall", "f1"])
         writer.writerow([
-            config["experiment_name"],
-            config["dataset"],
-            config["model_name"],
-            config["max_loop"],
-            f"{precision:.4f}",
-            f"{recall:.4f}",
-            f"{f1:.4f}",
+            config["experiment_name"], config["dataset"], config["model_name"],
+            config["max_loop"], f"{precision:.4f}", f"{recall:.4f}", f"{f1:.4f}",
         ])
+
+
+class LLMExperiment:
+    """Manage paths, predictions, and metrics for one evaluation run."""
+
+    def __init__(self, config_path, output_path=None):
+        self.config_path = resolve_project_path(config_path)
+        self.config = load_config(self.config_path)
+        self.output_path = resolve_project_path(output_path or self.config["save_file_path"])
+
+    def _predict(self, sentence):
+        try:
+            answer = call_llm(build_prompt(sentence, self.config["dataset"]), self.config)
+        except Exception as e:
+            logging.warning("LLM 调用失败：%s", e)
+            answer = "[]"
+
+        time.sleep(self.config["sleep_seconds"])
+        try:
+            entities = json.loads(answer)
+        except json.JSONDecodeError:
+            logging.warning("LLM 返回的不是合法 JSON：%s", answer)
+            entities = []
+        return normalize_pred_entities(entities, sentence)
+
+    def run(self):
+        config = self.config
+        setup_logging(PROJECT_ROOT / config["log_file_path"])
+        self.output_path.parent.mkdir(parents=True, exist_ok=True)
+        backup_path = backup_existing_output(self.output_path)
+
+        logging.info("Config file: %s", self.config_path)
+        logging.info("Output jsonl: %s", self.output_path)
+        if backup_path:
+            logging.info("Backed up previous output to: %s", backup_path)
+        logging.info("Experiment: %s", config["experiment_name"])
+        logging.info("Model: %s", config["model_name"])
+
+        print(f"Config file: {self.config_path}")
+        print(f"Output jsonl: {self.output_path}")
+        if backup_path:
+            print(f"Previous output backup: {backup_path}")
+
+        with open(PROJECT_ROOT / config["test_file_path"], "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        true_positive = predicted_total = gold_total = 0
+        with open(self.output_path, "w", encoding="utf-8") as f:
+            for sample in data[:config["max_loop"]]:
+                sentence = sample["sentence"]
+                gold_entities = {
+                    (entity["pos"][0], entity["pos"][1], entity["type"].upper())
+                    for entity in sample["entities"]
+                }
+                pred_entities = self._predict(sentence)
+                true_positive += len(gold_entities & pred_entities)
+                predicted_total += len(pred_entities)
+                gold_total += len(gold_entities)
+
+                f.write(json.dumps({
+                    "sentence": sentence,
+                    "gold_entities": list(gold_entities),
+                    "pred_entities": list(pred_entities),
+                }, ensure_ascii=False) + "\n")
+                f.flush()
+
+        precision, recall, f1 = calculate_metrics(true_positive, predicted_total, gold_total)
+        metrics = (("Precision", precision), ("Recall", recall), ("F1", f1))
+        for name, value in metrics:
+            logging.info("%s: %.4f", name, value)
+        save_summary(config, precision, recall, f1)
+
+        print(f"Experiment: {config['experiment_name']}")
+        print(f"Model: {config['model_name']}")
+        for name, value in metrics:
+            print(f"{name}: {value:.4f}")
 
 
 def main():
     args = parse_args()
-    config_path = resolve_project_path(args.config)
-    output_path = resolve_project_path(args.output)
-
-    # 读取配置并取出主流程需要的参数。
-    config = load_config(config_path)
-
-    experiment_name = config["experiment_name"]
-    dataset = config["dataset"]
-    test_file_path = PROJECT_ROOT / config["test_file_path"]
-    save_file_path = output_path
-    log_file_path = PROJECT_ROOT / config["log_file_path"]
-    max_loop = config["max_loop"]
-    sleep_seconds = config["sleep_seconds"]
-
-    setup_logging(log_file_path)
-    save_file_path.parent.mkdir(parents=True, exist_ok=True)
-    backup_path = backup_existing_output(save_file_path)
-
-    logging.info("Config file: %s", config_path)
-    logging.info("Output jsonl: %s", save_file_path)
-    if backup_path:
-        logging.info("Backed up previous output to: %s", backup_path)
-    logging.info("Experiment: %s", experiment_name)
-    logging.info("Model: %s", config["model_name"])
-
-    print(f"Config file: {config_path}")
-    print(f"Output jsonl: {save_file_path}")
-    if backup_path:
-        print(f"Previous output backup: {backup_path}")
-
-    with open(test_file_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    # 统计实体级 TP、预测实体总数和金标实体总数。
-    true_positive = 0
-    predicted_total = 0
-    gold_total = 0
-
-    with open(save_file_path, "w", encoding="utf-8") as f:
-        for sample in data[:max_loop]:
-            # 读取单条样本，并把金标实体整理成集合，方便和预测结果做精确匹配。
-            sentence = sample["sentence"]
-            gold_entities = {
-                (entity["name"].lower(), entity["type"].upper())
-                for entity in sample["entities"]
-            }
-
-            # 构建 prompt，调用 LLM，并解析模型返回的 JSON 实体列表。
-            prompt = build_prompt(sentence, dataset)
-            try:
-                answer = call_llm(prompt, config)
-            except Exception as e:
-                logging.warning("LLM 调用失败：%s", e)
-                answer = "[]"
-
-            time.sleep(sleep_seconds)
-
-            try:
-                pred_entities = json.loads(answer)
-            except json.JSONDecodeError:
-                logging.warning("LLM 返回的不是合法 JSON：%s", answer)
-                pred_entities = []
-
-            pred_entities = {
-                (entity["text"].lower(), entity["type"].upper())
-                for entity in pred_entities
-            }
-
-            # 实体级评估：实体文本和类型都匹配才算一个 true positive。
-            true_positive += len(gold_entities & pred_entities)
-            predicted_total += len(pred_entities)
-            gold_total += len(gold_entities)
-
-            # 保存当前样本的句子、金标实体和预测实体，方便后续查看错误案例。
-            f.write(json.dumps({
-                "sentence": sentence,
-                "gold_entities": list(gold_entities),
-                "pred_entities": list(pred_entities),
-            }, ensure_ascii=False) + "\n")
-            f.flush()
-
-    # 计算并写入最终评估结果。
-    precision, recall, f1 = calculate_metrics(true_positive, predicted_total, gold_total)
-    logging.info("Precision: %.4f", precision)
-    logging.info("Recall: %.4f", recall)
-    logging.info("F1: %.4f", f1)
-    save_summary(config, precision, recall, f1)
-
-    print(f"Experiment: {experiment_name}")
-    print(f"Model: {config['model_name']}")
-    print(f"Precision: {precision:.4f}")
-    print(f"Recall: {recall:.4f}")
-    print(f"F1: {f1:.4f}")
+    LLMExperiment(args.config, args.output).run()
 
 
 if __name__ == "__main__":
