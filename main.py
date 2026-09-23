@@ -1,28 +1,36 @@
-from tool import *
-
-test_file_path = "./bioDataset/bc2gm1/dev.json"
-
-model_name = "kimi-k2.6"
+import argparse
+import json
+from pathlib import Path
 
 
-# 读取数据
-test_data = get_test_data(test_file_path)
+def main():
+    parser = argparse.ArgumentParser(description="Run independent biomedical NER agents.")
+    parser.add_argument("--config", required=True)
+    parser.add_argument("--variant", default="full", choices=[
+        "extract_only", "full", "without_discovery", "without_boundary",
+        "without_verification", "all"])
+    parser.add_argument("--limit", type=int, help="Override the number of evaluation samples")
+    parser.add_argument("--sentence", help="Predict one sentence without saving results")
+    args = parser.parse_args()
+    config = json.loads(Path(args.config).read_text(encoding="utf-8-sig"))
+    if config.get("agent_system") != "ner_agent":
+        from candidate_discovery_agent.experiment import run_experiment
+        from candidate_discovery_agent.tool import candidate_discovery_agent
+        if args.sentence is not None:
+            print(candidate_discovery_agent(args.sentence, config))
+        else:
+            if args.limit is not None:
+                config["max_loop"] = args.limit
+            run_experiment(config)
+        return
 
-for data in test_data[:10]:
+    from experiment import predict_sentence, run_experiment
+    if args.sentence is not None:
+        result = predict_sentence(args.sentence, config, args.variant)
+    else:
+        result = run_experiment(config, args.variant, args.limit)
+    print(json.dumps(result, ensure_ascii=False, indent=2))
 
-    sentence = data["sentence"]
 
-    print("Sentence:")
-    print(sentence)
-    print("Gold:", data["entities"])
-
-    # Planner
-    planner_prompt = get_planner_prompt(sentence)
-
-    planner_answer = QA_KIMI(
-        planner_prompt,
-        model_name
-    )
-
-    print("\nPlanner Answer:")
-    print(planner_answer)
+if __name__ == "__main__":
+    main()

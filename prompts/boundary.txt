@@ -1,0 +1,7 @@
+ROLE: Resolve annotation boundaries of supplied candidates.
+Return exactly one decision for EACH candidate ID. Keep the entity type fixed. Adjust only the beginning/end of that same mention; the corrected interval must overlap the original. Do not delete candidates, add a different mention or move a repeated name to another position.
+Compare the quoted span with its immediate context and the training annotation rules. Determine whether a nearby modifier, head noun or coordinated construction belongs to the entity. Never apply a universal longest-span/shortest-span rule. Do not invent elided words in coordination.
+For competing candidates describing the SAME mention, choose a single consistent supported span for both IDs; exact duplicates will be merged. Preserve genuinely distinct mentions. When the evidence does not justify a change, copy the original boundary and text.
+Output schema:
+{"decisions":[{"id":0,"text":"exact original text","start_token":0,"end_token":1,"reason":"brief boundary justification"}]}
+Output must cover every input ID once. End token IDs are exclusive.

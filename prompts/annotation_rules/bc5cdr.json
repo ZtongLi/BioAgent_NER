@@ -1,0 +1,93 @@
+{
+  "rules": [
+    "CHEMICAL covers explicitly named chemicals and drugs; DISEASE covers explicitly named diseases and pathological conditions, including named adverse effects.",
+    "Do not restrict diseases to conditions caused by a chemical in the same sentence; this task is entity recognition, not relation extraction.",
+    "Chemical names, disease names and their separately occurring abbreviations each need the correct occurrence. Do not merge chemical and disease labels.",
+    "Disease subtype or anatomical modifiers may be part of a disease name. Preserve named clinical conditions; do not mechanically label every measurement, symptom word or general drug reference."
+  ],
+  "examples": [
+    {
+      "source": "bioDataset/bc5cdr/train.json",
+      "sample_index": 0,
+      "sentence": "Selegiline - induced postural hypotension in Parkinson ' s disease : a longitudinal study on the effects of drug withdrawal .",
+      "entities": [
+        {
+          "name": "Selegiline",
+          "type": "CHEMICAL",
+          "pos": [
+            0,
+            10
+          ]
+        },
+        {
+          "name": "postural hypotension",
+          "type": "DISEASE",
+          "pos": [
+            21,
+            41
+          ]
+        },
+        {
+          "name": "Parkinson ' s disease",
+          "type": "DISEASE",
+          "pos": [
+            45,
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/bc5cdr/train.json",
+      "sample_index": 7,
+      "sentence": "A lesser degree of orthostatic hypotension occurred with standing .",
+      "entities": [
+        {
+          "name": "orthostatic hypotension",
+          "type": "DISEASE",
+          "pos": [
+            19,
+            42
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/bc5cdr/train.json",
+      "sample_index": 10,
+      "sentence": "CONCLUSION : This study confirms our previous finding that selegiline in combination with L - dopa is associated with selective orthostatic hypotension .",
+      "entities": [
+        {
+          "name": "selegiline",
+          "type": "CHEMICAL",
+          "pos": [
+            59,
+            69
+          ]
+        },
+        {
+          "name": "L - dopa",
+          "type": "CHEMICAL",
+          "pos": [
+            90,
+            98
+          ]
+        },
+        {
+          "name": "orthostatic hypotension",
+          "type": "DISEASE",
+          "pos": [
+            128,
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/bc5cdr/train.json",
+      "sample_index": 3,
+      "sentence": "This unwanted effect on postural blood pressure was not the result of underlying autonomic failure .",
+      "entities": []
+    }
+  ]
+}

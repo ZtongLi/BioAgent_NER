@@ -1,0 +1,77 @@
+{
+  "rules": [
+    "DISEASE covers explicit disease/disorder names, disease classes and established abbreviations in their disease sense. Specificity is not required: an explicitly used class such as cancer may be annotated.",
+    "Distinguish disease mentions from gene/protein symbols, mutation descriptions, anatomical sites and generic anaphoric references such as the disease. Gene/protein context alone is not a reason to reject an embedded explicit disease name.",
+    "Preserve disease-defining modifiers and coordinated constructions when they form the annotated mention. Do not additionally emit all shorter disease-name substrings.",
+    "Use local context to disambiguate acronym occurrences. Letters inside a different longer symbol are not automatically a separate disease mention."
+  ],
+  "examples": [
+    {
+      "source": "bioDataset/ncbi/train.json",
+      "sample_index": 0,
+      "sentence": "Identification of APC2 , a homologue of the adenomatous polyposis coli tumour suppressor .",
+      "entities": [
+        {
+          "name": "adenomatous polyposis coli tumour",
+          "type": "DISEASE",
+          "pos": [
+            44,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/ncbi/train.json",
+      "sample_index": 10,
+      "sentence": "A common MSH2 mutation in English and North American HNPCC families : origin , phenotypic expression , and sex specific differences in colorectal cancer .",
+      "entities": [
+        {
+          "name": "HNPCC",
+          "type": "DISEASE",
+          "pos": [
+            53,
+            58
+          ]
+        },
+        {
+          "name": "colorectal cancer",
+          "type": "DISEASE",
+          "pos": [
+            135,
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/ncbi/train.json",
+      "sample_index": 11,
+      "sentence": "The frequency , origin , and phenotypic expression of a germline MSH2 gene mutation previously identified in seven kindreds with hereditary non - polyposis cancer syndrome ( HNPCC ) was investigated .",
+      "entities": [
+        {
+          "name": "hereditary non - polyposis cancer syndrome",
+          "type": "DISEASE",
+          "pos": [
+            129,
+            171
+          ]
+        },
+        {
+          "name": "HNPCC",
+          "type": "DISEASE",
+          "pos": [
+            174,
+            179
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/ncbi/train.json",
+      "sample_index": 2,
+      "sentence": "Complex formation induces the rapid degradation of betacatenin .",
+      "entities": []
+    }
+  ]
+}

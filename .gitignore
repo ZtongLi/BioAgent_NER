@@ -20,6 +20,11 @@ ENV/
 .env
 .env.*
 !.env.example
+# Candidate configs contain plaintext API keys; keep them out of Git.
+config/candidate_discovery_agent/*/*_deepseek.json
+config/candidate_discovery_agent/*/*_gpt.json
+# Independent NER experiment configs contain local API keys.
+config/ner_agent/*/*.json
 
 # Logs
 *.log
@@ -40,3 +45,6 @@ chroma/
 
 # Jupyter
 .ipynb_checkpoints/
+
+# Local API keys
+APIkey

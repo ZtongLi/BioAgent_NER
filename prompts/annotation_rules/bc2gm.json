@@ -1,0 +1,77 @@
+{
+  "rules": [
+    "GENE includes named genes, gene products, proteins, enzymes, antibodies and named protein complexes when used as biological entities in this corpus.",
+    "Use the specific mention boundary supported by context. Gene/protein head nouns and modifiers sometimes belong to the annotation; they are not always included. Do not blindly append gene, protein, antibody, loci or promoter.",
+    "Separate independently named items in a list. Keep their original punctuation and spacing. Generic experimental methods and ordinary biological processes are not gene names.",
+    "A shorter core name inside a longer annotated mention is not automatically an additional entity."
+  ],
+  "examples": [
+    {
+      "source": "bioDataset/bc2gm1/train.json",
+      "sample_index": 11,
+      "sentence": "Serum gamma glutamyltransferase in the diagnosis of liver disease in cattle .",
+      "entities": [
+        {
+          "name": "Serum gamma glutamyltransferase",
+          "type": "GENE",
+          "pos": [
+            0,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/bc2gm1/train.json",
+      "sample_index": 15,
+      "sentence": "Takayasu ' s disease : association with HLA - B5 .",
+      "entities": [
+        {
+          "name": "HLA - B5",
+          "type": "GENE",
+          "pos": [
+            40,
+            48
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/bc2gm1/train.json",
+      "sample_index": 16,
+      "sentence": "SGPT , SGOT , and alkaline phosphatase concentrations were essentially normal in all subjects .",
+      "entities": [
+        {
+          "name": "SGPT",
+          "type": "GENE",
+          "pos": [
+            0,
+            4
+          ]
+        },
+        {
+          "name": "SGOT",
+          "type": "GENE",
+          "pos": [
+            7,
+            11
+          ]
+        },
+        {
+          "name": "alkaline phosphatase",
+          "type": "GENE",
+          "pos": [
+            18,
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "source": "bioDataset/bc2gm1/train.json",
+      "sample_index": 1,
+      "sentence": "Pharmacologic aspects of neonatal hyperbilirubinemia .",
+      "entities": []
+    }
+  ]
+}
