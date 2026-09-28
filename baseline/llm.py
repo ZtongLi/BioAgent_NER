@@ -16,7 +16,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ENTITY_TYPES = {
     "bc2gm": ["GENE"],
     "bc5cdr": ["CHEMICAL", "DISEASE"],
-    "ncbi_disease": ["DISEASE"],
+    "ncbi": ["DISEASE"],
 }
 
 
@@ -41,7 +41,7 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description="Run biomedical NER evaluation with an explicit LLM config and output file."
     )
-    parser.add_argument("--config", required=True, help="配置文件路径，例如 config/bc2gm_deepseek.json")
+    parser.add_argument("--config", required=True, help="配置文件路径，例如 config/baseline/bc2gm/bc2gm_deepseek.json")
     parser.add_argument("--output", help="预测结果 jsonl 保存路径；默认使用配置中的 save_file_path")
     return parser.parse_args()
 
@@ -78,7 +78,8 @@ Identify all entities that belong to the valid entity type labels.
 
 Return only a JSON list. Each item must have this schema:
 {{"text": "entity text", "type": "entity type", "start": 0, "end": 0}}
-The start and end values are character offsets in the sentence (start inclusive, end exclusive).
+The start and end values are zero-based character offsets in the sentence (start inclusive, end exclusive).
+The first character of the sentence has index 0.
 Return a separate item for each occurrence of an entity.
 Do not output combined labels such as "CHEMICAL, DISEASE".
 Do not wrap the JSON in markdown.
@@ -124,7 +125,7 @@ def calculate_metrics(true_positive, predicted_total, gold_total):
 def normalize_pred_entities(pred_entities, sentence):
     """Resolve predictions to mention spans; unmatched text remains a false positive."""
     normalized = set()
-    text_only = []
+    unresolved = []
     if not isinstance(pred_entities, list):
         logging.warning("LLM 返回 JSON 不是 list：%s", pred_entities)
         return normalized
@@ -149,27 +150,38 @@ def normalize_pred_entities(pred_entities, sentence):
                     and 0 <= start < end <= len(sentence)
                     and sentence[start:end].casefold() == text.casefold()):
                 normalized.add((start, end, entity_type))
+            elif (isinstance(start, int) and not isinstance(start, bool)
+                    and isinstance(end, int) and not isinstance(end, bool)
+                    and 1 <= start < end <= len(sentence) + 1
+                    and sentence[start - 1:end - 1].casefold() == text.casefold()):
+                logging.info("将 1-based 实体位置转换为 0-based：%s", entity)
+                normalized.add((start - 1, end - 1, entity_type))
             else:
-                normalized.add((-index - 1, -index - 1, entity_type))
+                unresolved.append((index, text, entity_type, start))
             continue
-        text_only.append((index, text, entity_type))
+        unresolved.append((index, text, entity_type, None))
 
-    # 兼容只返回 text/type 的模型：在显式位置之后分配尚未使用的出现位置。
-    for index, text, entity_type in text_only:
-        for match in re.finditer(re.escape(text), sentence, flags=re.IGNORECASE):
-            candidate = (match.start(), match.end(), entity_type)
-            if candidate not in normalized:
-                normalized.add(candidate)
-                break
+    # 位置不正确或未给位置时，用实体文本定位；多次出现时选最接近模型位置的一处。
+    for index, text, entity_type, start in unresolved:
+        candidates = [
+            (match.start(), match.end(), entity_type)
+            for match in re.finditer(re.escape(text), sentence, flags=re.IGNORECASE)
+            if (match.start(), match.end(), entity_type) not in normalized
+        ]
+        if candidates:
+            candidate = min(candidates, key=lambda span: abs(span[0] - start)) if isinstance(start, int) and not isinstance(start, bool) else candidates[0]
+            logging.info("按实体文本定位：%s -> %s", text, candidate)
+            normalized.add(candidate)
         else:
             # 无法定位的预测仍计入分母，不能当作没有预测。
+            logging.warning("实体文本无法在句子中定位：%s", text)
             normalized.add((-index - 1, -index - 1, entity_type))
 
     return normalized
 
 
 def save_summary(config, precision, recall, f1):
-    summary_path = PROJECT_ROOT / "result" / config["dataset"] / "summary_prf1.csv"
+    summary_path = PROJECT_ROOT / "result" / "baseline" / config["dataset"] / "summary_prf1.csv"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     file_exists = summary_path.exists()
 

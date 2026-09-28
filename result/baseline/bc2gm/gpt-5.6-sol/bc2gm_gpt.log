@@ -1,0 +1,996 @@
+2026-09-17 13:30:54,044 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-17 13:30:54,044 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm_gpt_predictions.jsonl
+2026-09-17 13:30:54,044 - INFO - Experiment: bc2gm_gpt
+2026-09-17 13:30:54,044 - INFO - Model: gpt-5.6-sol
+2026-09-17 13:30:54,046 - WARNING - LLM 调用失败：Environment variable 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 is not set.
+2026-09-17 13:30:56,052 - WARNING - LLM 调用失败：Environment variable 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 is not set.
+2026-09-17 13:30:58,057 - WARNING - LLM 调用失败：Environment variable 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 is not set.
+2026-09-17 13:31:00,060 - WARNING - LLM 调用失败：Environment variable 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 is not set.
+2026-09-17 13:31:02,066 - WARNING - LLM 调用失败：Environment variable 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 is not set.
+2026-09-17 13:31:04,068 - INFO - Precision: 0.0000
+2026-09-17 13:31:04,069 - INFO - Recall: 0.0000
+2026-09-17 13:31:04,069 - INFO - F1: 0.0000
+2026-09-17 13:37:19,565 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-17 13:37:19,565 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm_gpt_predictions.jsonl
+2026-09-17 13:37:19,565 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm_gpt_predictions.jsonl.bak.20260917_133719
+2026-09-17 13:37:19,565 - INFO - Experiment: bc2gm_gpt
+2026-09-17 13:37:19,565 - INFO - Model: gpt-5.6-sol
+2026-09-17 13:37:25,267 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:25,267 - INFO - Retrying request to /chat/completions in 0.466976 seconds
+2026-09-17 13:37:26,557 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:26,558 - INFO - Retrying request to /chat/completions in 0.968437 seconds
+2026-09-17 13:37:28,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:28,866 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:37:33,137 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:33,138 - INFO - Retrying request to /chat/completions in 0.438151 seconds
+2026-09-17 13:37:34,320 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:34,321 - INFO - Retrying request to /chat/completions in 0.929257 seconds
+2026-09-17 13:37:35,671 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:35,672 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:37:40,087 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:40,088 - INFO - Retrying request to /chat/completions in 0.437546 seconds
+2026-09-17 13:37:40,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:40,894 - INFO - Retrying request to /chat/completions in 0.788561 seconds
+2026-09-17 13:37:42,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:42,039 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:37:45,782 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:45,783 - INFO - Retrying request to /chat/completions in 0.446018 seconds
+2026-09-17 13:37:46,764 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:46,764 - INFO - Retrying request to /chat/completions in 0.966589 seconds
+2026-09-17 13:37:48,276 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:48,277 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:37:51,273 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:51,273 - INFO - Retrying request to /chat/completions in 0.436290 seconds
+2026-09-17 13:37:52,056 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:52,056 - INFO - Retrying request to /chat/completions in 0.762293 seconds
+2026-09-17 13:37:54,039 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:37:54,039 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:37:56,044 - INFO - Precision: 0.0000
+2026-09-17 13:37:56,044 - INFO - Recall: 0.0000
+2026-09-17 13:37:56,044 - INFO - F1: 0.0000
+2026-09-17 13:38:17,578 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-17 13:38:17,578 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm_gpt_predictions.jsonl
+2026-09-17 13:38:17,578 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm_gpt_predictions.jsonl.bak.20260917_133817
+2026-09-17 13:38:17,578 - INFO - Experiment: bc2gm_gpt
+2026-09-17 13:38:17,578 - INFO - Model: gpt-5.6-sol
+2026-09-17 13:38:19,385 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:19,386 - INFO - Retrying request to /chat/completions in 0.431029 seconds
+2026-09-17 13:38:20,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:20,203 - INFO - Retrying request to /chat/completions in 0.828478 seconds
+2026-09-17 13:38:21,438 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:21,439 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:38:34,664 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:34,665 - INFO - Retrying request to /chat/completions in 0.382816 seconds
+2026-09-17 13:38:35,428 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:35,428 - INFO - Retrying request to /chat/completions in 0.888809 seconds
+2026-09-17 13:38:36,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:36,654 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:38:44,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:44,234 - INFO - Retrying request to /chat/completions in 0.475299 seconds
+2026-09-17 13:38:45,381 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:45,382 - INFO - Retrying request to /chat/completions in 0.905429 seconds
+2026-09-17 13:38:47,146 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:47,147 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:38:54,233 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:54,234 - INFO - Retrying request to /chat/completions in 0.451595 seconds
+2026-09-17 13:38:55,272 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:55,273 - INFO - Retrying request to /chat/completions in 0.929998 seconds
+2026-09-17 13:38:56,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:38:56,785 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:39:03,947 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:39:03,948 - INFO - Retrying request to /chat/completions in 0.478944 seconds
+2026-09-17 13:39:05,000 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:39:05,001 - INFO - Retrying request to /chat/completions in 0.956618 seconds
+2026-09-17 13:39:07,662 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-09-17 13:39:07,663 - WARNING - LLM 调用失败：Error code: 429 - {'error': {'message': 'You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.', 'type': 'insufficient_quota', 'param': None, 'code': 'credit_balance_exhausted'}}
+2026-09-17 13:39:12,664 - INFO - Precision: 0.0000
+2026-09-17 13:39:12,665 - INFO - Recall: 0.0000
+2026-09-17 13:39:12,665 - INFO - F1: 0.0000
+2026-09-17 14:48:18,217 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-17 14:48:18,217 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm_gpt_predictions.jsonl
+2026-09-17 14:48:18,217 - INFO - Experiment: bc2gm_gpt
+2026-09-17 14:48:18,217 - INFO - Model: gpt-5.6-sol
+2026-09-17 14:48:21,805 - INFO - Retrying request to /chat/completions in 0.489518 seconds
+2026-09-17 14:48:38,858 - INFO - Retrying request to /chat/completions in 0.803818 seconds
+2026-09-17 14:48:44,209 - WARNING - LLM 调用失败：Connection error.
+2026-09-17 14:48:50,608 - INFO - Retrying request to /chat/completions in 0.420768 seconds
+2026-09-17 14:48:56,655 - INFO - Retrying request to /chat/completions in 0.861285 seconds
+2026-09-17 14:49:02,004 - WARNING - LLM 调用失败：Connection error.
+2026-09-17 14:49:07,629 - INFO - Retrying request to /chat/completions in 0.418518 seconds
+2026-09-17 14:49:15,720 - INFO - Retrying request to /chat/completions in 0.847689 seconds
+2026-09-17 14:49:16,738 - WARNING - LLM 调用失败：Connection error.
+2026-09-17 14:49:22,324 - INFO - Retrying request to /chat/completions in 0.496154 seconds
+2026-09-17 14:49:44,302 - INFO - Retrying request to /chat/completions in 0.863467 seconds
+2026-09-17 14:49:45,706 - WARNING - LLM 调用失败：Connection error.
+2026-09-17 14:49:58,383 - INFO - Retrying request to /chat/completions in 0.467448 seconds
+2026-09-17 14:50:00,366 - INFO - Retrying request to /chat/completions in 0.935026 seconds
+2026-09-17 14:50:01,987 - WARNING - LLM 调用失败：Connection error.
+2026-09-17 14:50:06,993 - INFO - Precision: 0.0000
+2026-09-17 14:50:06,993 - INFO - Recall: 0.0000
+2026-09-17 14:50:06,993 - INFO - F1: 0.0000
+2026-09-18 17:00:46,819 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:00:46,819 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:00:46,819 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_170046
+2026-09-18 17:00:46,819 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:00:46,819 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:00:47,188 - INFO - HTTP Request: POST http://tuluo.top:8000/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:00:47,189 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:00:52,423 - INFO - HTTP Request: POST http://tuluo.top:8000/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:00:52,424 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:00:57,677 - INFO - HTTP Request: POST http://tuluo.top:8000/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:00:57,678 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:01:02,912 - INFO - HTTP Request: POST http://tuluo.top:8000/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:01:02,912 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:01:08,104 - INFO - HTTP Request: POST http://tuluo.top:8000/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:01:08,105 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:01:13,110 - INFO - Precision: 0.0000
+2026-09-18 17:01:13,110 - INFO - Recall: 0.0000
+2026-09-18 17:01:13,110 - INFO - F1: 0.0000
+2026-09-18 17:08:13,764 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:08:13,765 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:08:13,765 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_170813
+2026-09-18 17:08:13,765 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:08:13,765 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:08:13,988 - INFO - HTTP Request: POST http://tuluo.top:8000/v1/responses/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:08:13,989 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:08:19,170 - INFO - HTTP Request: POST http://tuluo.top:8000/v1/responses/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:08:19,171 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:08:24,401 - INFO - HTTP Request: POST http://tuluo.top:8000/v1/responses/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:08:24,402 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:08:29,609 - INFO - HTTP Request: POST http://tuluo.top:8000/v1/responses/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:08:29,610 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:08:34,851 - INFO - HTTP Request: POST http://tuluo.top:8000/v1/responses/chat/completions "HTTP/1.1 404 Not Found"
+2026-09-18 17:08:34,852 - WARNING - LLM 调用失败：Error code: 404 - {'detail': 'Not Found'}
+2026-09-18 17:08:39,854 - INFO - Precision: 0.0000
+2026-09-18 17:08:39,854 - INFO - Recall: 0.0000
+2026-09-18 17:08:39,855 - INFO - F1: 0.0000
+2026-09-18 17:18:35,231 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:18:35,232 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:18:35,232 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_171835
+2026-09-18 17:18:35,232 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:18:35,232 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:18:35,375 - INFO - Retrying request to /chat/completions in 0.413958 seconds
+2026-09-18 17:18:35,795 - INFO - Retrying request to /chat/completions in 0.931696 seconds
+2026-09-18 17:18:36,730 - WARNING - LLM 调用失败：Connection error.
+2026-09-18 17:18:41,790 - INFO - Retrying request to /chat/completions in 0.413729 seconds
+2026-09-18 17:18:42,211 - INFO - Retrying request to /chat/completions in 0.831412 seconds
+2026-09-18 17:18:43,049 - WARNING - LLM 调用失败：Connection error.
+2026-09-18 17:18:48,111 - INFO - Retrying request to /chat/completions in 0.407106 seconds
+2026-09-18 17:18:48,525 - INFO - Retrying request to /chat/completions in 0.934209 seconds
+2026-09-18 17:18:49,467 - WARNING - LLM 调用失败：Connection error.
+2026-09-18 17:18:54,525 - INFO - Retrying request to /chat/completions in 0.431430 seconds
+2026-09-18 17:18:54,964 - INFO - Retrying request to /chat/completions in 0.788333 seconds
+2026-09-18 17:18:55,758 - WARNING - LLM 调用失败：Connection error.
+2026-09-18 17:19:00,815 - INFO - Retrying request to /chat/completions in 0.480843 seconds
+2026-09-18 17:19:01,302 - INFO - Retrying request to /chat/completions in 0.894392 seconds
+2026-09-18 17:19:02,204 - WARNING - LLM 调用失败：Connection error.
+2026-09-18 17:19:07,206 - INFO - Precision: 0.0000
+2026-09-18 17:19:07,206 - INFO - Recall: 0.0000
+2026-09-18 17:19:07,206 - INFO - F1: 0.0000
+2026-09-18 17:23:46,462 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:23:46,462 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:23:46,462 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_172346
+2026-09-18 17:23:46,462 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:23:46,462 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:24:01,441 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:24:40,284 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:24:51,000 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:25:02,438 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:25:11,136 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:25:16,140 - INFO - Precision: 0.0000
+2026-09-18 17:25:16,140 - INFO - Recall: 0.0000
+2026-09-18 17:25:16,140 - INFO - F1: 0.0000
+2026-09-18 17:31:33,504 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:31:33,504 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:31:33,504 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_173133
+2026-09-18 17:31:33,504 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:31:33,504 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:31:48,253 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:31:53,272 - WARNING - 实体文本与位置不匹配：{'text': 'PTA1', 'type': 'GENE', 'start': 88, 'end': 92}
+2026-09-18 17:32:53,546 - INFO - Retrying request to /chat/completions in 0.376957 seconds
+2026-09-18 17:33:19,235 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:33:24,239 - WARNING - 实体文本与位置不匹配：{'text': 'CD4', 'type': 'GENE', 'start': 358, 'end': 361}
+2026-09-18 17:33:28,488 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:33:37,382 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:33:48,889 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:34:43,216 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:34:48,218 - WARNING - 实体文本与位置不匹配：{'text': 'mu4', 'type': 'GENE', 'start': 240, 'end': 243}
+2026-09-18 17:34:48,218 - WARNING - 实体文本与位置不匹配：{'text': 'mu - ARP2', 'type': 'GENE', 'start': 246, 'end': 255}
+2026-09-18 17:34:48,218 - WARNING - 实体文本与位置不匹配：{'text': 'epsilon', 'type': 'GENE', 'start': 262, 'end': 269}
+2026-09-18 17:34:52,023 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:35:04,319 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:35:16,763 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:39:19,837 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:39:19,837 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:39:19,837 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_173919
+2026-09-18 17:39:19,837 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:39:19,837 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:39:59,635 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:40:04,651 - INFO - 按实体文本定位：platelet and T cell activation antigen 1 -> (46, 86, 'GENE')
+2026-09-18 17:40:04,651 - INFO - 按实体文本定位：PTA1 -> (89, 93, 'GENE')
+2026-09-18 17:41:01,994 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:41:07,004 - INFO - 按实体文本定位：CD4 -> (367, 370, 'GENE')
+2026-09-18 17:41:35,943 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:41:57,232 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:42:30,460 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 17:43:35,625 - INFO - Retrying request to /chat/completions in 0.433004 seconds
+2026-09-18 17:44:36,179 - INFO - Retrying request to /chat/completions in 0.902318 seconds
+2026-09-18 17:45:37,203 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 17:49:42,470 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 17:49:42,470 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 17:49:42,470 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_174942
+2026-09-18 17:49:42,470 - INFO - Experiment: bc2gm_gpt
+2026-09-18 17:49:42,470 - INFO - Model: gpt-5.6-sol
+2026-09-18 17:49:42,472 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:49:47,477 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:49:52,481 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:49:57,486 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:02,487 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:07,492 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:12,497 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:17,498 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:22,500 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:27,502 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:32,506 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:37,507 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:42,508 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:47,514 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:52,518 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:50:57,523 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:51:02,524 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 17:51:07,528 - WARNING - LLM 调用失败：Environment variable OPENAI_API_KEY is not set.
+2026-09-18 18:05:45,075 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_gpt.json
+2026-09-18 18:05:45,075 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl
+2026-09-18 18:05:45,075 - INFO - Backed up previous output to: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl.bak.20260918_180545
+2026-09-18 18:05:45,075 - INFO - Experiment: bc2gm_gpt
+2026-09-18 18:05:45,075 - INFO - Model: gpt-5.6-sol
+2026-09-18 18:06:46,473 - INFO - Retrying request to /chat/completions in 0.441500 seconds
+2026-09-18 18:07:47,029 - INFO - Retrying request to /chat/completions in 0.872865 seconds
+2026-09-18 18:08:48,038 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 18:09:53,217 - INFO - Retrying request to /chat/completions in 0.377567 seconds
+2026-09-18 18:10:53,768 - INFO - Retrying request to /chat/completions in 0.933358 seconds
+2026-09-18 18:11:54,822 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 18:13:01,463 - INFO - Retrying request to /chat/completions in 0.396048 seconds
+2026-09-18 18:14:03,668 - INFO - Retrying request to /chat/completions in 0.762834 seconds
+2026-09-18 18:14:23,291 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:15:03,287 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:16:01,833 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:16:15,360 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:16:20,366 - INFO - 按实体文本定位：beta4 -> (92, 97, 'GENE')
+2026-09-18 18:16:20,366 - INFO - 按实体文本定位：sigma4 -> (173, 179, 'GENE')
+2026-09-18 18:16:20,366 - INFO - 按实体文本定位：mu4 -> (242, 245, 'GENE')
+2026-09-18 18:16:20,366 - INFO - 按实体文本定位：epsilon -> (264, 271, 'GENE')
+2026-09-18 18:16:44,906 - INFO - Retrying request to /chat/completions in 0.425341 seconds
+2026-09-18 18:16:55,052 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:17:08,125 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:17:29,678 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:17:44,801 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:18:50,507 - INFO - Retrying request to /chat/completions in 0.386134 seconds
+2026-09-18 18:19:51,583 - INFO - Retrying request to /chat/completions in 0.783826 seconds
+2026-09-18 18:19:59,602 - WARNING - LLM 调用失败：Connection error.
+2026-09-18 18:21:04,788 - INFO - Retrying request to /chat/completions in 0.477140 seconds
+2026-09-18 18:22:01,711 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:22:55,644 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:23:31,793 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:23:36,799 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'heat shock factor 1', 'type': 'GENE', 'start': 51, 'end': 70}
+2026-09-18 18:24:37,018 - INFO - Retrying request to /chat/completions in 0.392686 seconds
+2026-09-18 18:25:11,151 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:25:16,156 - INFO - 按实体文本定位：OBFs -> (40, 44, 'GENE')
+2026-09-18 18:25:45,133 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:26:22,918 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:27:05,869 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:27:34,152 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:27:56,053 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:28:11,527 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:28:33,531 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:28:59,320 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:29:04,327 - INFO - 按实体文本定位：IgE -> (257, 260, 'GENE')
+2026-09-18 18:29:14,848 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:29:39,586 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:30:12,920 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:30:46,165 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:31:04,490 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:31:17,737 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:31:36,678 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:31:45,741 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:32:15,734 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:32:31,142 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:33:03,126 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:33:08,129 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'TH', 'type': 'GENE', 'start': 154, 'end': 156}
+2026-09-18 18:34:08,294 - INFO - Retrying request to /chat/completions in 0.399351 seconds
+2026-09-18 18:34:16,692 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:34:33,591 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:34:46,809 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:35:03,597 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:35:57,886 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:36:07,337 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:36:15,039 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:36:27,310 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:36:43,153 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:36:55,028 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:37:31,630 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:37:40,383 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:38:32,549 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:38:53,395 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:39:05,058 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:40:10,310 - INFO - Retrying request to /chat/completions in 0.384338 seconds
+2026-09-18 18:40:49,794 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:41:38,967 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:41:43,973 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'Shc', 'type': 'GENE', 'start': 54, 'end': 57}
+2026-09-18 18:41:43,973 - INFO - 按实体文本定位：p21ras -> (124, 130, 'GENE')
+2026-09-18 18:42:17,479 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:42:32,880 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:43:38,053 - INFO - Retrying request to /chat/completions in 0.419180 seconds
+2026-09-18 18:44:38,814 - INFO - Retrying request to /chat/completions in 0.995323 seconds
+2026-09-18 18:45:03,279 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:45:08,282 - INFO - 按实体文本定位：TRADD -> (37, 42, 'GENE')
+2026-09-18 18:45:08,282 - INFO - 按实体文本定位：TRAF2 -> (47, 52, 'GENE')
+2026-09-18 18:45:08,283 - INFO - 按实体文本定位：JNK -> (56, 59, 'GENE')
+2026-09-18 18:45:08,283 - INFO - 按实体文本定位：LMP1 -> (88, 92, 'GENE')
+2026-09-18 18:45:08,283 - INFO - 按实体文本定位：TNF -> (136, 139, 'GENE')
+2026-09-18 18:45:08,283 - INFO - 按实体文本定位：CD40 -> (151, 155, 'GENE')
+2026-09-18 18:45:17,882 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:45:27,820 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:45:35,824 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:45:46,731 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:46:07,136 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:46:12,143 - INFO - 按实体文本定位：frk -> (145, 148, 'GENE')
+2026-09-18 18:46:17,100 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:46:48,240 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:46:53,243 - INFO - 按实体文本定位：EIAV Tat -> (41, 49, 'GENE')
+2026-09-18 18:47:05,852 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:47:31,528 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:47:40,540 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:48:04,092 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:48:09,094 - INFO - 按实体文本定位：c - fos -> (74, 81, 'GENE')
+2026-09-18 18:48:09,094 - INFO - 按实体文本定位：ATF -> (113, 116, 'GENE')
+2026-09-18 18:48:09,094 - INFO - 按实体文本定位：CREB -> (119, 123, 'GENE')
+2026-09-18 18:48:23,432 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:48:33,539 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:48:45,452 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:49:18,846 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:49:30,542 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:49:39,455 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:49:48,492 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:50:07,249 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:51:12,255 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:51:17,260 - INFO - 按实体文本定位：phospholipase Cgamma2 -> (165, 186, 'GENE')
+2026-09-18 18:51:17,261 - INFO - 按实体文本定位：PLC - gamma2 -> (189, 201, 'GENE')
+2026-09-18 18:51:35,846 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:51:45,990 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:52:09,150 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:52:14,155 - INFO - 按实体文本定位：glutathione peroxidase -> (103, 125, 'GENE')
+2026-09-18 18:52:17,782 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:52:27,405 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:52:44,121 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:53:00,771 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:53:23,843 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:53:39,136 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:54:08,402 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:54:13,409 - INFO - 按实体文本定位：TEF - 1 -> (115, 122, 'GENE')
+2026-09-18 18:54:13,409 - INFO - 按实体文本定位：TEF - 1beta -> (134, 145, 'GENE')
+2026-09-18 18:54:13,409 - INFO - 按实体文本定位：TEF - 1gamma -> (150, 162, 'GENE')
+2026-09-18 18:54:20,762 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:54:51,917 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:55:04,039 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:55:17,243 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:55:31,373 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:55:46,968 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:56:01,199 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:56:35,216 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:56:40,222 - INFO - 按实体文本定位：21K -> (127, 130, 'GENE')
+2026-09-18 18:56:40,223 - INFO - 按实体文本定位：21K -> (164, 167, 'GENE')
+2026-09-18 18:56:46,993 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:57:02,694 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:57:07,700 - INFO - 按实体文本定位：RIL -> (141, 144, 'GENE')
+2026-09-18 18:57:07,700 - INFO - 按实体文本定位：IRF1 -> (180, 184, 'GENE')
+2026-09-18 18:57:17,347 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:57:27,418 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:58:24,945 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:58:59,209 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 18:59:13,549 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:00:14,999 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:00:30,145 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:00:51,153 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:01:14,655 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:01:29,506 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:01:47,914 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:02:09,484 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:03:05,988 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:03:10,994 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'tat', 'type': 'GENE', 'start': 146, 'end': 149}
+2026-09-18 19:03:10,994 - INFO - 按实体文本定位：tat -> (240, 243, 'GENE')
+2026-09-18 19:03:18,203 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:03:31,733 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:03:57,706 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:04:43,839 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:05:37,366 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:06:19,572 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:06:24,576 - INFO - 按实体文本定位：p53 -> (46, 49, 'GENE')
+2026-09-18 19:06:52,657 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:07:36,574 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:07:41,585 - INFO - 按实体文本定位：retinoic acid receptor -> (82, 104, 'GENE')
+2026-09-18 19:07:41,585 - INFO - 按实体文本定位：retinoid - X receptor -> (107, 128, 'GENE')
+2026-09-18 19:07:51,591 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:08:17,141 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:08:28,830 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:08:45,807 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:09:00,255 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:09:18,618 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:10:19,799 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:10:24,806 - INFO - 按实体文本定位：tuf -> (69, 72, 'GENE')
+2026-09-18 19:10:31,988 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:11:04,494 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:11:44,965 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:12:29,101 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:12:51,696 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:13:13,752 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:14:12,595 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:14:43,005 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:15:48,192 - INFO - Retrying request to /chat/completions in 0.448431 seconds
+2026-09-18 19:16:48,774 - INFO - Retrying request to /chat/completions in 0.966560 seconds
+2026-09-18 19:17:27,742 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:17:32,744 - INFO - 按实体文本定位：CREB -> (58, 62, 'GENE')
+2026-09-18 19:17:32,745 - INFO - 按实体文本定位：Interleukin - 2 -> (110, 125, 'GENE')
+2026-09-18 19:17:32,745 - INFO - 按实体文本定位：IL - 2 -> (128, 134, 'GENE')
+2026-09-18 19:17:59,606 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:18:39,088 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:18:44,095 - INFO - 按实体文本定位：LR -> (87, 89, 'GENE')
+2026-09-18 19:19:03,739 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:19:56,634 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:20:55,536 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:21:00,542 - INFO - 按实体文本定位：doublesex -> (153, 162, 'GENE')
+2026-09-18 19:21:24,604 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:21:29,610 - INFO - 按实体文本定位：TRADD -> (33, 38, 'GENE')
+2026-09-18 19:21:29,610 - INFO - 按实体文本定位：TRAF2 -> (103, 108, 'GENE')
+2026-09-18 19:21:29,611 - INFO - 按实体文本定位：LMP1 -> (147, 151, 'GENE')
+2026-09-18 19:21:29,611 - INFO - 按实体文本定位：JNK -> (162, 165, 'GENE')
+2026-09-18 19:22:29,791 - INFO - Retrying request to /chat/completions in 0.474945 seconds
+2026-09-18 19:23:06,733 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:23:34,892 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:23:39,888 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'MQ9b', 'type': 'GENE', 'start': 55, 'end': 59}
+2026-09-18 19:23:53,854 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:24:13,182 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:24:44,159 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:24:49,166 - INFO - 按实体文本定位：cyclin D1 -> (27, 36, 'GENE')
+2026-09-18 19:25:05,663 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:26:10,841 - INFO - Retrying request to /chat/completions in 0.375683 seconds
+2026-09-18 19:27:11,342 - INFO - Retrying request to /chat/completions in 0.797619 seconds
+2026-09-18 19:28:12,585 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 19:28:39,067 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:29:45,014 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:29:50,021 - INFO - 按实体文本定位：c - myc -> (59, 66, 'GENE')
+2026-09-18 19:29:50,021 - INFO - 按实体文本定位：c - myc -> (125, 132, 'GENE')
+2026-09-18 19:30:39,647 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:30:44,653 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'Smad', 'type': 'GENE', 'start': 127, 'end': 131}
+2026-09-18 19:30:44,653 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'TAK1', 'type': 'GENE', 'start': 136, 'end': 140}
+2026-09-18 19:31:08,764 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:31:37,181 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:31:52,342 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:32:21,277 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:32:26,283 - INFO - 按实体文本定位：S100 -> (109, 113, 'GENE')
+2026-09-18 19:32:53,430 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:33:03,282 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:33:24,663 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:33:56,819 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:34:40,689 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:34:45,690 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'ERK2', 'type': 'GENE', 'start': 100, 'end': 104}
+2026-09-18 19:34:45,690 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'ERK', 'type': 'GENE', 'start': 148, 'end': 151}
+2026-09-18 19:34:45,690 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'TBP', 'type': 'GENE', 'start': 182, 'end': 185}
+2026-09-18 19:35:29,290 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:35:34,293 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'p53', 'type': 'GENE', 'start': 167, 'end': 170}
+2026-09-18 19:35:34,294 - INFO - 按实体文本定位：p53 -> (306, 309, 'GENE')
+2026-09-18 19:36:16,566 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:36:51,923 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:37:17,972 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:37:42,350 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:37:47,355 - INFO - 按实体文本定位：ras -> (36, 39, 'GENE')
+2026-09-18 19:37:47,355 - INFO - 按实体文本定位：TIS10 -> (57, 62, 'GENE')
+2026-09-18 19:37:47,355 - INFO - 按实体文本定位：PGS2 -> (65, 69, 'GENE')
+2026-09-18 19:37:47,356 - INFO - 按实体文本定位：v - src -> (83, 90, 'GENE')
+2026-09-18 19:38:12,350 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:38:35,042 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:38:48,456 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:39:02,817 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:39:53,066 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:40:11,497 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:40:16,500 - INFO - 按实体文本定位：Ras -> (30, 33, 'GENE')
+2026-09-18 19:40:16,501 - INFO - 按实体文本定位：PI 3 - kinase -> (65, 78, 'GENE')
+2026-09-18 19:40:16,501 - INFO - 按实体文本定位：Pak -> (111, 114, 'GENE')
+2026-09-18 19:40:53,951 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:41:04,855 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:41:37,206 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:41:42,213 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'Sp100', 'type': 'GENE', 'start': 166, 'end': 171}
+2026-09-18 19:42:09,351 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:42:25,963 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:43:02,697 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:43:07,700 - INFO - 按实体文本定位：HMT1 -> (67, 71, 'GENE')
+2026-09-18 19:43:21,052 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:43:35,357 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:43:53,816 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:44:03,412 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:44:15,423 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:45:05,466 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:45:31,712 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:46:07,883 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:47:00,289 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:47:05,296 - INFO - 按实体文本定位：Ral - GEF -> (239, 248, 'GENE')
+2026-09-18 19:47:13,192 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:47:27,834 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:47:43,698 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:48:23,234 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:48:36,648 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:48:50,206 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:49:03,725 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:49:16,483 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:49:37,270 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:50:01,642 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:50:06,651 - INFO - 按实体文本定位：areA -> (9, 13, 'GENE')
+2026-09-18 19:50:24,889 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:50:55,904 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:51:42,458 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:51:47,469 - INFO - 按实体文本定位：URA2 -> (121, 125, 'GENE')
+2026-09-18 19:51:51,826 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:52:01,345 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:52:10,465 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:52:24,843 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:52:33,197 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:52:54,667 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:53:08,831 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:53:25,830 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:53:30,842 - INFO - 按实体文本定位：Ckappa1 -> (126, 133, 'GENE')
+2026-09-18 19:53:48,154 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:53:53,165 - INFO - 按实体文本定位：enkephalin -> (99, 109, 'GENE')
+2026-09-18 19:53:53,166 - INFO - 按实体文本定位：rENK -> (112, 116, 'GENE')
+2026-09-18 19:53:53,166 - INFO - 按实体文本定位：enkephalin -> (163, 173, 'GENE')
+2026-09-18 19:54:01,406 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:54:26,361 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:54:40,966 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:55:01,213 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:55:24,104 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:55:29,115 - INFO - 按实体文本定位：6K -> (46, 48, 'GENE')
+2026-09-18 19:55:51,823 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:56:02,661 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:56:23,074 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:56:38,135 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:56:55,882 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:57:17,069 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:57:32,782 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:58:01,410 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:58:06,416 - INFO - 按实体文本定位：28S ribosomal RNA -> (88, 105, 'GENE')
+2026-09-18 19:58:18,218 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:58:34,572 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:58:55,106 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:59:00,112 - INFO - 按实体文本定位：MACF -> (94, 98, 'GENE')
+2026-09-18 19:59:11,337 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:59:28,638 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:59:53,983 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 19:59:58,988 - INFO - 按实体文本定位：B2 -> (30, 32, 'GENE')
+2026-09-18 20:00:09,518 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:00:32,738 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:01:15,262 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:01:30,811 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:01:39,247 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:01:57,820 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:02:09,279 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:02:33,026 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:03:00,181 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:03:05,185 - INFO - 按实体文本定位：ANP -> (173, 176, 'GENE')
+2026-09-18 20:03:19,996 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:03:34,741 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:03:47,668 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:04:03,995 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:04:50,472 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:05:48,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:05:53,549 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'MDR', 'type': 'GENE', 'start': 78, 'end': 81}
+2026-09-18 20:05:53,550 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'LTR', 'type': 'GENE', 'start': 84, 'end': 87}
+2026-09-18 20:05:53,550 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'BSP', 'type': 'GENE', 'start': 92, 'end': 95}
+2026-09-18 20:05:53,550 - INFO - 按实体文本定位：AML -> (189, 192, 'GENE')
+2026-09-18 20:06:09,017 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:06:20,087 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:06:32,475 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:06:53,225 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:06:58,229 - INFO - 按实体文本定位：creatine kinase -> (82, 97, 'GENE')
+2026-09-18 20:07:26,841 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:07:31,848 - INFO - 按实体文本定位：VP16 -> (138, 142, 'GENE')
+2026-09-18 20:07:52,044 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:08:16,517 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:08:21,523 - INFO - 按实体文本定位：Mpl -> (124, 127, 'GENE')
+2026-09-18 20:08:21,524 - INFO - 按实体文本定位：mMpl -> (146, 150, 'GENE')
+2026-09-18 20:08:26,260 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:09:31,417 - INFO - Retrying request to /chat/completions in 0.495480 seconds
+2026-09-18 20:10:32,046 - INFO - Retrying request to /chat/completions in 0.766630 seconds
+2026-09-18 20:11:32,949 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 20:11:59,350 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:12:04,357 - INFO - 按实体文本定位：SSC1 -> (37, 41, 'GENE')
+2026-09-18 20:12:51,284 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:13:32,239 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:14:37,411 - INFO - Retrying request to /chat/completions in 0.378371 seconds
+2026-09-18 20:15:37,913 - INFO - Retrying request to /chat/completions in 0.973841 seconds
+2026-09-18 20:16:39,017 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 20:17:01,320 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:17:11,267 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:17:52,236 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:18:15,996 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:18:48,953 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:19:03,069 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:19:29,077 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:20:29,320 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:20:34,326 - INFO - 按实体文本定位：ENK -> (188, 191, 'GENE')
+2026-09-18 20:21:09,052 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:21:14,058 - INFO - 按实体文本定位：JNK -> (71, 74, 'GENE')
+2026-09-18 20:21:14,058 - INFO - 按实体文本定位：TRADD -> (140, 145, 'GENE')
+2026-09-18 20:21:14,059 - INFO - 按实体文本定位：TRAF2 -> (150, 155, 'GENE')
+2026-09-18 20:21:45,303 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:22:05,169 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:23:00,247 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:23:05,256 - INFO - 按实体文本定位：erbB1 -> (165, 170, 'GENE')
+2026-09-18 20:23:05,257 - INFO - 按实体文本定位：SHC -> (173, 176, 'GENE')
+2026-09-18 20:23:05,257 - INFO - 按实体文本定位：CDKIs -> (221, 226, 'GENE')
+2026-09-18 20:24:05,416 - INFO - Retrying request to /chat/completions in 0.493667 seconds
+2026-09-18 20:24:45,071 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:25:38,715 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:25:59,975 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:27:05,146 - INFO - Retrying request to /chat/completions in 0.491558 seconds
+2026-09-18 20:28:02,669 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:28:07,675 - INFO - 按实体文本定位：S27a -> (47, 51, 'GENE')
+2026-09-18 20:28:07,675 - INFO - 按实体文本定位：ubiquitin -> (60, 69, 'GENE')
+2026-09-18 20:28:07,675 - INFO - 按实体文本定位：ubiquitin -> (205, 214, 'GENE')
+2026-09-18 20:28:07,676 - INFO - 按实体文本定位：S27a -> (217, 221, 'GENE')
+2026-09-18 20:28:38,997 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:29:44,196 - INFO - Retrying request to /chat/completions in 0.379538 seconds
+2026-09-18 20:30:02,445 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:30:33,297 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:31:36,946 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:31:41,953 - INFO - 按实体文本定位：E1 -> (142, 144, 'GENE')
+2026-09-18 20:31:49,150 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:32:34,189 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:32:45,518 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:33:35,117 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:34:40,305 - INFO - Retrying request to /chat/completions in 0.451721 seconds
+2026-09-18 20:34:52,430 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:35:01,032 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:35:24,994 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:36:15,990 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:36:44,913 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:37:08,544 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:37:18,351 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:37:30,803 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:38:36,985 - INFO - Retrying request to /chat/completions in 0.449666 seconds
+2026-09-18 20:38:53,793 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:38:58,804 - INFO - 按实体文本定位：LDL receptor -> (96, 108, 'GENE')
+2026-09-18 20:38:58,805 - INFO - 按实体文本定位：SREBP -> (109, 114, 'GENE')
+2026-09-18 20:38:58,805 - INFO - 按实体文本定位：Sp1 -> (139, 142, 'GENE')
+2026-09-18 20:38:58,805 - INFO - 按实体文本定位：buttonhead -> (186, 196, 'GENE')
+2026-09-18 20:39:05,053 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:39:51,748 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:39:56,759 - INFO - 按实体文本定位：SpEts4 -> (74, 80, 'GENE')
+2026-09-18 20:39:56,759 - INFO - 按实体文本定位：SpHE -> (134, 138, 'GENE')
+2026-09-18 20:40:21,854 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:40:26,860 - INFO - 按实体文本定位：p53 -> (121, 124, 'GENE')
+2026-09-18 20:40:26,861 - INFO - 按实体文本定位：p53 -> (214, 217, 'GENE')
+2026-09-18 20:40:44,797 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:40:59,948 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:41:24,155 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:41:55,142 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:43:00,320 - INFO - Retrying request to /chat/completions in 0.465291 seconds
+2026-09-18 20:44:00,904 - INFO - Retrying request to /chat/completions in 0.897818 seconds
+2026-09-18 20:44:55,572 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:45:00,578 - INFO - 按实体文本定位：thymidine kinase -> (117, 133, 'GENE')
+2026-09-18 20:45:00,578 - INFO - 按实体文本定位：TK -> (136, 138, 'GENE')
+2026-09-18 20:45:00,578 - INFO - 按实体文本定位：hypoxanthine phosphoribosyl transferase -> (173, 212, 'GENE')
+2026-09-18 20:45:00,579 - INFO - 按实体文本定位：HPRT -> (215, 219, 'GENE')
+2026-09-18 20:45:11,240 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:46:12,100 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:46:17,107 - INFO - 按实体文本定位：Notch1 -> (75, 81, 'GENE')
+2026-09-18 20:46:17,107 - INFO - 按实体文本定位：Notch2 -> (85, 91, 'GENE')
+2026-09-18 20:46:17,107 - INFO - 按实体文本定位：IgM -> (151, 154, 'GENE')
+2026-09-18 20:46:17,107 - INFO - 按实体文本定位：IgH -> (209, 212, 'GENE')
+2026-09-18 20:46:27,469 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:46:38,681 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:47:03,769 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:47:17,353 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:47:35,830 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:48:04,613 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:48:09,615 - INFO - 按实体文本定位：VBP -> (32, 35, 'GENE')
+2026-09-18 20:48:09,616 - INFO - 按实体文本定位：a1 / EBP -> (38, 46, 'GENE')
+2026-09-18 20:49:09,801 - INFO - Retrying request to /chat/completions in 0.433565 seconds
+2026-09-18 20:50:10,371 - INFO - Retrying request to /chat/completions in 0.856335 seconds
+2026-09-18 20:50:55,921 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:51:00,932 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'RT', 'type': 'GENE', 'start': 83, 'end': 85}
+2026-09-18 20:51:00,932 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'PR', 'type': 'GENE', 'start': 112, 'end': 114}
+2026-09-18 20:51:00,933 - INFO - 按实体文本定位：PR -> (164, 166, 'GENE')
+2026-09-18 20:51:00,933 - INFO - 按实体文本定位：Gag - Pol -> (177, 186, 'GENE')
+2026-09-18 20:51:00,933 - INFO - 按实体文本定位：RT -> (221, 223, 'GENE')
+2026-09-18 20:51:20,098 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:51:40,440 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:51:45,444 - INFO - 按实体文本定位：H - Ras -> (47, 54, 'GENE')
+2026-09-18 20:51:45,444 - INFO - 按实体文本定位：JNK -> (96, 99, 'GENE')
+2026-09-18 20:51:45,445 - INFO - 按实体文本定位：ERK -> (104, 107, 'GENE')
+2026-09-18 20:51:55,033 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:52:21,883 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:52:32,883 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:52:46,949 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:53:13,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:53:29,273 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:53:42,502 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:53:59,555 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:54:22,466 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:54:35,786 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:54:48,067 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:55:00,155 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:55:12,786 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:55:27,387 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:55:49,348 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:55:54,354 - INFO - 按实体文本定位：PI 3 - kinase -> (53, 66, 'GENE')
+2026-09-18 20:55:54,355 - INFO - 按实体文本定位：PI 3 - kinase -> (123, 136, 'GENE')
+2026-09-18 20:55:54,355 - INFO - 按实体文本定位：p85 -> (180, 183, 'GENE')
+2026-09-18 20:56:01,603 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:56:30,263 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:56:35,267 - INFO - 按实体文本定位：VDR -> (89, 92, 'GENE')
+2026-09-18 20:56:42,857 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:56:52,996 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:57:03,853 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:57:18,016 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:57:30,719 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:57:43,311 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:57:57,712 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:58:12,227 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:58:28,467 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:58:39,143 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:59:09,343 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:59:14,347 - INFO - 按实体文本定位：OSBP -> (37, 41, 'GENE')
+2026-09-18 20:59:14,347 - INFO - 按实体文本定位：ORP - 1 -> (74, 81, 'GENE')
+2026-09-18 20:59:14,347 - INFO - 按实体文本定位：ORP - 6 -> (85, 92, 'GENE')
+2026-09-18 20:59:23,078 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:59:33,837 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 20:59:50,734 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:00:07,663 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:00:18,995 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:00:52,992 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:01:07,495 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:02:00,677 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:02:05,682 - INFO - 按实体文本定位：AhrC -> (352, 356, 'GENE')
+2026-09-18 21:02:32,012 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:02:37,020 - INFO - 按实体文本定位：c - IAP1 -> (144, 152, 'GENE')
+2026-09-18 21:02:45,441 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:02:57,407 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:03:10,002 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:03:29,971 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:03:34,981 - INFO - 按实体文本定位：AP - 2 -> (34, 40, 'GENE')
+2026-09-18 21:03:34,982 - INFO - 按实体文本定位：Egr - 1 -> (52, 59, 'GENE')
+2026-09-18 21:03:34,982 - INFO - 按实体文本定位：VPF / VEGF -> (88, 98, 'GENE')
+2026-09-18 21:03:34,982 - INFO - 按实体文本定位：AP - 2 -> (136, 142, 'GENE')
+2026-09-18 21:03:34,982 - INFO - 按实体文本定位：TGF alpha -> (180, 189, 'GENE')
+2026-09-18 21:03:34,982 - INFO - 按实体文本定位：VPF / VEGF -> (200, 210, 'GENE')
+2026-09-18 21:03:50,870 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:04:56,045 - INFO - Retrying request to /chat/completions in 0.386574 seconds
+2026-09-18 21:05:56,558 - INFO - Retrying request to /chat/completions in 0.877239 seconds
+2026-09-18 21:06:28,709 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:06:33,716 - INFO - 按实体文本定位：IL - 2R L chain -> (136, 151, 'GENE')
+2026-09-18 21:06:37,876 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:06:47,236 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:06:56,310 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:07:14,363 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:07:24,804 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:07:35,987 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:08:20,993 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:08:25,999 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'PEPCK', 'type': 'GENE', 'start': 69, 'end': 74}
+2026-09-18 21:08:26,000 - INFO - 按实体文本定位：PKA -> (77, 80, 'GENE')
+2026-09-18 21:08:26,000 - INFO - 按实体文本定位：CREB -> (125, 129, 'GENE')
+2026-09-18 21:08:26,000 - INFO - 按实体文本定位：PEPCK -> (158, 163, 'GENE')
+2026-09-18 21:08:30,761 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:08:50,597 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:08:55,604 - INFO - 按实体文本定位：Rex - 1 -> (70, 77, 'GENE')
+2026-09-18 21:09:02,129 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:09:25,915 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:09:34,312 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:10:16,531 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:10:24,935 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:11:07,365 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:11:23,574 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:12:12,726 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:12:28,244 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:13:19,699 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:13:29,209 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:13:50,211 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:13:55,221 - INFO - 按实体文本定位：decorin -> (69, 76, 'GENE')
+2026-09-18 21:13:55,221 - INFO - 按实体文本定位：biglycan -> (81, 89, 'GENE')
+2026-09-18 21:14:01,731 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:14:14,171 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:14:58,789 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:15:08,106 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:15:29,210 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:15:38,894 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:16:13,001 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:16:18,007 - INFO - 按实体文本定位：E1 -> (112, 114, 'GENE')
+2026-09-18 21:16:26,181 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:16:49,597 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:17:01,384 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:17:21,185 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:17:33,416 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:17:43,583 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:17:53,641 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:18:05,794 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:18:15,324 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:18:29,868 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:18:34,871 - INFO - 按实体文本定位：NF1 -> (13, 16, 'GENE')
+2026-09-18 21:18:34,872 - INFO - 按实体文本定位：IE68 -> (66, 70, 'GENE')
+2026-09-18 21:18:40,955 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:19:01,141 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:19:17,006 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:20:16,306 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:20:21,311 - INFO - 按实体文本定位：rho -> (109, 112, 'GENE')
+2026-09-18 21:20:21,312 - INFO - 按实体文本定位：rho -> (244, 247, 'GENE')
+2026-09-18 21:20:42,300 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:20:47,305 - INFO - 按实体文本定位：BAR1 -> (179, 183, 'GENE')
+2026-09-18 21:20:56,125 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:21:32,685 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:21:37,688 - INFO - 按实体文本定位：PKC -> (78, 81, 'GENE')
+2026-09-18 21:21:37,688 - INFO - 按实体文本定位：beta - PKC -> (103, 113, 'GENE')
+2026-09-18 21:21:37,688 - INFO - 按实体文本定位：nPKC -> (122, 126, 'GENE')
+2026-09-18 21:22:03,505 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:22:35,246 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:23:13,239 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:23:18,246 - INFO - 按实体文本定位：mtr1 -> (146, 150, 'GENE')
+2026-09-18 21:23:18,246 - INFO - 按实体文本定位：prp20 -> (153, 158, 'GENE')
+2026-09-18 21:23:18,246 - INFO - 按实体文本定位：srm1 -> (161, 165, 'GENE')
+2026-09-18 21:23:22,661 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:24:27,835 - INFO - Retrying request to /chat/completions in 0.497038 seconds
+2026-09-18 21:25:28,535 - INFO - Retrying request to /chat/completions in 0.783865 seconds
+2026-09-18 21:26:00,256 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:26:05,259 - INFO - 按实体文本定位：E4 - 6 / 7 -> (49, 59, 'GENE')
+2026-09-18 21:26:05,260 - INFO - 按实体文本定位：retinoblastoma -> (76, 90, 'GENE')
+2026-09-18 21:26:09,472 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:26:35,892 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:27:15,367 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:27:41,358 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:27:46,391 - INFO - 按实体文本定位：HNF1alpha -> (66, 75, 'GENE')
+2026-09-18 21:27:46,392 - INFO - 按实体文本定位：HNF4 -> (86, 90, 'GENE')
+2026-09-18 21:27:46,392 - INFO - 按实体文本定位：G6Pase -> (138, 144, 'GENE')
+2026-09-18 21:28:26,781 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:28:45,149 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:29:42,366 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:30:47,543 - INFO - Retrying request to /chat/completions in 0.425616 seconds
+2026-09-18 21:31:03,488 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:31:27,031 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:32:13,140 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:32:18,146 - INFO - 按实体文本定位：RPL21 -> (119, 124, 'GENE')
+2026-09-18 21:32:33,422 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:32:56,688 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:33:21,918 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:34:27,103 - INFO - Retrying request to /chat/completions in 0.468895 seconds
+2026-09-18 21:35:26,928 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:35:31,934 - INFO - 按实体文本定位：p21 -> (81, 84, 'GENE')
+2026-09-18 21:35:31,935 - INFO - 按实体文本定位：Cip1 -> (87, 91, 'GENE')
+2026-09-18 21:35:31,935 - INFO - 按实体文本定位：WAF1 -> (94, 98, 'GENE')
+2026-09-18 21:35:31,935 - INFO - 按实体文本定位：c - fos -> (184, 191, 'GENE')
+2026-09-18 21:35:47,129 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:36:52,350 - INFO - Retrying request to /chat/completions in 0.464418 seconds
+2026-09-18 21:37:53,028 - INFO - Retrying request to /chat/completions in 0.816192 seconds
+2026-09-18 21:38:53,964 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 21:39:48,388 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:39:53,394 - INFO - 按实体文本定位：polyhedrin -> (95, 105, 'GENE')
+2026-09-18 21:39:53,394 - INFO - 按实体文本定位：polyhedrin -> (133, 143, 'GENE')
+2026-09-18 21:40:11,492 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:40:39,999 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:41:01,028 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:41:31,917 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:42:37,138 - INFO - Retrying request to /chat/completions in 0.459457 seconds
+2026-09-18 21:43:37,732 - INFO - Retrying request to /chat/completions in 0.885673 seconds
+2026-09-18 21:44:38,816 - WARNING - LLM 调用失败：Request timed out.
+2026-09-18 21:45:43,988 - INFO - Retrying request to /chat/completions in 0.420304 seconds
+2026-09-18 21:46:09,004 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:46:14,008 - INFO - 按实体文本定位：betaGLU I -> (143, 152, 'GENE')
+2026-09-18 21:46:41,886 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:47:47,057 - INFO - Retrying request to /chat/completions in 0.398359 seconds
+2026-09-18 21:48:47,586 - INFO - Retrying request to /chat/completions in 0.910908 seconds
+2026-09-18 21:49:45,200 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:49:50,207 - INFO - 按实体文本定位：GHR -> (198, 201, 'GENE')
+2026-09-18 21:50:08,332 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:50:20,833 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:50:33,962 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:50:51,773 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:51:00,701 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:52:05,939 - INFO - Retrying request to /chat/completions in 0.463677 seconds
+2026-09-18 21:52:20,652 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:52:25,658 - INFO - 按实体文本定位：caveolin - 1 -> (100, 112, 'GENE')
+2026-09-18 21:53:09,479 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:53:25,659 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:53:35,598 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:54:03,704 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:54:44,461 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:55:34,070 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:55:52,358 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:56:55,880 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:57:00,887 - INFO - 按实体文本定位：plectin -> (138, 145, 'GENE')
+2026-09-18 21:57:00,887 - INFO - 按实体文本定位：desmoplakin -> (156, 167, 'GENE')
+2026-09-18 21:57:14,229 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:57:19,235 - INFO - 按实体文本定位：UHF - 1 -> (56, 63, 'GENE')
+2026-09-18 21:57:27,948 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:57:32,954 - INFO - 按实体文本定位：pVHL -> (22, 26, 'GENE')
+2026-09-18 21:58:03,523 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:58:40,984 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:59:03,183 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 21:59:22,627 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:00:18,194 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:00:23,199 - INFO - 按实体文本定位：IGF - BP - 2 -> (53, 65, 'GENE')
+2026-09-18 22:00:32,060 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:00:40,072 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:00:52,671 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:01:07,715 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:02:11,722 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:02:16,725 - INFO - 按实体文本定位：viral interferon regulatory factor -> (44, 78, 'GENE')
+2026-09-18 22:02:16,725 - INFO - 按实体文本定位：interferon - alpha -> (133, 151, 'GENE')
+2026-09-18 22:02:19,864 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:03:16,679 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:03:21,684 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'Hox genes', 'type': 'GENE', 'start': 173, 'end': 182}
+2026-09-18 22:03:53,164 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:04:21,857 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:04:26,861 - INFO - 按实体文本定位：C2 -> (67, 69, 'GENE')
+2026-09-18 22:04:26,861 - INFO - 按实体文本定位：C1 -> (77, 79, 'GENE')
+2026-09-18 22:04:26,861 - INFO - 按实体文本定位：C2 -> (82, 84, 'GENE')
+2026-09-18 22:04:26,861 - INFO - 按实体文本定位：V1 -> (120, 122, 'GENE')
+2026-09-18 22:04:53,585 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:04:58,591 - INFO - 按实体文本定位：Pit - 1 -> (181, 188, 'GENE')
+2026-09-18 22:04:58,592 - INFO - 按实体文本定位：hGH -> (196, 199, 'GENE')
+2026-09-18 22:05:02,612 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:05:11,291 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:05:23,640 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:05:37,120 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:05:42,123 - INFO - 按实体文本定位：CTSE -> (32, 36, 'GENE')
+2026-09-18 22:05:52,087 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:06:04,464 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:06:14,497 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:06:23,403 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:07:14,385 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:07:19,389 - INFO - 按实体文本定位：EIA -> (73, 76, 'GENE')
+2026-09-18 22:07:19,390 - INFO - 按实体文本定位：EIV -> (81, 84, 'GENE')
+2026-09-18 22:07:19,390 - INFO - 按实体文本定位：EIIF -> (159, 163, 'GENE')
+2026-09-18 22:07:19,390 - INFO - 按实体文本定位：ATF -> (214, 217, 'GENE')
+2026-09-18 22:07:19,390 - INFO - 按实体文本定位：CREB -> (220, 224, 'GENE')
+2026-09-18 22:07:33,455 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:07:53,725 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:08:05,604 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:08:20,738 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:08:47,691 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:08:52,697 - INFO - 按实体文本定位：CD6 -> (58, 61, 'GENE')
+2026-09-18 22:08:52,697 - INFO - 按实体文本定位：CD6 -> (189, 192, 'GENE')
+2026-09-18 22:08:58,753 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:10:00,977 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:10:05,984 - INFO - 按实体文本定位：myosin heavy chain -> (182, 200, 'GENE')
+2026-09-18 22:10:05,985 - INFO - 按实体文本定位：beta MHC -> (343, 351, 'GENE')
+2026-09-18 22:10:14,527 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:10:38,449 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:10:48,832 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:10:59,063 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:11:16,211 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:11:27,313 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:11:37,668 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:11:48,839 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:12:02,254 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:12:16,834 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:12:28,450 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:12:39,284 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:12:49,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:13:09,823 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:13:21,452 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:13:44,634 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:13:53,359 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:14:17,207 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:14:44,597 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:14:59,203 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:15:10,220 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:15:23,780 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:15:33,038 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:15:42,609 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:16:04,099 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:16:14,389 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:16:26,130 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:16:35,338 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:16:44,554 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:17:28,768 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:17:54,822 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:18:15,909 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-18 22:18:20,916 - INFO - Precision: 0.6341
+2026-09-18 22:18:20,916 - INFO - Recall: 0.4937
+2026-09-18 22:18:20,917 - INFO - F1: 0.5552

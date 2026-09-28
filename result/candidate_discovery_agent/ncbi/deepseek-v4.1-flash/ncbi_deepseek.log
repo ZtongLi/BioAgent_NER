@@ -1,0 +1,999 @@
+2026-09-22 00:26:29,487 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:26:29,495 - INFO - Sample 0 raw_response='[]'
+2026-09-22 00:26:58,802 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:26:58,803 - INFO - Sample 1 raw_response='[{"text": "renal hamartomas", "type": "DISEASE", "occurrence_index": 0}, {"text": "jaw tumor", "type": "DISEASE", "occurrence_index": 0}, {"text": "parathyroid tumor", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:27:05,283 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:27:05,285 - INFO - Sample 2 raw_response='[]'
+2026-09-22 00:28:24,755 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:28:24,756 - INFO - Sample 3 raw_response='[{"text": "FMF", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:28:30,572 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:28:30,574 - INFO - Sample 4 raw_response='[]'
+2026-09-22 00:29:50,621 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:29:50,622 - INFO - Sample 5 raw_response='[]'
+2026-09-22 00:29:55,843 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:29:55,845 - INFO - Sample 6 raw_response='[]'
+2026-09-22 00:30:30,147 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:30:30,149 - INFO - Sample 7 raw_response='[]'
+2026-09-22 00:30:37,763 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:30:37,765 - INFO - Sample 8 raw_response='[{"text": "FAP", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:30:42,845 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:30:42,847 - INFO - Sample 9 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:31:14,896 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:31:14,898 - INFO - Sample 10 raw_response='[{"text": "Wiskott - Aldrich syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "WAS", "type": "DISEASE", "occurrence_index": 0}, {"text": "X - linked thrombocytopenia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:31:19,371 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:31:19,373 - INFO - Sample 11 raw_response='[]'
+2026-09-22 00:31:24,238 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:31:24,240 - INFO - Sample 12 raw_response='[{"text": "myotonic dystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "myopathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:31:57,494 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:31:57,496 - INFO - Sample 13 raw_response='[{"text": "C7 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:32:02,132 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:32:02,133 - INFO - Sample 14 raw_response='[]'
+2026-09-22 00:32:21,072 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:32:21,074 - INFO - Sample 15 raw_response='[{"text": "breast - ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:32:26,815 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:32:26,816 - INFO - Sample 16 raw_response='[]'
+2026-09-22 00:32:54,942 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:32:54,944 - INFO - Sample 17 raw_response='[{"text": "Duarte biochemical phenotype", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:32:59,496 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:32:59,497 - INFO - Sample 18 raw_response='[{"text": "galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:33:04,463 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:33:04,465 - INFO - Sample 19 raw_response='[{"text": "alkaptonuria", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:33:36,356 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:33:36,358 - INFO - Sample 20 raw_response='[{"text": "retinal , cerebellar and spinal haemangioblastomas", "type": "DISEASE", "occurrence_index": 0}, {"text": "renal cell carcinoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "phaeochromocytoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:33:42,130 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:33:42,132 - INFO - Sample 21 raw_response='[{"text":"severe G6PD deficiency","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 00:34:38,261 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:34:38,262 - INFO - Sample 22 raw_response='[]'
+2026-09-22 00:34:47,756 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:34:47,758 - INFO - Sample 23 raw_response='[{"text":"deficiency","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 00:34:52,381 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:34:52,383 - INFO - Sample 24 raw_response='[]'
+2026-09-22 00:35:19,425 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:35:19,427 - INFO - Sample 25 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:35:24,750 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:35:24,751 - INFO - Sample 26 raw_response='[]'
+2026-09-22 00:36:45,851 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:36:45,853 - INFO - Sample 27 raw_response='[]'
+2026-09-22 00:36:50,987 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:36:50,989 - INFO - Sample 28 raw_response='[]'
+2026-09-22 00:38:11,354 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:38:11,356 - INFO - Sample 29 raw_response='[{"text": "non - papillary renal cell carcinoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:38:16,912 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:38:16,914 - INFO - Sample 30 raw_response='[]'
+2026-09-22 00:39:37,908 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:39:37,910 - INFO - Sample 31 raw_response='[]'
+2026-09-22 00:39:42,524 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:39:42,525 - INFO - Sample 32 raw_response='[]'
+2026-09-22 00:41:04,634 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:41:04,636 - INFO - Sample 33 raw_response='[]'
+2026-09-22 00:41:10,441 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:41:10,443 - INFO - Sample 34 raw_response='[{"text":"glucose - 6 - phosphate dehydrogenase deficiency","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 00:43:03,747 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:43:03,749 - INFO - Sample 35 raw_response='[]'
+2026-09-22 00:43:13,535 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:43:13,536 - INFO - Sample 36 raw_response='[]'
+2026-09-22 00:43:34,080 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:43:34,082 - INFO - Sample 37 raw_response='[{"text": "prostatic adenocarcinoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:44:53,787 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:44:53,789 - INFO - Sample 38 raw_response='[{"text":"genetic alterations","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 00:44:58,940 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:44:58,942 - INFO - Sample 39 raw_response='[]'
+2026-09-22 00:46:20,825 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:46:20,827 - INFO - Sample 40 raw_response='[{"text": "cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:46:26,046 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:46:26,047 - INFO - Sample 41 raw_response='[{"text": "PKU", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:46:30,756 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:46:30,758 - INFO - Sample 42 raw_response='[]'
+2026-09-22 00:46:49,904 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:46:49,906 - INFO - Sample 43 raw_response='[]'
+2026-09-22 00:46:58,188 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:46:58,189 - INFO - Sample 44 raw_response='[]'
+2026-09-22 00:48:18,092 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:48:18,094 - INFO - Sample 45 raw_response='[]'
+2026-09-22 00:48:22,656 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:48:22,658 - INFO - Sample 46 raw_response='[]'
+2026-09-22 00:49:43,881 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:49:43,883 - INFO - Sample 47 raw_response='[]'
+2026-09-22 00:49:48,401 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:49:48,403 - INFO - Sample 48 raw_response='[]'
+2026-09-22 00:51:07,972 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:51:07,974 - INFO - Sample 49 raw_response='[{"text": "cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:51:13,558 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:51:13,559 - INFO - Sample 50 raw_response='[]'
+2026-09-22 00:52:35,707 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:52:35,712 - INFO - Sample 51 raw_response='[{"text": "prostate carcinoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:52:41,112 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:52:41,113 - INFO - Sample 52 raw_response='[{"text": "IDDM", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:54:01,231 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:54:01,233 - INFO - Sample 53 raw_response='[]'
+2026-09-22 00:54:07,624 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:54:07,626 - INFO - Sample 54 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:54:43,276 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:54:43,277 - INFO - Sample 55 raw_response='[]'
+2026-09-22 00:54:52,467 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:54:52,469 - INFO - Sample 56 raw_response='[]'
+2026-09-22 00:54:56,927 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:54:56,929 - INFO - Sample 57 raw_response='[]'
+2026-09-22 00:55:14,401 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:55:14,403 - INFO - Sample 58 raw_response='[{"text": "breast or ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:55:19,575 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:55:19,577 - INFO - Sample 59 raw_response='[]'
+2026-09-22 00:55:24,360 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:55:24,362 - INFO - Sample 60 raw_response='[]'
+2026-09-22 00:55:53,095 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:55:53,097 - INFO - Sample 61 raw_response='[{"text": "hereditary breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:55:57,947 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:55:57,949 - INFO - Sample 62 raw_response='[{"text": "isolated thrombocytopenia", "type": "DISEASE", "occurrence_index": 0}, {"text": "WAS phenotypes", "type": "DISEASE", "occurrence_index": 0}, {"text": "severe disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:56:19,980 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:56:19,982 - INFO - Sample 63 raw_response='[{"text": "Wiskott - Aldrich syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:56:26,648 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:56:26,650 - INFO - Sample 64 raw_response='[{"text": "pancreatic tumors", "type": "DISEASE", "occurrence_index": 0}, {"text": "tumors", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:57:08,836 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:57:08,837 - INFO - Sample 65 raw_response='[]'
+2026-09-22 00:57:13,396 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:57:13,397 - INFO - Sample 66 raw_response='[{"text": "sporadic aniridia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:58:34,408 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:58:34,409 - INFO - Sample 67 raw_response='[]'
+2026-09-22 00:58:39,417 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:58:39,418 - INFO - Sample 68 raw_response='[{"text": "HD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 00:59:59,519 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 00:59:59,521 - INFO - Sample 69 raw_response='[{"text": "lipomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:00:04,977 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:00:04,979 - INFO - Sample 70 raw_response='[{"text": "thymomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:01:24,628 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:01:24,630 - INFO - Sample 71 raw_response='[]'
+2026-09-22 01:01:31,304 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:01:31,305 - INFO - Sample 72 raw_response='[]'
+2026-09-22 01:01:50,024 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:01:50,026 - INFO - Sample 73 raw_response='[{"text": "sporadic renal cell carcinomas", "type": "DISEASE", "occurrence_index": 0}, {"text": "parenchymal tumours of the kidney", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:01:54,898 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:01:54,900 - INFO - Sample 74 raw_response='[{"text": "galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:03:14,808 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:03:14,809 - INFO - Sample 75 raw_response='[]'
+2026-09-22 01:03:21,304 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:03:21,305 - INFO - Sample 76 raw_response='[]'
+2026-09-22 01:04:41,116 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:04:41,118 - INFO - Sample 77 raw_response='[]'
+2026-09-22 01:04:46,879 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:04:46,881 - INFO - Sample 78 raw_response='[{"text": "autosomal recessive disorder", "type": "DISEASE", "occurrence_index": 0}, {"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "A - T", "type": "DISEASE", "occurrence_index": 0}, {"text": "cerebellar degeneration", "type": "DISEASE", "occurrence_index": 0}, {"text": "immunodeficiency", "type": "DISEASE", "occurrence_index": 0}, {"text": "cancer predisposition", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:06:09,996 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:06:09,997 - INFO - Sample 79 raw_response='[]'
+2026-09-22 01:06:15,527 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:06:15,529 - INFO - Sample 80 raw_response='[{"text": "Canavan disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:07:35,108 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:07:35,110 - INFO - Sample 81 raw_response='[]'
+2026-09-22 01:07:39,976 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:07:39,978 - INFO - Sample 82 raw_response='[]'
+2026-09-22 01:09:00,841 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:09:00,842 - INFO - Sample 83 raw_response='[{"text": "growth retardation", "type": "DISEASE", "occurrence_index": 0}, {"text": "chromosomal fragmentation", "type": "DISEASE", "occurrence_index": 0}, {"text": "immune defects", "type": "DISEASE", "occurrence_index": 0}, {"text": "thymic lymphoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:09:07,893 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:09:07,895 - INFO - Sample 84 raw_response='[{"text": "hereditary breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:10:05,816 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:10:05,818 - INFO - Sample 85 raw_response='[]'
+2026-09-22 01:11:25,202 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:11:25,203 - INFO - Sample 86 raw_response='[]'
+2026-09-22 01:11:30,974 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:11:30,976 - INFO - Sample 87 raw_response='[]'
+2026-09-22 01:11:49,427 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:11:49,429 - INFO - Sample 88 raw_response='[]'
+2026-09-22 01:11:55,090 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:11:55,092 - INFO - Sample 89 raw_response='[]'
+2026-09-22 01:13:15,339 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:13:15,341 - INFO - Sample 90 raw_response='[]'
+2026-09-22 01:13:19,984 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:13:19,986 - INFO - Sample 91 raw_response='[]'
+2026-09-22 01:14:39,665 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:14:39,667 - INFO - Sample 92 raw_response='[{"text": "breast / ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:14:44,589 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:14:44,590 - INFO - Sample 93 raw_response='[{"text": "SJS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:16:03,964 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:16:03,966 - INFO - Sample 94 raw_response='[]'
+2026-09-22 01:16:08,325 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:16:08,327 - INFO - Sample 95 raw_response='[]'
+2026-09-22 01:17:29,840 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:17:29,842 - INFO - Sample 96 raw_response='[{"text": "endometrial cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:17:35,114 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:17:35,115 - INFO - Sample 97 raw_response='[]'
+2026-09-22 01:18:55,213 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:18:55,214 - INFO - Sample 98 raw_response='[{"text": "sporadic renal cell carcinoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "haemangioblastoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:19:01,583 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:19:01,584 - INFO - Sample 99 raw_response='[{"text": "disease phenotype", "type": "DISEASE", "occurrence_index": 0}, {"text": "Huntington disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:20:21,759 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:20:21,760 - INFO - Sample 100 raw_response='[]'
+2026-09-22 01:20:26,159 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:20:26,161 - INFO - Sample 101 raw_response='[]'
+2026-09-22 01:21:46,020 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:21:46,022 - INFO - Sample 102 raw_response='[]'
+2026-09-22 01:21:51,489 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:21:51,490 - INFO - Sample 103 raw_response='[]'
+2026-09-22 01:23:15,941 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:23:15,947 - INFO - Sample 104 raw_response='[]'
+2026-09-22 01:23:21,879 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:23:21,881 - INFO - Sample 105 raw_response='[{"text": "FMF", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:24:42,570 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:24:42,575 - INFO - Sample 106 raw_response='[{"text": "myotonic dystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "myopathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:24:46,870 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:24:46,872 - INFO - Sample 107 raw_response='[]'
+2026-09-22 01:24:51,199 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:24:51,201 - INFO - Sample 108 raw_response='[{"text": "inherited C9 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:26:10,890 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:26:10,891 - INFO - Sample 109 raw_response='[{"text": "disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:26:15,752 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:26:15,753 - INFO - Sample 110 raw_response='[]'
+2026-09-22 01:27:36,442 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:27:36,444 - INFO - Sample 111 raw_response='[{"text": "disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:27:41,401 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:27:41,403 - INFO - Sample 112 raw_response='[{"text": "breast - ovarian cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:27:58,803 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:27:58,805 - INFO - Sample 113 raw_response='[{"text": "hereditary nonpolyposis colorectal cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "HNPCC", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:28:15,191 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:28:15,193 - INFO - Sample 114 raw_response='[]'
+2026-09-22 01:28:56,304 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:28:56,309 - INFO - Sample 115 raw_response='[]'
+2026-09-22 01:29:01,665 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:29:01,667 - INFO - Sample 116 raw_response='[{"text": "Autosomal dominant myotonia congenita", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:30:21,026 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:30:21,028 - INFO - Sample 117 raw_response='[{"text": "galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:30:27,477 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:30:27,478 - INFO - Sample 118 raw_response='[]'
+2026-09-22 01:31:46,836 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:31:46,840 - INFO - Sample 119 raw_response='[{"text": "ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:31:51,959 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:31:51,961 - INFO - Sample 120 raw_response='[{"text": "Canavan disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:33:11,586 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:33:11,587 - INFO - Sample 121 raw_response='[{"text": "VHL", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:33:17,188 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:33:17,189 - INFO - Sample 122 raw_response='[]'
+2026-09-22 01:34:36,902 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:34:36,904 - INFO - Sample 123 raw_response='[{"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:34:41,736 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:34:41,738 - INFO - Sample 124 raw_response='[]'
+2026-09-22 01:36:01,097 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:36:01,098 - INFO - Sample 125 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:36:06,017 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:36:06,018 - INFO - Sample 126 raw_response='[{"text": "WAS", "type": "DISEASE", "occurrence_index": 0}, {"text": "severe classical WAS", "type": "DISEASE", "occurrence_index": 0}, {"text": "disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "disease severity", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:37:25,679 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:37:25,681 - INFO - Sample 127 raw_response='[{"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:37:31,209 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:37:31,211 - INFO - Sample 128 raw_response='[{"text": "solid tumors", "type": "DISEASE", "occurrence_index": 0}, {"text": "pancreatic cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:38:51,369 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:38:51,370 - INFO - Sample 129 raw_response='[]'
+2026-09-22 01:38:57,091 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:38:57,093 - INFO - Sample 130 raw_response='[{"text": "metastatic tumors", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:40:17,305 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:40:17,307 - INFO - Sample 131 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:40:21,808 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:40:21,809 - INFO - Sample 132 raw_response='[]'
+2026-09-22 01:41:05,973 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:41:05,975 - INFO - Sample 133 raw_response='[]'
+2026-09-22 01:41:50,180 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:41:50,182 - INFO - Sample 134 raw_response='[]'
+2026-09-22 01:41:54,992 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:41:54,993 - INFO - Sample 135 raw_response='[]'
+2026-09-22 01:43:15,207 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:43:15,208 - INFO - Sample 136 raw_response='[{"text": "non - papillary renal cell carcinomas", "type": "DISEASE", "occurrence_index": 0}, {"text": "chromophobe renal cell carcinomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:43:20,803 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:43:20,805 - INFO - Sample 137 raw_response='[]'
+2026-09-22 01:43:33,712 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:43:33,713 - INFO - Sample 138 raw_response='[]'
+2026-09-22 01:45:35,885 - INFO - Sample 139 raw_response=None
+2026-09-22 01:46:49,632 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:46:49,634 - INFO - Sample 140 raw_response='[]'
+2026-09-22 01:46:57,875 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:46:57,877 - INFO - Sample 141 raw_response='[{"text": "Myotonic dystrophy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:48:17,599 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:48:17,600 - INFO - Sample 142 raw_response='[]'
+2026-09-22 01:48:27,870 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:48:27,872 - INFO - Sample 143 raw_response='[]'
+2026-09-22 01:49:48,081 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:49:48,082 - INFO - Sample 144 raw_response='[]'
+2026-09-22 01:49:53,815 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:49:53,816 - INFO - Sample 145 raw_response='[{"text": "Classical galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:51:13,515 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:51:13,517 - INFO - Sample 146 raw_response='[]'
+2026-09-22 01:51:18,105 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:51:18,107 - INFO - Sample 147 raw_response='[]'
+2026-09-22 01:52:37,549 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:52:37,551 - INFO - Sample 148 raw_response='[{"text":"tumors","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 01:52:42,038 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:52:42,039 - INFO - Sample 149 raw_response='[]'
+2026-09-22 01:54:01,982 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:54:01,983 - INFO - Sample 150 raw_response='[]'
+2026-09-22 01:54:06,978 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:54:06,979 - INFO - Sample 151 raw_response='[]'
+2026-09-22 01:55:26,798 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:55:26,799 - INFO - Sample 152 raw_response='[{"text": "autosomal dominant nocturnal frontal lobe epilepsy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:55:31,430 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:55:31,431 - INFO - Sample 153 raw_response='[{"text": "ALPS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:56:49,451 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:56:49,452 - INFO - Sample 154 raw_response='[]'
+2026-09-22 01:56:54,685 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:56:54,687 - INFO - Sample 155 raw_response='[{"text": "endometrial carcinoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "endometrial carcinoma", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 01:58:14,898 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:58:14,900 - INFO - Sample 156 raw_response='```json\n[{"text": "HD", "type": "DISEASE", "occurrence_index": 0}]\n```'
+2026-09-22 01:58:19,149 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:58:19,151 - INFO - Sample 157 raw_response='[]'
+2026-09-22 01:59:38,925 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:59:38,927 - INFO - Sample 158 raw_response='[{"text": "C7D", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:59:44,064 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:59:44,066 - INFO - Sample 159 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 01:59:49,187 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 01:59:49,188 - INFO - Sample 160 raw_response='[]'
+2026-09-22 02:00:42,029 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:00:42,030 - INFO - Sample 161 raw_response='[{"text": "Pelizaeus - Merzbacher disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:01:49,083 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:01:49,084 - INFO - Sample 162 raw_response='[]'
+2026-09-22 02:01:53,486 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:01:53,487 - INFO - Sample 163 raw_response='[]'
+2026-09-22 02:02:21,627 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:02:21,629 - INFO - Sample 164 raw_response='[{"text": "classical WAS phenotype", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:03:49,302 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:03:49,304 - INFO - Sample 165 raw_response='[{"text": "X - linked adrenoleukodystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "idiopathic Addison \' s disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:03:54,225 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:03:54,225 - INFO - Sample 166 raw_response='[]'
+2026-09-22 02:05:13,679 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:05:13,680 - INFO - Sample 167 raw_response='[]'
+2026-09-22 02:05:20,670 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:05:20,697 - INFO - Sample 168 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:06:40,920 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:06:40,922 - INFO - Sample 169 raw_response='[]'
+2026-09-22 02:06:45,635 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:06:45,637 - INFO - Sample 170 raw_response='[{"text": "Duarte isoform", "type": "DISEASE", "occurrence_index": 0}, {"text": "Los Angeles ( LA ) phenotype", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:08:05,048 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:08:05,050 - INFO - Sample 171 raw_response='[]'
+2026-09-22 02:08:10,057 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:08:10,059 - INFO - Sample 172 raw_response='[]'
+2026-09-22 02:09:32,337 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:09:32,339 - INFO - Sample 173 raw_response='[{"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:09:36,983 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:09:36,984 - INFO - Sample 174 raw_response='[{"text": "ALD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:10:56,573 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:10:56,575 - INFO - Sample 175 raw_response='[]'
+2026-09-22 02:11:00,919 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:11:00,921 - INFO - Sample 176 raw_response='[]'
+2026-09-22 02:11:05,936 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:11:05,937 - INFO - Sample 177 raw_response='[]'
+2026-09-22 02:11:49,653 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:11:49,655 - INFO - Sample 178 raw_response='[]'
+2026-09-22 02:11:55,004 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:11:55,005 - INFO - Sample 179 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:13:14,841 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:13:14,843 - INFO - Sample 180 raw_response='[]'
+2026-09-22 02:13:20,793 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:13:20,794 - INFO - Sample 181 raw_response='[{"text": "iris hypoplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "brain abnormalities", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:14:40,566 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:14:40,568 - INFO - Sample 182 raw_response='[{"text": "breast / ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:14:45,398 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:14:45,400 - INFO - Sample 183 raw_response='[]'
+2026-09-22 02:16:05,570 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:16:05,572 - INFO - Sample 184 raw_response='[{"text":"cancers","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 02:16:12,050 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:16:12,051 - INFO - Sample 185 raw_response='[]'
+2026-09-22 02:17:31,705 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:17:31,709 - INFO - Sample 186 raw_response='[{"text": "aniridia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:17:36,424 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:17:36,425 - INFO - Sample 187 raw_response='[]'
+2026-09-22 02:18:56,096 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:18:56,097 - INFO - Sample 188 raw_response='[{"text": "C9 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:19:00,845 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:19:00,846 - INFO - Sample 189 raw_response='[]'
+2026-09-22 02:20:21,322 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:20:21,323 - INFO - Sample 190 raw_response='[]'
+2026-09-22 02:20:25,994 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:20:25,996 - INFO - Sample 191 raw_response='[]'
+2026-09-22 02:20:30,634 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:20:30,635 - INFO - Sample 192 raw_response='[{"text": "X - linked recessive neurological disorder", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:21:50,891 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:21:50,893 - INFO - Sample 193 raw_response='```json\n[\n  {"text": "genomic instability", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "tumours", "type": "DISEASE", "occurrence_index": 0}\n]\n```'
+2026-09-22 02:21:55,397 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:21:55,399 - INFO - Sample 194 raw_response='[]'
+2026-09-22 02:23:14,756 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:23:14,758 - INFO - Sample 195 raw_response='[]'
+2026-09-22 02:23:20,239 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:23:20,241 - INFO - Sample 196 raw_response='[]'
+2026-09-22 02:24:39,750 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:24:39,752 - INFO - Sample 197 raw_response='[{"text": "Prader - Willi syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:24:45,518 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:24:45,519 - INFO - Sample 198 raw_response='[{"text": "Canavan disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:26:04,910 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:26:04,911 - INFO - Sample 199 raw_response='[]'
+2026-09-22 02:26:09,566 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:26:09,568 - INFO - Sample 200 raw_response='[]'
+2026-09-22 02:26:49,215 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:26:49,217 - INFO - Sample 201 raw_response='[{"text": "ALD", "type": "DISEASE", "occurrence_index": 0}, {"text": "cerebral form", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:26:54,142 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:26:54,144 - INFO - Sample 202 raw_response='[{"text": "alkaptonuria", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:28:13,790 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:28:13,792 - INFO - Sample 203 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 02:28:18,646 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:28:18,648 - INFO - Sample 204 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:29:40,884 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:29:40,886 - INFO - Sample 205 raw_response='[{"text": "insulin - dependent diabetes mellitus", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:29:45,585 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:29:45,587 - INFO - Sample 206 raw_response='[{"text": "primary HPT", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:31:05,149 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:31:05,150 - INFO - Sample 207 raw_response='[]'
+2026-09-22 02:31:10,716 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:31:10,718 - INFO - Sample 208 raw_response='[{"text": "Kniest dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "disorder", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:32:30,438 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:32:30,439 - INFO - Sample 209 raw_response='[]'
+2026-09-22 02:32:36,887 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:32:36,889 - INFO - Sample 210 raw_response='[{"text": "classical galactosemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "Duarte galactosemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "classical galactosemia", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 02:33:56,267 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:33:56,269 - INFO - Sample 211 raw_response='[]'
+2026-09-22 02:34:00,969 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:34:00,970 - INFO - Sample 212 raw_response='[]'
+2026-09-22 02:35:20,934 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:35:20,936 - INFO - Sample 213 raw_response='[{"text": "galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:35:25,900 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:35:25,902 - INFO - Sample 214 raw_response='[{"text": "aniridia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:36:46,861 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:36:46,862 - INFO - Sample 215 raw_response='[{"text": "tumor", "type": "DISEASE", "occurrence_index": 0}, {"text": "prostatic", "type": "DISEASE", "occurrence_index": 0}, {"text": "pancreas", "type": "DISEASE", "occurrence_index": 0}, {"text": "skin", "type": "DISEASE", "occurrence_index": 0}, {"text": "lung cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "malignant melanoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "oligodendroglioma", "type": "DISEASE", "occurrence_index": 0}, {"text": "carcinosarcoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:36:52,307 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:36:52,309 - INFO - Sample 216 raw_response='[]'
+2026-09-22 02:38:12,278 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:38:12,279 - INFO - Sample 217 raw_response='[]'
+2026-09-22 02:38:17,168 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:38:17,169 - INFO - Sample 218 raw_response='[]'
+2026-09-22 02:39:36,836 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:39:36,838 - INFO - Sample 219 raw_response='[{"text": "Lesch - Nyhan syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:39:41,915 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:39:41,916 - INFO - Sample 220 raw_response='[]'
+2026-09-22 02:41:01,897 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:41:01,899 - INFO - Sample 221 raw_response='[{"text": "FED", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:41:06,896 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:41:06,898 - INFO - Sample 222 raw_response='[]'
+2026-09-22 02:41:50,214 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:41:50,215 - INFO - Sample 223 raw_response='[]'
+2026-09-22 02:41:54,873 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:41:54,875 - INFO - Sample 224 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:42:06,142 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:42:06,144 - INFO - Sample 225 raw_response='[]'
+2026-09-22 02:43:25,912 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:43:25,913 - INFO - Sample 226 raw_response='[{"text": "Hereditary hyperparathyroidism - jaw tumor syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "HPT - JT", "type": "DISEASE", "occurrence_index": 0}, {"text": "autosomal dominant disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:43:30,228 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:43:30,229 - INFO - Sample 227 raw_response='[]'
+2026-09-22 02:43:35,152 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:43:35,153 - INFO - Sample 228 raw_response='[{"text": "DM", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:44:55,330 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:44:55,332 - INFO - Sample 229 raw_response='[]'
+2026-09-22 02:45:00,629 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:45:00,631 - INFO - Sample 230 raw_response='[]'
+2026-09-22 02:46:21,202 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:46:21,203 - INFO - Sample 231 raw_response='[{"text": "pathogenesis of C7D", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:46:26,496 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:46:26,497 - INFO - Sample 232 raw_response='[{"text": "retinoblastoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:47:46,213 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:47:46,215 - INFO - Sample 233 raw_response='[]'
+2026-09-22 02:47:51,860 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:47:51,862 - INFO - Sample 234 raw_response='[{"text": "diastrophic dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "chondrodysplasias", "type": "DISEASE", "occurrence_index": 0}, {"text": "diastrophic dysplasia", "type": "DISEASE", "occurrence_index": 1}, {"text": "DTD", "type": "DISEASE", "occurrence_index": 0}, {"text": "atelosteogenesis type 2", "type": "DISEASE", "occurrence_index": 0}, {"text": "AO2", "type": "DISEASE", "occurrence_index": 0}, {"text": "achondrogenesis type 1B", "type": "DISEASE", "occurrence_index": 0}, {"text": "ACG1B", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:47:56,861 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:47:56,863 - INFO - Sample 235 raw_response='[{"text": "clear - cell renal cell carcinoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "RCC", "type": "DISEASE", "occurrence_index": 0}, {"text": "von Hippel - Lindau disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "RCCs", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:49:18,824 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:49:18,826 - INFO - Sample 236 raw_response='[]'
+2026-09-22 02:49:23,757 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:49:23,758 - INFO - Sample 237 raw_response='[{"text": "sporadic breast cancers", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:50:44,638 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:50:44,639 - INFO - Sample 238 raw_response='[]'
+2026-09-22 02:50:49,774 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:50:49,775 - INFO - Sample 239 raw_response='[]'
+2026-09-22 02:51:51,061 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:51:51,063 - INFO - Sample 240 raw_response='[]'
+2026-09-22 02:51:55,703 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:51:55,705 - INFO - Sample 241 raw_response='[]'
+2026-09-22 02:53:16,236 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:53:16,237 - INFO - Sample 242 raw_response='[]'
+2026-09-22 02:53:21,941 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:53:21,942 - INFO - Sample 243 raw_response='[{"text": "SJS type 1A", "type": "DISEASE", "occurrence_index": 0}, {"text": "moderate bone dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "Schwartz , Jampel and Aberfeld", "type": "DISEASE", "occurrence_index": 0}, {"text": "type 1B", "type": "DISEASE", "occurrence_index": 0}, {"text": "type 1A", "type": "DISEASE", "occurrence_index": 0}, {"text": "pronounced bone dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "Kniest dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "type 2", "type": "DISEASE", "occurrence_index": 0}, {"text": "increased mortality", "type": "DISEASE", "occurrence_index": 0}, {"text": "bone dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "Pyle disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:54:42,209 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:54:42,210 - INFO - Sample 244 raw_response='[]'
+2026-09-22 02:54:50,504 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:54:50,505 - INFO - Sample 245 raw_response='[]'
+2026-09-22 02:56:10,275 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:56:10,276 - INFO - Sample 246 raw_response='[]'
+2026-09-22 02:56:15,527 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:56:15,528 - INFO - Sample 247 raw_response='[{"text": "renal hamartomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:56:49,495 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:56:49,497 - INFO - Sample 248 raw_response='[{"text": "chronic nonspherocytic hemolytic anemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "G6PD deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:56:54,484 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:56:54,486 - INFO - Sample 249 raw_response='[]'
+2026-09-22 02:58:14,694 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:58:14,695 - INFO - Sample 250 raw_response='[]'
+2026-09-22 02:58:19,692 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:58:19,694 - INFO - Sample 251 raw_response='[{"text": "BRCA1 mutation", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 02:59:40,239 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:59:40,241 - INFO - Sample 252 raw_response='[]'
+2026-09-22 02:59:44,910 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 02:59:44,912 - INFO - Sample 253 raw_response='[]'
+2026-09-22 03:00:12,252 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:00:12,253 - INFO - Sample 254 raw_response='[]'
+2026-09-22 03:00:19,931 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:00:19,932 - INFO - Sample 255 raw_response='[{"text": "Emery - Dreifuss muscular dystrophy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:01:40,112 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:01:40,114 - INFO - Sample 256 raw_response='[{"text": "C7D", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:01:44,857 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:01:44,859 - INFO - Sample 257 raw_response='[]'
+2026-09-22 03:03:04,492 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:03:04,493 - INFO - Sample 258 raw_response='[]'
+2026-09-22 03:03:09,369 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:03:09,371 - INFO - Sample 259 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:04:29,082 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:04:29,084 - INFO - Sample 260 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:04:34,507 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:04:34,509 - INFO - Sample 261 raw_response='[{"text": "Huntington disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:05:53,958 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:05:53,960 - INFO - Sample 262 raw_response='[]'
+2026-09-22 03:05:59,091 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:05:59,093 - INFO - Sample 263 raw_response='[]'
+2026-09-22 03:06:48,816 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:06:48,818 - INFO - Sample 264 raw_response='[{"text": "disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:06:53,454 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:06:53,455 - INFO - Sample 265 raw_response='[]'
+2026-09-22 03:08:13,162 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:08:13,164 - INFO - Sample 266 raw_response='[{"text": "colorectal carcinoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:08:18,286 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:08:18,288 - INFO - Sample 267 raw_response='[]'
+2026-09-22 03:09:41,292 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:09:41,294 - INFO - Sample 268 raw_response='[]'
+2026-09-22 03:09:47,350 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:09:47,352 - INFO - Sample 269 raw_response='[{"text": "Type II complement protein C2 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:11:07,454 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:11:07,456 - INFO - Sample 270 raw_response='[]'
+2026-09-22 03:11:12,633 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:11:12,634 - INFO - Sample 271 raw_response='[]'
+2026-09-22 03:12:32,406 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:12:32,408 - INFO - Sample 272 raw_response='[{"text":"colorectal cancer","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 03:12:37,863 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:12:37,865 - INFO - Sample 273 raw_response='[]'
+2026-09-22 03:13:57,851 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:13:57,853 - INFO - Sample 274 raw_response='[{"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:14:03,443 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:14:03,444 - INFO - Sample 275 raw_response='[]'
+2026-09-22 03:15:23,824 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:15:23,826 - INFO - Sample 276 raw_response='[{"text": "type IID von Willebrand disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:15:31,994 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:15:31,996 - INFO - Sample 277 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:16:49,677 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:16:49,679 - INFO - Sample 278 raw_response='[]'
+2026-09-22 03:18:21,083 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:18:21,085 - INFO - Sample 279 raw_response='[{"text": "hypertrophic cardiomyopathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:18:25,691 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:18:25,693 - INFO - Sample 280 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:19:45,257 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:19:45,259 - INFO - Sample 281 raw_response='[{"text": "coronary heart disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:19:50,519 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:19:50,521 - INFO - Sample 282 raw_response='[{"text": "X - Linked adrenoleukodystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "ALD", "type": "DISEASE", "occurrence_index": 0}, {"text": "genetic disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "demyelination of the central nervous system", "type": "DISEASE", "occurrence_index": 0}, {"text": "adrenal insufficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:21:10,225 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:21:10,226 - INFO - Sample 283 raw_response='[{"text": "cardiac and muscle symptoms", "type": "DISEASE", "occurrence_index": 0}, {"text": "VLCAD deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:21:14,800 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:21:14,802 - INFO - Sample 284 raw_response='[{"text": "bilateral retinoblastoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:21:48,390 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:21:48,392 - INFO - Sample 285 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:23:07,871 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:23:07,872 - INFO - Sample 286 raw_response='[{"text": "IDDM", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:24:27,475 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:24:27,477 - INFO - Sample 287 raw_response='[]'
+2026-09-22 03:24:32,322 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:24:32,324 - INFO - Sample 288 raw_response='[{"text": "cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:25:51,705 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:25:51,707 - INFO - Sample 289 raw_response='[]'
+2026-09-22 03:25:56,304 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:25:56,306 - INFO - Sample 290 raw_response='[]'
+2026-09-22 03:27:15,754 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:27:15,756 - INFO - Sample 291 raw_response='[]'
+2026-09-22 03:27:21,399 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:27:21,400 - INFO - Sample 292 raw_response='[{"text": "enzyme deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:28:41,150 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:28:41,151 - INFO - Sample 293 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:28:46,469 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:28:46,471 - INFO - Sample 294 raw_response='[{"text":"cancer","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 03:30:06,127 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:30:06,129 - INFO - Sample 295 raw_response='[]'
+2026-09-22 03:30:11,229 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:30:11,231 - INFO - Sample 296 raw_response='[]'
+2026-09-22 03:31:35,658 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:31:35,662 - INFO - Sample 297 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:31:40,175 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:31:40,176 - INFO - Sample 298 raw_response='[]'
+2026-09-22 03:31:49,429 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:31:49,431 - INFO - Sample 299 raw_response='[{"text": "developmental abnormalities of the eye", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:31:54,865 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:31:54,867 - INFO - Sample 300 raw_response='[]'
+2026-09-22 03:33:14,789 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:33:14,791 - INFO - Sample 301 raw_response='[{"text":"Combined subtotal deficiency of C6 and C7","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 03:33:19,424 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:33:19,425 - INFO - Sample 302 raw_response='[]'
+2026-09-22 03:34:39,080 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:34:39,081 - INFO - Sample 303 raw_response='[]'
+2026-09-22 03:34:43,257 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:34:43,259 - INFO - Sample 304 raw_response='[]'
+2026-09-22 03:36:03,013 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:36:03,014 - INFO - Sample 305 raw_response='[{"text": "Kniest dysplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "chondrodysplasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:36:07,746 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:36:07,747 - INFO - Sample 306 raw_response='[{"text": "IDDM", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:37:27,378 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:37:27,380 - INFO - Sample 307 raw_response='[]'
+2026-09-22 03:37:32,206 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:37:32,208 - INFO - Sample 308 raw_response='[{"text": "Schwartz - Jampel chondrodystrophic myotonia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:38:51,679 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:38:51,681 - INFO - Sample 309 raw_response='[]'
+2026-09-22 03:38:59,895 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:38:59,897 - INFO - Sample 310 raw_response='[]'
+2026-09-22 03:40:29,719 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:40:29,719 - INFO - Sample 311 raw_response='[{"text": "Adrenomyeloneuropathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:40:43,951 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:40:43,952 - INFO - Sample 312 raw_response='[{"text": "colorectal cancers", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:40:50,466 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:40:50,467 - INFO - Sample 313 raw_response='[{"text": "X - linked spastic paraplegia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:40:55,238 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:40:55,240 - INFO - Sample 314 raw_response='[{"text": "von Hippel - Lindau disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "RCC", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:41:06,108 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:06,110 - INFO - Sample 315 raw_response='[{"text": "mitotic instability", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:41:10,785 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:10,786 - INFO - Sample 316 raw_response='[]'
+2026-09-22 03:41:15,483 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:15,485 - INFO - Sample 317 raw_response='[{"text": "insulin - dependent diabetes mellitus", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:41:27,062 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:27,063 - INFO - Sample 318 raw_response='[]'
+2026-09-22 03:41:31,283 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:31,285 - INFO - Sample 319 raw_response='[]'
+2026-09-22 03:41:35,766 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:35,768 - INFO - Sample 320 raw_response='[{"text": "hereditary breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:41:41,094 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:41,095 - INFO - Sample 321 raw_response='[{"text": "male breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "breast / ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:41:48,566 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:48,568 - INFO - Sample 322 raw_response='[]'
+2026-09-22 03:41:53,447 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:53,448 - INFO - Sample 323 raw_response='[{"text": "cancers", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:41:57,918 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:41:57,919 - INFO - Sample 324 raw_response='[{"text": "idiopathic epilepsies", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:42:13,962 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:13,964 - INFO - Sample 325 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "A - T", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:42:18,972 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:18,974 - INFO - Sample 326 raw_response='[]'
+2026-09-22 03:42:24,107 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:24,108 - INFO - Sample 327 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 03:42:36,184 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:36,185 - INFO - Sample 328 raw_response='[]'
+2026-09-22 03:42:41,237 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:41,240 - INFO - Sample 329 raw_response='[{"text": "inherited human disorder", "type": "DISEASE", "occurrence_index": 0}, {"text": "fish - eye disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:42:45,305 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:45,306 - INFO - Sample 330 raw_response='[]'
+2026-09-22 03:42:54,660 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:42:54,661 - INFO - Sample 331 raw_response='[]'
+2026-09-22 03:43:00,248 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:00,250 - INFO - Sample 332 raw_response='[]'
+2026-09-22 03:43:05,178 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:05,180 - INFO - Sample 333 raw_response='[]'
+2026-09-22 03:43:10,095 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:10,096 - INFO - Sample 334 raw_response='[]'
+2026-09-22 03:43:14,198 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:14,199 - INFO - Sample 335 raw_response='[]'
+2026-09-22 03:43:35,148 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:35,149 - INFO - Sample 336 raw_response='[]'
+2026-09-22 03:43:44,894 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:44,896 - INFO - Sample 337 raw_response='[]'
+2026-09-22 03:43:49,324 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:49,326 - INFO - Sample 338 raw_response='[]'
+2026-09-22 03:43:54,213 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:43:54,214 - INFO - Sample 339 raw_response='[{"text": "colorectal cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:44:04,730 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:44:04,732 - INFO - Sample 340 raw_response='[]'
+2026-09-22 03:44:09,631 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:44:09,633 - INFO - Sample 341 raw_response='[{"text": "disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:45:40,620 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:45:40,622 - INFO - Sample 342 raw_response='[{"text": "multiple endocrine neoplasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "MEN", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:45:46,091 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:45:46,092 - INFO - Sample 343 raw_response='[{"text": "benign familial neonatal convulsions", "type": "DISEASE", "occurrence_index": 0}, {"text": "autosomal dominant nocturnal frontal lobe epilepsy", "type": "DISEASE", "occurrence_index": 0}, {"text": "low - voltage EEG", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:46:10,305 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:10,306 - INFO - Sample 344 raw_response='[{"text": "familial Mediterranean fever", "type": "DISEASE", "occurrence_index": 0}, {"text": "FMF", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:46:14,912 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:14,914 - INFO - Sample 345 raw_response='[]'
+2026-09-22 03:46:22,080 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:22,082 - INFO - Sample 346 raw_response='[]'
+2026-09-22 03:46:27,713 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:27,715 - INFO - Sample 347 raw_response='[{"text": "Adrenal insufficiency", "type": "DISEASE", "occurrence_index": 0}, {"text": "Addisons disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "AMN", "type": "DISEASE", "occurrence_index": 0}, {"text": "cerebral ALD", "type": "DISEASE", "occurrence_index": 0}, {"text": "ALD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:46:44,097 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:44,099 - INFO - Sample 348 raw_response='[{"text": "scurfy", "type": "DISEASE", "occurrence_index": 0}, {"text": "T cell - mediated fatal lymphoreticular disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "Wiskott - Aldrich syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:46:48,909 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:48,910 - INFO - Sample 349 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:46:54,690 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:46:54,691 - INFO - Sample 350 raw_response='[]'
+2026-09-22 03:47:05,296 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:47:05,297 - INFO - Sample 351 raw_response='[]'
+2026-09-22 03:47:10,194 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:47:10,196 - INFO - Sample 352 raw_response='[{"text": "red - blood - cell glucose - 6 - phosphate dehydrogenase ( G6PD ) deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:47:14,848 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:47:14,849 - INFO - Sample 353 raw_response='[{"text": "alveolar rhabdomyosarcoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:48:34,557 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:48:34,559 - INFO - Sample 354 raw_response='[{"text": "colorectal cancers", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:49:30,398 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:49:30,399 - INFO - Sample 355 raw_response='[]'
+2026-09-22 03:51:30,254 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:51:30,255 - INFO - Sample 356 raw_response='[]'
+2026-09-22 03:51:35,336 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:51:35,338 - INFO - Sample 357 raw_response='[{"text": "fish - eye disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "FED", "type": "DISEASE", "occurrence_index": 0}, {"text": "disorder", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:51:49,483 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:51:49,485 - INFO - Sample 358 raw_response='[{"text": "PWS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:51:54,297 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:51:54,298 - INFO - Sample 359 raw_response='[{"text": "Kniest dysplasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:53:13,897 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:53:13,898 - INFO - Sample 360 raw_response='[{"text": "apoptosis", "type": "DISEASE", "occurrence_index": 0}, {"text": "lymphoproliferation", "type": "DISEASE", "occurrence_index": 0}, {"text": "autoimmune lymphoproliferative syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "ALPS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:53:19,003 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:53:19,004 - INFO - Sample 361 raw_response='[{"text": "HD", "type": "DISEASE", "occurrence_index": 0}, {"text": "HD", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 03:54:38,829 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:54:38,832 - INFO - Sample 362 raw_response='[]'
+2026-09-22 03:54:43,846 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:54:43,848 - INFO - Sample 363 raw_response='[]'
+2026-09-22 03:56:03,849 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:56:03,851 - INFO - Sample 364 raw_response='[{"text": "HD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:56:08,736 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:56:08,738 - INFO - Sample 365 raw_response='[]'
+2026-09-22 03:57:29,226 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:57:29,227 - INFO - Sample 366 raw_response='[{"text": "microsatellite instability", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:57:34,199 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:57:34,201 - INFO - Sample 367 raw_response='[{"text": "alveolar rhabdomyosarcoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:58:53,925 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:58:53,927 - INFO - Sample 368 raw_response='[{"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 03:58:58,520 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 03:58:58,521 - INFO - Sample 369 raw_response='[]'
+2026-09-22 04:00:18,203 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:00:18,204 - INFO - Sample 370 raw_response='[{"text": "cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:00:25,301 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:00:25,303 - INFO - Sample 371 raw_response='[]'
+2026-09-22 04:01:45,351 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:01:45,352 - INFO - Sample 372 raw_response='[]'
+2026-09-22 04:01:50,724 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:01:50,726 - INFO - Sample 373 raw_response='[]'
+2026-09-22 04:03:10,325 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:03:10,331 - INFO - Sample 374 raw_response='[{"text":"lymphoblast cell lines","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 04:03:15,225 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:03:15,227 - INFO - Sample 375 raw_response='[]'
+2026-09-22 04:04:34,704 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:04:34,706 - INFO - Sample 376 raw_response='[{"text": "colorectal cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:04:40,029 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:04:40,030 - INFO - Sample 377 raw_response='[{"text": "myotonic dystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "DM", "type": "DISEASE", "occurrence_index": 0}, {"text": "DM", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 04:05:59,880 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:05:59,882 - INFO - Sample 378 raw_response='[{"text": "HD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:06:04,745 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:06:04,747 - INFO - Sample 379 raw_response='[]'
+2026-09-22 04:06:49,123 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:06:49,124 - INFO - Sample 380 raw_response='[{"text": "primary idiopathic adrenocortical insufficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:06:53,752 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:06:53,753 - INFO - Sample 381 raw_response='[{"text": "Ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:08:13,226 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:08:13,228 - INFO - Sample 382 raw_response='[{"text": "IDDM", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:08:17,685 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:08:17,687 - INFO - Sample 383 raw_response='[]'
+2026-09-22 04:09:37,500 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:09:37,502 - INFO - Sample 384 raw_response='[]'
+2026-09-22 04:09:42,572 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:09:42,573 - INFO - Sample 385 raw_response='[{"text": "Complement C7 deficiency", "type": "DISEASE", "occurrence_index": 0}, {"text": "C7D", "type": "DISEASE", "occurrence_index": 0}, {"text": "recurrent bacterial infections", "type": "DISEASE", "occurrence_index": 0}, {"text": "meningitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:10:06,072 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:10:06,074 - INFO - Sample 386 raw_response='[]'
+2026-09-22 04:11:25,731 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:11:25,733 - INFO - Sample 387 raw_response='[]'
+2026-09-22 04:11:31,110 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:11:31,111 - INFO - Sample 388 raw_response='[{"text": "male breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:11:35,442 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:11:35,443 - INFO - Sample 389 raw_response='[{"text": "Type II C2 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:12:54,944 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:12:54,946 - INFO - Sample 390 raw_response='[]'
+2026-09-22 04:12:59,325 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:12:59,327 - INFO - Sample 391 raw_response='[{"text": "Canavan disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:14:18,984 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:14:18,986 - INFO - Sample 392 raw_response='[{"text":"abnormal","type":"DISEASE","occurrence_index":0},{"text":"lethality","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 04:14:23,489 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:14:23,491 - INFO - Sample 393 raw_response='[]'
+2026-09-22 04:15:43,074 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:15:43,076 - INFO - Sample 394 raw_response='[{"text": "globoid cell leukodystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "Krabbe disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:15:47,696 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:15:47,697 - INFO - Sample 395 raw_response='[{"text": "classical and Duarte galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:17:06,983 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:17:06,984 - INFO - Sample 396 raw_response='[{"text": "autosomal dominant myotonia congenita", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:17:12,163 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:17:12,165 - INFO - Sample 397 raw_response='[{"text": "fibre - type dependent atrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "myotonia", "type": "DISEASE", "occurrence_index": 0}, {"text": "cataract", "type": "DISEASE", "occurrence_index": 0}, {"text": "male - infertility", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:18:31,370 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:18:31,371 - INFO - Sample 398 raw_response='[]'
+2026-09-22 04:18:36,570 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:18:36,572 - INFO - Sample 399 raw_response='[]'
+2026-09-22 04:19:56,804 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:19:56,806 - INFO - Sample 400 raw_response='[{"text": "adult onset globoid cell leukodystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "Krabbe disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "AO - GLD", "type": "DISEASE", "occurrence_index": 0}, {"text": "spastic paraplegia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:20:01,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:20:01,549 - INFO - Sample 401 raw_response='[{"text": "FED", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:21:21,269 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:21:21,271 - INFO - Sample 402 raw_response='[{"text": "cellular defects", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:21:26,140 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:21:26,142 - INFO - Sample 403 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:21:31,216 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:21:31,217 - INFO - Sample 404 raw_response='[{"text": "hereditary breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "hereditary breast cancers", "type": "DISEASE", "occurrence_index": 0}, {"text": "hereditary breast or ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:21:35,799 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:21:35,801 - INFO - Sample 405 raw_response='[{"text": "Duarte and Los Angeles variant galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:22:55,413 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:22:55,418 - INFO - Sample 406 raw_response='[{"text": "C7 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:23:00,318 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:23:00,320 - INFO - Sample 407 raw_response='[]'
+2026-09-22 04:24:19,895 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:24:19,897 - INFO - Sample 408 raw_response='[]'
+2026-09-22 04:24:24,216 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:24:24,218 - INFO - Sample 409 raw_response='[]'
+2026-09-22 04:25:44,306 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:25:44,308 - INFO - Sample 410 raw_response='[{"text": "sporadic Wilms tumours", "type": "DISEASE", "occurrence_index": 0}, {"text": "Denys - Drash syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "renal nephropathy", "type": "DISEASE", "occurrence_index": 0}, {"text": "gonadal anomaly", "type": "DISEASE", "occurrence_index": 0}, {"text": "WT", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:25:48,909 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:25:48,910 - INFO - Sample 411 raw_response='[]'
+2026-09-22 04:26:48,900 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:26:48,901 - INFO - Sample 412 raw_response='[]'
+2026-09-22 04:26:53,844 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:26:53,846 - INFO - Sample 413 raw_response='[]'
+2026-09-22 04:28:13,288 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:28:13,290 - INFO - Sample 414 raw_response='[]'
+2026-09-22 04:28:18,432 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:28:18,434 - INFO - Sample 415 raw_response='[{"text": "Huntington disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:29:11,846 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:29:11,848 - INFO - Sample 416 raw_response='[]'
+2026-09-22 04:29:16,820 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:29:16,821 - INFO - Sample 417 raw_response='[{"text": "alkaptonuria", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:30:36,597 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:30:36,599 - INFO - Sample 418 raw_response='[{"text": "inherited breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:30:41,266 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:30:41,268 - INFO - Sample 419 raw_response='[{"text": "myotonic dystrophy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:32:01,244 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:32:01,245 - INFO - Sample 420 raw_response='[]'
+2026-09-22 04:32:06,304 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:32:06,306 - INFO - Sample 421 raw_response='[]'
+2026-09-22 04:32:50,704 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:32:50,706 - INFO - Sample 422 raw_response='[]'
+2026-09-22 04:32:55,845 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:32:55,847 - INFO - Sample 423 raw_response='[]'
+2026-09-22 04:33:12,654 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:12,658 - INFO - Sample 424 raw_response='[{"text": "hereditary retinoblastoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:33:16,778 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:16,779 - INFO - Sample 425 raw_response='[]'
+2026-09-22 04:33:21,603 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:21,604 - INFO - Sample 426 raw_response='[{"text": "alveolar rhabdomyosarcoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:33:26,491 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:26,492 - INFO - Sample 427 raw_response='[{"text": "Type II human complement C2 deficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:33:33,428 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:33,431 - INFO - Sample 428 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:33:37,722 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:37,724 - INFO - Sample 429 raw_response='[]'
+2026-09-22 04:33:42,009 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:42,010 - INFO - Sample 430 raw_response='[]'
+2026-09-22 04:33:50,383 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:50,385 - INFO - Sample 431 raw_response='[]'
+2026-09-22 04:33:54,863 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:54,865 - INFO - Sample 432 raw_response='[]'
+2026-09-22 04:33:59,311 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:33:59,313 - INFO - Sample 433 raw_response='[]'
+2026-09-22 04:34:36,007 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:34:36,009 - INFO - Sample 434 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:35:19,813 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:19,815 - INFO - Sample 435 raw_response='[{"text": "retinoblastoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:35:24,713 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:24,715 - INFO - Sample 436 raw_response='[{"text": "non - papillary renal cell carcinomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:35:31,896 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:31,897 - INFO - Sample 437 raw_response='[]'
+2026-09-22 04:35:42,225 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:42,226 - INFO - Sample 438 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}, {"text": "AT", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:35:46,842 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:35:46,843 - INFO - Sample 439 raw_response='[{"text": "disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:36:13,601 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:13,602 - INFO - Sample 440 raw_response='[{"text": "lesch - nyhan syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:36:17,862 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:36:17,863 - INFO - Sample 441 raw_response='[]'
+2026-09-22 04:37:37,633 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:37:37,635 - INFO - Sample 442 raw_response='[]'
+2026-09-22 04:37:42,241 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:37:42,243 - INFO - Sample 443 raw_response='[]'
+2026-09-22 04:39:02,002 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:39:02,003 - INFO - Sample 444 raw_response='[]'
+2026-09-22 04:39:07,327 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:39:07,328 - INFO - Sample 445 raw_response='[]'
+2026-09-22 04:40:27,129 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:40:27,130 - INFO - Sample 446 raw_response='[]'
+2026-09-22 04:40:32,317 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:40:32,319 - INFO - Sample 447 raw_response='[{"text": "glioblastoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "prostate cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "glioblastomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:41:49,144 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:41:49,145 - INFO - Sample 448 raw_response='[]'
+2026-09-22 04:41:53,929 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:41:53,930 - INFO - Sample 449 raw_response='[]'
+2026-09-22 04:43:14,236 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:43:14,238 - INFO - Sample 450 raw_response='[{"text": "aniridia", "type": "DISEASE", "occurrence_index": 0}, {"text": "aniridia", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 04:43:19,231 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:43:19,233 - INFO - Sample 451 raw_response='[]'
+2026-09-22 04:43:34,297 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:43:34,299 - INFO - Sample 452 raw_response='[]'
+2026-09-22 04:44:53,532 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:44:53,533 - INFO - Sample 453 raw_response='[]'
+2026-09-22 04:44:58,354 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:44:58,356 - INFO - Sample 454 raw_response='[]'
+2026-09-22 04:45:06,035 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:45:06,037 - INFO - Sample 455 raw_response='[]'
+2026-09-22 04:46:25,317 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:46:25,318 - INFO - Sample 456 raw_response='[]'
+2026-09-22 04:46:30,311 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:46:30,313 - INFO - Sample 457 raw_response='[{"text": "CHD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:47:50,087 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:47:50,088 - INFO - Sample 458 raw_response='[{"text": "tumourigenesis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:47:55,011 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:47:55,012 - INFO - Sample 459 raw_response='[{"text": "cerebellar ataxia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:49:14,444 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:14,448 - INFO - Sample 460 raw_response='[]'
+2026-09-22 04:49:19,063 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:19,064 - INFO - Sample 461 raw_response='[]'
+2026-09-22 04:49:26,032 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:26,034 - INFO - Sample 462 raw_response='[{"text": "CHD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:49:30,641 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:30,642 - INFO - Sample 463 raw_response='[{"text": "familial Mediterranean fever", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:49:35,658 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:35,660 - INFO - Sample 464 raw_response='[]'
+2026-09-22 04:49:40,264 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:40,265 - INFO - Sample 465 raw_response='[]'
+2026-09-22 04:49:45,136 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:45,138 - INFO - Sample 466 raw_response='[{"text": "attenuated adenomatous polyposis coli", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:49:49,526 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:49:49,528 - INFO - Sample 467 raw_response='[]'
+2026-09-22 04:50:06,400 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:06,402 - INFO - Sample 468 raw_response='[{"text": "ALD", "type": "DISEASE", "occurrence_index": 0}, {"text": "Addisons disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:50:11,025 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:11,026 - INFO - Sample 469 raw_response='[{"text":"DM","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 04:50:28,093 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:28,095 - INFO - Sample 470 raw_response='[{"text": "breast / ovarian cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "breast / ovarian tumorigenesis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:50:33,220 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:33,221 - INFO - Sample 471 raw_response='[]'
+2026-09-22 04:50:39,866 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:39,867 - INFO - Sample 472 raw_response='[{"text": "SJS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:50:44,423 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:44,425 - INFO - Sample 473 raw_response='[{"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:50:48,978 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:48,979 - INFO - Sample 474 raw_response='[{"text": "breast carcinomas", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:50:53,289 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:53,290 - INFO - Sample 475 raw_response='[]'
+2026-09-22 04:50:59,628 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:50:59,630 - INFO - Sample 476 raw_response='[{"text": "breast carcinoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "cancers", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:51:48,401 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:51:48,402 - INFO - Sample 477 raw_response='[]'
+2026-09-22 04:51:52,979 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:51:52,981 - INFO - Sample 478 raw_response='[{"text":"A - T","type":"DISEASE","occurrence_index":0}]'
+2026-09-22 04:52:07,607 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:52:07,608 - INFO - Sample 479 raw_response='[{"text": "PLP - associated disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:52:12,435 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:52:12,437 - INFO - Sample 480 raw_response='[]\n'
+2026-09-22 04:52:16,941 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:52:16,943 - INFO - Sample 481 raw_response='[]'
+2026-09-22 04:53:36,303 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:53:36,304 - INFO - Sample 482 raw_response='[{"text": "Wiskott - Aldrich syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:53:40,825 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:53:40,827 - INFO - Sample 483 raw_response='[]'
+2026-09-22 04:55:00,272 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:55:00,274 - INFO - Sample 484 raw_response='[]'
+2026-09-22 04:55:05,086 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:55:05,088 - INFO - Sample 485 raw_response='[]'
+2026-09-22 04:56:24,981 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:56:24,983 - INFO - Sample 486 raw_response='[]'
+2026-09-22 04:56:29,157 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:56:29,158 - INFO - Sample 487 raw_response='[]'
+2026-09-22 04:56:34,071 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:56:34,073 - INFO - Sample 488 raw_response='[]'
+2026-09-22 04:57:53,229 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:57:53,230 - INFO - Sample 489 raw_response='[]'
+2026-09-22 04:58:02,854 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:58:02,856 - INFO - Sample 490 raw_response='[{"text": "galactosemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:59:33,861 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:59:33,862 - INFO - Sample 491 raw_response='[{"text": "cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 04:59:38,331 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:59:38,333 - INFO - Sample 492 raw_response='[]'
+2026-09-22 04:59:59,073 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 04:59:59,074 - INFO - Sample 493 raw_response='[{"text": "prostate carcinomas", "type": "DISEASE", "occurrence_index": 0}, {"text": "prostate carcinomas", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-22 05:00:03,586 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 05:00:03,588 - INFO - Sample 494 raw_response='[{"text": "Wiskott - Aldrich syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 05:01:23,459 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 05:01:23,461 - INFO - Sample 495 raw_response='[{"text": "hereditary breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 05:01:31,959 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 05:01:31,960 - INFO - Sample 496 raw_response='[{"text": "GLD", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 05:01:48,831 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 05:01:48,833 - INFO - Sample 497 raw_response='[{"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 05:01:53,462 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 05:01:53,464 - INFO - Sample 498 raw_response='[{"text": "hereditary breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-22 05:02:29,948 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-22 05:02:29,950 - INFO - Sample 499 raw_response='[]'

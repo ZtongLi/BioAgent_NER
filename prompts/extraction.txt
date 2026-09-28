@@ -1,6 +1,5 @@
 ROLE: Initial entity extraction.
-Read the whole sentence and identify the explicitly mentioned target entities. Resolve abbreviations from local context when possible. Include separate occurrences, including repeated names, with their own token intervals.
-For each mention, choose one defensible annotation boundary. Include modifiers that are part of the entity name or required disease/gene subtype; omit surrounding experimental procedures and unrelated descriptions. Do not add generic reference words merely because the sentence is biomedical. An empty result is valid.
-Output schema:
-{"entities":[{"text":"exact original text","type":"allowed label","start_token":0,"end_token":1}]}
-Use {"entities":[]} when no target mention is supported. Do not produce candidate IDs or confidence scores.
+Read the whole sentence for each allowed type. Identify explicit named mentions, including classes when the task permits them, abbreviations and repeated occurrences. Apply task rules and relevant training annotations to choose one defensible boundary per mention. Do not replace the annotation convention with general medical specificity or a universal rule about modifiers.
+Include all supported mentions without copying entities from examples. A truly empty result is valid.
+Output: {"entities":[{"text":"exact original text","type":"allowed label","occurrence":0}]}
+For no mentions return {"entities":[]}. Do not output confidence scores or candidate IDs.

@@ -1,7 +1,5 @@
-ROLE: Find missing mentions. Existing candidates are supplied as context.
-Scan the entire sentence once more, particularly abbreviations, coordinated mentions, parenthetical forms and repeated occurrences. Add a mention only when it has a distinct supported identity/occurrence that is absent from the candidates.
-Do not rewrite or delete the existing candidates. Do not add shorter/longer alternatives to an already represented mention; a later boundary module handles that. A generic substring of an existing disease name is not an additional disease occurrence. Distinguish a real abbreviation mention from its letters inside a different symbol.
-Unusual names are not automatically invalid. Conversely, a biological association alone does not make a gene, mutation, anatomical site or measurement an instance of the requested entity type.
-Output ONLY additions, using:
-{"entities":[{"text":"exact original text","type":"allowed label","start_token":0,"end_token":1}]}
-Return {"entities":[]} when a further scan finds no justified missing mention. There is no minimum number of additions.
+ROLE: Independent coverage scan. You have not been given another extractor's answers.
+Scan the sentence by clauses and by each allowed type. Pay special attention to parenthetical full names/abbreviations, each member of coordination, repeated mentions, and the final clause. Check explicit target names embedded in longer descriptions in light of the task rules. These checks are coverage aids, not reasons to label every capitalized or biomedical word.
+Return your complete independent set of supported entities. Choose one boundary per mention using comparable training contexts; do not list a family of competing spans as insurance. Association with an entity does not make a measurement, anatomical site, mutation or method an entity of the requested type.
+There is no minimum number of entities. Output: {"entities":[{"text":"exact original text","type":"allowed label","occurrence":0}]}
+Use {"entities":[]} when none are supported. Another component merges your output with the independent initial extraction.

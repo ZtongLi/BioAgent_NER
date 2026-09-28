@@ -9,9 +9,10 @@ import time
 from contextlib import ExitStack, nullcontext
 from datetime import datetime
 from pathlib import Path
+from tempfile import NamedTemporaryFile
 
 from agents import extraction, discovery, boundary, verification
-from tool import ROOT, make_client, prepare_config, tokenize
+from tool import ROOT, make_client, prepare_config, retrieve_examples, tokenize, unique_entities
 
 MODULES = {"extraction": extraction, "discovery": discovery,
            "boundary": boundary, "verification": verification}
@@ -21,6 +22,7 @@ VARIANTS = {
     "without_discovery": ("boundary", "verification"),
     "without_boundary": ("discovery", "verification"),
     "without_verification": ("discovery", "boundary"),
+    "without_retrieval": ("discovery", "boundary", "verification"),
 }
 RESULT_ROOT = ROOT / "result" / "ner_agent"
 
@@ -29,14 +31,18 @@ def run_pipeline(sentence, config, client, variant="full", cache=None):
     """Only inference inputs enter agents. The per-sentence cache pairs ablations."""
     if cache is None:
         cache = {}
+    if variant == "without_retrieval":
+        config = {**config, "retrieval_k": 0}
     tokens = tokenize(sentence)
     entities, stages = [], []
     for stage in ("extraction", *VARIANTS[variant]):
         previous = copy.deepcopy(entities)
+        candidates = [] if stage in ("extraction", "discovery") else entities
         payload = {"sentence": sentence,
                    "tokens": [{"id": t["id"], "text": t["text"]} for t in tokens],
-                   "candidates": [{"id": i, **e} for i, e in enumerate(entities)]}
-        key = json.dumps([stage, payload], ensure_ascii=False, sort_keys=True)
+                   "candidates": [{"id": i, **e} for i, e in enumerate(candidates)],
+                   "training_examples": retrieve_examples(sentence, candidates, config)}
+        key = json.dumps([stage, config["_prompt_hash"], payload], ensure_ascii=False, sort_keys=True)
         cache_hit = key in cache
         if cache_hit:
             output, trace = copy.deepcopy(cache[key])
@@ -46,11 +52,13 @@ def run_pipeline(sentence, config, client, variant="full", cache=None):
             output, trace = MODULES[stage].run(payload, tokens, config, client)
             cache[key] = copy.deepcopy((output, trace))
         if output is not None:
-            entities = output
+            if stage in ("extraction", "discovery"):
+                output = [{**e, "sources": [stage]} for e in output]
+            entities = unique_entities(entities + output) if stage == "discovery" else output
         trace.update({"cache_hit": cache_hit, "input_entities": previous,
                       "output_entities": copy.deepcopy(entities)})
         stages.append(trace)
-        if trace.get("fatal") or (stage == "extraction" and trace["status"] == "failed"):
+        if trace.get("fatal"):
             break
     return {"pred_entities": entities, "stages": stages,
             "fully_executed": all(s["status"] != "failed" for s in stages)}
@@ -61,59 +69,107 @@ def span_set(entities):
             for e in entities or []}
 
 
+def successful_record(row):
+    stages = row.get("stages", [])
+    return row.get("fully_executed") is True and bool(stages) and all(
+        s["status"] in ("ok", "skipped_empty") for s in stages)
+
+
 def evaluate_ner(records):
-    """All supplied samples count, including request/format failures as empty or fallback."""
-    tp = fp = fn = 0
+    """Score fully successful samples; failed requests/parsing are neither FP nor FN."""
+    tp = fp = fn = evaluated = 0
     effects = {}
     for row in records:
-        gold, pred = span_set(row["gold_entities"]), span_set(row["pred_entities"])
-        tp += len(gold & pred)
-        fp += len(pred - gold)
-        fn += len(gold - pred)
-        for stage in row.get("stages", []):
+        stages = row.get("stages", [])
+        success = successful_record(row)
+        if success:
+            evaluated += 1
+            gold, pred = span_set(row["gold_entities"]), span_set(row["pred_entities"])
+            tp += len(gold & pred)
+            fp += len(pred - gold)
+            fn += len(gold - pred)
+        for stage in stages:
+            totals = effects.setdefault(stage["stage"], dict.fromkeys(
+                ["samples", "failed_samples", "evaluated_samples", "true_added", "false_added",
+                 "true_removed", "false_removed"], 0))
+            totals["samples"] += 1
+            totals["failed_samples"] += int(stage["status"] == "failed")
+            if not success:
+                continue
+            totals["evaluated_samples"] += 1
             before, after = span_set(stage["input_entities"]), span_set(stage["output_entities"])
             added, removed = after - before, before - after
-            totals = effects.setdefault(stage["stage"], dict.fromkeys(
-                ["samples", "failed_samples", "true_added", "false_added", "true_removed", "false_removed"], 0))
-            for key, value in {"samples": 1, "failed_samples": int(stage["status"] == "failed"),
-                               "true_added": len(added & gold), "false_added": len(added - gold),
+            for key, value in {"true_added": len(added & gold), "false_added": len(added - gold),
                                "true_removed": len(removed & gold), "false_removed": len(removed - gold)}.items():
                 totals[key] += value
-    return {"precision": tp / (tp + fp) if tp + fp else 0.0,
-            "recall": tp / (tp + fn) if tp + fn else 0.0,
-            "f1": 2 * tp / (2 * tp + fp + fn) if 2 * tp + fp + fn else 0.0,
+    empty_score = 0.0 if evaluated else None
+    return {"precision": tp / (tp + fp) if tp + fp else empty_score,
+            "recall": tp / (tp + fn) if tp + fn else empty_score,
+            "f1": 2 * tp / (2 * tp + fp + fn) if 2 * tp + fp + fn else empty_score,
             "true_positive": tp, "false_positive": fp, "false_negative": fn,
             "num_samples": len(records),
-            "failed_samples": sum(not r.get("fully_executed", True) for r in records),
+            "failed_samples": len(records) - evaluated,
+            "evaluated_samples": evaluated,
+            "success_rate": evaluated / len(records) if records else None,
+            "evaluation_scope": "successful_samples_only",
             "stage_effects": effects}
 
 
-def save_results(run_dir, config, variant, records):
+def append_summary(summary, metrics):
+    """Keep existing columns and label historical rows without changing their scores."""
+    rows, columns = [], []
+    if summary.exists() and summary.stat().st_size:
+        with summary.open(encoding="utf-8-sig", newline="") as f:
+            reader = csv.DictReader(f)
+            columns, rows = list(reader.fieldnames), list(reader)
+    for row in rows:
+        if not row.get("evaluation_scope"):
+            row["evaluation_scope"] = "all_samples"
+            row["evaluated_samples"] = row["num_samples"]
+    current = {k: v for k, v in metrics.items() if k != "stage_effects"}
+    columns += [k for k in current if k not in columns]
+    with NamedTemporaryFile(mode="w", encoding="utf-8", newline="", dir=summary.parent,
+                            prefix=summary.name + ".", suffix=".tmp", delete=False) as f:
+        writer = csv.DictWriter(f, fieldnames=columns)
+        writer.writeheader()
+        writer.writerows([*rows, current])
+    Path(f.name).replace(summary)
+
+
+def save_results(run_dir, config, variant, records, paired_ids=None, reference=None):
     """Finalize completed runs; the runner has already flushed each prediction and log."""
     metrics = evaluate_ner(records)
+    if paired_ids is not None:
+        paired = evaluate_ner([r for r in records if r["sample_id"] in paired_ids])
+        metrics.update({"paired_samples": paired["evaluated_samples"],
+                        **{f"paired_{k}": paired[k] for k in ("precision", "recall", "f1")}})
+        if reference is not None and reference["f1"]:
+            gain = paired["f1"] / reference["f1"] - 1
+            metrics.update({"paired_f1_relative_gain": gain,
+                            "paired_precision_delta": paired["precision"] - reference["precision"],
+                            "paired_recall_delta": paired["recall"] - reference["recall"],
+                            "target_20pct_met": gain >= 0.2 - 1e-12
+                            and paired["precision"] >= reference["precision"]
+                            and paired["recall"] >= reference["recall"]})
     stages = [s for r in records for s in r["stages"]]
     metrics.update({"status": "complete", "run_id": run_dir.name, "dataset": config["dataset"],
+                    "system_version": config["system_version"],
                     "model_name": config["model_name"], "variant": variant,
+                    "retrieval_k": 0 if variant == "without_retrieval" else config["retrieval_k"],
+                    "training_sha256": config["training_sha256"],
                     "prompt_sha256": config["_prompt_hash"],
                     "api_calls": sum(len(s["attempts"]) for s in stages if not s["cache_hit"]),
                     "logical_attempts": sum(len(s["attempts"]) for s in stages),
                     "cache_hits": sum(s["cache_hit"] for s in stages),
                     "duration_seconds": round(sum(r["elapsed_seconds"] for r in records), 3)})
     (run_dir / "metrics.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2))
-    summary = RESULT_ROOT / "summary_prf1.csv"
-    columns = [k for k in metrics if k != "stage_effects"]
-    new_file = not summary.exists()
-    with summary.open("a", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=columns)
-        if new_file:
-            writer.writeheader()
-        writer.writerow({k: metrics[k] for k in columns})
+    append_summary(RESULT_ROOT / "summary_prf1.csv", metrics)
     return {"result_dir": str(run_dir), **metrics}
 
 
 def run_experiment(config, variant="full", limit=None, client=None):
     config = prepare_config(config)
-    variants = list(VARIANTS) if variant == "all" else [variant]
+    variants = list(VARIANTS) if variant == "all" else ["extract_only", "full"] if variant == "compare" else [variant]
     if any(name not in VARIANTS for name in variants):
         raise ValueError("Unknown ablation variant")
     count = config.get("max_loop", 500) if limit is None else limit
@@ -129,6 +185,7 @@ def run_experiment(config, variant="full", limit=None, client=None):
     snapshot = {k: v for k, v in config.items()
                 if not k.startswith("_") and not any(word in k.lower() for word in ("key", "secret", "token"))}
     snapshot.update({"requested_limit": count, "actual_samples": len(data),
+                     "evaluation_scope": "successful_samples_only",
                      "input_sha256": hashlib.sha256(data_bytes).hexdigest(),
                      "prompt_sha256": config["_prompt_hash"], "prompts": config["_prompts"]})
     files = [ROOT / "main.py", ROOT / "experiment.py", ROOT / "tool.py", *sorted((ROOT / "agents").glob("*.py"))]
@@ -141,7 +198,8 @@ def run_experiment(config, variant="full", limit=None, client=None):
             directory = RESULT_ROOT / config["dataset"] / config["model_name"] / name / run_id
             directory.mkdir(parents=True, exist_ok=False)
             (directory / "run_config.json").write_text(json.dumps(
-                {**snapshot, "variant": name, "modules": ["extraction", *VARIANTS[name]]}, ensure_ascii=False, indent=2))
+                {**snapshot, "variant": name, "retrieval_k": 0 if name == "without_retrieval" else config["retrieval_k"],
+                 "modules": ["extraction", *VARIANTS[name]]}, ensure_ascii=False, indent=2))
             output = stack.enter_context((directory / "predictions.jsonl").open("w", encoding="utf-8"))
             handler = logging.FileHandler(directory / "run.log", encoding="utf-8")
             handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
@@ -169,12 +227,20 @@ def run_experiment(config, variant="full", limit=None, client=None):
                       f"entities={len(record['pred_entities'])} complete={record['fully_executed']}", flush=True)
                 if any(s.get("fatal") for s in record["stages"]):
                     raise RuntimeError(f"API configuration rejected (HTTP 400/401/403/404); inspect {run['directory'] / 'run.log'}")
-        return [save_results(run["directory"], config, name, run["records"]) for name, run in runs.items()]
+        paired_ids = None
+        if len(runs) > 1:
+            paired_ids = set.intersection(*[
+                {r["sample_id"] for r in run["records"] if successful_record(r)} for run in runs.values()])
+            print(f"Paired evaluation: {len(paired_ids)}/{len(data)} samples succeeded in every variant", flush=True)
+        reference = evaluate_ner([r for r in runs["extract_only"]["records"] if r["sample_id"] in paired_ids]) \
+            if paired_ids is not None and "extract_only" in runs else None
+        return [save_results(run["directory"], config, name, run["records"], paired_ids, reference)
+                for name, run in runs.items()]
 
 
 def predict_sentence(sentence, config, variant="full"):
     config = prepare_config(config)
-    variants = list(VARIANTS) if variant == "all" else [variant]
+    variants = list(VARIANTS) if variant == "all" else ["extract_only", "full"] if variant == "compare" else [variant]
     cache = {}
     with make_client(config) as client:
         return {name: run_pipeline(sentence, config, client, name, cache) for name in variants}

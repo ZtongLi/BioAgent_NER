@@ -1,0 +1,30 @@
+{
+  "precision": 0.8092979127134725,
+  "recall": 0.8039585296889726,
+  "f1": 0.8066193853427897,
+  "true_positive": 853,
+  "false_positive": 201,
+  "false_negative": 208,
+  "num_samples": 500,
+  "failed_samples": 3,
+  "stage_effects": {
+    "extraction": {
+      "samples": 500,
+      "failed_samples": 3,
+      "true_added": 853,
+      "false_added": 201,
+      "true_removed": 0,
+      "false_removed": 0
+    }
+  },
+  "status": "complete",
+  "run_id": "20260922_214602_619314",
+  "dataset": "bc5cdr",
+  "model_name": "deepseek-v4.1-flash",
+  "variant": "extract_only",
+  "prompt_sha256": "9903e029028ffcad322054038e9dd6d3f6514c0d215784b6e56ca3bee43fb138",
+  "api_calls": 521,
+  "logical_attempts": 521,
+  "cache_hits": 0,
+  "duration_seconds": 6549.223
+}

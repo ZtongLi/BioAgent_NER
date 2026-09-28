@@ -1,0 +1,990 @@
+2026-09-21 20:02:19,810 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:02:19,815 - INFO - Sample 0 raw_response='[]'
+2026-09-21 20:02:28,087 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:02:28,089 - INFO - Sample 1 raw_response='[{"text": "cardiac arrest", "type": "DISEASE", "occurrence_index": 0}, {"text": "metoclopramide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:02:37,699 - INFO - Sample 2 raw_response=None
+2026-09-21 20:02:42,907 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:02:42,908 - INFO - Sample 3 raw_response='[{"text": "isoproterenol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ISPH", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myocardial infarction", "type": "DISEASE", "occurrence_index": 0}, {"text": "MI", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:03:05,694 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:05,696 - INFO - Sample 4 raw_response='[{"text": "Drowsiness", "type": "DISEASE", "occurrence_index": 0}, {"text": "altered taste perception", "type": "DISEASE", "occurrence_index": 0}, {"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "azelastine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:03:10,302 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:10,304 - INFO - Sample 5 raw_response='[]'
+2026-09-21 20:03:15,910 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:15,911 - INFO - Sample 6 raw_response='[{"text": "cisapride", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "potent inhibitor of CYP3A4", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "diltiazem", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:03:21,055 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:21,057 - INFO - Sample 7 raw_response='[{"text": "Na", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Cr", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:03:35,494 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:35,495 - INFO - Sample 8 raw_response='[{"text": "Amphetamine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:03:40,511 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:40,512 - INFO - Sample 9 raw_response='[]'
+2026-09-21 20:03:47,431 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:47,432 - INFO - Sample 10 raw_response='[{"text": "amine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ketamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "catatonia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:03:59,289 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:03:59,291 - INFO - Sample 11 raw_response='[{"text": "yohimbine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "male impotence", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:04:04,530 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:04:04,532 - INFO - Sample 12 raw_response='[{"text": "tamoxifen", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:05:08,165 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:05:08,167 - INFO - Sample 13 raw_response='[{"text": "Tenofovir", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Fanconi syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "renal insufficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:05:14,106 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:05:14,107 - INFO - Sample 14 raw_response='[{"text": "gentamicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "kanamycin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "lysozyme", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "egg - white lysozyme", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "netilmicin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:05:18,713 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:05:18,715 - INFO - Sample 15 raw_response='[]'
+2026-09-21 20:05:49,126 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:05:49,128 - INFO - Sample 16 raw_response='[{"text": "Urinary symptoms", "type": "DISEASE", "occurrence_index": 0}, {"text": "overactive bladder", "type": "DISEASE", "occurrence_index": 0}, {"text": "tolterodine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:05:55,271 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:05:55,272 - INFO - Sample 17 raw_response='[{"text": "status epilepticus", "type": "DISEASE", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:06:00,411 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:06:00,413 - INFO - Sample 18 raw_response='[{"text": "pulmonary toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "amiodarone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "direct injury", "type": "DISEASE", "occurrence_index": 0}, {"text": "accumulation of phospholipid", "type": "DISEASE", "occurrence_index": 0}, {"text": "hypersensitivity pneumonitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:06:08,844 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:06:08,845 - INFO - Sample 19 raw_response='[{"text": "azelastine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:06:13,293 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:06:13,293 - INFO - Sample 20 raw_response='[]'
+2026-09-21 20:06:53,131 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:06:53,132 - INFO - Sample 21 raw_response='[{"text": "fluoxetine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:07:03,729 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:07:03,731 - INFO - Sample 22 raw_response='[{"text": "paracetamol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "fulminant hepatic failure", "type": "DISEASE", "occurrence_index": 0}, {"text": "fulminant hepatic failure", "type": "DISEASE", "occurrence_index": 1}, {"text": "viral hepatitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:08:25,626 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:08:25,627 - INFO - Sample 23 raw_response='[]'
+2026-09-21 20:08:34,094 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:08:34,095 - INFO - Sample 24 raw_response='[{"text": "Lithium", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tremor", "type": "DISEASE", "occurrence_index": 0}, {"text": "quetiapine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cerebellar tremor", "type": "DISEASE", "occurrence_index": 0}, {"text": "lithium", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "tremor", "type": "DISEASE", "occurrence_index": 1}, {"text": "lithium", "type": "CHEMICAL", "occurrence_index": 2}]'
+2026-09-21 20:08:41,057 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:08:41,058 - INFO - Sample 25 raw_response='[]'
+2026-09-21 20:09:23,821 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:09:23,823 - INFO - Sample 26 raw_response='[\n  {"text": "thiamine", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "transketolase", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "fibroblasts", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "diabetic", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "Wernicke \' s encephalopathy", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "tolazamide", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "transketolase abnormality", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "thiamine pyrophosphate", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "TPP", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "Wernicke - Korsakoff syndrome", "type": "DISEASE", "occurrence_index": 0}\n]'
+2026-09-21 20:09:59,699 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:09:59,700 - INFO - Sample 27 raw_response='[]'
+2026-09-21 20:10:07,382 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:10:07,383 - INFO - Sample 28 raw_response='[{"text": "cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:10:13,481 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:10:13,483 - INFO - Sample 29 raw_response='[{"text": "unsuccessful cadaver kidney transplantation", "type": "DISEASE", "occurrence_index": 0}, {"text": "ethambutol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "isoniazid", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:10:21,819 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:10:21,820 - INFO - Sample 30 raw_response='[]'
+2026-09-21 20:10:37,385 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:10:37,386 - INFO - Sample 31 raw_response='[{"text": "IL - 6", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myalgia", "type": "DISEASE", "occurrence_index": 0}, {"text": "myalgia", "type": "DISEASE", "occurrence_index": 1}, {"text": "IL - 6", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 20:10:44,169 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:10:44,171 - INFO - Sample 32 raw_response='[{"text": "Rho / ROCK pathway", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "coronary artery spasm", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:10:54,756 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:10:54,757 - INFO - Sample 33 raw_response='[{"text": "ephedrine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "antidepressant", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sexual dysfunction", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:11:02,166 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:11:02,167 - INFO - Sample 34 raw_response='[]'
+2026-09-21 20:11:09,227 - INFO - Sample 35 raw_response=None
+2026-09-21 20:11:24,937 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:11:24,938 - INFO - Sample 36 raw_response='[{"text": "Abbott - 53693", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "SHR", "type": "DISEASE", "occurrence_index": 0}, {"text": "bradycardia", "type": "DISEASE", "occurrence_index": 0}, {"text": "SHR", "type": "DISEASE", "occurrence_index": 1}, {"text": "prazosin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:11:37,560 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:11:37,562 - INFO - Sample 37 raw_response='[{"text": "ischemic episodes", "type": "DISEASE", "occurrence_index": 0}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "ECG changes", "type": "DISEASE", "occurrence_index": 0}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 2}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 3}]'
+2026-09-21 20:11:56,480 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:11:56,481 - INFO - Sample 38 raw_response='[{"text": "fatal aplastic anemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "chloramphenicol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "reversible bone marrow hypoplasia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:12:04,324 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:12:04,326 - INFO - Sample 39 raw_response='[{"text": "malondialdehyde", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "oxypurines", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "nucleosides", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:12:12,209 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:12:12,210 - INFO - Sample 40 raw_response='[{"text": "L - dopa", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ammonia", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dopamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ammonia", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "urea", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:12:29,584 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:12:29,585 - INFO - Sample 41 raw_response='[{"text": "atorvastatin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "atorva", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dexamethasone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dex", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypertension", "type": "DISEASE", "occurrence_index": 0}, {"text": "atorva", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "tap water", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:12:37,810 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:12:37,811 - INFO - Sample 42 raw_response='[{"text": "dexrazoxane", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myelosuppression", "type": "DISEASE", "occurrence_index": 0}, {"text": "weight loss", "type": "DISEASE", "occurrence_index": 0}, {"text": "daunorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "etoposide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dexrazoxane", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "myelosuppression", "type": "DISEASE", "occurrence_index": 1}, {"text": "weight loss", "type": "DISEASE", "occurrence_index": 1}, {"text": "doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:12:46,439 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:12:46,441 - INFO - Sample 43 raw_response='[{"text": "cisapride", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "gastroesophageal reflux disorder", "type": "DISEASE", "occurrence_index": 0}, {"text": "diltiazem", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypertension", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:12:53,462 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:12:53,463 - INFO - Sample 44 raw_response='[{"text": "NO", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "headache", "type": "DISEASE", "occurrence_index": 0}, {"text": "CGRP", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:13:01,539 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:13:01,540 - INFO - Sample 45 raw_response='[{"text": "Cauda equina syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "spinal anaesthesia", "type": "DISEASE", "occurrence_index": 0}, {"text": "hyperbaric", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "lignocaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cauda equina syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:13:10,239 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:13:10,241 - INFO - Sample 46 raw_response='[]'
+2026-09-21 20:13:19,167 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:13:19,168 - INFO - Sample 47 raw_response='[{"text": "renal transplant", "type": "DISEASE", "occurrence_index": 0}, {"text": "rapamycin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "RAPA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:13:33,461 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:13:33,462 - INFO - Sample 48 raw_response='[{"text": "Transplantation - associated microangiopathy", "type": "DISEASE", "occurrence_index": 0}, {"text": "TMA", "type": "DISEASE", "occurrence_index": 0}, {"text": "acute renal failure", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:13:40,529 - INFO - Sample 49 raw_response=None
+2026-09-21 20:13:48,511 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:13:48,512 - INFO - Sample 50 raw_response='[{"text": "gentamicin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:14:04,552 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:14:04,553 - INFO - Sample 51 raw_response='[]'
+2026-09-21 20:14:11,914 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:14:11,915 - INFO - Sample 52 raw_response='[]'
+2026-09-21 20:14:46,565 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:14:46,567 - INFO - Sample 53 raw_response='[]'
+2026-09-21 20:14:56,398 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:14:56,400 - INFO - Sample 54 raw_response='[{"text": "Low - molecular - weight heparin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "LMWH", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "UH", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "UH", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 20:15:17,436 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:15:17,437 - INFO - Sample 55 raw_response='[]'
+2026-09-21 20:15:25,022 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:15:25,046 - INFO - Sample 56 raw_response='[{"text": "severe erosive rheumatoid arthritis", "type": "DISEASE", "occurrence_index": 0}, {"text": "RA", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:15:32,104 - INFO - Sample 57 raw_response=None
+2026-09-21 20:15:39,168 - INFO - Sample 58 raw_response=None
+2026-09-21 20:15:50,804 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:15:50,805 - INFO - Sample 59 raw_response='[{"text": "pyeloureteritis cystica", "type": "DISEASE", "occurrence_index": 0}, {"text": "submucosal hemorrhage", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:16:16,387 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:16:16,389 - INFO - Sample 60 raw_response='[{"text": "Paracetamol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "acute liver failure", "type": "DISEASE", "occurrence_index": 0}, {"text": "mortality", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:16:22,310 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:16:22,311 - INFO - Sample 61 raw_response='[{"text": "ammonia coma", "type": "DISEASE", "occurrence_index": 0}, {"text": "rats", "type": "DISEASE", "occurrence_index": 0}, {"text": "L - dopa", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:16:29,377 - INFO - Sample 62 raw_response=None
+2026-09-21 20:17:23,654 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:17:23,656 - INFO - Sample 63 raw_response='[{"text": "Amisulpride", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tic - like symptoms", "type": "DISEASE", "occurrence_index": 0}, {"text": "schizophrenic", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:17:36,413 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:17:36,414 - INFO - Sample 64 raw_response='[{"text": "blinding complications", "type": "DISEASE", "occurrence_index": 0}, {"text": "uveitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:17:42,849 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:17:42,850 - INFO - Sample 65 raw_response='[{"text": "ethambutol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "visual function continued to deteriorate", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:17:52,632 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:17:52,634 - INFO - Sample 66 raw_response='[{"text": "Facial dysmorphism", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:17:59,432 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:17:59,434 - INFO - Sample 67 raw_response='[{"text": "prostaglandin D2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "substance P antagonist", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "AH6809", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "prostanoid EP1 - receptor antagonist", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hyperalgesic", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:18:06,909 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:18:06,910 - INFO - Sample 68 raw_response='[{"text": "Lesions", "type": "DISEASE", "occurrence_index": 0}, {"text": "substantia nigra", "type": "DISEASE", "occurrence_index": 0}, {"text": "erectile dysfunction", "type": "DISEASE", "occurrence_index": 0}, {"text": "erectile dysfunction", "type": "DISEASE", "occurrence_index": 1}, {"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:18:18,600 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:18:18,602 - INFO - Sample 69 raw_response='[{"text": "hydrocortisone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:18:26,965 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:18:26,967 - INFO - Sample 70 raw_response='[{"text": "remifentanil", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "etomidate", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:18:35,237 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:18:35,238 - INFO - Sample 71 raw_response='[{"text": "Reye syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:18:42,630 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:18:42,631 - INFO - Sample 72 raw_response='[{"text": "methylphenidate", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "pathological behavior", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:19:05,686 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:19:05,687 - INFO - Sample 73 raw_response='[]'
+2026-09-21 20:19:12,293 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:19:12,294 - INFO - Sample 74 raw_response='[{"text": "paraesthesia", "type": "DISEASE", "occurrence_index": 0}, {"text": "numbness", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:19:21,488 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:19:21,490 - INFO - Sample 75 raw_response='[{"text": "D - penicillamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "localized scleroderma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:19:30,978 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:19:30,979 - INFO - Sample 76 raw_response='[]'
+2026-09-21 20:19:51,308 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:19:51,309 - INFO - Sample 77 raw_response='[{"text": "tobramycin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:20:00,674 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:20:00,675 - INFO - Sample 78 raw_response='[{"text": "Tacrolimus", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:20:13,782 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:20:13,783 - INFO - Sample 79 raw_response='[{"text": "Suprofen", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "nonsteroidal anti - inflammatory drug", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "analgesic agent", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:20:20,199 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:20:20,201 - INFO - Sample 80 raw_response='[]'
+2026-09-21 20:21:10,804 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:21:10,805 - INFO - Sample 81 raw_response='[{"text": "swollen optic nerve heads", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:21:20,533 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:21:20,535 - INFO - Sample 82 raw_response='[{"text": "Pregnenolone sulphate", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PREGS", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "neurosteroids", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ageing", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:21:32,289 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:21:32,290 - INFO - Sample 83 raw_response='[]'
+2026-09-21 20:21:39,799 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:21:39,800 - INFO - Sample 84 raw_response='[{"text": "Cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "bladder cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "highly aggressive disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:21:57,411 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:21:57,413 - INFO - Sample 85 raw_response='[{"text": "calcium", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "magnesium", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "thyroid - stimulating hormone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "lithium", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:22:03,965 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:22:03,966 - INFO - Sample 86 raw_response='[{"text": "antifibrinolytic agent", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "menorrhagia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:22:24,549 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:22:24,550 - INFO - Sample 87 raw_response='[{"text": "neuroleptic malignant syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "paroxetine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "alprazolam", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:22:31,921 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:22:31,922 - INFO - Sample 88 raw_response='[{"text": "bortezomib", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dexamethasone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "MM", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:23:49,541 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:23:49,542 - INFO - Sample 89 raw_response='[{"text": "convulsant", "type": "DISEASE", "occurrence_index": 0}, {"text": "lethal", "type": "DISEASE", "occurrence_index": 0}, {"text": "local anesthetics", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "local anesthetic", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "convulsions", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:24:38,133 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:24:38,135 - INFO - Sample 90 raw_response='```json\n[\n  {"text": "Lithium", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "nephrogenic diabetes insipidus", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "polyuria", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "lithium", "type": "CHEMICAL", "occurrence_index": 0}\n]\n```'
+2026-09-21 20:26:25,702 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:26:25,703 - INFO - Sample 91 raw_response='[{"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "cisplatin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "irreversible lethal renal failure", "type": "DISEASE", "occurrence_index": 0}, {"text": "anuria", "type": "DISEASE", "occurrence_index": 0}, {"text": "ifosfamide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:26:33,484 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:26:33,486 - INFO - Sample 92 raw_response='[{"text": "overdose", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "generalised tonic - clonic seizures", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:27:57,372 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:27:57,374 - INFO - Sample 93 raw_response='[]'
+2026-09-21 20:28:06,259 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:28:06,261 - INFO - Sample 94 raw_response='[{"text": "morbidity", "type": "DISEASE", "occurrence_index": 0}, {"text": "mortality", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:28:13,322 - INFO - Sample 95 raw_response=None
+2026-09-21 20:28:19,956 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:28:19,958 - INFO - Sample 96 raw_response='[{"text": "Coronary angiography", "type": "DISEASE", "occurrence_index": 0}, {"text": "obstructive coronary lesions", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:28:28,276 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:28:28,278 - INFO - Sample 97 raw_response='[{"text": "carteolol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "5 - HT1A receptor", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "5 - hydroxytryptophan", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:29:34,822 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:29:34,823 - INFO - Sample 98 raw_response='[{"text": "syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "the syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "suprofen", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "syndrome", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 20:30:28,134 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:30:28,134 - INFO - Sample 99 raw_response='[{"text": "diazepam", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:30:48,525 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:30:48,526 - INFO - Sample 100 raw_response='[{"text": "Chlorthalidone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:30:57,617 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:30:57,618 - INFO - Sample 101 raw_response='[{"text": "depressive symptoms", "type": "DISEASE", "occurrence_index": 0}, {"text": "insomnia", "type": "DISEASE", "occurrence_index": 0}, {"text": "loss of appetite", "type": "DISEASE", "occurrence_index": 0}, {"text": "exhaustion", "type": "DISEASE", "occurrence_index": 0}, {"text": "agitation", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:31:26,025 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:31:26,026 - INFO - Sample 102 raw_response='[\n  {"text": "renal function", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "low systolic blood pressure", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "hypertension", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "diabetes", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "antiplatelet", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "diuretic", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "beta - blocker", "type": "CHEMICAL", "occurrence_index": 0}\n]'
+2026-09-21 20:31:31,688 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:31:31,689 - INFO - Sample 103 raw_response='[]'
+2026-09-21 20:31:36,650 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:31:36,652 - INFO - Sample 104 raw_response='[{"text": "terbutaline", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "potassium", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:33:01,864 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:33:01,866 - INFO - Sample 105 raw_response='[{"text": "levobupivacaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ropivacaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}, {"text": "bupivacaine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:33:08,036 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:33:08,037 - INFO - Sample 106 raw_response='[{"text": "liposomal daunorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Kaposi \' s sarcoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:33:48,380 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:33:48,382 - INFO - Sample 107 raw_response='[{"text": "normal - sodium diet", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "low - sodium ( 17 mmol / day ) diet", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sodium", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sodium", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 20:34:53,214 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:34:53,215 - INFO - Sample 108 raw_response='[{"text": "drug resistant mutant HBV", "type": "DISEASE", "occurrence_index": 0}, {"text": "HBV - DNA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:36:24,952 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:36:24,953 - INFO - Sample 109 raw_response='[{"text": "Neuroleptic malignant syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "risperidone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:36:30,583 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:36:30,585 - INFO - Sample 110 raw_response='[{"text": "arterial occlusion", "type": "DISEASE", "occurrence_index": 0}, {"text": "ischemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "heparin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "thrombocytopenia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:37:49,934 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:37:49,935 - INFO - Sample 111 raw_response='[{"text": "fluoxetine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:37:56,395 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:37:56,397 - INFO - Sample 112 raw_response='[{"text": "urinary potassium losses", "type": "DISEASE", "occurrence_index": 0}, {"text": "AmB", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "spironolactone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "AmB", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 20:39:19,954 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:39:19,956 - INFO - Sample 113 raw_response='[{"text": "coma", "type": "DISEASE", "occurrence_index": 0}, {"text": "hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "hyperglycemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "acidosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:39:34,030 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:39:34,032 - INFO - Sample 114 raw_response='[{"text": "Fatal haemopericardium", "type": "DISEASE", "occurrence_index": 0}, {"text": "gastrointestinal haemorrhage", "type": "DISEASE", "occurrence_index": 0}, {"text": "cranberry juice", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "warfarin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:40:32,250 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:40:32,252 - INFO - Sample 115 raw_response='[{"text": "vancomycin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:40:55,716 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:40:55,717 - INFO - Sample 116 raw_response='[{"text": "Extrapyramidal side effects", "type": "DISEASE", "occurrence_index": 0}, {"text": "oral haloperidol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:41:55,814 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:41:55,816 - INFO - Sample 117 raw_response='[{"text": "Fluoxetine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "serotonin reuptake inhibitor", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hyperprolactinemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:43:57,999 - INFO - Sample 118 raw_response=None
+2026-09-21 20:46:00,180 - INFO - Sample 119 raw_response=None
+2026-09-21 20:46:25,634 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:46:25,636 - INFO - Sample 120 raw_response='[{"text": "levodopa", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dyskinesias", "type": "DISEASE", "occurrence_index": 0}, {"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:46:31,062 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:46:31,064 - INFO - Sample 121 raw_response='[{"text": "fenoldopam", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "theophylline", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:47:06,162 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:47:06,163 - INFO - Sample 122 raw_response='[{"text": "dexamethasone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "mesna", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "mesna", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 20:48:01,668 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:48:01,669 - INFO - Sample 123 raw_response='[{"text": "salt", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "captopril", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "spontaneously hypertensive rats", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:49:04,883 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:49:04,884 - INFO - Sample 124 raw_response='[{"text": "lipid peroxidation", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "glutathione", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "MA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:51:07,060 - INFO - Sample 125 raw_response=None
+2026-09-21 20:51:52,473 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:51:52,475 - INFO - Sample 126 raw_response='[{"text": "corticosterone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "TOTP", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "DFP", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "plasma cholinesterase", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "liver carboxylesterase", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:51:58,976 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:51:58,977 - INFO - Sample 127 raw_response='[{"text": "Diazepam", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "reflex bradycardia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:52:04,039 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:52:04,041 - INFO - Sample 128 raw_response='[{"text": "pentamidine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "polymorphic ventricular tachycardia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:53:23,792 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:53:23,794 - INFO - Sample 129 raw_response='[]'
+2026-09-21 20:53:29,032 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:53:29,034 - INFO - Sample 130 raw_response='[]'
+2026-09-21 20:53:52,257 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:53:52,258 - INFO - Sample 131 raw_response='[]'
+2026-09-21 20:54:09,583 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:54:09,584 - INFO - Sample 132 raw_response='[{"text": "prostaglandin D2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "prostaglandin E2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hyperalgesia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:54:14,907 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:54:14,909 - INFO - Sample 133 raw_response='[\n  {"text": "bupropion HCl", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "convulsions", "type": "DISEASE", "occurrence_index": 0}\n]'
+2026-09-21 20:55:00,232 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:55:00,233 - INFO - Sample 134 raw_response='[{"text": "decompensated HBV - related cirrhosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:55:08,053 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:55:08,054 - INFO - Sample 135 raw_response='[]'
+2026-09-21 20:55:13,137 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:55:13,138 - INFO - Sample 136 raw_response='[{"text": "verapamil", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "AF", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:55:18,294 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:55:18,295 - INFO - Sample 137 raw_response='[{"text": "haloperidol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:55:23,209 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:55:23,210 - INFO - Sample 138 raw_response='[]'
+2026-09-21 20:55:28,533 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:55:28,535 - INFO - Sample 139 raw_response='[{"text": "elemental calcium", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "calcium carbonate", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:56:22,397 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:56:22,399 - INFO - Sample 140 raw_response='[{"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 1}, {"text": "LID", "type": "DISEASE", "occurrence_index": 0}, {"text": "levodopa", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dyskinesias", "type": "DISEASE", "occurrence_index": 0}, {"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 2}, {"text": "LID", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 20:56:28,168 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:56:28,170 - INFO - Sample 141 raw_response='[{"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "LID", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:56:33,251 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:56:33,252 - INFO - Sample 142 raw_response='[]'
+2026-09-21 20:56:48,207 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:56:48,208 - INFO - Sample 143 raw_response='[{"text": "serotonin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ecstasy", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "MDMA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:56:53,629 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:56:53,630 - INFO - Sample 144 raw_response='[{"text": "mannitol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "brain edema", "type": "DISEASE", "occurrence_index": 0}, {"text": "elevated ICP", "type": "DISEASE", "occurrence_index": 0}, {"text": "brain tumor", "type": "DISEASE", "occurrence_index": 0}, {"text": "rebound phenomenon", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:57:06,833 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:06,835 - INFO - Sample 145 raw_response='[{"text": "dopamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "DA", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "methamphetamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "METH", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "DA", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "neurotransmission", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "toxicity", "type": "DISEASE", "occurrence_index": 1}, {"text": "DA", "type": "CHEMICAL", "occurrence_index": 2}, {"text": "neurotransmission", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "toxicity", "type": "DISEASE", "occurrence_index": 2}]'
+2026-09-21 20:57:11,337 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:11,339 - INFO - Sample 146 raw_response='[{"text": "doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:57:19,897 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:19,899 - INFO - Sample 147 raw_response='[{"text": "adenovirus hemorrhagic cystitis", "type": "DISEASE", "occurrence_index": 0}, {"text": "adenovirus pneumonia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:57:26,408 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:26,410 - INFO - Sample 148 raw_response='[{"text": "captopril", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "massive proteinuria", "type": "DISEASE", "occurrence_index": 0}, {"text": "puromycin aminonucleoside", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:57:38,193 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:38,194 - INFO - Sample 149 raw_response='[]'
+2026-09-21 20:57:43,098 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:43,099 - INFO - Sample 150 raw_response='[{"text": "zidovudine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "CD4 cells", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "zidovudine", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 20:57:53,442 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:53,443 - INFO - Sample 151 raw_response='[{"text": "transient visual disturbances", "type": "DISEASE", "occurrence_index": 0}, {"text": "risperidone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:57:58,193 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:57:58,194 - INFO - Sample 152 raw_response='[]'
+2026-09-21 20:58:04,437 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:04,439 - INFO - Sample 153 raw_response='[{"text": "MK - 801", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tremor", "type": "DISEASE", "occurrence_index": 0}, {"text": "reserpine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:58:10,951 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:10,953 - INFO - Sample 154 raw_response='[{"text": "D - Penicillamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "nephrotic syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "proteinuria", "type": "DISEASE", "occurrence_index": 0}, {"text": "renal insufficiency", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:58:16,088 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:16,090 - INFO - Sample 155 raw_response='[{"text": "neuroleptic", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "catalepsy", "type": "DISEASE", "occurrence_index": 0}, {"text": "aryl - piperazine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "anxiolytic drugs", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:58:32,035 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:32,036 - INFO - Sample 156 raw_response='[{"text": "lometrexol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tumours", "type": "DISEASE", "occurrence_index": 0}, {"text": "methotrexate", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:58:37,975 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:37,976 - INFO - Sample 157 raw_response='[{"text": "Ritanserin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "DMSO", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:58:45,951 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:45,952 - INFO - Sample 158 raw_response='[]'
+2026-09-21 20:58:50,724 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:50,726 - INFO - Sample 159 raw_response='[{"text": "steroids", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:58:56,373 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:58:56,374 - INFO - Sample 160 raw_response='[{"text": "Tiapride", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "benzamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "metoclopramide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "levodopa", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "peak dose involuntary movements", "type": "DISEASE", "occurrence_index": 0}, {"text": "idiopathic Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:59:02,779 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:02,780 - INFO - Sample 161 raw_response='[{"text": "alcohol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:59:07,321 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:07,323 - INFO - Sample 162 raw_response='[{"text": "ergot", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "gangrene", "type": "DISEASE", "occurrence_index": 0}, {"text": "migraine headache", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:59:12,041 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:12,042 - INFO - Sample 163 raw_response='[{"text": "hypotony", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:59:17,704 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:17,705 - INFO - Sample 164 raw_response='[{"text": "Reserpine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tremor", "type": "DISEASE", "occurrence_index": 0}, {"text": "catalepsy", "type": "DISEASE", "occurrence_index": 0}, {"text": "Parkinson \' s disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 20:59:26,812 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:26,813 - INFO - Sample 165 raw_response='[{"text": "dysosmia", "type": "DISEASE", "occurrence_index": 0}, {"text": "pyrazinamide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:59:32,082 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:32,083 - INFO - Sample 166 raw_response='[{"text": "schizophrenic", "type": "DISEASE", "occurrence_index": 0}, {"text": "LSD", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "EPS", "type": "DISEASE", "occurrence_index": 0}, {"text": "antipsychotics", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "risperidone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:59:37,235 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:37,236 - INFO - Sample 167 raw_response='[{"text": "coronary spasm", "type": "DISEASE", "occurrence_index": 0}, {"text": "cardiotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "calcium antagonists", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "cardiotoxicity", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 20:59:41,924 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:41,926 - INFO - Sample 168 raw_response='[{"text": "Myocardial hypertrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "tacrolimus", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:59:47,914 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:47,916 - INFO - Sample 169 raw_response='[]'
+2026-09-21 20:59:53,458 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:53,459 - INFO - Sample 170 raw_response='[{"text": "Nephrotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "ciprofloxacin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 20:59:58,870 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 20:59:58,872 - INFO - Sample 171 raw_response='[{"text": "verapamil", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "diltiazem", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "atrial conduction", "type": "DISEASE", "occurrence_index": 0}, {"text": "autonomic blockade", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:00:11,876 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:11,878 - INFO - Sample 172 raw_response='[{"text": "oxytocin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "neuraxial anesthesia", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cesarean delivery", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:00:17,098 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:17,100 - INFO - Sample 173 raw_response='[]'
+2026-09-21 21:00:22,115 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:22,117 - INFO - Sample 174 raw_response='[{"text": "platelet aggregation", "type": "DISEASE", "occurrence_index": 0}, {"text": "acetaminophen", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "platelet aggregation", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 21:00:35,224 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:35,225 - INFO - Sample 175 raw_response='[{"text": "SIAT", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:00:40,650 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:40,652 - INFO - Sample 176 raw_response='[{"text": "venous sinus thrombosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:00:50,688 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:50,689 - INFO - Sample 177 raw_response='[{"text": "Nephrotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "netilmicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tobramycin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:00:56,420 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:00:56,422 - INFO - Sample 178 raw_response='[]'
+2026-09-21 21:01:02,461 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:02,463 - INFO - Sample 179 raw_response='[{"text": "renal abnormality", "type": "DISEASE", "occurrence_index": 0}, {"text": "captopril", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:01:15,364 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:15,366 - INFO - Sample 180 raw_response='[{"text": "MESNA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:01:20,689 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:20,691 - INFO - Sample 181 raw_response='[{"text": "hepatomas", "type": "DISEASE", "occurrence_index": 0}, {"text": "hyperplastic preneoplastic liver lesions", "type": "DISEASE", "occurrence_index": 0}, {"text": "alpha - benzene hexachloride", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:01:25,782 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:25,784 - INFO - Sample 182 raw_response='[{"text": "pemoline", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:01:30,826 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:30,827 - INFO - Sample 183 raw_response='[{"text": "CsA", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "FK506", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "toxicity", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:01:49,119 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:49,120 - INFO - Sample 184 raw_response='[{"text": "Nephrotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "cyclosporin A", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "FK506", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:01:56,417 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:01:56,419 - INFO - Sample 185 raw_response='[{"text": "Nociceptive", "type": "DISEASE", "occurrence_index": 0}, {"text": "prostaglandin D2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "E2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "F2 alpha", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:02:02,263 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:02:02,264 - INFO - Sample 186 raw_response='[]'
+2026-09-21 21:02:09,533 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:02:09,535 - INFO - Sample 187 raw_response='[{"text": "Hemolytic anemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "drug", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "steroid therapy", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:02:31,140 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:02:31,141 - INFO - Sample 188 raw_response='[{"text": "valsartan", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "amlodipine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "lowering blood pressure", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:02:36,362 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:02:36,389 - INFO - Sample 189 raw_response='[{"text": "brain ischemic", "type": "DISEASE", "occurrence_index": 0}, {"text": "hyperthermia", "type": "DISEASE", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:02:51,929 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:02:51,931 - INFO - Sample 190 raw_response='[{"text": "benzoylecgonine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "amphetamine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:02:57,666 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:02:57,667 - INFO - Sample 191 raw_response='[{"text": "IsoP", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "VPA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:03:11,075 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:03:11,077 - INFO - Sample 192 raw_response='[{"text": "anaemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "3 \' - azido - 3 \' dideoxythymidine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "AZT", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:03:16,298 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:03:16,300 - INFO - Sample 193 raw_response='[{"text": "Lethal anuria", "type": "DISEASE", "occurrence_index": 0}, {"text": "ifosfamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "impaired renal function", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:03:21,626 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:03:21,627 - INFO - Sample 194 raw_response='[{"text": "AAP", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "serum transaminase activities", "type": "DISEASE", "occurrence_index": 0}, {"text": "ethanol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "nicotinic acid amide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NAA", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "adverse effects", "type": "DISEASE", "occurrence_index": 0}, {"text": "NAD", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:03:36,882 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:03:36,884 - INFO - Sample 195 raw_response='[]'
+2026-09-21 21:03:42,615 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:03:42,617 - INFO - Sample 196 raw_response='[{"text": "Penicillamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "rapidly progressive glomerulonephritis", "type": "DISEASE", "occurrence_index": 0}, {"text": "rheumatoid arthritis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:03:56,235 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:03:56,236 - INFO - Sample 197 raw_response='[{"text": "Eosinophilic myocarditis", "type": "DISEASE", "occurrence_index": 0}, {"text": "multidrug therapy", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:04:01,697 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:01,699 - INFO - Sample 198 raw_response='[{"text": "diabetic nephropathy", "type": "DISEASE", "occurrence_index": 0}, {"text": "oxidative stress", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:04:07,089 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:07,090 - INFO - Sample 199 raw_response='[{"text": "chronic urticaria", "type": "DISEASE", "occurrence_index": 0}, {"text": "NSAID", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "urticaria", "type": "DISEASE", "occurrence_index": 0}, {"text": "angioedema", "type": "DISEASE", "occurrence_index": 0}, {"text": "angioedema", "type": "DISEASE", "occurrence_index": 1}, {"text": "chronic urticaria", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 21:04:11,906 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:11,907 - INFO - Sample 200 raw_response='[{"text": "Urine nitrite", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ADR - nephropathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:04:17,076 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:17,077 - INFO - Sample 201 raw_response='[{"text": "Aging", "type": "DISEASE", "occurrence_index": 0}, {"text": "epithelial cells", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "rat prostate lateral lobe", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "experimental hyperprolactinemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "haloperidol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:04:21,909 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:21,911 - INFO - Sample 202 raw_response='[{"text": "complete heart block", "type": "DISEASE", "occurrence_index": 0}, {"text": "refractory hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "verapamil", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "metoprolol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:04:30,525 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:30,526 - INFO - Sample 203 raw_response='[{"text": "optic and peripheral neuropathy", "type": "DISEASE", "occurrence_index": 0}, {"text": "disulfiram", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "alcohol dependence", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:04:35,604 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:35,606 - INFO - Sample 204 raw_response='[]'
+2026-09-21 21:04:40,446 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:40,447 - INFO - Sample 205 raw_response='[{"text": "Convulsions", "type": "DISEASE", "occurrence_index": 0}, {"text": "death", "type": "DISEASE", "occurrence_index": 0}, {"text": "cardiopulmonary arrest", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:04:45,214 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:45,216 - INFO - Sample 206 raw_response='[]'
+2026-09-21 21:04:50,199 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:50,201 - INFO - Sample 207 raw_response='[{"text": "hemorrhage", "type": "DISEASE", "occurrence_index": 0}, {"text": "thromboembolic events", "type": "DISEASE", "occurrence_index": 0}, {"text": "heparin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:04:55,179 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:04:55,181 - INFO - Sample 208 raw_response='[{"text": "sequelae", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:05:00,264 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:00,266 - INFO - Sample 209 raw_response='[]'
+2026-09-21 21:05:05,441 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:05,442 - INFO - Sample 210 raw_response='[{"text": "alfentanil", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ALF", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:05:11,193 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:11,195 - INFO - Sample 211 raw_response='[{"text": "paracetamol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "paracetamol - induced acute liver injury", "type": "DISEASE", "occurrence_index": 0}, {"text": "acute liver injury", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:05:15,999 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:16,001 - INFO - Sample 212 raw_response='[{"text": "dilevalol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dilevalol", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 21:05:24,104 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:24,105 - INFO - Sample 213 raw_response='[]'
+2026-09-21 21:05:30,238 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:30,239 - INFO - Sample 214 raw_response='[{"text": "nimesulide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "paracetamol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NSAID", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "urticaria", "type": "DISEASE", "occurrence_index": 0}, {"text": "angioedema", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:05:34,876 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:34,878 - INFO - Sample 215 raw_response='[{"text": "bupivacaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cardiovascular alterations", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:05:39,966 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:39,967 - INFO - Sample 216 raw_response='[]'
+2026-09-21 21:05:45,188 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:45,190 - INFO - Sample 217 raw_response='[]'
+2026-09-21 21:05:53,380 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:53,382 - INFO - Sample 218 raw_response='[{"text": "Cholinergic toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "echothiophate iodide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:05:59,729 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:05:59,731 - INFO - Sample 219 raw_response='[]'
+2026-09-21 21:06:04,849 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:04,851 - INFO - Sample 220 raw_response='[{"text": "tropicamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:06:10,174 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:10,176 - INFO - Sample 221 raw_response='[{"text": "heart disease", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:06:15,602 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:15,603 - INFO - Sample 222 raw_response='[{"text": "cardiotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "antitumor efficacy", "type": "DISEASE", "occurrence_index": 0}, {"text": "liposome", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "encapsulated doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "conventional doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "doxorubicin", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "metastatic breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:06:21,235 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:21,236 - INFO - Sample 223 raw_response='[{"text": "keratoconjunctivitis sicca", "type": "DISEASE", "occurrence_index": 0}, {"text": "uveitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:06:26,046 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:26,048 - INFO - Sample 224 raw_response='[{"text": "ancrod", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "heparin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "arterial thrombosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:06:30,859 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:30,861 - INFO - Sample 225 raw_response='[{"text": "status epilepticus", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:06:46,528 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:46,530 - INFO - Sample 226 raw_response='[]'
+2026-09-21 21:06:51,546 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:51,548 - INFO - Sample 227 raw_response='[{"text": "Hemolytic - uremic syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "quinine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:06:59,531 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:06:59,533 - INFO - Sample 228 raw_response='[{"text": "dobutamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "therapy", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "metoprolol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "metoprolol", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "glucagon", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:07:04,858 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:04,860 - INFO - Sample 229 raw_response='[{"text": "Nephrotoxic", "type": "DISEASE", "occurrence_index": 0}, {"text": "aminoglycoside", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:07:10,287 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:10,288 - INFO - Sample 230 raw_response='[]'
+2026-09-21 21:07:17,451 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:17,453 - INFO - Sample 231 raw_response='[{"text": "Cardiac toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "5 - fluorouracil", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:07:24,518 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:24,520 - INFO - Sample 232 raw_response='[{"text": "CBZ", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "lidocaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cocaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}, {"text": "local anesthetic seizures", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:07:29,227 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:29,229 - INFO - Sample 233 raw_response='[]'
+2026-09-21 21:07:34,524 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:34,525 - INFO - Sample 234 raw_response='[{"text": "venous thrombo - embolism", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:07:40,232 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:40,234 - INFO - Sample 235 raw_response='[]'
+2026-09-21 21:07:45,714 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:45,716 - INFO - Sample 236 raw_response='[{"text": "Serious hepatotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "sulfasalazine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:07:51,448 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:51,450 - INFO - Sample 237 raw_response='[{"text": "misoprostol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "renal function", "type": "DISEASE", "occurrence_index": 0}, {"text": "indomethacin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:07:56,568 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:07:56,570 - INFO - Sample 238 raw_response='[{"text": "nicotine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "L - [ 3H ] nicotine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "[ 3H ] spiperone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:08:04,357 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:04,357 - INFO - Sample 239 raw_response='[]'
+2026-09-21 21:08:09,983 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:09,984 - INFO - Sample 240 raw_response='[]'
+2026-09-21 21:08:15,514 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:15,516 - INFO - Sample 241 raw_response='[{"text": "atropine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:08:20,666 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:20,667 - INFO - Sample 242 raw_response='[{"text": "hypokalemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:08:25,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:25,549 - INFO - Sample 243 raw_response='[{"text": "thalidomide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "renal cell carcinoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:08:30,770 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:30,772 - INFO - Sample 244 raw_response='[]'
+2026-09-21 21:08:37,887 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:37,888 - INFO - Sample 245 raw_response='[{"text": "CaCl2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NaHCO3", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "saline", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:08:44,696 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:44,697 - INFO - Sample 246 raw_response='[{"text": "Tacrine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "LiCl", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}, {"text": "delayed hippocampal damage", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:08:50,738 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:08:50,740 - INFO - Sample 247 raw_response='[{"text": "AZT", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "AZT", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "H2O", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "H2O", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 21:09:02,309 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:02,311 - INFO - Sample 248 raw_response='[{"text": "Progestational agents", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "blood coagulation", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:09:07,942 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:07,943 - INFO - Sample 249 raw_response='[{"text": "beta - Blocker", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:09:14,495 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:14,496 - INFO - Sample 250 raw_response='[{"text": "RAPA", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "CsA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:09:20,536 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:20,538 - INFO - Sample 251 raw_response='[{"text": "muscular rigidity", "type": "DISEASE", "occurrence_index": 0}, {"text": "side effect", "type": "DISEASE", "occurrence_index": 0}, {"text": "fentanyl", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:09:25,452 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:25,454 - INFO - Sample 252 raw_response='[{"text": "cholestatic injury", "type": "DISEASE", "occurrence_index": 0}, {"text": "hepatomegaly", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:09:31,111 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:31,111 - INFO - Sample 253 raw_response='[]'
+2026-09-21 21:09:37,657 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:37,659 - INFO - Sample 254 raw_response='[{"text": "puromycin amino - nucleoside", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PAN", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:09:43,269 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:43,271 - INFO - Sample 255 raw_response='[{"text": "pilocarpine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "aconitine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ouabain", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "arrhythmia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:09:48,389 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:48,391 - INFO - Sample 256 raw_response='[]'
+2026-09-21 21:09:56,145 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:09:56,146 - INFO - Sample 257 raw_response='[{"text": "Graft - versus - host disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "everolimus", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tacrolimus", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sinusoidal obstruction syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "microangiopathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:10:02,391 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:02,393 - INFO - Sample 258 raw_response='[{"text": "cocaine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:10:07,826 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:07,827 - INFO - Sample 259 raw_response='[{"text": "NK1 receptor selective antagonist RP 67 , 580", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NK2 receptor selective antagonist SR 48 , 968", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:10:12,762 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:12,764 - INFO - Sample 260 raw_response='[{"text": "abnormal sensory / motor behaviors", "type": "DISEASE", "occurrence_index": 0}, {"text": "cocaine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:10:22,182 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:22,183 - INFO - Sample 261 raw_response='[]'
+2026-09-21 21:10:27,814 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:27,815 - INFO - Sample 262 raw_response='[{"text": "coronary artery disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "coronary stenosis", "type": "DISEASE", "occurrence_index": 0}, {"text": "coronary spasm", "type": "DISEASE", "occurrence_index": 0}, {"text": "asynergy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:10:33,812 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:33,813 - INFO - Sample 263 raw_response='[]'
+2026-09-21 21:10:39,487 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:39,488 - INFO - Sample 264 raw_response='[{"text": "Neuroleptic malignant syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "NMS", "type": "DISEASE", "occurrence_index": 0}, {"text": "neuroleptic - induced movement disorders", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:10:46,143 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:46,144 - INFO - Sample 265 raw_response='[{"text": "lidocaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "succinylcholine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myalgia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:10:52,034 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:52,035 - INFO - Sample 266 raw_response='[{"text": "norepinephrine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "desipramine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "local - anesthetics", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "convulsions", "type": "DISEASE", "occurrence_index": 0}, {"text": "local anesthetics", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:10:58,622 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:10:58,624 - INFO - Sample 267 raw_response='[{"text": "prostaglandins", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "pain responses", "type": "DISEASE", "occurrence_index": 0}, {"text": "acetic acid", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:11:04,985 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:04,987 - INFO - Sample 268 raw_response='[{"text": "C3 complement", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ALF", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:11:10,412 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:10,413 - INFO - Sample 269 raw_response='[]'
+2026-09-21 21:11:18,053 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:18,055 - INFO - Sample 270 raw_response='[{"text": "diffuse B - cell gastric lymphoma", "type": "DISEASE", "occurrence_index": 0}, {"text": "myotonic dystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "muscular dystrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "atrial fibrillation", "type": "DISEASE", "occurrence_index": 0}, {"text": "doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "chemotherapy", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:11:23,007 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:23,009 - INFO - Sample 271 raw_response='[]'
+2026-09-21 21:11:27,923 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:27,924 - INFO - Sample 272 raw_response='[{"text": "spiperone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "L - [ 3H ] nicotine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:11:34,068 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:34,070 - INFO - Sample 273 raw_response='[{"text": "hypertension", "type": "DISEASE", "occurrence_index": 0}, {"text": "focal cerebral ischemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "brain edema", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:11:39,262 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:39,264 - INFO - Sample 274 raw_response='[{"text": "chronic neuropathic pain", "type": "DISEASE", "occurrence_index": 0}, {"text": "adenosine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cerebrospinal fluid", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:11:45,984 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:45,985 - INFO - Sample 275 raw_response='[{"text": "epinephrine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:11:52,951 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:52,953 - INFO - Sample 276 raw_response='[{"text": "epilepsy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:11:57,784 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:11:57,786 - INFO - Sample 277 raw_response='[{"text": "Daidzein", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "choline acetyltransferase", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "drug - induced amnesia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:12:03,543 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:03,545 - INFO - Sample 278 raw_response='[]'
+2026-09-21 21:12:08,371 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:08,373 - INFO - Sample 279 raw_response='[{"text": "prostaglandin E2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hyperalgesia", "type": "DISEASE", "occurrence_index": 0}, {"text": "AH6809", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "substance P", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:12:14,107 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:14,109 - INFO - Sample 280 raw_response='[{"text": "warfarin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hemorrhage", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:12:19,942 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:19,944 - INFO - Sample 281 raw_response='[{"text": "M ( 3 ) - muscarinic acetylcholine receptor", "type": "GENE", "occurrence_index": 0}, {"text": "mAChR", "type": "GENE", "occurrence_index": 0}, {"text": "4 - DAMP", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "4 - diphenylacetoxy - N - methylpiperidine - methiodide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "pilocarpine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:12:25,703 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:25,705 - INFO - Sample 282 raw_response='[{"text": "doxorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "SM - 5887", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:12:32,743 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:32,745 - INFO - Sample 283 raw_response='[{"text": "PVC", "type": "DISEASE", "occurrence_index": 0}, {"text": "K +", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:12:40,013 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:40,014 - INFO - Sample 284 raw_response='[{"text": "Prostaglandin E2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "bladder hyperactivity", "type": "DISEASE", "occurrence_index": 0}, {"text": "tachykinins", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:12:45,952 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:45,954 - INFO - Sample 285 raw_response='[]'
+2026-09-21 21:12:51,380 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:51,381 - INFO - Sample 286 raw_response='[{"text": "QT prolongation", "type": "DISEASE", "occurrence_index": 0}, {"text": "TDP", "type": "DISEASE", "occurrence_index": 0}, {"text": "NSVT", "type": "DISEASE", "occurrence_index": 0}, {"text": "premature ventricular contractions", "type": "DISEASE", "occurrence_index": 0}, {"text": "fluconazole", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:12:58,141 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:12:58,143 - INFO - Sample 287 raw_response='[{"text": "Temporary hearing loss", "type": "DISEASE", "occurrence_index": 0}, {"text": "toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "DFMO", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:13:03,461 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:03,463 - INFO - Sample 288 raw_response='[{"text": "Amiodarone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "pulmonary toxicity", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:13:08,788 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:08,790 - INFO - Sample 289 raw_response='[{"text": "CIN", "type": "DISEASE", "occurrence_index": 0}, {"text": "CM", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "CIN", "type": "DISEASE", "occurrence_index": 1}, {"text": "CM", "type": "CHEMICAL", "occurrence_index": 1}]'
+2026-09-21 21:13:14,214 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:14,216 - INFO - Sample 290 raw_response='[{"text": "HCTZ", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PVC \' s", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:13:19,039 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:19,041 - INFO - Sample 291 raw_response='[{"text": "thoraco - abdominal rigidity", "type": "DISEASE", "occurrence_index": 0}, {"text": "respiratory failure", "type": "DISEASE", "occurrence_index": 0}, {"text": "fentanyl", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:13:25,888 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:25,890 - INFO - Sample 292 raw_response='[{"text": "parkinsonism", "type": "DISEASE", "occurrence_index": 0}, {"text": "haloperidol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:13:31,532 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:31,534 - INFO - Sample 293 raw_response='[]'
+2026-09-21 21:13:37,459 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:37,461 - INFO - Sample 294 raw_response='[{"text": "DFMO", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sulindac", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hearing reduction", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:13:44,934 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:44,936 - INFO - Sample 295 raw_response='[{"text": "Serotonin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "methamphetamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "psychosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:13:50,594 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:50,596 - INFO - Sample 296 raw_response='[]'
+2026-09-21 21:13:56,608 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:13:56,610 - INFO - Sample 297 raw_response='[]'
+2026-09-21 21:14:01,478 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:01,480 - INFO - Sample 298 raw_response='[{"text": "kidney dysfunction", "type": "DISEASE", "occurrence_index": 0}, {"text": "metformin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:14:07,825 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:07,826 - INFO - Sample 299 raw_response='[{"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "timolol gellan", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "timolol solution", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "solution", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "gellan", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:14:12,992 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:12,994 - INFO - Sample 300 raw_response='[]'
+2026-09-21 21:14:18,633 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:18,634 - INFO - Sample 301 raw_response='[]'
+2026-09-21 21:14:23,747 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:23,749 - INFO - Sample 302 raw_response='[{"text": "dexamethasone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "minor neurological dysfunctions", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:14:29,183 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:29,185 - INFO - Sample 303 raw_response='[{"text": "uridine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Urd", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "azidothymidine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "AZT", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "human immunodeficiency virus", "type": "DISEASE", "occurrence_index": 0}, {"text": "HIV", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:14:36,647 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:36,649 - INFO - Sample 304 raw_response='[{"text": "Cystitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:14:42,074 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:42,076 - INFO - Sample 305 raw_response='[{"text": "Methimazole", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "induced cholestatic jaundice", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:14:48,422 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:48,424 - INFO - Sample 306 raw_response='[{"text": "remifentanil", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myoclonus", "type": "DISEASE", "occurrence_index": 0}, {"text": "etomidate", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sedation", "type": "DISEASE", "occurrence_index": 0}, {"text": "apnea", "type": "DISEASE", "occurrence_index": 0}, {"text": "nausea", "type": "DISEASE", "occurrence_index": 0}, {"text": "pruritus", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:14:55,931 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:14:55,932 - INFO - Sample 307 raw_response='[]'
+2026-09-21 21:15:01,608 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:01,610 - INFO - Sample 308 raw_response='[{"text": "Diltiazem", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ERP", "type": "DISEASE", "occurrence_index": 0}, {"text": "AF", "type": "DISEASE", "occurrence_index": 0}, {"text": "AF", "type": "DISEASE", "occurrence_index": 1}, {"text": "verapamil", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:15:08,188 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:08,189 - INFO - Sample 309 raw_response='[]'
+2026-09-21 21:15:14,108 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:14,109 - INFO - Sample 310 raw_response='[{"text": "corticosterone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:15:20,679 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:20,680 - INFO - Sample 311 raw_response='[{"text": "SM - 5887", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cardiomyopathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:15:30,099 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:30,101 - INFO - Sample 312 raw_response='[{"text": "isoniazid", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "vasodilators", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "reflex tachycardia", "type": "DISEASE", "occurrence_index": 0}, {"text": "bradycardia", "type": "DISEASE", "occurrence_index": 0}, {"text": "brain gamma - aminobutyric acid ( GABA )", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "gamma - aminobutyric acid", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "GABA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:15:34,812 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:34,814 - INFO - Sample 313 raw_response='[]'
+2026-09-21 21:15:40,544 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:40,546 - INFO - Sample 314 raw_response='[{"text": "Pyrazinamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hepatic toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "hyperuricemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "digestive disorders", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:15:45,920 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:45,921 - INFO - Sample 315 raw_response='[]'
+2026-09-21 21:15:53,024 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:15:53,026 - INFO - Sample 316 raw_response='[]'
+2026-09-21 21:16:00,513 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:00,514 - INFO - Sample 317 raw_response='[{"text": "Ammonia", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NH3", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "drowsiness", "type": "DISEASE", "occurrence_index": 0}, {"text": "VPA", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:16:05,940 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:05,941 - INFO - Sample 318 raw_response='[{"text": "Anginal", "type": "DISEASE", "occurrence_index": 0}, {"text": "angina", "type": "DISEASE", "occurrence_index": 0}, {"text": "5 - FU", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:16:11,576 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:11,577 - INFO - Sample 319 raw_response='[{"text": "vitamin C", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "diabetic", "type": "DISEASE", "occurrence_index": 0}, {"text": "atherosclerosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:16:18,025 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:18,027 - INFO - Sample 320 raw_response='[{"text": "abnormal cardiac adrenergic neuron activity", "type": "DISEASE", "occurrence_index": 0}, {"text": "adriamycin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cardiomyopathy", "type": "DISEASE", "occurrence_index": 0}, {"text": "iodine - 125 - metaiodobenzylguanidine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:16:24,679 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:24,681 - INFO - Sample 321 raw_response='[{"text": "Streptomycin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "edaravone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "saline", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:16:32,450 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:32,451 - INFO - Sample 322 raw_response='[{"text": "acetazolamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Gerstmann syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:16:37,991 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:37,993 - INFO - Sample 323 raw_response='[{"text": "improved sexual functioning", "type": "DISEASE", "occurrence_index": 0}, {"text": "yohimbine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:16:43,613 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:43,615 - INFO - Sample 324 raw_response='[{"text":"adverse drug reactions","type":"DISEASE","occurrence_index":0}]'
+2026-09-21 21:16:49,585 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:49,587 - INFO - Sample 325 raw_response='[{"text": "ribavirin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hemolytic anemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "RIHA", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:16:55,497 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:16:55,499 - INFO - Sample 326 raw_response='[{"text": "steroid", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "ATRA", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "erythema nodosum", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:17:01,502 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:01,503 - INFO - Sample 327 raw_response='[{"text": "type - 2 serotonin antagonists", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "opiate - induced rigidity", "type": "DISEASE", "occurrence_index": 0}, {"text": "CNS , cardiovascular , and respiratory depression", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:17:08,097 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:08,098 - INFO - Sample 328 raw_response='[{"text": "Ethambutol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:17:13,729 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:13,730 - INFO - Sample 329 raw_response='```json\n[\n  {\n    "text": "acute grade II - IV GVHD",\n    "type": "DISEASE",\n    "occurrence_index": 0\n  },\n  {\n    "text": "chronic extensive GVHD",\n    "type": "DISEASE",\n    "occurrence_index": 0\n  }\n]\n```'
+2026-09-21 21:17:18,849 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:18,850 - INFO - Sample 330 raw_response='[{"text": "PGE2", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:17:24,276 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:24,278 - INFO - Sample 331 raw_response='[{"text": "status epilepticus", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:17:29,703 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:29,705 - INFO - Sample 332 raw_response='[{"text": "fluorthyl", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PTZ", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "convulsions", "type": "DISEASE", "occurrence_index": 0}, {"text": "picrotoxin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "electroshock", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "bicuculline", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "convulsions", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 21:17:34,851 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:34,851 - INFO - Sample 333 raw_response='[{"text": "cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:17:41,576 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:41,578 - INFO - Sample 334 raw_response='[{"text": "cerebral palsy", "type": "DISEASE", "occurrence_index": 0}, {"text": "seizure disorder", "type": "DISEASE", "occurrence_index": 0}, {"text": "clonidine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "restlessness", "type": "DISEASE", "occurrence_index": 0}, {"text": "baclofen", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:17:46,721 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:46,723 - INFO - Sample 335 raw_response='[]'
+2026-09-21 21:17:52,030 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:52,032 - INFO - Sample 336 raw_response='[{"text": "Arterial thromboembolism", "type": "DISEASE", "occurrence_index": 0}, {"text": "systemic heparin therapy", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:17:58,342 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:17:58,343 - INFO - Sample 337 raw_response='[{"text": "neutropenia", "type": "DISEASE", "occurrence_index": 0}, {"text": "anaemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "thrombocytopenia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:04,682 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:04,683 - INFO - Sample 338 raw_response='[{"text": "psoriasis", "type": "DISEASE", "occurrence_index": 0}, {"text": "capillary leak syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "sirolimus", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "apoptosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:09,311 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:09,313 - INFO - Sample 339 raw_response='[]'
+2026-09-21 21:18:16,290 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:16,291 - INFO - Sample 340 raw_response='[]'
+2026-09-21 21:18:21,620 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:21,622 - INFO - Sample 341 raw_response='[{"text": "PREGS", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "scopolamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "amnesia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:28,072 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:28,073 - INFO - Sample 342 raw_response='[{"text": "Glyceryl trinitrate", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "migraine without aura", "type": "DISEASE", "occurrence_index": 0}, {"text": "migraine with aura", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:34,058 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:34,060 - INFO - Sample 343 raw_response='[{"text": "disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "infections", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:39,695 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:39,697 - INFO - Sample 344 raw_response='[{"text": "carteolol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "beta - adrenoceptor antagonist", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "haloperidol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "catalepsy", "type": "DISEASE", "occurrence_index": 0}, {"text": "propranolol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "biperiden", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "muscarinic receptor antagonist", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:18:45,737 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:45,739 - INFO - Sample 345 raw_response='[{"text": "mexiletine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "tocainide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "drugs", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "central nervous system ( CNS ) stimulant action", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:53,280 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:53,282 - INFO - Sample 346 raw_response='[{"text": "idiopathic generalized epilepsies", "type": "DISEASE", "occurrence_index": 0}, {"text": "IGE", "type": "DISEASE", "occurrence_index": 0}, {"text": "lamotrigine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "LTG", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myoclonic jerks", "type": "DISEASE", "occurrence_index": 0}, {"text": "MJ", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:18:58,860 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:18:58,861 - INFO - Sample 347 raw_response='[{"text": "Tramadol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "opioid", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cancer pain", "type": "DISEASE", "occurrence_index": 0}, {"text": "chronic non malignant pain", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:19:03,657 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:03,658 - INFO - Sample 348 raw_response='[]'
+2026-09-21 21:19:10,006 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:10,007 - INFO - Sample 349 raw_response='[]'
+2026-09-21 21:19:15,026 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:15,027 - INFO - Sample 350 raw_response='[]'
+2026-09-21 21:19:20,268 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:20,269 - INFO - Sample 351 raw_response='[{"text": "acute GVHD", "type": "DISEASE", "occurrence_index": 0}, {"text": "TMA", "type": "DISEASE", "occurrence_index": 0}, {"text": "SOS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:19:28,029 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:28,031 - INFO - Sample 352 raw_response='[{"text": "NGF", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PGE2", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PGF2alpha", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "PGI2", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:19:32,637 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:32,639 - INFO - Sample 353 raw_response='[]'
+2026-09-21 21:19:38,271 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:38,272 - INFO - Sample 354 raw_response='[{"text": "SAH", "type": "DISEASE", "occurrence_index": 0}, {"text": "urine toxicology", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cocaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "metabolites", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:19:43,594 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:43,596 - INFO - Sample 355 raw_response='[]'
+2026-09-21 21:19:49,945 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:49,946 - INFO - Sample 356 raw_response='[{"text":"Platelet counts","type":"CHEMICAL","occurrence_index":0},{"text":"thromboembolism","type":"DISEASE","occurrence_index":0},{"text":"heparin","type":"CHEMICAL","occurrence_index":0},{"text":"platelet factor 4","type":"CHEMICAL","occurrence_index":0}]'
+2026-09-21 21:19:55,764 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:19:55,766 - INFO - Sample 357 raw_response='[]'
+2026-09-21 21:20:01,412 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:20:01,413 - INFO - Sample 358 raw_response='[]'
+2026-09-21 21:20:10,322 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:20:10,323 - INFO - Sample 359 raw_response='[{"text": "Thromboembolism", "type": "DISEASE", "occurrence_index": 0}, {"text": "life - threatening complication", "type": "DISEASE", "occurrence_index": 0}, {"text": "ovulation induction", "type": "DISEASE", "occurrence_index": 0}, {"text": "CC", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:21:31,116 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:21:31,118 - INFO - Sample 360 raw_response='[{"text": "Methimazole", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:21:36,755 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:21:36,756 - INFO - Sample 361 raw_response='[{"text": "furosemide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:21:44,120 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:21:44,122 - INFO - Sample 362 raw_response='[{"text":"borderline subjects","type":"DISEASE","occurrence_index":0},{"text":"diastolic BP","type":"DISEASE","occurrence_index":0}]'
+2026-09-21 21:23:04,198 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:23:04,199 - INFO - Sample 363 raw_response='[{"text": "isoproterenol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "myocardial damage", "type": "DISEASE", "occurrence_index": 0}, {"text": "mismatch of oxygen supply vs . demand", "type": "DISEASE", "occurrence_index": 0}, {"text": "coronary hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "myocardial hyperactivity", "type": "DISEASE", "occurrence_index": 0}, {"text": "morphological alterations", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:23:09,625 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:23:09,626 - INFO - Sample 364 raw_response='[{"text": "paclitaxel", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "stage IIIB or IV non - small cell lung cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "NSCLC", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:23:48,947 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:23:48,972 - INFO - Sample 365 raw_response='[{"text": "HT", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dementia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:24:51,924 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:24:51,926 - INFO - Sample 366 raw_response='[{"text": "hepatitis B", "type": "DISEASE", "occurrence_index": 0}, {"text": "rubella", "type": "DISEASE", "occurrence_index": 0}, {"text": "hepatitis B vaccine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hepatitis B immune globulin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hepatitis B surface antigen", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "rubella", "type": "DISEASE", "occurrence_index": 1}, {"text": "rubella vaccine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "rubella", "type": "DISEASE", "occurrence_index": 2}]'
+2026-09-21 21:24:57,238 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:24:57,239 - INFO - Sample 367 raw_response='[{"text": "ovarian failure", "type": "DISEASE", "occurrence_index": 0}, {"text": "abdominal irradiation", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "chemotherapy", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Hodgkin disease", "type": "DISEASE", "occurrence_index": 0}, {"text": "exogenous estrogens", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "endometrial cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:25:02,574 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:02,575 - INFO - Sample 368 raw_response='[{"text": "tubulointerstitial hypoxia", "type": "DISEASE", "occurrence_index": 0}, {"text": "diseased kidney", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:25:17,169 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:17,170 - INFO - Sample 369 raw_response='[{"text": "arthralgia - myalgia syndrome", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:25:22,067 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:22,069 - INFO - Sample 370 raw_response='[{"text": "furosemide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "radiocontrast nephropathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:25:27,165 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:27,166 - INFO - Sample 371 raw_response='[{"text": "BN 52021", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "bupivacaine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:25:32,160 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:32,160 - INFO - Sample 372 raw_response='[{"text": "carcinogenic", "type": "DISEASE", "occurrence_index": 0}, {"text": "phenobarbital", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "diethylnitrosamine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:25:39,541 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:39,542 - INFO - Sample 373 raw_response='[{"text": "Polymyositis", "type": "DISEASE", "occurrence_index": 0}, {"text": "dermatomyositis", "type": "DISEASE", "occurrence_index": 0}, {"text": "autoimmune complications", "type": "DISEASE", "occurrence_index": 0}, {"text": "D - penicillamine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:25:47,467 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:47,468 - INFO - Sample 374 raw_response='[{"text": "steroid", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "plasmapheresis", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "antiplatelet agents", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:25:55,242 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:25:55,243 - INFO - Sample 375 raw_response='[{"text": "fatal aplastic anemia", "type": "DISEASE", "occurrence_index": 0}, {"text": "allopurinol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "indomethacin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:26:07,970 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:26:07,971 - INFO - Sample 376 raw_response='[{"text": "RIHA", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:26:12,674 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:26:12,675 - INFO - Sample 377 raw_response='[{"text": "Spinal cord ischemia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:26:21,053 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:26:21,055 - INFO - Sample 378 raw_response='[{"text": "central vein thrombosis", "type": "DISEASE", "occurrence_index": 0}, {"text": "dipivalyl epinephrine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "glaucoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:26:25,762 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:26:25,763 - INFO - Sample 379 raw_response='[{"text": "steroids", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "respiratory and limb muscle wasting", "type": "DISEASE", "occurrence_index": 0}, {"text": "steroids", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "type IIb atrophy", "type": "DISEASE", "occurrence_index": 0}, {"text": "steroid", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "muscle necrosis", "type": "DISEASE", "occurrence_index": 0}, {"text": "type IIb atrophy", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 21:26:50,442 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:26:50,444 - INFO - Sample 380 raw_response='[{"text": "prednisolone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "prednisolone", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "saline", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:27:19,806 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:27:19,808 - INFO - Sample 381 raw_response='[{"text": "Loreclezole", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "seizure", "type": "DISEASE", "occurrence_index": 0}, {"text": "afterdischarge", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:27:35,152 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:27:35,153 - INFO - Sample 382 raw_response='[{"text": "bendrofluazide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "impotence", "type": "DISEASE", "occurrence_index": 0}, {"text": "impotence", "type": "DISEASE", "occurrence_index": 1}, {"text": "propranolol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "placebos", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:27:40,683 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:27:40,685 - INFO - Sample 383 raw_response='[{"text": "obsessive compulsive disorder", "type": "DISEASE", "occurrence_index": 0}, {"text": "trichotillomania", "type": "DISEASE", "occurrence_index": 0}, {"text": "anxiety", "type": "DISEASE", "occurrence_index": 0}, {"text": "affective disorders", "type": "DISEASE", "occurrence_index": 0}, {"text": "serotonin reuptake blockers", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "yohimbine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:27:45,905 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:27:45,907 - INFO - Sample 384 raw_response='[{"text": "nitric oxide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NO", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "apoptosis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:27:50,717 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:27:50,719 - INFO - Sample 385 raw_response='[{"text": "epinephrine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Ropivacaine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:28:07,594 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:28:07,595 - INFO - Sample 386 raw_response='[{"text": "Naloxone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "captopril", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "overdose", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:28:12,631 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:28:12,632 - INFO - Sample 387 raw_response='[{"text": "propofol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "postoperative delirium", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:28:23,926 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:28:23,927 - INFO - Sample 388 raw_response='[{"text": "Amphotericin B", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:28:32,281 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:28:32,282 - INFO - Sample 389 raw_response='```json\n[\n  {"text": "Anti - Proliferating Cell Nuclear Antigen", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "PCNA", "type": "CHEMICAL", "occurrence_index": 0}\n]\n```'
+2026-09-21 21:29:02,193 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:29:02,195 - INFO - Sample 390 raw_response='[{"text": "Ventricular fibrillation", "type": "DISEASE", "occurrence_index": 0}, {"text": "diatrizoate", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "chelating agents", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:29:11,117 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:29:11,118 - INFO - Sample 391 raw_response='[{"text": "fluconazole", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "torsade de pointes", "type": "DISEASE", "occurrence_index": 0}, {"text": "TDP", "type": "DISEASE", "occurrence_index": 0}, {"text": "fluconazole", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "TDP", "type": "DISEASE", "occurrence_index": 1}]'
+2026-09-21 21:29:27,382 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:27,383 - INFO - Sample 392 raw_response=None
+2026-09-21 21:29:29,663 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:29,664 - INFO - Sample 393 raw_response=None
+2026-09-21 21:29:31,907 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:31,908 - INFO - Sample 394 raw_response=None
+2026-09-21 21:29:34,111 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:34,112 - INFO - Sample 395 raw_response=None
+2026-09-21 21:29:36,316 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:36,317 - INFO - Sample 396 raw_response=None
+2026-09-21 21:29:38,647 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:38,648 - INFO - Sample 397 raw_response=None
+2026-09-21 21:29:40,852 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:40,853 - INFO - Sample 398 raw_response=None
+2026-09-21 21:29:43,072 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:43,073 - INFO - Sample 399 raw_response=None
+2026-09-21 21:29:45,279 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:45,279 - INFO - Sample 400 raw_response=None
+2026-09-21 21:29:47,544 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:47,544 - INFO - Sample 401 raw_response=None
+2026-09-21 21:29:49,767 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:49,768 - INFO - Sample 402 raw_response=None
+2026-09-21 21:29:51,986 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:51,987 - INFO - Sample 403 raw_response=None
+2026-09-21 21:29:54,178 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:54,179 - INFO - Sample 404 raw_response=None
+2026-09-21 21:29:56,459 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:56,460 - INFO - Sample 405 raw_response=None
+2026-09-21 21:29:58,641 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:29:58,642 - INFO - Sample 406 raw_response=None
+2026-09-21 21:30:49,913 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:30:49,914 - INFO - Sample 407 raw_response='[\n  {"text": "Flumazenil", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "diazepam", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "fentanyl", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "meperidine", "type": "CHEMICAL", "occurrence_index": 0},\n  {"text": "morphine", "type": "CHEMICAL", "occurrence_index": 0}\n]'
+2026-09-21 21:30:55,141 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:30:55,143 - INFO - Sample 408 raw_response='[]'
+2026-09-21 21:31:00,097 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:00,099 - INFO - Sample 409 raw_response='[{"text": "opioid antagonist", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "naloxone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypotensive", "type": "DISEASE", "occurrence_index": 0}, {"text": "captopril", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:31:05,451 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:05,453 - INFO - Sample 410 raw_response='[{"text": "diabetic nephropathy", "type": "DISEASE", "occurrence_index": 0}, {"text": "diabetic nephropathy", "type": "DISEASE", "occurrence_index": 1}, {"text": "streptozotocin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "diabetic nephropathy", "type": "DISEASE", "occurrence_index": 2}]'
+2026-09-21 21:31:10,117 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:10,118 - INFO - Sample 411 raw_response='[{"text": "ifosfamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "nephrotoxic chemotherapy", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "inadequate renal perfusion", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:31:18,599 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:18,600 - INFO - Sample 412 raw_response='[]'
+2026-09-21 21:31:28,729 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:28,731 - INFO - Sample 413 raw_response='[{"text": "Thrombocytopenia", "type": "DISEASE", "occurrence_index": 0}, {"text": "mucositis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:31:34,097 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:34,099 - INFO - Sample 414 raw_response='[\n  {"text": "cancer", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "acute renal failure", "type": "DISEASE", "occurrence_index": 0},\n  {"text": "ciprofloxacin", "type": "CHEMICAL", "occurrence_index": 0}\n]'
+2026-09-21 21:31:40,403 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:40,405 - INFO - Sample 415 raw_response='[{"text": "nephrotic syndrome", "type": "DISEASE", "occurrence_index": 0}, {"text": "NS", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:31:45,728 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:45,729 - INFO - Sample 416 raw_response='[{"text": "nephrotoxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "serum creatinine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "amikacin", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:31:54,125 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:31:54,127 - INFO - Sample 417 raw_response='[{"text": "phenylephrine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypertension", "type": "DISEASE", "occurrence_index": 0}, {"text": "MCAO", "type": "DISEASE", "occurrence_index": 0}, {"text": "edema", "type": "DISEASE", "occurrence_index": 0}, {"text": "ischemic core", "type": "DISEASE", "occurrence_index": 0}, {"text": "edema", "type": "DISEASE", "occurrence_index": 1}, {"text": "ischemic territory", "type": "DISEASE", "occurrence_index": 0}, {"text": "histochemical neuronal dysfunction", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:32:04,161 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:04,163 - INFO - Sample 418 raw_response='[]'
+2026-09-21 21:32:10,406 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:10,408 - INFO - Sample 419 raw_response='[{"text": "arrhythmia", "type": "DISEASE", "occurrence_index": 0}, {"text": "atenolol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:32:16,242 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:16,244 - INFO - Sample 420 raw_response='[{"text": "renal tubular dysfunction", "type": "DISEASE", "occurrence_index": 0}, {"text": "N - acetyl - beta - D - glucosaminidase", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "NAG", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:32:25,663 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:25,665 - INFO - Sample 421 raw_response='[{"text": "ischaemic injury", "type": "DISEASE", "occurrence_index": 0}, {"text": "severe alterations in the structural integrity of the sarcolemma of cardiomyocytes", "type": "DISEASE", "occurrence_index": 0}, {"text": "severe and irreversible injury", "type": "DISEASE", "occurrence_index": 0}, {"text": "isoproterenol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:32:32,525 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:32,526 - INFO - Sample 422 raw_response='[{"text": "Transketolase", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "abnormality", "type": "DISEASE", "occurrence_index": 0}, {"text": "tolazamide", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "Wernicke \' s encephalopathy", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:32:43,174 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:43,176 - INFO - Sample 423 raw_response='[{"text": "epileptic focus", "type": "DISEASE", "occurrence_index": 0}, {"text": "penicillin - G potassium", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:32:48,090 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:48,091 - INFO - Sample 424 raw_response='[{"text": "Calcium chloride", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "carbachol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "eserine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:32:56,831 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:32:56,833 - INFO - Sample 425 raw_response='[{"text": "levomepromazine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "fluvoxamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "seizures", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:33:01,504 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:01,506 - INFO - Sample 426 raw_response='[{"text": "ritanserin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "scopolamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "amnesia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:33:07,546 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:07,548 - INFO - Sample 427 raw_response='[{"text": "benzodiazepine antagonist", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "flumazenil", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:33:15,631 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:15,632 - INFO - Sample 428 raw_response='[{"text": "myocardial infarction", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:33:20,680 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:20,681 - INFO - Sample 429 raw_response='[{"text": "rash", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:33:26,183 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:26,185 - INFO - Sample 430 raw_response='[{"text": "normal saline", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "TDI", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "MP", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "saline", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "TDI", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "MP", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "TDI", "type": "CHEMICAL", "occurrence_index": 2}]'
+2026-09-21 21:33:40,970 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:40,971 - INFO - Sample 431 raw_response='[{"text": "trihexyphenidyl", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "mental slowness", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:33:46,868 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:46,870 - INFO - Sample 432 raw_response='[{"text": "Status epilepticus", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:33:59,055 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:33:59,057 - INFO - Sample 433 raw_response='[{"text": "Chemotherapy", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "advanced inoperable non - small cell lung cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "paclitaxel", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:34:05,200 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:05,201 - INFO - Sample 434 raw_response='[{"text": "vitamin C", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cardiovascular disease mortality", "type": "DISEASE", "occurrence_index": 0}, {"text": "diabetes", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:34:17,589 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:17,591 - INFO - Sample 435 raw_response='[{"text": "gentamicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "pathological changes", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:34:25,678 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:25,679 - INFO - Sample 436 raw_response='[{"text": "Haemorrhagic myocarditis", "type": "DISEASE", "occurrence_index": 0}, {"text": "cyclophosphamide", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:34:35,913 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:35,914 - INFO - Sample 437 raw_response='[{"text": "caffeine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:34:40,731 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:40,733 - INFO - Sample 438 raw_response='[{"text": "serum levels > or = 10 mumol / L", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:34:46,363 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:46,365 - INFO - Sample 439 raw_response='[{"text": "noncontributory ocular history", "type": "DISEASE", "occurrence_index": 0}, {"text": "uveitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:34:57,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:34:57,549 - INFO - Sample 440 raw_response='[{"text": "serum cholinesterase", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "succinylcholine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "apnoea", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:35:02,645 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:02,646 - INFO - Sample 441 raw_response='[{"text": "damage", "type": "DISEASE", "occurrence_index": 0}, {"text": "spinal cord injury", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:35:07,560 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:07,562 - INFO - Sample 442 raw_response='[]'
+2026-09-21 21:35:18,636 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:18,637 - INFO - Sample 443 raw_response='[{"text": "endometrial cancer", "type": "DISEASE", "occurrence_index": 0}, {"text": "tamoxifen", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "breast cancer", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:35:24,149 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:24,151 - INFO - Sample 444 raw_response='[{"text": "fluoxetine", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:35:30,190 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:30,192 - INFO - Sample 445 raw_response='[{"text": "muscle rigidity", "type": "DISEASE", "occurrence_index": 0}, {"text": "parenteral narcotic", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:35:35,646 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:35,647 - INFO - Sample 446 raw_response='[{"text": "L - NAME", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "diazepam", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "lidocaine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "convulsions", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:35:40,533 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:40,534 - INFO - Sample 447 raw_response='[{"text": "fenoldopam", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sodium nitroprusside", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "halothane", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:35:46,103 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:46,105 - INFO - Sample 448 raw_response='[{"text": "Thiazide diuretics", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "antihypertensive", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:35:53,333 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:35:53,335 - INFO - Sample 449 raw_response='[{"text": "acute cholestatic hepatitis", "type": "DISEASE", "occurrence_index": 0}, {"text": "inhalational anesthetic", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "isoflurane", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:36:00,297 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:00,298 - INFO - Sample 450 raw_response='[{"text": "hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "bradycardia", "type": "DISEASE", "occurrence_index": 0}, {"text": "asystole", "type": "DISEASE", "occurrence_index": 0}, {"text": "methylprednisolone", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:36:06,193 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:06,194 - INFO - Sample 451 raw_response='[{"text": "Carteolol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dopamine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "stereotypy", "type": "DISEASE", "occurrence_index": 0}, {"text": "hyperlocomotion", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:36:11,508 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:11,509 - INFO - Sample 452 raw_response='[{"text": "fluorouracil", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:36:17,195 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:17,196 - INFO - Sample 453 raw_response='[]'
+2026-09-21 21:36:23,630 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:23,632 - INFO - Sample 454 raw_response='[{"text": "alpha - 2 adrenergic agonist", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dexmedetomidine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "D - MED", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "muscle flaccidity", "type": "DISEASE", "occurrence_index": 0}, {"text": "anesthesia", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:36:28,456 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:28,458 - INFO - Sample 455 raw_response='[{"text": "drug", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hiccups", "type": "DISEASE", "occurrence_index": 0}, {"text": "macrolide antimicrobials", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:36:44,038 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:36:44,039 - INFO - Sample 456 raw_response='[{"text": "terbutaline", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "placebo", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "oxprenolol", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:36:46,287 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:46,288 - INFO - Sample 457 raw_response=None
+2026-09-21 21:36:48,543 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:48,544 - INFO - Sample 458 raw_response=None
+2026-09-21 21:36:50,754 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:50,755 - INFO - Sample 459 raw_response=None
+2026-09-21 21:36:52,956 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:52,957 - INFO - Sample 460 raw_response=None
+2026-09-21 21:36:55,166 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:55,166 - INFO - Sample 461 raw_response=None
+2026-09-21 21:36:57,498 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:57,499 - INFO - Sample 462 raw_response=None
+2026-09-21 21:36:59,735 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:36:59,736 - INFO - Sample 463 raw_response=None
+2026-09-21 21:37:01,950 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:01,951 - INFO - Sample 464 raw_response=None
+2026-09-21 21:37:04,222 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:04,223 - INFO - Sample 465 raw_response=None
+2026-09-21 21:37:06,482 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:06,483 - INFO - Sample 466 raw_response=None
+2026-09-21 21:37:08,695 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:08,696 - INFO - Sample 467 raw_response=None
+2026-09-21 21:37:10,907 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:10,908 - INFO - Sample 468 raw_response=None
+2026-09-21 21:37:13,188 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:13,189 - INFO - Sample 469 raw_response=None
+2026-09-21 21:37:15,403 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:15,404 - INFO - Sample 470 raw_response=None
+2026-09-21 21:37:17,606 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:17,607 - INFO - Sample 471 raw_response=None
+2026-09-21 21:37:19,810 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:19,811 - INFO - Sample 472 raw_response=None
+2026-09-21 21:37:22,101 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:22,102 - INFO - Sample 473 raw_response=None
+2026-09-21 21:37:24,306 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:24,307 - INFO - Sample 474 raw_response=None
+2026-09-21 21:37:26,513 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:26,514 - INFO - Sample 475 raw_response=None
+2026-09-21 21:37:28,736 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:28,737 - INFO - Sample 476 raw_response=None
+2026-09-21 21:37:31,013 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:31,014 - INFO - Sample 477 raw_response=None
+2026-09-21 21:37:33,227 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:33,228 - INFO - Sample 478 raw_response=None
+2026-09-21 21:37:35,447 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:35,448 - INFO - Sample 479 raw_response=None
+2026-09-21 21:37:37,653 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:37,654 - INFO - Sample 480 raw_response=None
+2026-09-21 21:37:39,930 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:39,931 - INFO - Sample 481 raw_response=None
+2026-09-21 21:37:42,137 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:42,138 - INFO - Sample 482 raw_response=None
+2026-09-21 21:37:44,351 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:44,352 - INFO - Sample 483 raw_response=None
+2026-09-21 21:37:46,570 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:46,571 - INFO - Sample 484 raw_response=None
+2026-09-21 21:37:48,846 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:48,847 - INFO - Sample 485 raw_response=None
+2026-09-21 21:37:51,060 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:51,061 - INFO - Sample 486 raw_response=None
+2026-09-21 21:37:53,270 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:53,271 - INFO - Sample 487 raw_response=None
+2026-09-21 21:37:55,504 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:55,505 - INFO - Sample 488 raw_response=None
+2026-09-21 21:37:57,806 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-09-21 21:37:57,807 - INFO - Sample 489 raw_response=None
+2026-09-21 21:38:04,714 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:38:04,716 - INFO - Sample 490 raw_response='[{"text": "Liposomal daunorubicin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "advanced Kaposi \' s sarcoma", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:38:09,937 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:38:09,938 - INFO - Sample 491 raw_response='[{"text": "macrolide antimicrobials", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hiccups", "type": "DISEASE", "occurrence_index": 0}, {"text": "side - effect", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:38:35,127 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:38:35,129 - INFO - Sample 492 raw_response='[{"text": "clinical toxicity", "type": "DISEASE", "occurrence_index": 0}, {"text": "plasma folate", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:38:42,807 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:38:42,809 - INFO - Sample 493 raw_response='[{"text": "dilevalol", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "dilevalol", "type": "CHEMICAL", "occurrence_index": 1}, {"text": "liver injury", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:39:35,237 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:39:35,238 - INFO - Sample 494 raw_response='[{"text": "drugs", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "hypotension", "type": "DISEASE", "occurrence_index": 0}, {"text": "drug", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:39:41,288 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:39:41,290 - INFO - Sample 495 raw_response='[{"text": "fluphenazine", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "sulpiride", "type": "CHEMICAL", "occurrence_index": 0}]'
+2026-09-21 21:40:02,657 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:40:02,658 - INFO - Sample 496 raw_response='[{"text": "penicillin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "epileptiform activity", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:40:09,951 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:40:09,952 - INFO - Sample 497 raw_response='[{"text": "Naloxone", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "cataleptic effects", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:40:25,548 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:40:25,550 - INFO - Sample 498 raw_response='[{"text": "persistent hiccups", "type": "DISEASE", "occurrence_index": 0}, {"text": "azithromycin", "type": "CHEMICAL", "occurrence_index": 0}, {"text": "pharyngitis", "type": "DISEASE", "occurrence_index": 0}]'
+2026-09-21 21:40:30,534 - INFO - HTTP Request: POST https://zyapi.tuluo.top:8888/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-21 21:40:30,535 - INFO - Sample 499 raw_response='[]'

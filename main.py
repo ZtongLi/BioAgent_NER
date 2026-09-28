@@ -8,7 +8,7 @@ def main():
     parser.add_argument("--config", required=True)
     parser.add_argument("--variant", default="full", choices=[
         "extract_only", "full", "without_discovery", "without_boundary",
-        "without_verification", "all"])
+        "without_verification", "without_retrieval", "compare", "all"])
     parser.add_argument("--limit", type=int, help="Override the number of evaluation samples")
     parser.add_argument("--sentence", help="Predict one sentence without saving results")
     args = parser.parse_args()

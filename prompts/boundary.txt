@@ -1,7 +1,7 @@
-ROLE: Resolve annotation boundaries of supplied candidates.
-Return exactly one decision for EACH candidate ID. Keep the entity type fixed. Adjust only the beginning/end of that same mention; the corrected interval must overlap the original. Do not delete candidates, add a different mention or move a repeated name to another position.
-Compare the quoted span with its immediate context and the training annotation rules. Determine whether a nearby modifier, head noun or coordinated construction belongs to the entity. Never apply a universal longest-span/shortest-span rule. Do not invent elided words in coordination.
-For competing candidates describing the SAME mention, choose a single consistent supported span for both IDs; exact duplicates will be merged. Preserve genuinely distinct mentions. When the evidence does not justify a change, copy the original boundary and text.
-Output schema:
-{"decisions":[{"id":0,"text":"exact original text","start_token":0,"end_token":1,"reason":"brief boundary justification"}]}
-Output must cover every input ID once. End token IDs are exclusive.
+ROLE: Evidence-based boundary adjudication. Return one decision per supplied candidate ID.
+Compare the original span with its immediate modifiers, head nouns, punctuation and coordination. Compare relevant retrieved training annotations, including which neighboring words were NOT included. Do not generalize from an example with a different grammatical role. A specific name does not automatically require all surrounding descriptive modifiers.
+Keep the original span unless there is concrete evidence for a better boundary. Never impose universally longest or shortest boundaries. Corrected spans must overlap the original occurrence, preserve its type and exist exactly in the sentence. Do not delete an entity or move it to a repeated occurrence elsewhere.
+Consider overlapping candidates together: if they describe the SAME mention, choose a consistent justified span; the program merges identical outputs. Distinct mentions must remain distinct. Candidate sources are provenance, not votes or proof.
+For unchanged candidates: {"id":0,"action":"keep","reason":"brief justification"}.
+For a supported revision: {"id":0,"action":"revise","text":"exact original text","occurrence":0,"evidence_text":"exact local context","example_ids":["train:123"],"rule_id":null,"reason":"why the cited convention fits this boundary"}.
+Use actual supplied example IDs, or a valid rule_id with example_ids empty. If neither supports an edit, keep. Output {"decisions":[...]} covering every input ID exactly once.

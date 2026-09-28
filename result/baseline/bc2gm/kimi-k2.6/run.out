@@ -1,0 +1,8 @@
+Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/bc2gm_kimi-k2.6.json
+Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/kimi-k2.6/bc2gm_kimi-k2.6_predictions.jsonl
+Previous output backup: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/bc2gm/kimi-k2.6/bc2gm_kimi-k2.6_predictions.jsonl.bak.20260917_152237
+Experiment: bc2gm_kimi-k2.6
+Model: kimi-k2.6
+Precision: 0.7117
+Recall: 0.1330
+F1: 0.2241

@@ -1,0 +1,697 @@
+2026-09-20 08:54:03,779 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/ncbi/ncbi_qwen.json
+2026-09-20 08:54:03,779 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/ncbi/qwen3.8-flash/ncbi_qwen_predictions.jsonl
+2026-09-20 08:54:03,779 - INFO - Experiment: ncbi_qwen
+2026-09-20 08:54:03,779 - INFO - Model: qwen3.8-flash
+2026-09-20 08:54:06,742 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:55:08,878 - INFO - Retrying request to /chat/completions in 0.402026 seconds
+2026-09-20 08:56:09,343 - INFO - Retrying request to /chat/completions in 0.954910 seconds
+2026-09-20 08:56:50,836 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:56:54,102 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:57:02,734 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:57:07,809 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:57:12,426 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:58:14,535 - INFO - Retrying request to /chat/completions in 0.483223 seconds
+2026-09-20 08:58:19,447 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:58:23,236 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:59:20,384 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 08:59:59,292 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:01:01,412 - INFO - Retrying request to /chat/completions in 0.411557 seconds
+2026-09-20 09:03:59,389 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:05:01,518 - INFO - Retrying request to /chat/completions in 0.423523 seconds
+2026-09-20 09:05:46,538 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:06:48,651 - INFO - Retrying request to /chat/completions in 0.449575 seconds
+2026-09-20 09:07:49,159 - INFO - Retrying request to /chat/completions in 0.857502 seconds
+2026-09-20 09:08:50,079 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 09:09:05,719 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:09:09,383 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:10:11,498 - INFO - Retrying request to /chat/completions in 0.466458 seconds
+2026-09-20 09:11:12,027 - INFO - Retrying request to /chat/completions in 0.920105 seconds
+2026-09-20 09:12:02,446 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:12:05,960 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:12:34,947 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:13:16,248 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:13:44,029 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:14:46,152 - INFO - Retrying request to /chat/completions in 0.448549 seconds
+2026-09-20 09:15:46,730 - INFO - Retrying request to /chat/completions in 0.947622 seconds
+2026-09-20 09:16:42,393 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:17:15,994 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:17:20,398 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:18:01,468 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:18:06,553 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:18:46,302 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:18:50,136 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:18:55,221 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:19:00,560 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:19:21,063 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:01,548 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:06,185 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:13,347 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:17,023 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:36,475 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:41,413 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:20:48,499 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:21:36,709 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:21:57,026 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:02,102 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:21,420 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:31,594 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:35,924 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:41,394 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:45,111 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:22:49,617 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:23:51,731 - INFO - Retrying request to /chat/completions in 0.474238 seconds
+2026-09-20 09:23:58,810 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:24:06,127 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:26:17,744 - INFO - Retrying request to /chat/completions in 0.488949 seconds
+2026-09-20 09:26:45,690 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:27:08,836 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:28:10,957 - INFO - Retrying request to /chat/completions in 0.381080 seconds
+2026-09-20 09:29:11,407 - INFO - Retrying request to /chat/completions in 0.906901 seconds
+2026-09-20 09:30:12,400 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 09:30:40,281 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:31:02,691 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:31:55,056 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:32:44,666 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:32:49,937 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:32:56,490 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:33:00,284 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:34:02,401 - INFO - Retrying request to /chat/completions in 0.436945 seconds
+2026-09-20 09:35:02,902 - INFO - Retrying request to /chat/completions in 0.926427 seconds
+2026-09-20 09:36:03,888 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 09:37:06,109 - INFO - Retrying request to /chat/completions in 0.382295 seconds
+2026-09-20 09:38:02,578 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:38:07,762 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:39:02,138 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:40:04,249 - INFO - Retrying request to /chat/completions in 0.468535 seconds
+2026-09-20 09:41:04,771 - INFO - Retrying request to /chat/completions in 0.983187 seconds
+2026-09-20 09:42:05,815 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 09:42:16,643 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:42:55,437 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:42:59,269 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:44:01,419 - INFO - Retrying request to /chat/completions in 0.411656 seconds
+2026-09-20 09:44:53,395 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:45:35,585 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:45:49,248 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:46:24,800 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:47:26,946 - INFO - Retrying request to /chat/completions in 0.385231 seconds
+2026-09-20 09:48:12,568 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:48:21,839 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:49:23,978 - INFO - Retrying request to /chat/completions in 0.495920 seconds
+2026-09-20 09:49:26,801 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 09:50:28,922 - INFO - Retrying request to /chat/completions in 0.377049 seconds
+2026-09-20 10:05:13,685 - INFO - Retrying request to /chat/completions in 0.806114 seconds
+2026-09-20 10:06:14,675 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:06:45,186 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:06:49,790 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:06:55,299 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:07:01,480 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:08:03,606 - INFO - Retrying request to /chat/completions in 0.423849 seconds
+2026-09-20 10:15:25,762 - INFO - Retrying request to /chat/completions in 0.907197 seconds
+2026-09-20 10:16:26,732 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:16:49,227 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:17:29,769 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:17:35,204 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:17:40,119 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:18:42,235 - INFO - Retrying request to /chat/completions in 0.427471 seconds
+2026-09-20 10:19:42,725 - INFO - Retrying request to /chat/completions in 0.842338 seconds
+2026-09-20 10:20:45,673 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:21:22,743 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:21:29,093 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:21:34,197 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:22:11,526 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:23:13,657 - INFO - Retrying request to /chat/completions in 0.424857 seconds
+2026-09-20 10:24:14,146 - INFO - Retrying request to /chat/completions in 0.769959 seconds
+2026-09-20 10:25:14,978 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:25:19,801 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:25:29,913 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:25:38,783 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:26:41,164 - INFO - Retrying request to /chat/completions in 0.459334 seconds
+2026-09-20 10:27:33,797 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:27:46,196 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:27:53,633 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:27:59,193 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:28:16,959 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:28:18,966 - INFO - 按实体文本定位：endometrial cancer -> (20, 38, 'DISEASE')
+2026-09-20 10:28:22,589 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:29:24,715 - INFO - Retrying request to /chat/completions in 0.388219 seconds
+2026-09-20 10:30:25,162 - INFO - Retrying request to /chat/completions in 0.802336 seconds
+2026-09-20 10:31:23,823 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:32:26,000 - INFO - Retrying request to /chat/completions in 0.490047 seconds
+2026-09-20 10:33:26,952 - INFO - Retrying request to /chat/completions in 0.890085 seconds
+2026-09-20 10:34:27,904 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:34:34,002 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:35:20,084 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:35:24,786 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:35:33,163 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:36:11,289 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:36:50,571 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:37:52,690 - INFO - Retrying request to /chat/completions in 0.401998 seconds
+2026-09-20 10:38:53,745 - INFO - Retrying request to /chat/completions in 0.992016 seconds
+2026-09-20 10:39:25,022 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:39:44,384 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:40:12,298 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:40:29,364 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:40:48,385 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:41:50,502 - INFO - Retrying request to /chat/completions in 0.485069 seconds
+2026-09-20 10:50:37,559 - INFO - Retrying request to /chat/completions in 0.991019 seconds
+2026-09-20 10:51:38,612 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:52:40,733 - INFO - Retrying request to /chat/completions in 0.488401 seconds
+2026-09-20 10:53:41,316 - INFO - Retrying request to /chat/completions in 0.985852 seconds
+2026-09-20 10:54:42,369 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:55:44,484 - INFO - Retrying request to /chat/completions in 0.419764 seconds
+2026-09-20 10:56:44,964 - INFO - Retrying request to /chat/completions in 0.819484 seconds
+2026-09-20 10:57:45,853 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 10:57:51,690 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:57:59,986 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:58:42,482 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 10:59:44,595 - INFO - Retrying request to /chat/completions in 0.462396 seconds
+2026-09-20 11:00:40,654 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:00:46,698 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:06:25,457 - INFO - Retrying request to /chat/completions in 0.478656 seconds
+2026-09-20 11:07:04,684 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:07:24,375 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:07:28,420 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:07:33,353 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:08:31,928 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:08:38,099 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:09:00,231 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:10:02,349 - INFO - Retrying request to /chat/completions in 0.493189 seconds
+2026-09-20 11:11:02,906 - INFO - Retrying request to /chat/completions in 0.862497 seconds
+2026-09-20 11:12:03,835 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 11:12:27,300 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:12:56,253 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:13:02,354 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:14:04,467 - INFO - Retrying request to /chat/completions in 0.483274 seconds
+2026-09-20 11:15:05,014 - INFO - Retrying request to /chat/completions in 0.793117 seconds
+2026-09-20 11:16:05,874 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 11:17:10,220 - INFO - Retrying request to /chat/completions in 0.466760 seconds
+2026-09-20 11:17:53,424 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:18:27,113 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:18:37,699 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:18:49,765 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:18:53,636 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:19:32,651 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:19:47,725 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:19:56,980 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:20:25,389 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:20:31,531 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:21:23,985 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:21:30,821 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:21:38,987 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:22:41,292 - INFO - Retrying request to /chat/completions in 0.450953 seconds
+2026-09-20 11:23:41,809 - INFO - Retrying request to /chat/completions in 0.995525 seconds
+2026-09-20 11:24:42,870 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 11:25:04,020 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:25:10,574 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:25:16,207 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:26:18,309 - INFO - Retrying request to /chat/completions in 0.449160 seconds
+2026-09-20 11:26:39,153 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:26:53,040 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:26:59,326 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:27:08,747 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:27:56,545 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:28:45,263 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:29:23,101 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:30:19,522 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:31:49,957 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:31:54,545 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:32:09,946 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:32:28,452 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:32:30,454 - INFO - 按实体文本定位：breast cancer -> (56, 69, 'DISEASE')
+2026-09-20 11:32:30,454 - INFO - 按实体文本定位：ovarian cancer -> (78, 92, 'DISEASE')
+2026-09-20 11:32:50,168 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:33:12,175 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:33:16,374 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:33:20,982 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:34:23,099 - INFO - Retrying request to /chat/completions in 0.437596 seconds
+2026-09-20 11:34:59,272 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:35:40,356 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:36:42,469 - INFO - Retrying request to /chat/completions in 0.488183 seconds
+2026-09-20 11:37:43,041 - INFO - Retrying request to /chat/completions in 0.991225 seconds
+2026-09-20 11:38:44,123 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 11:38:52,442 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:39:05,222 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:40:07,343 - INFO - Retrying request to /chat/completions in 0.479800 seconds
+2026-09-20 11:41:07,886 - INFO - Retrying request to /chat/completions in 0.761708 seconds
+2026-09-20 11:41:36,339 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:42:39,172 - INFO - Retrying request to /chat/completions in 0.451054 seconds
+2026-09-20 11:42:44,951 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:42:51,146 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:42:56,628 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:43:59,045 - INFO - Retrying request to /chat/completions in 0.404390 seconds
+2026-09-20 11:44:59,516 - INFO - Retrying request to /chat/completions in 0.797264 seconds
+2026-09-20 11:46:00,388 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 11:46:08,572 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:46:19,586 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:46:28,793 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:47:30,878 - INFO - Retrying request to /chat/completions in 0.394350 seconds
+2026-09-20 11:48:31,336 - INFO - Retrying request to /chat/completions in 0.962498 seconds
+2026-09-20 11:49:32,451 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 11:49:37,232 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:50:12,407 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:50:18,394 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:51:19,685 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:52:21,814 - INFO - Retrying request to /chat/completions in 0.494258 seconds
+2026-09-20 11:53:22,370 - INFO - Retrying request to /chat/completions in 0.774690 seconds
+2026-09-20 11:54:11,717 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:54:18,987 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:55:21,114 - INFO - Retrying request to /chat/completions in 0.492513 seconds
+2026-09-20 11:56:21,670 - INFO - Retrying request to /chat/completions in 0.795510 seconds
+2026-09-20 11:57:07,026 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:57:14,092 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:57:40,521 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:58:16,761 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:58:34,538 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:58:46,559 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:58:52,908 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 11:59:01,408 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:00:03,518 - INFO - Retrying request to /chat/completions in 0.413047 seconds
+2026-09-20 12:01:04,002 - INFO - Retrying request to /chat/completions in 0.839760 seconds
+2026-09-20 12:02:01,944 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:02:39,226 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:02:47,020 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:02:54,692 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:02:59,894 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:03:55,728 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:04:20,452 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:04:24,604 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:04:33,181 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:05:35,303 - INFO - Retrying request to /chat/completions in 0.410501 seconds
+2026-09-20 12:06:35,875 - INFO - Retrying request to /chat/completions in 0.923813 seconds
+2026-09-20 12:07:36,866 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:08:39,081 - INFO - Retrying request to /chat/completions in 0.388383 seconds
+2026-09-20 12:09:39,542 - INFO - Retrying request to /chat/completions in 0.942996 seconds
+2026-09-20 12:10:10,725 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:10:47,422 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:11:09,295 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:07,865 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:22,926 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:26,498 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:49,440 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:12:53,623 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:13:55,773 - INFO - Retrying request to /chat/completions in 0.468193 seconds
+2026-09-20 12:14:56,310 - INFO - Retrying request to /chat/completions in 0.825712 seconds
+2026-09-20 12:15:57,199 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:16:02,433 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:16:07,436 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:16:23,341 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:16:32,892 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:17:35,013 - INFO - Retrying request to /chat/completions in 0.385570 seconds
+2026-09-20 12:18:35,473 - INFO - Retrying request to /chat/completions in 0.813089 seconds
+2026-09-20 12:19:36,366 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:19:40,148 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:19:46,016 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:19:50,226 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:20:52,347 - INFO - Retrying request to /chat/completions in 0.457605 seconds
+2026-09-20 12:21:52,880 - INFO - Retrying request to /chat/completions in 0.977963 seconds
+2026-09-20 12:22:53,921 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:22:59,554 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:23:19,411 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:23:24,439 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:24:26,554 - INFO - Retrying request to /chat/completions in 0.454628 seconds
+2026-09-20 12:25:27,076 - INFO - Retrying request to /chat/completions in 0.755224 seconds
+2026-09-20 12:26:27,891 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:27:30,012 - INFO - Retrying request to /chat/completions in 0.486978 seconds
+2026-09-20 12:28:04,098 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:28:09,319 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:29:11,441 - INFO - Retrying request to /chat/completions in 0.468708 seconds
+2026-09-20 12:30:12,008 - INFO - Retrying request to /chat/completions in 0.767023 seconds
+2026-09-20 12:30:47,018 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:30:50,804 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:31:08,519 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:31:17,981 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:31:22,639 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:32:19,179 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:32:29,698 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:32:37,235 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:33:39,357 - INFO - Retrying request to /chat/completions in 0.429956 seconds
+2026-09-20 12:34:39,862 - INFO - Retrying request to /chat/completions in 0.816206 seconds
+2026-09-20 12:35:40,752 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:36:42,865 - INFO - Retrying request to /chat/completions in 0.485626 seconds
+2026-09-20 12:37:43,417 - INFO - Retrying request to /chat/completions in 0.771490 seconds
+2026-09-20 12:38:44,248 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:38:49,094 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:39:51,206 - INFO - Retrying request to /chat/completions in 0.432017 seconds
+2026-09-20 12:40:51,703 - INFO - Retrying request to /chat/completions in 0.885569 seconds
+2026-09-20 12:41:52,735 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:41:56,755 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:42:04,361 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:42:07,703 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:42:12,167 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:42:16,928 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:43:19,059 - INFO - Retrying request to /chat/completions in 0.424411 seconds
+2026-09-20 12:44:19,584 - INFO - Retrying request to /chat/completions in 0.982827 seconds
+2026-09-20 12:45:20,628 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:45:24,628 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:45:28,503 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:45:34,273 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:45:49,311 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:46:35,183 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:46:41,940 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:46:46,794 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:46:51,340 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:46:57,107 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:47:59,251 - INFO - Retrying request to /chat/completions in 0.493746 seconds
+2026-09-20 12:48:59,802 - INFO - Retrying request to /chat/completions in 0.783498 seconds
+2026-09-20 12:50:00,649 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 12:50:05,491 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:50:59,887 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:51:16,931 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:51:18,937 - INFO - 按实体文本定位：C7D -> (115, 118, 'DISEASE')
+2026-09-20 12:51:22,440 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:52:19,443 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:53:02,008 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:53:24,065 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:53:57,975 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:54:04,480 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:54:09,736 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:55:11,865 - INFO - Retrying request to /chat/completions in 0.418694 seconds
+2026-09-20 12:56:09,437 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:56:15,993 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:56:38,574 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:56:40,581 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'colorectal carcinoma', 'type': 'DISEASE', 'start': 100, 'end': 120}
+2026-09-20 12:56:43,989 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:56:48,179 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:57:18,449 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:57:50,689 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:57:56,293 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:58:12,217 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:58:21,844 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 12:59:23,963 - INFO - Retrying request to /chat/completions in 0.455133 seconds
+2026-09-20 13:00:24,477 - INFO - Retrying request to /chat/completions in 0.873060 seconds
+2026-09-20 13:01:25,413 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:01:30,564 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:02:07,788 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:02:35,386 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:02:39,584 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:03:26,181 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:04:06,626 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:04:25,330 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:05:27,448 - INFO - Retrying request to /chat/completions in 0.440439 seconds
+2026-09-20 13:06:27,946 - INFO - Retrying request to /chat/completions in 0.979094 seconds
+2026-09-20 13:07:28,984 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:07:45,447 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:15:55,239 - INFO - Retrying request to /chat/completions in 0.432855 seconds
+2026-09-20 13:18:38,860 - INFO - Retrying request to /chat/completions in 0.937827 seconds
+2026-09-20 13:19:39,866 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:20:36,208 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:20:47,429 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:20:55,252 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:21:24,416 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:21:29,661 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:21:34,370 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:21:40,371 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:22:10,014 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:22:43,158 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:22:58,986 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:23:02,383 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:23:06,633 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:23:44,319 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:24:07,962 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:25:10,068 - INFO - Retrying request to /chat/completions in 0.453293 seconds
+2026-09-20 13:25:56,095 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:26:02,397 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:26:23,723 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:27:25,835 - INFO - Retrying request to /chat/completions in 0.447037 seconds
+2026-09-20 13:27:49,962 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:28:03,947 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:28:07,573 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:28:25,698 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:28:38,458 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:28:42,799 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:28:59,081 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:29:04,704 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:29:09,156 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:29:22,493 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:29:41,225 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:30:17,111 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:31:01,073 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:31:47,689 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:31:52,473 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:32:34,633 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:32:38,091 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:32:43,470 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:33:16,308 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:34:18,440 - INFO - Retrying request to /chat/completions in 0.431014 seconds
+2026-09-20 13:35:18,925 - INFO - Retrying request to /chat/completions in 0.987124 seconds
+2026-09-20 13:36:20,053 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:36:28,511 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:37:09,678 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:37:28,020 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:38:09,168 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:38:13,984 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:39:16,224 - INFO - Retrying request to /chat/completions in 0.431199 seconds
+2026-09-20 13:40:16,755 - INFO - Retrying request to /chat/completions in 0.864130 seconds
+2026-09-20 13:41:17,699 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:41:33,652 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:41:54,992 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:41:57,003 - INFO - 将 1-based 实体位置转换为 0-based：{'text': 'fish - eye disease', 'type': 'DISEASE', 'start': 106, 'end': 124}
+2026-09-20 13:42:09,156 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:42:16,993 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:42:27,169 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:43:29,283 - INFO - Retrying request to /chat/completions in 0.496375 seconds
+2026-09-20 13:44:29,848 - INFO - Retrying request to /chat/completions in 0.882794 seconds
+2026-09-20 13:45:09,701 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:45:53,429 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:45:57,578 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:46:01,162 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:46:05,463 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:46:56,152 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:47:30,341 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:47:34,141 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:47:59,973 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:48:55,857 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:49:57,994 - INFO - Retrying request to /chat/completions in 0.413893 seconds
+2026-09-20 13:50:58,486 - INFO - Retrying request to /chat/completions in 0.829116 seconds
+2026-09-20 13:51:59,379 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:52:53,817 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:52:58,954 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:53:05,408 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:54:07,528 - INFO - Retrying request to /chat/completions in 0.468909 seconds
+2026-09-20 13:55:02,552 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:56:04,675 - INFO - Retrying request to /chat/completions in 0.405428 seconds
+2026-09-20 13:57:05,145 - INFO - Retrying request to /chat/completions in 0.916515 seconds
+2026-09-20 13:58:06,131 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 13:58:21,582 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:58:27,040 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:58:33,165 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:59:26,180 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 13:59:44,075 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:00:11,514 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:00:16,338 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:00:21,173 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:01:23,277 - INFO - Retrying request to /chat/completions in 0.479208 seconds
+2026-09-20 14:02:23,815 - INFO - Retrying request to /chat/completions in 0.770977 seconds
+2026-09-20 14:03:24,654 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:03:42,258 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:03:51,286 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:04:53,430 - INFO - Retrying request to /chat/completions in 0.421885 seconds
+2026-09-20 14:05:53,920 - INFO - Retrying request to /chat/completions in 0.865839 seconds
+2026-09-20 14:06:54,855 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:07:38,510 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:07:44,695 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:07:49,527 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:08:02,224 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:08:09,392 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:09:11,515 - INFO - Retrying request to /chat/completions in 0.484507 seconds
+2026-09-20 14:10:12,057 - INFO - Retrying request to /chat/completions in 0.836297 seconds
+2026-09-20 14:10:52,445 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:11:54,567 - INFO - Retrying request to /chat/completions in 0.401093 seconds
+2026-09-20 14:12:55,053 - INFO - Retrying request to /chat/completions in 0.840489 seconds
+2026-09-20 14:13:55,962 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:14:58,085 - INFO - Retrying request to /chat/completions in 0.476618 seconds
+2026-09-20 14:15:58,630 - INFO - Retrying request to /chat/completions in 0.994584 seconds
+2026-09-20 14:16:27,283 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:16:33,665 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:17:23,910 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:17:29,385 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:17:37,531 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:17:42,247 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:18:15,625 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:18:20,231 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:19:00,884 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:19:42,666 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:20:27,705 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:20:34,683 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:20:56,702 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:21:12,779 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:22:14,898 - INFO - Retrying request to /chat/completions in 0.434336 seconds
+2026-09-20 14:22:56,159 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:23:00,911 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:23:07,526 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:23:49,226 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:23:57,324 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:24:00,816 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:24:28,566 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:25:30,688 - INFO - Retrying request to /chat/completions in 0.482195 seconds
+2026-09-20 14:26:03,696 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:26:09,111 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:26:55,511 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:27:57,650 - INFO - Retrying request to /chat/completions in 0.402691 seconds
+2026-09-20 14:28:58,135 - INFO - Retrying request to /chat/completions in 0.811076 seconds
+2026-09-20 14:29:14,457 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:29:18,804 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:29:52,187 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:30:54,305 - INFO - Retrying request to /chat/completions in 0.454927 seconds
+2026-09-20 14:31:54,826 - INFO - Retrying request to /chat/completions in 0.825701 seconds
+2026-09-20 14:32:55,708 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:33:23,544 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:34:25,660 - INFO - Retrying request to /chat/completions in 0.402038 seconds
+2026-09-20 14:35:26,125 - INFO - Retrying request to /chat/completions in 0.874511 seconds
+2026-09-20 14:36:27,068 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:36:58,028 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:37:04,013 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:38:06,139 - INFO - Retrying request to /chat/completions in 0.477382 seconds
+2026-09-20 14:39:06,682 - INFO - Retrying request to /chat/completions in 0.888757 seconds
+2026-09-20 14:40:07,638 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:41:09,764 - INFO - Retrying request to /chat/completions in 0.488126 seconds
+2026-09-20 14:42:10,318 - INFO - Retrying request to /chat/completions in 0.877604 seconds
+2026-09-20 14:43:11,257 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:43:38,872 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:44:40,986 - INFO - Retrying request to /chat/completions in 0.494723 seconds
+2026-09-20 14:45:30,993 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:46:33,114 - INFO - Retrying request to /chat/completions in 0.448124 seconds
+2026-09-20 14:47:34,315 - INFO - Retrying request to /chat/completions in 0.980336 seconds
+2026-09-20 14:48:22,101 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:49:24,222 - INFO - Retrying request to /chat/completions in 0.499076 seconds
+2026-09-20 14:50:24,790 - INFO - Retrying request to /chat/completions in 0.925735 seconds
+2026-09-20 14:51:25,780 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:51:49,566 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:51:54,379 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:52:01,342 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:52:49,675 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:53:51,794 - INFO - Retrying request to /chat/completions in 0.447479 seconds
+2026-09-20 14:54:52,306 - INFO - Retrying request to /chat/completions in 0.955036 seconds
+2026-09-20 14:55:53,326 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 14:56:03,725 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:56:10,491 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:56:17,118 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:56:23,489 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:56:59,127 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:57:03,730 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:57:12,233 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:58:14,348 - INFO - Retrying request to /chat/completions in 0.458079 seconds
+2026-09-20 14:59:07,143 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:59:49,371 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:59:54,349 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 14:59:59,104 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:00:03,697 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:00:08,890 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:00:36,686 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:00:41,561 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:01:04,602 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:01:06,614 - INFO - 按实体文本定位：Pediatric alveolar rhabdomyosarcoma -> (0, 35, 'DISEASE')
+2026-09-20 15:01:21,909 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:01:57,477 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:02:02,358 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:02:08,591 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:02:15,259 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:02:22,182 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:02:27,884 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:02:42,602 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:03:00,546 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:03:46,602 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:03:57,802 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:04:59,923 - INFO - Retrying request to /chat/completions in 0.468892 seconds
+2026-09-20 15:06:00,454 - INFO - Retrying request to /chat/completions in 0.840323 seconds
+2026-09-20 15:07:01,352 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:08:03,469 - INFO - Retrying request to /chat/completions in 0.434289 seconds
+2026-09-20 15:09:03,970 - INFO - Retrying request to /chat/completions in 0.856883 seconds
+2026-09-20 15:09:40,501 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:10:07,836 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:11:09,963 - INFO - Retrying request to /chat/completions in 0.476794 seconds
+2026-09-20 15:12:10,499 - INFO - Retrying request to /chat/completions in 0.807222 seconds
+2026-09-20 15:13:11,371 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:13:16,567 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:13:20,470 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:13:26,117 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:14:28,233 - INFO - Retrying request to /chat/completions in 0.495305 seconds
+2026-09-20 15:15:28,795 - INFO - Retrying request to /chat/completions in 0.970447 seconds
+2026-09-20 15:16:29,849 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:17:31,967 - INFO - Retrying request to /chat/completions in 0.483826 seconds
+2026-09-20 15:18:20,202 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:19:22,327 - INFO - Retrying request to /chat/completions in 0.466342 seconds
+2026-09-20 15:20:22,860 - INFO - Retrying request to /chat/completions in 0.862646 seconds
+2026-09-20 15:21:23,879 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:21:28,977 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:21:34,457 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:22:36,575 - INFO - Retrying request to /chat/completions in 0.386204 seconds
+2026-09-20 15:23:37,098 - INFO - Retrying request to /chat/completions in 0.766580 seconds
+2026-09-20 15:24:37,937 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:25:03,048 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:25:07,043 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:25:10,723 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:25:18,522 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:25:24,815 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:25:32,745 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:25:56,052 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:26:58,168 - INFO - Retrying request to /chat/completions in 0.483194 seconds
+2026-09-20 15:27:58,716 - INFO - Retrying request to /chat/completions in 0.751832 seconds
+2026-09-20 15:28:59,532 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:29:40,867 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:30:42,983 - INFO - Retrying request to /chat/completions in 0.449921 seconds
+2026-09-20 15:31:43,587 - INFO - Retrying request to /chat/completions in 0.838016 seconds
+2026-09-20 15:32:44,494 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:33:46,610 - INFO - Retrying request to /chat/completions in 0.499582 seconds
+2026-09-20 15:34:47,171 - INFO - Retrying request to /chat/completions in 0.758577 seconds
+2026-09-20 15:35:48,000 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:36:02,360 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:36:22,806 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:37:24,951 - INFO - Retrying request to /chat/completions in 0.463744 seconds
+2026-09-20 15:37:33,065 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:38:06,817 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:39:08,926 - INFO - Retrying request to /chat/completions in 0.486764 seconds
+2026-09-20 15:39:42,683 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:39:44,689 - INFO - 按实体文本定位：attenuated adenomatous polyposis coli -> (110, 147, 'DISEASE')
+2026-09-20 15:39:50,064 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:40:31,022 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:41:03,316 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:42:05,455 - INFO - Retrying request to /chat/completions in 0.486499 seconds
+2026-09-20 15:43:06,013 - INFO - Retrying request to /chat/completions in 0.750635 seconds
+2026-09-20 15:44:06,837 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:44:12,116 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:44:23,610 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:45:25,734 - INFO - Retrying request to /chat/completions in 0.468549 seconds
+2026-09-20 15:45:34,930 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:46:30,347 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:47:32,461 - INFO - Retrying request to /chat/completions in 0.415681 seconds
+2026-09-20 15:48:32,893 - INFO - Retrying request to /chat/completions in 0.791758 seconds
+2026-09-20 15:49:33,741 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:49:54,186 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:49:59,493 - INFO - Retrying request to /chat/completions in 0.429328 seconds
+2026-09-20 15:50:03,115 - INFO - Retrying request to /chat/completions in 0.929218 seconds
+2026-09-20 15:51:05,070 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:51:53,404 - INFO - Retrying request to /chat/completions in 0.432907 seconds
+2026-09-20 15:52:54,589 - INFO - Retrying request to /chat/completions in 0.959607 seconds
+2026-09-20 15:53:56,295 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:54:58,471 - INFO - Retrying request to /chat/completions in 0.380980 seconds
+2026-09-20 15:55:59,005 - INFO - Retrying request to /chat/completions in 0.868220 seconds
+2026-09-20 15:56:59,988 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 15:57:15,640 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:57:19,514 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:57:38,645 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:57:47,513 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:57:53,615 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:57:57,627 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:58:05,650 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:58:23,680 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:58:29,336 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:58:36,159 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:59:24,103 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 15:59:26,108 - INFO - 按实体文本定位：galactosemia -> (106, 118, 'DISEASE')
+2026-09-20 16:00:26,209 - INFO - Retrying request to /chat/completions in 0.403241 seconds
+2026-09-20 16:01:27,774 - INFO - Retrying request to /chat/completions in 0.867007 seconds
+2026-09-20 16:02:28,704 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 16:02:35,106 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:03:37,263 - INFO - Retrying request to /chat/completions in 0.459193 seconds
+2026-09-20 16:04:37,746 - INFO - Retrying request to /chat/completions in 0.986695 seconds
+2026-09-20 16:05:38,899 - WARNING - LLM 调用失败：Request timed out.
+2026-09-20 16:06:24,252 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:06:52,230 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:07:06,714 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:07:56,610 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:08:50,498 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:08:55,166 - INFO - HTTP Request: POST https://llm-fnczlq0ikumogdpf.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-20 16:08:57,173 - INFO - Precision: 0.8876
+2026-09-20 16:08:57,173 - INFO - Recall: 0.5643
+2026-09-20 16:08:57,173 - INFO - F1: 0.6900

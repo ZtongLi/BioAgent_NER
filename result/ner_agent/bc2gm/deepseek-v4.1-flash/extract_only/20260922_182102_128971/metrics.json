@@ -1,0 +1,30 @@
+{
+  "precision": 0.604261796042618,
+  "recall": 0.6281645569620253,
+  "f1": 0.6159813809154383,
+  "true_positive": 397,
+  "false_positive": 260,
+  "false_negative": 235,
+  "num_samples": 500,
+  "failed_samples": 7,
+  "stage_effects": {
+    "extraction": {
+      "samples": 500,
+      "failed_samples": 7,
+      "true_added": 397,
+      "false_added": 260,
+      "true_removed": 0,
+      "false_removed": 0
+    }
+  },
+  "status": "complete",
+  "run_id": "20260922_182102_128971",
+  "dataset": "bc2gm",
+  "model_name": "deepseek-v4.1-flash",
+  "variant": "extract_only",
+  "prompt_sha256": "cb1be58a8ace664fdb50d87c9ca7c18d7957f299ddfcacb3a40de6a1fd840cc3",
+  "api_calls": 547,
+  "logical_attempts": 547,
+  "cache_hits": 0,
+  "duration_seconds": 4636.124
+}

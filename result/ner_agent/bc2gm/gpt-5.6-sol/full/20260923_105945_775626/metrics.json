@@ -1,0 +1,54 @@
+{
+  "precision": 0.6736842105263158,
+  "recall": 0.3037974683544304,
+  "f1": 0.4187568157033806,
+  "true_positive": 192,
+  "false_positive": 93,
+  "false_negative": 440,
+  "num_samples": 500,
+  "failed_samples": 241,
+  "stage_effects": {
+    "extraction": {
+      "samples": 500,
+      "failed_samples": 239,
+      "true_added": 198,
+      "false_added": 93,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "discovery": {
+      "samples": 261,
+      "failed_samples": 0,
+      "true_added": 7,
+      "false_added": 6,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "boundary": {
+      "samples": 261,
+      "failed_samples": 1,
+      "true_added": 4,
+      "false_added": 7,
+      "true_removed": 4,
+      "false_removed": 8
+    },
+    "verification": {
+      "samples": 261,
+      "failed_samples": 1,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 13,
+      "false_removed": 5
+    }
+  },
+  "status": "complete",
+  "run_id": "20260923_105945_775626",
+  "dataset": "bc2gm",
+  "model_name": "gpt-5.6-sol",
+  "variant": "full",
+  "prompt_sha256": "cb1be58a8ace664fdb50d87c9ca7c18d7957f299ddfcacb3a40de6a1fd840cc3",
+  "api_calls": 1543,
+  "logical_attempts": 1543,
+  "cache_hits": 0,
+  "duration_seconds": 20368.091
+}

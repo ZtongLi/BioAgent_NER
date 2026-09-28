@@ -1,0 +1,8 @@
+﻿experiment_name,dataset,model_name,max_loop,precision,recall,f1
+bc2gm_deepseek,bc2gm,deepseek-v4.1-flash,500,0.6118,0.5833,0.5972
+bc2gm_gpt,bc2gm,gpt-5.6-sol,500,0.5679,0.6057,0.5862
+bc5cdr_deepseek,bc5cdr,deepseek-v4-flash,500,0.0000,0.0000,0.0000
+bc5cdr_deepseek,bc5cdr,deepseek-v4.1-flash,500,0.7126,0.8124,0.7592
+bc5cdr_gpt,bc5cdr,gpt-5.6-sol,500,0.7824,0.8863,0.8311
+ncbi_deepseek,ncbi,deepseek-v4.1-flash,500,0.7628,0.6770,0.7174
+ncbi_gpt,ncbi,gpt-5.6-sol,500,0.6512,0.7690,0.7052
