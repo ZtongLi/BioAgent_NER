@@ -1,0 +1,122 @@
+{
+  "precision": 0.8307692307692308,
+  "recall": 0.7714285714285715,
+  "f1": 0.8,
+  "true_positive": 324,
+  "false_positive": 66,
+  "false_negative": 96,
+  "num_samples": 500,
+  "failed_samples": 0,
+  "evaluated_samples": 500,
+  "success_rate": 1.0,
+  "evaluation_scope": "successful_samples_only",
+  "stage_effects": {
+    "extract_molecular": {
+      "samples": 500,
+      "failed_samples": 0,
+      "evaluated_samples": 500,
+      "true_added": 329,
+      "false_added": 134,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "extract_clinical": {
+      "samples": 500,
+      "failed_samples": 0,
+      "evaluated_samples": 500,
+      "true_added": 19,
+      "false_added": 49,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "extract_pharmacology": {
+      "samples": 500,
+      "failed_samples": 0,
+      "evaluated_samples": 500,
+      "true_added": 7,
+      "false_added": 30,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "empty_pool": {
+      "samples": 197,
+      "failed_samples": 0,
+      "evaluated_samples": 197,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "vote_molecular": {
+      "samples": 303,
+      "failed_samples": 0,
+      "evaluated_samples": 303,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "vote_clinical": {
+      "samples": 303,
+      "failed_samples": 0,
+      "evaluated_samples": 303,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "vote_pharmacology": {
+      "samples": 303,
+      "failed_samples": 0,
+      "evaluated_samples": 303,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "tally": {
+      "samples": 303,
+      "failed_samples": 0,
+      "evaluated_samples": 303,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 33,
+      "false_removed": 151
+    },
+    "aggregation": {
+      "samples": 303,
+      "failed_samples": 0,
+      "evaluated_samples": 303,
+      "true_added": 2,
+      "false_added": 4,
+      "true_removed": 0,
+      "false_removed": 0
+    }
+  },
+  "status": "complete",
+  "run_id": "20261002_060026_596275",
+  "dataset": "ncbi",
+  "system_version": "expert_v1",
+  "model_name": "deepseek-v4.1-flash",
+  "variant": "full",
+  "retrieval_k": 4,
+  "training_sha256": "322a3509fe8f8b269dfa752a23fd289024ebe85fab9aaadd2100948ad6e65dfa",
+  "prompt_sha256": "ed7871a6471df608b8f40f69ed4ed5d789f9b5fd255bc0aae14dd6a6f8540134",
+  "api_calls": 2737,
+  "logical_attempts": 2737,
+  "cache_hits": 0,
+  "duration_seconds": 9951.603,
+  "actual_total_tokens": 4380098,
+  "actual_usage_reported_attempts": 2737,
+  "logical_total_tokens": 4380098,
+  "logical_usage_reported_attempts": 2737,
+  "unique_expert_true_candidates": 19,
+  "unique_expert_true_retained": 10,
+  "vote_true_rejected": 24,
+  "vote_false_accepted": 69,
+  "aggregation_true_added": 2,
+  "aggregation_false_added": 4,
+  "aggregation_true_removed": 0,
+  "aggregation_false_removed": 0,
+  "unique_expert_true_retention_rate": 0.5263157894736842
+}

@@ -25,6 +25,7 @@ config/candidate_discovery_agent/*/*_deepseek.json
 config/candidate_discovery_agent/*/*_gpt.json
 # Independent NER experiment configs contain local API keys.
 config/ner_agent/*/*.json
+config/expert_agent/*/*.json
 
 # Logs
 *.log
@@ -48,3 +49,9 @@ chroma/
 
 # Local API keys
 APIkey
+
+# Archived documentation
+docs/archive/
+expert_agent/DESIGN.md
+# Exclude credential-bearing historical log
+/result/baseline/bc2gm/gpt-5.6-sol/bc2gm_gpt.log

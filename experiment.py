@@ -136,7 +136,7 @@ def append_summary(summary, metrics):
     Path(f.name).replace(summary)
 
 
-def save_results(run_dir, config, variant, records, paired_ids=None, reference=None):
+def save_results(run_dir, config, variant, records, paired_ids=None, reference=None, result_root=None):
     """Finalize completed runs; the runner has already flushed each prediction and log."""
     metrics = evaluate_ner(records)
     if paired_ids is not None:
@@ -162,15 +162,57 @@ def save_results(run_dir, config, variant, records, paired_ids=None, reference=N
                     "logical_attempts": sum(len(s["attempts"]) for s in stages),
                     "cache_hits": sum(s["cache_hit"] for s in stages),
                     "duration_seconds": round(sum(r["elapsed_seconds"] for r in records), 3)})
+    if config.get("agent_system") == "expert_agent":
+        for prefix, selected in (("actual", [s for s in stages if not s["cache_hit"]]), ("logical", stages)):
+            usages = [a["usage"] for s in selected for a in s["attempts"] if a.get("usage")]
+            metrics[f"{prefix}_total_tokens"] = sum(u.get("total_tokens", 0) or 0 for u in usages)
+            metrics[f"{prefix}_usage_reported_attempts"] = len(usages)
+        metrics.update(expert_diagnostics(records))
     (run_dir / "metrics.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2))
-    append_summary(RESULT_ROOT / "summary_prf1.csv", metrics)
+    append_summary((result_root or RESULT_ROOT) / "summary_prf1.csv", metrics)
     return {"result_dir": str(run_dir), **metrics}
 
 
-def run_experiment(config, variant="full", limit=None, client=None):
-    config = prepare_config(config)
-    variants = list(VARIANTS) if variant == "all" else ["extract_only", "full"] if variant == "compare" else [variant]
-    if any(name not in VARIANTS for name in variants):
+def expert_diagnostics(records):
+    """Gold-dependent diagnostics live only in the offline evaluator."""
+    totals = dict.fromkeys(("unique_expert_true_candidates", "unique_expert_true_retained",
+                           "vote_true_rejected", "vote_false_accepted",
+                           "aggregation_true_added", "aggregation_false_added",
+                           "aggregation_true_removed", "aggregation_false_removed"), 0)
+    for row in records:
+        if not successful_record(row):
+            continue
+        gold, final = span_set(row["gold_entities"]), span_set(row["pred_entities"])
+        candidates = {c["id"]: (c["start"], c["end"], c["type"]) for c in row.get("candidates", [])}
+        for c in row.get("candidates", []):
+            if len(c.get("sources", [])) == 1 and candidates[c["id"]] in gold:
+                totals["unique_expert_true_candidates"] += 1
+                totals["unique_expert_true_retained"] += int(candidates[c["id"]] in final)
+        for count in row.get("vote_counts", []):
+            truth = candidates[count["id"]] in gold
+            totals["vote_true_rejected"] += int(truth and count["status"] == "rejected")
+            totals["vote_false_accepted"] += int(not truth and count["status"] == "accepted")
+        for stage in row["stages"]:
+            if stage["stage"] != "aggregation":
+                continue
+            before, after = span_set(stage["input_entities"]), span_set(stage["output_entities"])
+            for action, changed in (("added", after - before), ("removed", before - after)):
+                totals[f"aggregation_true_{action}"] += len(changed & gold)
+                totals[f"aggregation_false_{action}"] += len(changed - gold)
+    count = totals["unique_expert_true_candidates"]
+    totals["unique_expert_true_retention_rate"] = totals["unique_expert_true_retained"] / count if count else None
+    return totals
+
+
+def run_experiment(config, variant="full", limit=None, client=None, backend=None):
+    prepare = backend.prepare_config if backend else prepare_config
+    pipeline = backend.run_pipeline if backend else run_pipeline
+    available = backend.VARIANTS if backend else VARIANTS
+    result_root = backend.RESULT_ROOT if backend else RESULT_ROOT
+    baseline = "single_expert" if backend else "extract_only"
+    config = prepare(config)
+    variants = list(available) if variant == "all" else [baseline, "full"] if variant == "compare" else [variant]
+    if any(name not in available for name in variants):
         raise ValueError("Unknown ablation variant")
     count = config.get("max_loop", 500) if limit is None else limit
     if type(count) is not int or count < 1:
@@ -189,17 +231,24 @@ def run_experiment(config, variant="full", limit=None, client=None):
                      "input_sha256": hashlib.sha256(data_bytes).hexdigest(),
                      "prompt_sha256": config["_prompt_hash"], "prompts": config["_prompts"]})
     files = [ROOT / "main.py", ROOT / "experiment.py", ROOT / "tool.py", *sorted((ROOT / "agents").glob("*.py"))]
+    if backend:
+        files += sorted((ROOT / "expert_agent").glob("*.py"))
     snapshot["code_sha256"] = hashlib.sha256(b"".join(p.read_bytes() for p in files)).hexdigest()
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    progress = None
+    if backend:
+        from expert_agent.console import Progress
+        progress = Progress(config, variants, len(data), result_root, run_id)
+        config["_progress"] = progress.stage
     runs = {}
     with ExitStack() as stack:
         api = stack.enter_context(nullcontext(client) if client is not None else make_client(config))
         for name in variants:
-            directory = RESULT_ROOT / config["dataset"] / config["model_name"] / name / run_id
+            directory = result_root / config["dataset"] / config["model_name"] / name / run_id
             directory.mkdir(parents=True, exist_ok=False)
             (directory / "run_config.json").write_text(json.dumps(
                 {**snapshot, "variant": name, "retrieval_k": 0 if name == "without_retrieval" else config["retrieval_k"],
-                 "modules": ["extraction", *VARIANTS[name]]}, ensure_ascii=False, indent=2))
+                 "modules": list(available[name]) if backend else ["extraction", *available[name]]}, ensure_ascii=False, indent=2))
             output = stack.enter_context((directory / "predictions.jsonl").open("w", encoding="utf-8"))
             handler = logging.FileHandler(directory / "run.log", encoding="utf-8")
             handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
@@ -214,7 +263,11 @@ def run_experiment(config, variant="full", limit=None, client=None):
             cache = {}
             for name, run in runs.items():
                 started = time.monotonic()
-                prediction = run_pipeline(sample["sentence"], config, api, name, cache)
+                if progress:
+                    progress.begin(index + 1, name)
+                    config["_attempt_logger"] = run["logger"]
+                    run["logger"].info("sample=%s begin", index)
+                prediction = pipeline(sample["sentence"], config, api, name, cache)
                 record = {"sample_id": index, "sentence": sample["sentence"], **prediction,
                           "gold_entities": sample["entities"],
                           "elapsed_seconds": round(time.monotonic() - started, 3)}
@@ -223,18 +276,22 @@ def run_experiment(config, variant="full", limit=None, client=None):
                 run["records"].append(record)
                 for stage in record["stages"]:
                     run["logger"].info("sample=%s stage=%s trace=%s", index, stage["stage"], json.dumps(stage, ensure_ascii=False))
-                print(f"[{index + 1}/{len(data)}] {config['dataset']} {config['model_name']} {name} "
-                      f"entities={len(record['pred_entities'])} complete={record['fully_executed']}", flush=True)
+                if progress:
+                    progress.finish(record)
+                else:
+                    print(f"[{index + 1}/{len(data)}] {config['dataset']} {config['model_name']} {name} "
+                          f"entities={len(record['pred_entities'])} complete={record['fully_executed']}", flush=True)
                 if any(s.get("fatal") for s in record["stages"]):
                     raise RuntimeError(f"API configuration rejected (HTTP 400/401/403/404); inspect {run['directory'] / 'run.log'}")
         paired_ids = None
         if len(runs) > 1:
             paired_ids = set.intersection(*[
                 {r["sample_id"] for r in run["records"] if successful_record(r)} for run in runs.values()])
-            print(f"Paired evaluation: {len(paired_ids)}/{len(data)} samples succeeded in every variant", flush=True)
-        reference = evaluate_ner([r for r in runs["extract_only"]["records"] if r["sample_id"] in paired_ids]) \
-            if paired_ids is not None and "extract_only" in runs else None
-        return [save_results(run["directory"], config, name, run["records"], paired_ids, reference)
+            if not progress:
+                print(f"Paired evaluation: {len(paired_ids)}/{len(data)} samples succeeded in every variant", flush=True)
+        reference = evaluate_ner([r for r in runs[baseline]["records"] if r["sample_id"] in paired_ids]) \
+            if paired_ids is not None and baseline in runs else None
+        return [save_results(run["directory"], config, name, run["records"], paired_ids, reference, result_root)
                 for name, run in runs.items()]
 
 

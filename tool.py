@@ -171,8 +171,9 @@ def prepare_config(config):
         raise ValueError("dataset must be bc2gm, bc5cdr or ncbi")
     if not re.fullmatch(r"[A-Za-z0-9_.-]+", config["model_name"]):
         raise ValueError("model_name must be safe for an output directory name")
-    if type(config.get("max_attempts", 3)) is not int or config.get("max_attempts", 3) < 1:
-        raise ValueError("max_attempts must be a positive integer")
+    limit = config.get("max_attempts", 3)
+    if limit is not None and (type(limit) is not int or limit < 1):
+        raise ValueError("max_attempts must be null (unlimited) or a positive integer")
     config.setdefault("retrieval_k", 4)
     if type(config["retrieval_k"]) is not int or not 0 <= config["retrieval_k"] <= 8:
         raise ValueError("retrieval_k must be an integer from 0 to 8")
@@ -207,17 +208,21 @@ def make_client(config):
 
 
 def call_agent(stage, payload, config, client, validate):
-    """Return validated data and an auditable trace; exhausted attempts return None."""
+    """Retry until validated success when max_attempts is None; Ctrl+C can cancel."""
     messages = [{"role": "system", "content": config["_prompts"][stage]},
                 {"role": "user", "content": json.dumps(payload, ensure_ascii=False)}]
     trace = {"stage": stage, "status": "failed", "attempts": [],
              "training_examples": payload.get("training_examples", [])}
-    for attempt in range(config.get("max_attempts", 3)):
+    limit = config.get("max_attempts", 3)
+    attempt = 0
+    while limit is None or attempt < limit:
+        if config.get("_progress"):
+            config["_progress"](stage, f"第 {attempt + 1} 次请求" if limit is None else f"请求 {attempt + 1}/{limit}")
         time.sleep(config.get("sleep_seconds", 0))
         started = time.monotonic()
         entry = {"attempt": attempt + 1, "raw_response": None, "error": None}
         retryable = True
-        retry_after = min(config.get("retry_delay", 2) * 2 ** attempt, 30)
+        retry_after = min(config.get("retry_delay", 2) * 2 ** min(attempt, 10), 30)
         value = None
         try:
             response = client.chat.completions.create(
@@ -237,8 +242,8 @@ def call_agent(stage, payload, config, client, validate):
             secret = config.get("api_keys") or os.getenv(config.get("api_key_env", ""))
             detail = exc.response.text
             entry["error_detail"] = (detail.replace(secret, "[REDACTED]") if secret else detail)[:2000]
-            trace["fatal"] = exc.status_code in (400, 401, 403, 404)
-            retryable = exc.status_code in (408, 409, 429) or exc.status_code >= 500
+            trace["fatal"] = limit is not None and exc.status_code in (400, 401, 403, 404)
+            retryable = limit is None or exc.status_code in (408, 409, 429) or exc.status_code >= 500
             try:
                 retry_after = max(retry_after, min(float(exc.response.headers.get("retry-after", 0)), 120))
             except ValueError:
@@ -254,10 +259,15 @@ def call_agent(stage, payload, config, client, validate):
                 " Return complete corrected JSON; preserve valid entities and fix the reported defect."}]
         entry["elapsed_seconds"] = round(time.monotonic() - started, 3)
         trace["attempts"].append(entry)
+        if config.get("_attempt_logger"):
+            config["_attempt_logger"].info("stage=%s attempt=%s", stage, json.dumps(entry, ensure_ascii=False))
         if trace["status"] == "ok":
             return value, trace
         if not retryable:
             break
-        if attempt + 1 < config.get("max_attempts", 3):
+        attempt += 1
+        if limit is None or attempt < limit:
+            if config.get("_progress"):
+                config["_progress"](stage, f"等待重试 {retry_after:g}s")
             time.sleep(retry_after)
     return None, trace

@@ -43,6 +43,7 @@ def parse_args():
     )
     parser.add_argument("--config", required=True, help="配置文件路径，例如 config/baseline/bc2gm/bc2gm_deepseek.json")
     parser.add_argument("--output", help="预测结果 jsonl 保存路径；默认使用配置中的 save_file_path")
+    parser.add_argument("--resume", action="store_true", help="校验已有有效结果并从下一条续跑；文件不存在时新建")
     return parser.parse_args()
 
 
@@ -77,10 +78,13 @@ Identify all entities that belong to the valid entity type labels.
 {type_instruction}
 
 Return only a JSON list. Each item must have this schema:
-{{"text": "entity text", "type": "entity type", "start": 0, "end": 0}}
-The start and end values are zero-based character offsets in the sentence (start inclusive, end exclusive).
-The first character of the sentence has index 0.
+{{"text": "exact entity text", "type": "entity type", "occurrence": 0}}
+Copy text exactly, including case, spaces and punctuation.
+occurrence is the zero-based index among ALL exact substring matches of this text,
+counted left to right (including matches inside longer words). Do not count character offsets.
 Return a separate item for each occurrence of an entity.
+If the same text appears twice, the only valid indices are integer 0 and integer 1,
+not 1 and 2, not a string, and not a list.
 Do not output combined labels such as "CHEMICAL, DISEASE".
 Do not wrap the JSON in markdown.
 If there is no entity, return [].
@@ -100,18 +104,20 @@ def get_api_key(config):
 
 
 def call_llm(prompt, config):
-    client = OpenAI(
+    with OpenAI(
         api_key=get_api_key(config),
         base_url=config["base_url"],
         timeout=config.get("timeout", 60),
-    )
+        max_retries=0,
+    ) as client:
+        response = client.chat.completions.create(
+            model=config["model_name"],
+            messages=[{"role": "user", "content": prompt}],
+            temperature=1,
+        )
 
-    response = client.chat.completions.create(
-        model=config["model_name"],
-        messages=[{"role": "user", "content": prompt}],
-        temperature=1,
-    )
-
+    if response.choices[0].finish_reason == "length":
+        raise ValueError("Response was truncated")
     return response.choices[0].message.content
 
 
@@ -122,62 +128,93 @@ def calculate_metrics(true_positive, predicted_total, gold_total):
     return precision, recall, f1
 
 
-def normalize_pred_entities(pred_entities, sentence):
-    """Resolve predictions to mention spans; unmatched text remains a false positive."""
-    normalized = set()
-    unresolved = []
+def normalize_pred_entities(pred_entities, sentence, dataset=None):
+    """Validate the whole response; resolve exact quotes without guessing occurrences."""
     if not isinstance(pred_entities, list):
-        logging.warning("LLM 返回 JSON 不是 list：%s", pred_entities)
-        return normalized
-
-    for index, entity in enumerate(pred_entities):
+        raise ValueError("Expected a JSON list")
+    allowed = ENTITY_TYPES[dataset] if dataset else {t for ts in ENTITY_TYPES.values() for t in ts}
+    normalized = set()
+    for entity in pred_entities:
         if not isinstance(entity, dict):
-            logging.warning("跳过非 dict 实体：%s", entity)
-            continue
-
-        text = entity.get("text") or entity.get("name")
-        entity_type = entity.get("type")
-        if not text or not entity_type:
-            logging.warning("跳过字段不完整的实体：%s", entity)
-            continue
-
-        text = str(text)
-        entity_type = str(entity_type).upper()
+            raise ValueError("Every entity must be an object")
+        text, label = entity.get("text"), entity.get("type")
+        if not isinstance(text, str) or not text.strip() or label not in allowed:
+            raise ValueError("Expected nonempty exact text and an allowed entity type")
         start, end = entity.get("start"), entity.get("end")
-        if start is not None or end is not None:
-            if (isinstance(start, int) and not isinstance(start, bool)
-                    and isinstance(end, int) and not isinstance(end, bool)
-                    and 0 <= start < end <= len(sentence)
-                    and sentence[start:end].casefold() == text.casefold()):
-                normalized.add((start, end, entity_type))
-            elif (isinstance(start, int) and not isinstance(start, bool)
-                    and isinstance(end, int) and not isinstance(end, bool)
-                    and 1 <= start < end <= len(sentence) + 1
-                    and sentence[start - 1:end - 1].casefold() == text.casefold()):
-                logging.info("将 1-based 实体位置转换为 0-based：%s", entity)
-                normalized.add((start - 1, end - 1, entity_type))
-            else:
-                unresolved.append((index, text, entity_type, start))
-            continue
-        unresolved.append((index, text, entity_type, None))
-
-    # 位置不正确或未给位置时，用实体文本定位；多次出现时选最接近模型位置的一处。
-    for index, text, entity_type, start in unresolved:
-        candidates = [
-            (match.start(), match.end(), entity_type)
-            for match in re.finditer(re.escape(text), sentence, flags=re.IGNORECASE)
-            if (match.start(), match.end(), entity_type) not in normalized
-        ]
-        if candidates:
-            candidate = min(candidates, key=lambda span: abs(span[0] - start)) if isinstance(start, int) and not isinstance(start, bool) else candidates[0]
-            logging.info("按实体文本定位：%s -> %s", text, candidate)
-            normalized.add(candidate)
-        else:
-            # 无法定位的预测仍计入分母，不能当作没有预测。
-            logging.warning("实体文本无法在句子中定位：%s", text)
-            normalized.add((-index - 1, -index - 1, entity_type))
-
+        matches = [m.start() for m in re.finditer(f"(?={re.escape(text)})", sentence)]
+        if "occurrence" in entity:
+            occurrence = entity["occurrence"]
+            if type(occurrence) is not int or not 0 <= occurrence < len(matches):
+                raise ValueError(f"Entity {text!r}: received occurrence={occurrence!r} "
+                                 f"({type(occurrence).__name__}); allowed integer indices="
+                                 f"{list(range(len(matches)))}. Use one item per occurrence.")
+            start = matches[occurrence]
+            end = start + len(text)
+        elif not (type(start) is int and type(end) is int
+                and 0 <= start < end <= len(sentence) and sentence[start:end] == text):
+            matches = [m.start() for m in re.finditer(f"(?={re.escape(text)})", sentence)]
+            if len(matches) != 1:
+                raise ValueError(f"Entity {text!r}: found {len(matches)} exact matches; "
+                                 "copy exact text and supply a valid occurrence index")
+            start = matches[0]
+            end = start + len(text)
+        normalized.add((start, end, label))
     return normalized
+
+
+def correction_matches(answer, sentence):
+    """Provide locations for model-proposed quotes only, without consulting gold labels."""
+    try:
+        entities = json.loads(answer)
+    except (ValueError, TypeError):
+        return []
+    if not isinstance(entities, list):
+        return []
+    quotes = dict.fromkeys(e['text'] for e in entities if isinstance(e, dict)
+                           and isinstance(e.get('text'), str) and e['text'])
+    return [{"text": text, "matches": [
+        {"occurrence": i, "start": m.start(), "end": m.start() + len(text),
+         "context": sentence[max(0, m.start() - 20):m.start() + len(text) + 20]}
+        for i, m in enumerate(re.finditer(f"(?={re.escape(text)})", sentence))]}
+        for text in quotes]
+
+
+def load_resume(path, data, config):
+    """Read-only validation: never skip failures, mismatched data, or damaged records."""
+    if not path.exists():
+        return 0, 0, 0, 0
+    raw = path.read_text(encoding="utf-8")
+    if raw and not raw.endswith("\n"):
+        raise ValueError("Resume file has an incomplete final line; original file left untouched")
+    tp = predicted = gold_count = count = 0
+    for i, line in enumerate(raw.splitlines()):
+        row = json.loads(line)
+        if i >= len(data) or row.get("sample_id") != i or row.get("fully_executed") is not True:
+            raise ValueError(f"Cannot resume: invalid or noncontiguous sample {i}")
+        sample = data[i]
+        if row.get("sentence") != sample["sentence"]:
+            raise ValueError(f"Cannot resume: sentence mismatch at sample {i}")
+        for key in ("dataset", "model_name"):
+            if key in row and row[key] != config[key]:
+                raise ValueError(f"Cannot resume: {key} mismatch at sample {i}")
+        if row.get("evaluation_scope") != "successful_samples_only":
+            raise ValueError(f"Cannot resume legacy failure-as-empty metrics at sample {i}")
+        gold = {(e["pos"][0], e["pos"][1], e["type"].upper()) for e in sample["entities"]}
+        if {tuple(e) for e in row["gold_entities"]} != gold:
+            raise ValueError(f"Cannot resume: gold mismatch at sample {i}")
+        pred = set()
+        for span in row["pred_entities"]:
+            if (not isinstance(span, list) or len(span) != 3
+                    or type(span[0]) is not int or type(span[1]) is not int
+                    or not 0 <= span[0] < span[1] <= len(sample["sentence"])
+                    or span[2] not in ENTITY_TYPES[config["dataset"]]):
+                raise ValueError(f"Cannot resume: invalid predicted span at sample {i}")
+            pred.add(tuple(span))
+        tp += len(pred & gold)
+        predicted += len(pred)
+        gold_count += len(gold)
+        count += 1
+    return count, tp, predicted, gold_count
 
 
 def save_summary(config, precision, recall, f1):
@@ -198,31 +235,51 @@ def save_summary(config, precision, recall, f1):
 class LLMExperiment:
     """Manage paths, predictions, and metrics for one evaluation run."""
 
-    def __init__(self, config_path, output_path=None):
+    def __init__(self, config_path, output_path=None, resume=False):
+        self.resume = resume
         self.config_path = resolve_project_path(config_path)
         self.config = load_config(self.config_path)
         self.output_path = resolve_project_path(output_path or self.config["save_file_path"])
 
     def _predict(self, sentence):
-        try:
-            answer = call_llm(build_prompt(sentence, self.config["dataset"]), self.config)
-        except Exception as e:
-            logging.warning("LLM 调用失败：%s", e)
-            answer = "[]"
-
-        time.sleep(self.config["sleep_seconds"])
-        try:
-            entities = json.loads(answer)
-        except json.JSONDecodeError:
-            logging.warning("LLM 返回的不是合法 JSON：%s", answer)
-            entities = []
-        return normalize_pred_entities(entities, sentence)
+        # No failed attempt reaches the metric counters or becomes an empty prediction.
+        prompt = build_prompt(sentence, self.config["dataset"])
+        attempt = 0
+        while True:
+            attempt += 1
+            answer = None
+            try:
+                answer = call_llm(prompt, self.config)
+                entities = json.loads(answer)
+                result = normalize_pred_entities(entities, sentence, self.config["dataset"])
+            except (ValueError, TypeError, IndexError) as exc:
+                logging.warning("Invalid response, attempt=%s: %s; raw_response=%r", attempt, exc, answer)
+                prompt = build_prompt(sentence, self.config["dataset"]) + (
+                    "\nYour previous response was invalid: " + str(exc)[:300]
+                    + "\nPrevious response (data to correct): " + str(answer)[:16000]
+                    + "\nExact matches computed from the input sentence: "
+                    + json.dumps(correction_matches(answer, sentence), ensure_ascii=False)
+                    + "\nReturn the complete corrected JSON list, retaining all valid entities. "
+                    "Select occurrence indices from the table according to the sentence; "
+                    "the table does not imply all matches must be entities.")
+            except Exception as exc:
+                # Includes API errors/timeouts. Do not log credential-bearing error bodies.
+                logging.warning("Request failed, attempt=%s: %s", attempt, type(exc).__name__)
+            else:
+                self.last_attempts = attempt
+                time.sleep(self.config.get("sleep_seconds", 0))
+                return result
+            delay = min(self.config.get("retry_delay", 2) * 2 ** min(attempt - 1, 10), 30)
+            print(f"  第 {attempt} 次未通过；{delay}s 后重试，暂不计入 PRF；详见日志", flush=True)
+            time.sleep(delay)
 
     def run(self):
         config = self.config
+        # Fail fast on missing local credentials instead of retrying a setup error forever.
+        get_api_key(config)
         setup_logging(PROJECT_ROOT / config["log_file_path"])
         self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        backup_path = backup_existing_output(self.output_path)
+        backup_path = None
 
         logging.info("Config file: %s", self.config_path)
         logging.info("Output jsonl: %s", self.output_path)
@@ -239,9 +296,18 @@ class LLMExperiment:
         with open(PROJECT_ROOT / config["test_file_path"], "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        true_positive = predicted_total = gold_total = 0
-        with open(self.output_path, "w", encoding="utf-8") as f:
-            for sample in data[:config["max_loop"]]:
+        data = data[:config["max_loop"]]
+        completed, true_positive, predicted_total, gold_total = (
+            load_resume(self.output_path, data, config) if self.resume else (0, 0, 0, 0))
+        if not self.resume:
+            backup_path = backup_existing_output(self.output_path)
+            if backup_path:
+                print(f"Previous output backup: {backup_path}")
+        print(f"已完成 {completed}/{len(data)} 条；从第 {completed + 1} 条继续" if completed < len(data)
+              else f"已完成全部 {completed} 条，无需请求", flush=True)
+        with open(self.output_path, "a" if self.resume else "w", encoding="utf-8") as f:
+            for sample_id in range(completed, len(data)):
+                sample = data[sample_id]
                 sentence = sample["sentence"]
                 gold_entities = {
                     (entity["pos"][0], entity["pos"][1], entity["type"].upper())
@@ -253,11 +319,21 @@ class LLMExperiment:
                 gold_total += len(gold_entities)
 
                 f.write(json.dumps({
+                    "sample_id": sample_id,
+                    "dataset": config["dataset"],
+                    "model_name": config["model_name"],
+                    "response_format": "exact_text_occurrence_v1",
+                    "fully_executed": True,
+                    "attempts": self.last_attempts,
+                    "evaluation_scope": "successful_samples_only",
                     "sentence": sentence,
                     "gold_entities": list(gold_entities),
                     "pred_entities": list(pred_entities),
                 }, ensure_ascii=False) + "\n")
                 f.flush()
+                p, r, score = calculate_metrics(true_positive, predicted_total, gold_total)
+                print(f"[{sample_id + 1}/{min(len(data), config['max_loop'])}] "
+                      f"P={p:.4f} R={r:.4f} F1={score:.4f}", flush=True)
 
         precision, recall, f1 = calculate_metrics(true_positive, predicted_total, gold_total)
         metrics = (("Precision", precision), ("Recall", recall), ("F1", f1))
@@ -273,7 +349,7 @@ class LLMExperiment:
 
 def main():
     args = parse_args()
-    LLMExperiment(args.config, args.output).run()
+    LLMExperiment(args.config, args.output, resume=args.resume).run()
 
 
 if __name__ == "__main__":

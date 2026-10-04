@@ -1,0 +1,7 @@
+配置：config/expert_agent/bc2gm/bc2gm_deepseek.json
+模型：deepseek-v4.1-flash | 数据集：bc2gm | 样本：500
+方案：full | 检索：4 条 | 温度：1 | 最多尝试：3 次
+结果：/Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/expert_agent/bc2gm/deepseek-v4.1-flash/<方案>/20260929_003150_056361/
+[1/500] full               完成 | 实体 2 | 110.1s
+[2/500] full               完成 | 实体 1 | 233.8s
+[3/500] full               完成 | 实体 0 | 83.2s

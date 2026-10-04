@@ -1,0 +1,12 @@
+{
+  "experiment_name": "bc2gm_kimi-k2.6",
+  "dataset": "bc2gm",
+  "test_file_path": "bioDataset/bc2gm1/dev.sampled_500.json",
+  "save_file_path": "result/baseline/bc2gm/kimi-k2.6/bc2gm_kimi-k2.6_predictions.jsonl",
+  "log_file_path": "result/baseline/bc2gm/kimi-k2.6/bc2gm_kimi-k2.6.log",
+  "model_name": "kimi-k2.6",
+  "api_key_env": "MOONSHOT_API_KEY",
+  "base_url": "https://zyapi.tuluo.top:8888/v1",
+  "max_loop": 500,
+  "sleep_seconds": 2
+}

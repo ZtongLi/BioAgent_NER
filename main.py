@@ -4,32 +4,28 @@ from pathlib import Path
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run independent biomedical NER agents.")
+    parser = argparse.ArgumentParser(description="Run biomedical expert-agent experiments.")
     parser.add_argument("--config", required=True)
     parser.add_argument("--variant", default="full", choices=[
-        "extract_only", "full", "without_discovery", "without_boundary",
-        "without_verification", "without_retrieval", "compare", "all"])
+        "full", "without_retrieval", "compare", "all",
+        "single_expert", "candidate_union", "vote_only", "without_voting", "generic_ensemble"])
     parser.add_argument("--limit", type=int, help="Override the number of evaluation samples")
     parser.add_argument("--sentence", help="Predict one sentence without saving results")
+    parser.add_argument("--verbose", action="store_true", help="Print full expert experiment JSON instead of the compact summary")
     args = parser.parse_args()
     config = json.loads(Path(args.config).read_text(encoding="utf-8-sig"))
-    if config.get("agent_system") != "ner_agent":
-        from candidate_discovery_agent.experiment import run_experiment
-        from candidate_discovery_agent.tool import candidate_discovery_agent
-        if args.sentence is not None:
-            print(candidate_discovery_agent(args.sentence, config))
+    config["_config_path"] = args.config
+    if config.get("agent_system") == "expert_agent":
+        from expert_agent.experiment import predict_sentence, run_experiment
+        result = (predict_sentence(args.sentence, config, args.variant) if args.sentence is not None
+                  else run_experiment(config, args.variant, args.limit))
+        if args.verbose or args.sentence is not None:
+            print(json.dumps(result, ensure_ascii=False, indent=2))
         else:
-            if args.limit is not None:
-                config["max_loop"] = args.limit
-            run_experiment(config)
+            from expert_agent.console import print_summary
+            print_summary(result)
         return
-
-    from experiment import predict_sentence, run_experiment
-    if args.sentence is not None:
-        result = predict_sentence(args.sentence, config, args.variant)
-    else:
-        result = run_experiment(config, args.variant, args.limit)
-    print(json.dumps(result, ensure_ascii=False, indent=2))
+    parser.error("main.py requires an expert_agent config; run baseline configs with baseline/llm.py")
 
 
 if __name__ == "__main__":
