@@ -1,0 +1,122 @@
+{
+  "precision": 0.83125,
+  "recall": 0.7869822485207101,
+  "f1": 0.8085106382978723,
+  "true_positive": 399,
+  "false_positive": 81,
+  "false_negative": 108,
+  "num_samples": 500,
+  "failed_samples": 0,
+  "evaluated_samples": 500,
+  "success_rate": 1.0,
+  "evaluation_scope": "successful_samples_only",
+  "stage_effects": {
+    "extract_generic_molecular": {
+      "samples": 500,
+      "failed_samples": 0,
+      "evaluated_samples": 500,
+      "true_added": 398,
+      "false_added": 83,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "extract_generic_clinical": {
+      "samples": 500,
+      "failed_samples": 0,
+      "evaluated_samples": 500,
+      "true_added": 20,
+      "false_added": 19,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "extract_generic_pharmacology": {
+      "samples": 500,
+      "failed_samples": 0,
+      "evaluated_samples": 500,
+      "true_added": 8,
+      "false_added": 10,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "empty_pool": {
+      "samples": 215,
+      "failed_samples": 0,
+      "evaluated_samples": 215,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "vote_generic_molecular": {
+      "samples": 285,
+      "failed_samples": 0,
+      "evaluated_samples": 285,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "vote_generic_clinical": {
+      "samples": 285,
+      "failed_samples": 0,
+      "evaluated_samples": 285,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "vote_generic_pharmacology": {
+      "samples": 285,
+      "failed_samples": 0,
+      "evaluated_samples": 285,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    },
+    "tally": {
+      "samples": 285,
+      "failed_samples": 0,
+      "evaluated_samples": 285,
+      "true_added": 0,
+      "false_added": 0,
+      "true_removed": 28,
+      "false_removed": 31
+    },
+    "aggregation": {
+      "samples": 285,
+      "failed_samples": 0,
+      "evaluated_samples": 285,
+      "true_added": 1,
+      "false_added": 0,
+      "true_removed": 0,
+      "false_removed": 0
+    }
+  },
+  "status": "complete",
+  "run_id": "20261005_104449_258569",
+  "dataset": "ncbi",
+  "system_version": "expert_v1",
+  "model_name": "gpt-5.6-sol",
+  "variant": "generic_ensemble",
+  "retrieval_k": 4,
+  "training_sha256": "322a3509fe8f8b269dfa752a23fd289024ebe85fab9aaadd2100948ad6e65dfa",
+  "prompt_sha256": "ed7871a6471df608b8f40f69ed4ed5d789f9b5fd255bc0aae14dd6a6f8540134",
+  "api_calls": 2720,
+  "logical_attempts": 2720,
+  "cache_hits": 0,
+  "duration_seconds": 50688.612,
+  "actual_total_tokens": 15675250,
+  "actual_usage_reported_attempts": 2660,
+  "logical_total_tokens": 15675250,
+  "logical_usage_reported_attempts": 2660,
+  "unique_expert_true_candidates": 27,
+  "unique_expert_true_retained": 9,
+  "vote_true_rejected": 25,
+  "vote_false_accepted": 81,
+  "aggregation_true_added": 1,
+  "aggregation_false_added": 0,
+  "aggregation_true_removed": 0,
+  "aggregation_false_removed": 0,
+  "unique_expert_true_retention_rate": 0.3333333333333333
+}

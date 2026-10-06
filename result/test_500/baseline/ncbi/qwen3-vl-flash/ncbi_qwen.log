@@ -1,0 +1,746 @@
+2026-10-05 23:57:06,905 - INFO - Config file: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/config/baseline/ncbi/ncbi_qwen.json
+2026-10-05 23:57:06,905 - INFO - Output jsonl: /Users/tuenglee/Desktop/bioAgent/MyBioAgent/result/test_500/baseline/ncbi/qwen3-vl-flash/ncbi_qwen_predictions.jsonl
+2026-10-05 23:57:06,905 - INFO - Experiment: ncbi_qwen
+2026-10-05 23:57:06,905 - INFO - Model: qwen3-vl-flash
+2026-10-05 23:57:09,196 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:14,064 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:18,073 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:22,035 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:25,777 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:33,060 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:37,628 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:41,955 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:45,986 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:50,619 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:54,672 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:57:58,734 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:03,334 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:03,336 - WARNING - Invalid response, attempt=1: Entity 'familial adenomatous polyposis': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal cancer", "type": "DISEASE", "occurrence": 0},\n  {"text": "familial adenomatous polyposis", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-05 23:58:07,970 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:13,505 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:13,506 - WARNING - Invalid response, attempt=1: Entity 'Stuve - Wiedemann syndrome': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Schwartz - Jampel syndrome type 2", "type": "DISEASE", "occurrence": 0},\n  {"text": "Stuve - Wiedemann syndrome", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-05 23:58:18,237 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:22,106 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:26,370 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:33,424 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-05 23:58:37,142 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:40,576 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:45,266 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:49,430 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:58:56,492 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-05 23:59:00,072 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:03,749 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:08,607 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:08,609 - WARNING - Invalid response, attempt=1: Entity 'adrenal insufficiency': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "early - onset obesity", "type": "DISEASE", "occurrence": 0},\n  {"text": "adrenal insufficiency", "type": "DISEASE", "occurrence": 1},\n  {"text": "red hair pigmentation", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-05 23:59:15,565 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:21,080 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:27,483 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:32,183 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:39,421 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:43,767 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:43,769 - WARNING - Invalid response, attempt=1: Entity 'breast / ovarian cancer': received occurrence=2 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "breast cancer", "type": "DISEASE", "occurrence": 0},\n  {"text": "breast cancer", "type": "DISEASE", "occurrence": 1},\n  {"text": "breast / ovarian cancer", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-05 23:59:47,624 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:56,171 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-05 23:59:59,748 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:08,860 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:13,018 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:20,058 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:00:25,279 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:25,280 - WARNING - Invalid response, attempt=2: Entity 'junctional epidermolysis bullosa': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {\n    "text": "generalized atrophic benign epidermolysis bullosa",\n    "type": "DISEASE",\n    "occurrence": 0\n  },\n  {\n    "text": "junctional epidermolysis bullosa",\n    "type": "DISEASE",\n    "occurrence": 1\n  }\n]'
+2026-10-06 00:00:35,722 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:39,906 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:47,059 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:47,061 - WARNING - Invalid response, attempt=1: Entity 'C9 - deficient': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "C9 deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "C9 - deficient", "type": "DISEASE", "occurrence": 1},\n  {"text": "meningococcal meningitis", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:00:51,935 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:56,552 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:00:56,554 - WARNING - Invalid response, attempt=1: Entity 'Bannayan - Zonana syndrome': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Cowden disease", "type": "DISEASE", "occurrence": 0},\n  {"text": "Bannayan - Zonana syndrome", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:01:03,882 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:08,142 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:14,527 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:18,543 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:23,269 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:30,452 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:34,048 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:37,777 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:41,612 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:45,322 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:49,869 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:01:49,870 - WARNING - Invalid response, attempt=1: Entity 'progressive liver disease': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "autosomal recessive copper toxicosis", "type": "DISEASE", "occurrence": 0},\n  {"text": "progressive liver disease", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:01:53,840 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:02,322 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:05,596 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:09,095 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:14,764 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:18,838 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:22,671 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:31,024 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:34,565 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:40,708 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:40,708 - WARNING - Invalid response, attempt=1: Entity 'DDS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Denys - Drash syndrome", "type": "DISEASE", "occurrence": 0},\n  {"text": "DDS", "type": "DISEASE", "occurrence": 1},\n  {"text": "diffuse mesangial sclerosis", "type": "DISEASE", "occurrence": 2},\n  {"text": "DMS", "type": "DISEASE", "occurrence": 3},\n  {"text": "pseudohermaphroditism", "type": "DISEASE", "occurrence": 4},\n  {"text": "Wilms tumor", "type": "DISEASE", "occurrence": 5},\n  {"text": "WT", "type": "DISEASE", "occurrence": 6}\n]'
+2026-10-06 00:02:46,648 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:46,648 - WARNING - Invalid response, attempt=2: Entity 'diffuse mesangial sclerosis': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Denys - Drash syndrome", "type": "DISEASE", "occurrence": 0},\n  {"text": "DDS", "type": "DISEASE", "occurrence": 0},\n  {"text": "diffuse mesangial sclerosis", "type": "DISEASE", "occurrence": 1},\n  {"text": "DMS", "type": "DISEASE", "occurrence": 1},\n  {"text": "pseudohermaphroditism", "type": "DISEASE", "occurrence": 2},\n  {"text": "Wilms tumor", "type": "DISEASE", "occurrence": 3},\n  {"text": "WT", "type": "DISEASE", "occurrence": 0}\n]'
+2026-10-06 00:02:54,484 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:02:58,572 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:02,121 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:05,905 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:12,958 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:03:17,429 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:22,376 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:25,982 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:35,381 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:41,334 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:03:48,392 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:03:53,209 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:00,266 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:04:04,482 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:08,610 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:15,679 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:04:19,586 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:25,551 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:25,553 - WARNING - Invalid response, attempt=1: Entity 'SJS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "SWS", "type": "DISEASE", "occurrence": 0},\n  {"text": "SJS", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:04:29,686 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:34,494 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:38,823 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:38,824 - WARNING - Invalid response, attempt=1: Entity 'GS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "ARSA", "type": "DISEASE", "occurrence": 0},\n  {"text": "GS", "type": "DISEASE", "occurrence": 1},\n  {"text": "MLD", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:04:44,971 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:50,203 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:50,205 - WARNING - Invalid response, attempt=1: Entity 'adenomas': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal tumors", "type": "DISEASE", "occurrence": 0},\n  {"text": "adenomas", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:04:54,670 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:04:58,532 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:06,427 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:14,587 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:18,508 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:22,658 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:26,328 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:32,952 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:32,954 - WARNING - Invalid response, attempt=1: Entity 'C5D': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "C5 - deficient", "type": "DISEASE", "occurrence": 0},\n  {"text": "C5D", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:05:37,015 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:43,093 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:50,708 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:05:54,873 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:01,270 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:01,271 - WARNING - Invalid response, attempt=1: Entity 'BZS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "CD", "type": "DISEASE", "occurrence": 0},\n  {"text": "BZS", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:06:05,623 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:10,735 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:14,885 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:19,154 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:27,119 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:32,365 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:39,505 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:48,190 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:54,872 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:06:54,874 - WARNING - Invalid response, attempt=1: Entity 'disease': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "IDMS", "type": "DISEASE", "occurrence": 0},\n  {"text": "disease", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:06:59,660 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:06,726 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:07:11,413 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:14,967 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:18,473 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:24,493 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:31,552 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:07:38,615 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:07:44,271 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:53,035 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:56,526 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:07:59,881 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:03,815 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:03,817 - WARNING - Invalid response, attempt=1: Entity 'breast': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal", "type": "DISEASE", "occurrence": 0},\n  {"text": "breast", "type": "DISEASE", "occurrence": 1},\n  {"text": "cancers", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:08:12,504 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:18,729 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:22,684 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:22,685 - WARNING - Invalid response, attempt=1: Entity 'very - long - chain acyl - coenzyme A dehydrogenase deficiency': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "hypertrophic cardiomyopathy", "type": "DISEASE", "occurrence": 0},\n  {"text": "very - long - chain acyl - coenzyme A dehydrogenase deficiency", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:08:30,676 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:34,247 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:38,707 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:38,708 - WARNING - Invalid response, attempt=1: Entity 'myotonic dystrophy': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "DM", "type": "DISEASE", "occurrence": 0},\n  {"text": "myotonic dystrophy", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:08:47,053 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:51,331 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:08:51,333 - WARNING - Invalid response, attempt=1: Entity 'PWS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Prader - Willi syndrome", "type": "DISEASE", "occurrence": 0},\n  {"text": "PWS", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:08:58,372 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:09:05,324 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:10,198 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:10,200 - WARNING - Invalid response, attempt=1: Entity 'Duchenne muscular dystrophy': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "cognitive impairment", "type": "DISEASE", "occurrence": 0},\n  {"text": "Duchenne muscular dystrophy", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:09:14,606 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:19,837 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:24,416 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:31,648 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:37,688 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:42,092 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:48,517 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:54,964 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:09:58,749 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:03,521 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:08,205 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:17,851 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:22,603 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:22,605 - WARNING - Invalid response, attempt=1: Entity '1195delC': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "879delG", "type": "DISEASE", "occurrence": 0},\n  {"text": "1195delC", "type": "DISEASE", "occurrence": 1},\n  {"text": "1936delG", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:10:27,676 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:35,496 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:39,671 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:47,395 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:54,732 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:10:54,734 - WARNING - Invalid response, attempt=1: Entity 'colorectal tumor formation': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "familial adenomatous polyposis syndrome", "type": "DISEASE", "occurrence": 0},\n  {"text": "colorectal tumor formation", "type": "DISEASE", "occurrence": 1},\n  {"text": "colorectal carcinogenesis", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:11:00,633 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:07,085 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:11,283 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:17,916 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:21,832 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:28,896 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:11:35,277 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:42,033 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:45,302 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:49,039 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:11:56,125 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:11:59,745 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:04,333 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:09,180 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:09,181 - WARNING - Invalid response, attempt=1: Entity 'POMC defect': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[{"text": "ACTH deficiency", "type": "DISEASE", "occurrence": 0}, {"text": "POMC defect", "type": "DISEASE", "occurrence": 1}]'
+2026-10-06 00:12:15,291 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:19,187 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:23,036 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:23,038 - WARNING - Invalid response, attempt=1: Entity 'tumours': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[{"text": "tumour", "type": "DISEASE", "occurrence": 0}, {"text": "tumours", "type": "DISEASE", "occurrence": 1}]'
+2026-10-06 00:12:27,010 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:30,559 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:34,560 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:34,561 - WARNING - Invalid response, attempt=1: Entity 'TSD': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Tay - Sachs disease", "type": "DISEASE", "occurrence": 0},\n  {"text": "TSD", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:12:41,900 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:45,792 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:52,841 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:12:52,842 - WARNING - Invalid response, attempt=1: Entity 'breast carcinomas': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "breast carcinomas", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:12:58,513 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:05,570 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:13:10,154 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:10,156 - WARNING - Invalid response, attempt=2: Entity 'preleukemic T - cell proliferation': received occurrence=2 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "leukemia", "type": "DISEASE", "occurrence": 0},\n  {"text": "lymphoma", "type": "DISEASE", "occurrence": 1},\n  {"text": "preleukemic T - cell proliferation", "type": "DISEASE", "occurrence": 2},\n  {"text": "Hodgkin lymphoma", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:13:17,238 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:24,735 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:28,911 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:33,307 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:37,327 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:41,269 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:48,924 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:13:53,178 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:01,777 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:11,954 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:16,582 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:20,251 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:26,627 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:26,628 - WARNING - Invalid response, attempt=1: Entity 'pineal': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "retinal", "type": "DISEASE", "occurrence": 0},\n  {"text": "pineal", "type": "DISEASE", "occurrence": 1},\n  {"text": "tumours", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:14:33,043 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:36,793 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:41,776 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:46,467 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:14:46,468 - WARNING - Invalid response, attempt=1: Entity 'male cancer': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {\n    "text": "prostate carcinoma",\n    "type": "DISEASE",\n    "occurrence": 0\n  },\n  {\n    "text": "male cancer",\n    "type": "DISEASE",\n    "occurrence": 1\n  },\n  {\n    "text": "cancer",\n    "type": "DISEASE",\n    "occurrence": 2\n  }\n]'
+2026-10-06 00:14:55,282 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:03,323 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:03,324 - WARNING - Invalid response, attempt=1: Entity 'HUS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Factor H deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "HUS", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:15:07,780 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:11,632 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:17,266 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:23,449 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:27,355 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:33,328 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:39,985 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:45,709 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:50,847 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:55,326 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:15:59,429 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:05,110 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:12,161 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:16:16,368 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:19,856 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:23,459 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:27,128 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:31,901 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:36,825 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:45,896 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:52,052 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:55,695 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:59,271 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:16:59,273 - WARNING - Invalid response, attempt=1: Entity 'BRCA2': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "BRCA2", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:17:03,695 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:10,748 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:17:15,046 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:21,166 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:28,173 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:31,953 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:36,410 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:36,411 - WARNING - Invalid response, attempt=1: Entity 'benign breast': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "benign breast", "type": "DISEASE", "occurrence": 1},\n  {"text": "invasive lobular cancers", "type": "DISEASE", "occurrence": 2},\n  {"text": "low - grade ductal carcinomas", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:17:40,645 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:44,465 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:48,646 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:17:48,648 - WARNING - Invalid response, attempt=1: Entity 'colorectal cancer': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colonic adenomas", "type": "DISEASE", "occurrence": 0},\n  {"text": "colorectal cancer", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:17:57,468 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:01,359 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:09,310 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:17,127 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:17,129 - WARNING - Invalid response, attempt=1: Entity 'a mature T - cell leukaemia': received occurrence=2 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "T - cell prolymphocytic leukaemia", "type": "DISEASE", "occurrence": 0},\n  {"text": "T - PLL", "type": "DISEASE", "occurrence": 1},\n  {"text": "a mature T - cell leukaemia", "type": "DISEASE", "occurrence": 2},\n  {"text": "A - T", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:18:22,024 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:26,021 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:30,239 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:34,810 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:40,863 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:45,579 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:52,642 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:18:58,688 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:18:58,689 - WARNING - Invalid response, attempt=2: Entity 'PKU': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Phenylketonuria", "type": "DISEASE", "occurrence": 0},\n  {"text": "PKU", "type": "DISEASE", "occurrence": 1},\n  {"text": "mild hyperphenylalaninemia", "type": "DISEASE", "occurrence": 2},\n  {"text": "MHP", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:19:22,875 - WARNING - Request failed, attempt=3: APIConnectionError
+2026-10-06 00:19:38,032 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:19:45,002 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:19:45,004 - WARNING - Invalid response, attempt=1: Entity 'MPS IVA': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Mucopolysaccharidosis IVA", "type": "DISEASE", "occurrence": 0},\n  {"text": "MPS IVA", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:19:52,167 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:19:57,175 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:19:57,177 - WARNING - Invalid response, attempt=1: Entity 'attenuated adenomatous polyposis coli': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "FAP", "type": "DISEASE", "occurrence": 0},\n  {"text": "attenuated adenomatous polyposis coli", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:20:06,683 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:13,444 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:13,446 - WARNING - Invalid response, attempt=1: Entity 'C6D': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Complement component C6 deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "C6D", "type": "DISEASE", "occurrence": 1},\n  {"text": "meningococcal meningitis", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:20:19,574 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:27,957 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:27,958 - WARNING - Invalid response, attempt=1: Entity 'high - grade': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "high - grade", "type": "DISEASE", "occurrence": 1},\n  {"text": "ductal carcinomas", "type": "DISEASE", "occurrence": 2},\n  {"text": "sporadic breast cancers", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:20:35,814 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:39,571 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:44,325 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:20:51,365 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:20:59,295 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:06,339 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:21:10,316 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:10,317 - WARNING - Invalid response, attempt=2: Entity 'Friedreichs ataxia': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "DM", "type": "DISEASE", "occurrence": 0},\n  {"text": "Friedreichs ataxia", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:21:17,623 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:23,796 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:27,587 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:33,876 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:37,768 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:42,096 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:42,097 - WARNING - Invalid response, attempt=1: Entity 'T - cell leukaemia': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "ataxia - telangiectasia", "type": "DISEASE", "occurrence": 0},\n  {"text": "T - cell leukaemia", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:21:47,255 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:51,537 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:21:55,368 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:00,093 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:03,879 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:07,952 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:16,022 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:21,335 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:28,401 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:28,402 - WARNING - Invalid response, attempt=1: Entity 'anomalous inheritance of Hp phenotypes': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {\n    "text": "anhaptoglobinemia",\n    "type": "DISEASE",\n    "occurrence": 0\n  },\n  {\n    "text": "anomalous inheritance of Hp phenotypes",\n    "type": "DISEASE",\n    "occurrence": 1\n  }\n]'
+2026-10-06 00:22:33,213 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:37,207 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:45,705 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:50,314 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:22:50,316 - WARNING - Invalid response, attempt=1: Entity 'CTGn': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "DM", "type": "DISEASE", "occurrence": 0},\n  {"text": "CTGn", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:22:57,048 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:05,102 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:08,843 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:08,845 - WARNING - Invalid response, attempt=1: Entity 'ADNDI': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "disease", "type": "DISEASE", "occurrence": 0},\n  {"text": "ADNDI", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:23:15,906 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:23:22,237 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:26,340 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:29,917 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:38,819 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:42,405 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:46,045 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:50,475 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:23:50,478 - WARNING - Invalid response, attempt=1: Entity 'MLD': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[{"text": "ARSA", "type": "DISEASE", "occurrence": 0}, {"text": "MLD", "type": "DISEASE", "occurrence": 1}]'
+2026-10-06 00:23:55,999 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:03,980 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:08,583 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:08,583 - WARNING - Invalid response, attempt=1: Entity 'SWS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "neonatal SJS", "type": "DISEASE", "occurrence": 0},\n  {"text": "SWS", "type": "DISEASE", "occurrence": 1},\n  {"text": "prenatal - onset neuromuscular disorder", "type": "DISEASE", "occurrence": 2},\n  {"text": "campomelic - metaphyseal skeletal dysplasia", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:24:15,647 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:24:22,824 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:22,824 - WARNING - Invalid response, attempt=3: Entity 'prenatal - onset neuromuscular disorder': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "neonatal SJS", "type": "DISEASE", "occurrence": 0},\n  {"text": "SWS", "type": "DISEASE", "occurrence": 0},\n  {"text": "prenatal - onset neuromuscular disorder", "type": "DISEASE", "occurrence": 1},\n  {"text": "campomelic - metaphyseal skeletal dysplasia", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:24:33,471 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:40,544 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:24:45,034 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:48,913 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:24:56,372 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:03,337 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:07,389 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:11,323 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:16,178 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:16,180 - WARNING - Invalid response, attempt=1: Entity 'BRCA2': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "BRCA2", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:25:23,240 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:25:32,963 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:36,861 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:40,505 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:47,110 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:55,496 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:25:59,555 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:03,253 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:08,604 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:13,472 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:17,241 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:20,776 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:25,024 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:30,670 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:39,081 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:46,893 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:46,894 - WARNING - Invalid response, attempt=1: Entity 'DM': received occurrence=2 (int); allowed integer indices=[0, 1]. Use one item per occurrence.; raw_response='[\n  {"text": "myotonic dystrophy", "type": "DISEASE", "occurrence": 0},\n  {"text": "DM", "type": "DISEASE", "occurrence": 1},\n  {"text": "DM", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:26:51,676 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:26:55,290 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:03,657 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:07,453 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:07,456 - WARNING - Invalid response, attempt=1: Entity 'deficiency of the ninth component of human complement ( C9 )': received occurrence=0 (int); allowed integer indices=[]. Use one item per occurrence.; raw_response='[{"text": "deficiency of the ninth component of human complement ( C9 )", "type": "DISEASE", "occurrence": 0}]'
+2026-10-06 00:27:14,663 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:18,478 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:24,509 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:33,047 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:33,048 - WARNING - Invalid response, attempt=1: Entity 'optic atrophy': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "diabetes mellitus", "type": "DISEASE", "occurrence": 0},\n  {"text": "optic atrophy", "type": "DISEASE", "occurrence": 1},\n  {"text": "Wolfram syndrome", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:27:39,992 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:43,541 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:50,105 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:27:58,458 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:02,567 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:02,569 - WARNING - Invalid response, attempt=1: Entity 'APC': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "germ - line", "type": "DISEASE", "occurrence": 0},\n  {"text": "APC", "type": "DISEASE", "occurrence": 1},\n  {"text": "colorectum", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:28:06,569 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:14,434 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:22,201 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:29,237 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:28:32,832 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:39,890 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:28:48,061 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:51,836 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:28:58,719 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:02,994 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:09,726 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:15,858 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:19,786 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:27,436 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:31,730 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:36,851 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:40,711 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:44,684 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:50,379 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:50,380 - WARNING - Invalid response, attempt=1: Entity 'adult - onset': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "juvenile - onset", "type": "DISEASE", "occurrence": 0},\n  {"text": "adult - onset", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:29:54,289 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:29:58,617 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:04,601 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:11,771 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:16,752 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:21,474 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:29,703 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:29,705 - WARNING - Invalid response, attempt=1: Entity 'Factor B deficiency': received occurrence=0 (int); allowed integer indices=[]. Use one item per occurrence.; raw_response='[\n  {"text": "Factor B deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "C2 deficiency", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:30:34,246 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:34,248 - WARNING - Invalid response, attempt=2: Entity 'Factor B deficiency': received occurrence=0 (int); allowed integer indices=[]. Use one item per occurrence.; raw_response='[\n  {"text": "Factor B deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "C2 deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "C2 deficiency", "type": "DISEASE", "occurrence": 1},\n  {"text": "C2 deficiency", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:30:40,850 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:45,815 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:50,990 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:30:57,236 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:00,633 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:06,480 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:11,675 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:11,677 - WARNING - Invalid response, attempt=1: Entity 'HLA - B60': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "HLA - B27", "type": "DISEASE", "occurrence": 0},\n  {"text": "HLA - B60", "type": "DISEASE", "occurrence": 1},\n  {"text": "HLA - DR1", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:31:16,896 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:25,148 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:30,516 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:36,146 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:44,966 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:31:52,009 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:32:00,500 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:06,590 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:06,593 - WARNING - Invalid response, attempt=1: Entity 'ATM': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {\n    "text": "A - T",\n    "type": "DISEASE",\n    "occurrence": 0\n  },\n  {\n    "text": "ATM",\n    "type": "DISEASE",\n    "occurrence": 1\n  }\n]'
+2026-10-06 00:32:10,762 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:18,989 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:18,990 - WARNING - Invalid response, attempt=1: Entity 'congenital absence of the iris': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "aniridia", "type": "DISEASE", "occurrence": 0},\n  {"text": "congenital absence of the iris", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:32:26,635 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:30,585 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:37,652 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:32:41,184 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:47,253 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:53,119 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:32:59,225 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:08,420 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:15,251 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:15,253 - WARNING - Invalid response, attempt=1: Entity 'MLD': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "metachromatic leukodystrophy", "type": "DISEASE", "occurrence": 0},\n  {"text": "MLD", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:33:21,144 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:25,206 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:34,634 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:38,966 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:46,029 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:33:52,093 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:33:57,680 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:02,037 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:06,244 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:13,280 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:34:17,329 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:24,459 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:29,208 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:29,210 - WARNING - Invalid response, attempt=1: Entity 'non - FAP': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "FAP", "type": "DISEASE", "occurrence": 0},\n  {"text": "non - FAP", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:34:34,918 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:41,755 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:34:41,757 - WARNING - Invalid response, attempt=1: Entity 'Hp1 / Hpdel': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Hp2 / Hpdel", "type": "DISEASE", "occurrence": 0},\n  {"text": "Hp1 / Hpdel", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:34:58,375 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:05,251 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:09,331 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:09,333 - WARNING - Invalid response, attempt=1: Entity 'FRDA': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Friedreich ataxia", "type": "DISEASE", "occurrence": 0},\n  {"text": "FRDA", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:35:16,918 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:23,954 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:35:32,501 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:36,557 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:40,489 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:47,549 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:35:55,343 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:35:58,731 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:02,779 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:02,781 - WARNING - Invalid response, attempt=1: Entity 'CDK4 mutation': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "p16 gene mutation", "type": "DISEASE", "occurrence": 0},\n  {"text": "CDK4 mutation", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:36:07,873 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:12,372 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:17,965 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:17,967 - WARNING - Invalid response, attempt=1: Entity 'lymphoid neoplasias': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "cancer", "type": "DISEASE", "occurrence": 0},\n  {"text": "lymphoid neoplasias", "type": "DISEASE", "occurrence": 1},\n  {"text": "A - T", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:36:25,028 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:36:31,995 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:40,970 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:46,345 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:52,536 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:36:59,143 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:07,932 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:07,934 - WARNING - Invalid response, attempt=1: Entity 'CDM': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "congenital myotonic dystrophy", "type": "DISEASE", "occurrence": 0},\n  {"text": "CDM", "type": "DISEASE", "occurrence": 1},\n  {"text": "DM", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:37:13,827 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:17,715 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:21,376 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:25,461 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:30,704 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:30,707 - WARNING - Invalid response, attempt=1: Entity 'carcinoma': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal adenomas", "type": "DISEASE", "occurrence": 0},\n  {"text": "carcinoma", "type": "DISEASE", "occurrence": 1},\n  {"text": "classical FAP", "type": "DISEASE", "occurrence": 2},\n  {"text": "colorectal cancer", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:37:35,580 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:39,732 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:43,810 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:48,856 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:53,133 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:37:57,073 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:03,445 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:07,787 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:12,648 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:16,475 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:19,810 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:23,663 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:31,152 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:35,021 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:42,609 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:50,683 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:54,850 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:38:58,286 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:06,819 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:13,883 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:39:20,946 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:39:27,096 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:34,158 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:39:37,889 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:42,657 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:46,270 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:49,886 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:39:53,423 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:01,511 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:08,691 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:15,419 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:15,420 - WARNING - Invalid response, attempt=1: Entity 'cancer': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "HH", "type": "DISEASE", "occurrence": 0},\n  {"text": "cancer", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:40:19,812 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:24,405 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:31,467 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:40:34,997 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:39,783 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:44,929 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:52,115 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:40:57,894 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:03,042 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:03,044 - WARNING - Invalid response, attempt=1: Entity 'adenomatous polyps': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal carcinogenesis", "type": "DISEASE", "occurrence": 0},\n  {"text": "adenomatous polyps", "type": "DISEASE", "occurrence": 1},\n  {"text": "colorectal cancer", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:41:08,556 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:15,401 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:20,513 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:24,536 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:28,476 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:32,401 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:39,465 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:41:44,718 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:51,446 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:41:55,126 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:02,189 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:42:07,763 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:07,765 - WARNING - Invalid response, attempt=2: Entity 'B - NHL': received occurrence=2 (int); allowed integer indices=[0, 1]. Use one item per occurrence.; raw_response='[\n  {"text": "B - cell non - Hodgkins lymphomas", "type": "DISEASE", "occurrence": 0},\n  {"text": "B - NHL", "type": "DISEASE", "occurrence": 1},\n  {"text": "B - NHL", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:42:15,442 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:20,269 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:20,270 - WARNING - Invalid response, attempt=1: Entity 'DM': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Myotonic dystrophy", "type": "DISEASE", "occurrence": 0},\n  {"text": "DM", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:42:26,940 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:30,596 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:37,937 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:37,939 - WARNING - Invalid response, attempt=1: Entity 'HFE gene': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "hereditary hemochromatosis", "type": "DISEASE", "occurrence": 0},\n  {"text": "HFE gene", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:42:42,132 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:45,850 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:50,673 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:42:50,675 - WARNING - Invalid response, attempt=1: Entity 'hypertrophic cardiomyopathy': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "VLCAD deficiency", "type": "DISEASE", "occurrence": 0},\n  {"text": "hypertrophic cardiomyopathy", "type": "DISEASE", "occurrence": 1},\n  {"text": "hepatomegaly", "type": "DISEASE", "occurrence": 2},\n  {"text": "encephalopathy", "type": "DISEASE", "occurrence": 3},\n  {"text": "hypotonia", "type": "DISEASE", "occurrence": 4}\n]'
+2026-10-06 00:42:57,019 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:01,032 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:05,210 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:12,275 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:43:15,813 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:19,356 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:23,029 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:30,050 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:30,058 - WARNING - Invalid response, attempt=1: Entity 'noncolonic neoplasia': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Colorectal neoplasia", "type": "DISEASE", "occurrence": 0},\n  {"text": "noncolonic neoplasia", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:43:34,034 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:41,176 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:49,662 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:53,334 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:59,353 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:43:59,357 - WARNING - Invalid response, attempt=1: Entity 'W427R': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "G197W", "type": "DISEASE", "occurrence": 0},\n  {"text": "W427R", "type": "DISEASE", "occurrence": 1},\n  {"text": "Q306X", "type": "DISEASE", "occurrence": 2},\n  {"text": "Q385X", "type": "DISEASE", "occurrence": 3},\n  {"text": "662de14bp", "type": "DISEASE", "occurrence": 4},\n  {"text": "1168del3bp", "type": "DISEASE", "occurrence": 5},\n  {"text": "IVS1 - 15c - - > g", "type": "DISEASE", "occurrence": 6}\n]'
+2026-10-06 00:44:07,633 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:14,745 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:19,785 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:23,951 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:32,439 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:36,241 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:40,286 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:44,045 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:48,483 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:44:48,484 - WARNING - Invalid response, attempt=1: Entity 'breast / ovarian cancer': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "breast / ovarian cancer", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:45:05,147 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:08,594 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:12,602 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:16,799 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:22,442 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:22,444 - WARNING - Invalid response, attempt=1: Entity 'Bannayan - Zonana': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Cowden disease", "type": "DISEASE", "occurrence": 0},\n  {"text": "Bannayan - Zonana", "type": "DISEASE", "occurrence": 1},\n  {"text": "Ruvalcaba - Riley - Smith syndrome", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:45:28,368 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:34,914 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:42,081 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:45,958 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:52,627 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:45:57,524 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:46:01,921 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:46:01,923 - WARNING - Invalid response, attempt=1: Entity 'BRCA2': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "BRCA1", "type": "DISEASE", "occurrence": 0},\n  {"text": "BRCA2", "type": "DISEASE", "occurrence": 1},\n  {"text": "breast and ovarian cancer", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:46:07,177 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:46:11,847 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:46:11,849 - WARNING - Invalid response, attempt=1: Entity 'Factor H - like protein 1': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Factor H", "type": "DISEASE", "occurrence": 0},\n  {"text": "Factor H - like protein 1", "type": "DISEASE", "occurrence": 1},\n  {"text": "FHL - 1", "type": "DISEASE", "occurrence": 2},\n  {"text": "FH - related protein", "type": "DISEASE", "occurrence": 3},\n  {"text": "FHR", "type": "DISEASE", "occurrence": 4}\n]'
+2026-10-06 00:46:19,776 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:46:27,669 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:46:27,671 - WARNING - Invalid response, attempt=1: Entity 'AS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {\n    "text": "ankylosing spondylitis",\n    "type": "DISEASE",\n    "occurrence": 0\n  },\n  {\n    "text": "AS",\n    "type": "DISEASE",\n    "occurrence": 1\n  }\n]'
+2026-10-06 00:46:34,710 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:46:43,773 - WARNING - Request failed, attempt=3: APIConnectionError
+2026-10-06 00:46:55,674 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:01,304 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:07,080 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:07,081 - WARNING - Invalid response, attempt=1: Entity 'Peters anomaly': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "aniridia", "type": "DISEASE", "occurrence": 0},\n  {"text": "Peters anomaly", "type": "DISEASE", "occurrence": 1},\n  {"text": "autosomal dominant keratitis", "type": "DISEASE", "occurrence": 2},\n  {"text": "familial foveal dysplasia", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:47:11,513 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:16,333 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:20,343 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:28,033 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:31,940 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:35,860 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:43,202 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:46,892 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:55,135 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:47:55,136 - WARNING - Invalid response, attempt=1: Entity 'rectal polyp': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal adenomas", "type": "DISEASE", "occurrence": 0},\n  {"text": "rectal polyp", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:47:59,327 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:03,010 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:08,505 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:11,976 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:15,851 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:20,401 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:25,015 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:25,017 - WARNING - Invalid response, attempt=1: Entity 'hereditary deficiency of the fifth component of complement': received occurrence=0 (int); allowed integer indices=[]. Use one item per occurrence.; raw_response='[{"text": "hereditary deficiency of the fifth component of complement", "type": "DISEASE", "occurrence": 0}]'
+2026-10-06 00:48:32,103 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:48:37,600 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:44,011 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:48:56,469 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:01,357 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:07,659 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:16,250 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:20,236 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:24,265 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:32,221 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:35,849 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:39,814 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:44,029 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:47,668 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:55,338 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:59,402 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:49:59,404 - WARNING - Invalid response, attempt=1: Entity 'adrenal insufficiency': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "obesity", "type": "DISEASE", "occurrence": 0},\n  {"text": "adrenal insufficiency", "type": "DISEASE", "occurrence": 1},\n  {"text": "red hair pigmentation", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:50:08,100 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:11,570 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:15,234 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:23,537 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:23,540 - WARNING - Invalid response, attempt=1: Entity 'malfunction of ion channels': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "cardiac rhythm disturbance", "type": "DISEASE", "occurrence": 0},\n  {"text": "malfunction of ion channels", "type": "DISEASE", "occurrence": 1},\n  {"text": "the disorder", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:50:28,256 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:32,546 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:37,219 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:41,873 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:47,796 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:51,330 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:54,847 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:50:58,194 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:05,645 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:09,212 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:15,455 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:19,298 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:22,806 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:27,484 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:27,486 - WARNING - Invalid response, attempt=1: Entity 'cancers': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "colorectal", "type": "DISEASE", "occurrence": 0},\n  {"text": "cancers", "type": "DISEASE", "occurrence": 1},\n  {"text": "colorectal cancer", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:51:31,381 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:37,313 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:44,379 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:51:50,374 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:51:54,636 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:01,413 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:06,398 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:06,400 - WARNING - Invalid response, attempt=1: Entity 'FNDI': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Familial neurohypophyseal diabetes insipidus", "type": "DISEASE", "occurrence": 0},\n  {"text": "FNDI", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:52:14,149 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:18,158 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:22,005 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:25,680 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:31,317 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:31,318 - WARNING - Invalid response, attempt=1: Entity 'congenital sensorineural deafness': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "piebaldism", "type": "DISEASE", "occurrence": 0},\n  {"text": "congenital sensorineural deafness", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:52:38,265 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:43,009 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:52:50,073 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:52:54,542 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:03,204 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:10,297 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:53:13,916 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:18,509 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:23,665 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:27,726 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:32,114 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:36,213 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:40,130 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:44,496 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:48,737 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:52,337 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:56,637 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:53:56,639 - WARNING - Invalid response, attempt=1: Entity 'congenital DM': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "DM", "type": "DISEASE", "occurrence": 0},\n  {"text": "congenital DM", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:54:01,487 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:54:08,550 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:54:13,296 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:54:13,298 - WARNING - Invalid response, attempt=2: Entity 'GS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "ARSA", "type": "DISEASE", "occurrence": 0},\n  {"text": "GS", "type": "DISEASE", "occurrence": 1},\n  {"text": "disease", "type": "DISEASE", "occurrence": 2}\n]'
+2026-10-06 00:54:22,360 - WARNING - Request failed, attempt=3: APIConnectionError
+2026-10-06 00:54:32,914 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:54:41,885 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:54:45,885 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:54:49,871 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:54:56,934 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:55:03,779 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:11,472 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:17,198 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:21,604 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:29,389 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:32,745 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:36,671 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:36,673 - WARNING - Invalid response, attempt=1: Entity 'HUS': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "idiopathic hemolytic uremic syndrome", "type": "DISEASE", "occurrence": 0},\n  {"text": "HUS", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:55:44,245 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:55:51,305 - WARNING - Request failed, attempt=1: APIConnectionError
+2026-10-06 00:55:58,368 - WARNING - Request failed, attempt=2: APIConnectionError
+2026-10-06 00:56:03,959 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:08,021 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:15,470 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:15,472 - WARNING - Invalid response, attempt=1: Entity 'AGU': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "Aspartylglucosaminuria", "type": "DISEASE", "occurrence": 0},\n  {"text": "AGU", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:56:19,946 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:24,246 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:29,474 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:29,475 - WARNING - Invalid response, attempt=1: Entity 'FAP': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "familial adenomatous polyposis", "type": "DISEASE", "occurrence": 0},\n  {"text": "FAP", "type": "DISEASE", "occurrence": 1},\n  {"text": "colorectal cancer", "type": "DISEASE", "occurrence": 2},\n  {"text": "CRC", "type": "DISEASE", "occurrence": 3}\n]'
+2026-10-06 00:56:35,307 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:39,219 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:50,972 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:54,963 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:56:58,544 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:57:03,582 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:57:03,584 - WARNING - Invalid response, attempt=1: Entity 'XLDCM': received occurrence=1 (int); allowed integer indices=[0]. Use one item per occurrence.; raw_response='[\n  {"text": "DMD", "type": "DISEASE", "occurrence": 0},\n  {"text": "XLDCM", "type": "DISEASE", "occurrence": 1}\n]'
+2026-10-06 00:57:12,055 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:57:15,998 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:57:19,383 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:57:23,317 - INFO - HTTP Request: POST https://api.tryallai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 00:57:25,322 - INFO - Precision: 0.6294
+2026-10-06 00:57:25,322 - INFO - Recall: 0.5661
+2026-10-06 00:57:25,322 - INFO - F1: 0.5961

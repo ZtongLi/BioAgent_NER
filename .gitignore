@@ -25,7 +25,6 @@ config/candidate_discovery_agent/*/*_deepseek.json
 config/candidate_discovery_agent/*/*_gpt.json
 # Independent NER experiment configs contain local API keys.
 config/ner_agent/*/*.json
-config/expert_agent/*/*.json
 
 # Logs
 *.log
@@ -35,9 +34,18 @@ config/expert_agent/*/*.json
 *.jsonl.bak.*
 baseline/llm_predictions.jsonl
 
-# Keep the canonical experiment result directory in Git.
-!result/
-!result/**
+# Result files are selected explicitly for each release.
+result/**
+
+# Local experiment utilities and development checks
+run_full_shard.py
+run_prefix_subshard.py
+run_variant_shard.py
+tests/
+bioDataset/sample_dev_500.py
+figure/*.pdf
+*.lock
+*.tmp
 
 # Local vector databases / generated RAG indexes
 rag/vector_db/

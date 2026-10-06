@@ -1,10 +1,12 @@
 import argparse
 import csv
+import hashlib
 import json
 import logging
 import os
 import re
 import shutil
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -13,6 +15,11 @@ from openai import OpenAI
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+# Keep the existing direct CLI: python3 baseline/llm.py ...
+if __package__ in (None, ""):
+    sys.path.insert(0, str(PROJECT_ROOT))
+from evaluation import calculate_metrics
+
 ENTITY_TYPES = {
     "bc2gm": ["GENE"],
     "bc5cdr": ["CHEMICAL", "DISEASE"],
@@ -121,13 +128,6 @@ def call_llm(prompt, config):
     return response.choices[0].message.content
 
 
-def calculate_metrics(true_positive, predicted_total, gold_total):
-    precision = true_positive / predicted_total if predicted_total else 0
-    recall = true_positive / gold_total if gold_total else 0
-    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0
-    return precision, recall, f1
-
-
 def normalize_pred_entities(pred_entities, sentence, dataset=None):
     """Validate the whole response; resolve exact quotes without guessing occurrences."""
     if not isinstance(pred_entities, list):
@@ -218,6 +218,12 @@ def load_resume(path, data, config):
 
 
 def save_summary(config, precision, recall, f1):
+    if config.get("summary_csv"):
+        from reporting import write_report
+        write_report(config, "llm_baseline", {**config["_run_metrics"],
+                     "precision": precision, "recall": recall, "f1": f1},
+                     config["_prediction_path"], PROJECT_ROOT / config["log_file_path"])
+        return
     summary_path = PROJECT_ROOT / "result" / "baseline" / config["dataset"] / "summary_prf1.csv"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     file_exists = summary_path.exists()
@@ -239,6 +245,7 @@ class LLMExperiment:
         self.resume = resume
         self.config_path = resolve_project_path(config_path)
         self.config = load_config(self.config_path)
+        self.config["_config_path"] = str(self.config_path)
         self.output_path = resolve_project_path(output_path or self.config["save_file_path"])
 
     def _predict(self, sentence):
@@ -293,8 +300,9 @@ class LLMExperiment:
         if backup_path:
             print(f"Previous output backup: {backup_path}")
 
-        with open(PROJECT_ROOT / config["test_file_path"], "r", encoding="utf-8") as f:
-            data = json.load(f)
+        data_bytes = (PROJECT_ROOT / config["test_file_path"]).read_bytes()
+        config["_input_sha256"] = hashlib.sha256(data_bytes).hexdigest()
+        data = json.loads(data_bytes)
 
         data = data[:config["max_loop"]]
         completed, true_positive, predicted_total, gold_total = (
@@ -339,6 +347,12 @@ class LLMExperiment:
         metrics = (("Precision", precision), ("Recall", recall), ("F1", f1))
         for name, value in metrics:
             logging.info("%s: %.4f", name, value)
+        config["_prediction_path"] = str(self.output_path)
+        config["_run_metrics"] = {"evaluated_samples": len(data), "num_samples": len(data),
+                                  "true_positive": true_positive,
+                                  "false_positive": predicted_total - true_positive,
+                                  "false_negative": gold_total - true_positive,
+                                  "evaluation_scope": "successful_samples_only"}
         save_summary(config, precision, recall, f1)
 
         print(f"Experiment: {config['experiment_name']}")

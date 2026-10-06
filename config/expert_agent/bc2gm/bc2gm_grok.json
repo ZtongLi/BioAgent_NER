@@ -1,0 +1,18 @@
+{
+  "agent_system": "expert_agent",
+  "dataset": "bc2gm",
+  "model_name": "grok-4.7",
+  "base_url": "https://zyapi.tuluo.top:8888/v1",
+  "api_key_env": "OPENAI_API_KEY",
+  "test_file_path": "bioDataset/bc2gm1/test.sampled_500.json",
+  "max_loop": 500,
+  "timeout": 120,
+  "max_attempts": null,
+  "retry_delay": 2,
+  "sleep_seconds": 0.5,
+  "temperature": 1,
+  "overlap_policy": "forbid",
+  "retrieval_k": 4,
+  "summary_csv": "result/test_500/test_500_summary_prf1.csv",
+  "result_root": "result/test_500/expert_agent"
+}

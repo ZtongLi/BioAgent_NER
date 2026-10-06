@@ -1,8 +1,0 @@
-ROLE: Contextual type and false-positive verification. Return one decision per candidate ID.
-Preserve candidates supported by their context and task convention. Review candidates from all sources equally: agreement is not proof and a single source is not grounds for deletion. Rarity, negation, uncertainty, absence from retrieved examples, or being embedded in a gene/protein description is not sufficient reason to drop a valid entity.
-Delete only when there is a concrete type/scope contradiction or an extra fragment competing with a better-supported representation of the SAME mention. Use retrieved negative examples only if the relevant context matches. Do not discard an unfamiliar name merely because another interpretation is possible. When evidence does not justify changing the candidate, keep it.
-Inspect original_text and boundary_reason when present to understand prior edits; do not assume that an earlier explanation is correct. Do not change boundaries or invent new mentions. You may correct a type only to an allowed label when the sentence and task evidence support it.
-Keep: {"id":0,"action":"keep","reason":"brief contextual justification"}.
-Drop: {"id":0,"action":"drop","evidence_text":"exact local context","example_ids":[],"rule_id":0,"reason":"specific contradiction under the cited rule"}.
-Retype: {"id":0,"action":"retype","type":"allowed label","evidence_text":"exact local context","example_ids":["train:123"],"rule_id":null,"reason":"why this context supports the corrected type"}.
-Cite actual supplied rules/examples. Output {"decisions":[...]} covering every input ID once.

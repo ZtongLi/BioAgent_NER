@@ -1,0 +1,7299 @@
+[
+  {
+    "sentence": "ALT ( alanine aminotransferase ) and Hb ( hemoglobin ) appeared to be predictive for efficacy .",
+    "entities": [
+      {
+        "name": "ALT",
+        "type": "GENE",
+        "pos": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "alanine aminotransferase",
+        "type": "GENE",
+        "pos": [
+          6,
+          30
+        ]
+      },
+      {
+        "name": "Hb",
+        "type": "GENE",
+        "pos": [
+          37,
+          39
+        ]
+      },
+      {
+        "name": "hemoglobin",
+        "type": "GENE",
+        "pos": [
+          42,
+          52
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The aromatic hydrocarbon receptor ( AHR ) is a ligand - activated transcription factor that regulates the expression of several drug - metabolizing enzymes and has been implicated in immunosuppression , teratogenesis , cell - specific hyperplasia , and certain types of malignancies and toxicities .",
+    "entities": [
+      {
+        "name": "aromatic hydrocarbon receptor",
+        "type": "GENE",
+        "pos": [
+          4,
+          33
+        ]
+      },
+      {
+        "name": "AHR",
+        "type": "GENE",
+        "pos": [
+          36,
+          39
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "When severe hypoxia was acutely produced by ventilation with low - oxygen mixtures in experimental ( PaO2 , 23 . 7 + / - 1 . 7 torr ) and control animals ( PaO2 , 26 . 3 + / - 1 . 0 torr ) , plasma insulin responses were markedly inhibited in both .",
+    "entities": [
+      {
+        "name": "plasma insulin",
+        "type": "GENE",
+        "pos": [
+          191,
+          205
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The zinc finger protein A20 is a tumor necrosis factor ( TNF ) - and interleukin 1 ( IL - 1 ) - inducible protein that negatively regulates nuclear factor - kappa B ( NF - kappaB ) - dependent gene expression .",
+    "entities": [
+      {
+        "name": "zinc finger protein A20",
+        "type": "GENE",
+        "pos": [
+          4,
+          27
+        ]
+      },
+      {
+        "name": "tumor necrosis factor",
+        "type": "GENE",
+        "pos": [
+          33,
+          54
+        ]
+      },
+      {
+        "name": "TNF",
+        "type": "GENE",
+        "pos": [
+          57,
+          60
+        ]
+      },
+      {
+        "name": "interleukin 1",
+        "type": "GENE",
+        "pos": [
+          69,
+          82
+        ]
+      },
+      {
+        "name": "IL - 1",
+        "type": "GENE",
+        "pos": [
+          85,
+          91
+        ]
+      },
+      {
+        "name": "nuclear factor - kappa B",
+        "type": "GENE",
+        "pos": [
+          140,
+          164
+        ]
+      },
+      {
+        "name": "NF - kappaB",
+        "type": "GENE",
+        "pos": [
+          167,
+          178
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Human myotonic dystrophy protein kinase ( DMPK ) is a member of a novel class of multidomain protein kinases that regulate cell size and shape in a variety of organisms .",
+    "entities": [
+      {
+        "name": "Human myotonic dystrophy protein kinase",
+        "type": "GENE",
+        "pos": [
+          0,
+          39
+        ]
+      },
+      {
+        "name": "DMPK",
+        "type": "GENE",
+        "pos": [
+          42,
+          46
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "During chronic treatment with salmon calcitonin , alkaline phosphatase activity and urinary hydroxyproline excretion decrease on an average of 50 % in patients with Paget ' s disease .",
+    "entities": [
+      {
+        "name": "salmon calcitonin",
+        "type": "GENE",
+        "pos": [
+          30,
+          47
+        ]
+      },
+      {
+        "name": "alkaline phosphatase",
+        "type": "GENE",
+        "pos": [
+          50,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "E . R . C . P . is an important advance in diagnosis .",
+    "entities": []
+  },
+  {
+    "sentence": "In contrast , an N - terminal RNAP mutant that has a decreased capacity to bind single - stranded RNA forms halted complexes with much lower levels of stability than the WT enzyme , and these complexes are not stabilized by the presence of the NT strand .",
+    "entities": [
+      {
+        "name": "N - terminal RNAP mutant",
+        "type": "GENE",
+        "pos": [
+          17,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Serum prolactin rapidly decreased after institution of treatment , with actual normalization ( less than 20 ng / ml ) by the 3rd month .",
+    "entities": [
+      {
+        "name": "prolactin",
+        "type": "GENE",
+        "pos": [
+          6,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The predicted amino acid sequence of the FlaB2 polypeptide was 92 % identical to that of T . pallidum FlaB2 , with a 76 % identity at the nucleotide level .",
+    "entities": [
+      {
+        "name": "FlaB2 polypeptide",
+        "type": "GENE",
+        "pos": [
+          41,
+          58
+        ]
+      },
+      {
+        "name": "T . pallidum FlaB2",
+        "type": "GENE",
+        "pos": [
+          89,
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Left ventricular responses to dopamine in dilated cardiomyopathy as assessed by two - dimensional echocardiography and compared with findings of thallium - 201 scintigraphy .",
+    "entities": []
+  },
+  {
+    "sentence": "Moreover , such mutations lead to a dramatic transition in chromatin structure : the DNase I hypersensitive region is replaced by two stable , sequence - positioned nucleosomes .",
+    "entities": [
+      {
+        "name": "DNase I hypersensitive region",
+        "type": "GENE",
+        "pos": [
+          85,
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In contrast , the holo - dTFIIA ( L / S ) binds TBP with high affinity .",
+    "entities": [
+      {
+        "name": "holo - dTFIIA",
+        "type": "GENE",
+        "pos": [
+          18,
+          31
+        ]
+      },
+      {
+        "name": "TBP",
+        "type": "GENE",
+        "pos": [
+          48,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Renal cell carcinoma induced Coombs negative autoimmune hemolytic anemia and severe thrombocytopenia responsive to nephrectomy .",
+    "entities": []
+  },
+  {
+    "sentence": "RESULTS : At short dwell times , uncorrected ( whole plasma ) D / P and Cp of urea values were higher than the corrected ( plasma water ) values by 5 . 7 % - 5 . 9 % .",
+    "entities": []
+  },
+  {
+    "sentence": "The Valpha and Vbeta domains have the canonical features of known teleost and mammalian TCR V domains , including conserved residues in the beginning of FR2 and at the end of FR3 .",
+    "entities": [
+      {
+        "name": "Valpha",
+        "type": "GENE",
+        "pos": [
+          4,
+          10
+        ]
+      },
+      {
+        "name": "Vbeta domains",
+        "type": "GENE",
+        "pos": [
+          15,
+          28
+        ]
+      },
+      {
+        "name": "teleost and mammalian TCR V domains",
+        "type": "GENE",
+        "pos": [
+          66,
+          101
+        ]
+      },
+      {
+        "name": "FR2",
+        "type": "GENE",
+        "pos": [
+          153,
+          156
+        ]
+      },
+      {
+        "name": "FR3",
+        "type": "GENE",
+        "pos": [
+          175,
+          178
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cytokinetics of the Krebs 2 carcinoma .",
+    "entities": []
+  },
+  {
+    "sentence": "Southern blot analysis following reverse transcription and PCR showed that B2R is expressed in most mouse tissues , except the liver and spleen , which is consistent with the wide distribution of B2R activity as deduced from pharmacological studies .",
+    "entities": [
+      {
+        "name": "B2R",
+        "type": "GENE",
+        "pos": [
+          75,
+          78
+        ]
+      },
+      {
+        "name": "B2R",
+        "type": "GENE",
+        "pos": [
+          196,
+          199
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cotransfection of pINV - 2473 , a construct containing 2473 base pairs of hINV upstream sequence linked to luciferase , with POU homeodomain transcription factors Oct1 , Oct2 , Brn4 , SCIP , Skn1a or Skn1i , results in a strong suppression of basal promoter activity .",
+    "entities": [
+      {
+        "name": "hINV upstream sequence",
+        "type": "GENE",
+        "pos": [
+          74,
+          96
+        ]
+      },
+      {
+        "name": "luciferase",
+        "type": "GENE",
+        "pos": [
+          107,
+          117
+        ]
+      },
+      {
+        "name": "POU homeodomain transcription factors",
+        "type": "GENE",
+        "pos": [
+          125,
+          162
+        ]
+      },
+      {
+        "name": "Oct1",
+        "type": "GENE",
+        "pos": [
+          163,
+          167
+        ]
+      },
+      {
+        "name": "Oct2",
+        "type": "GENE",
+        "pos": [
+          170,
+          174
+        ]
+      },
+      {
+        "name": "Brn4",
+        "type": "GENE",
+        "pos": [
+          177,
+          181
+        ]
+      },
+      {
+        "name": "SCIP",
+        "type": "GENE",
+        "pos": [
+          184,
+          188
+        ]
+      },
+      {
+        "name": "Skn1a",
+        "type": "GENE",
+        "pos": [
+          191,
+          196
+        ]
+      },
+      {
+        "name": "Skn1i",
+        "type": "GENE",
+        "pos": [
+          200,
+          205
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A Meis1 cDNA clone that encoded a novel member of the homeobox gene family was identified .",
+    "entities": [
+      {
+        "name": "Meis1 cDNA",
+        "type": "GENE",
+        "pos": [
+          2,
+          12
+        ]
+      },
+      {
+        "name": "homeobox gene family",
+        "type": "GENE",
+        "pos": [
+          54,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Co - operativity of functional domains in the muscle - specific transcription factor Myf - 5 .",
+    "entities": [
+      {
+        "name": "muscle - specific transcription factor Myf - 5",
+        "type": "GENE",
+        "pos": [
+          46,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Jet lag and melatonin .",
+    "entities": []
+  },
+  {
+    "sentence": "We exposed Dorper - cross ewes at approximately 120 - 135 days of gestation to a hot ( 40 degrees C , 60 % relative humidity ) and a cold ( 4 degrees C , 90 % relative humidity ) environment and to treadmill exercise ( 2 . 1 km / h , 5 degrees gradient ) and measured fetal lamb and ewe body temperatures using previously implanted abdominal radiotelemeters .",
+    "entities": []
+  },
+  {
+    "sentence": "The sequence of the 25 - kDa chain of the alpha subunit was found in a cDNA clone , and the amino acid sequence deduced from the cDNA establishes the complete amino acid sequence of the 25 - kDa chain .",
+    "entities": []
+  },
+  {
+    "sentence": "Unlike CSK , the SH3 domain of HYL was unique since the ALYDY motif was absent .",
+    "entities": [
+      {
+        "name": "CSK",
+        "type": "GENE",
+        "pos": [
+          7,
+          10
+        ]
+      },
+      {
+        "name": "SH3 domain",
+        "type": "GENE",
+        "pos": [
+          17,
+          27
+        ]
+      },
+      {
+        "name": "HYL",
+        "type": "GENE",
+        "pos": [
+          31,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The recovery of xanthomegnin added to corn samples at levels of 0 . 75 - - 9 . 6 mg / kg averaged 41 % with a coefficient of variation of 25 % .",
+    "entities": []
+  },
+  {
+    "sentence": "METHODS : Precision and accuracy were measured using controls and method comparison studies .",
+    "entities": []
+  },
+  {
+    "sentence": "In both study stages . post - exposure treatment consisted of five injections of vaccine [ ( D ) ays 0 , 3 , 7 , 14 , 28 ] , together with a dose of rabies immunoglobulin ( RIG ) of equine or human origin on D0 .",
+    "entities": [
+      {
+        "name": "rabies immunoglobulin",
+        "type": "GENE",
+        "pos": [
+          149,
+          170
+        ]
+      },
+      {
+        "name": "RIG",
+        "type": "GENE",
+        "pos": [
+          173,
+          176
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The results reveal preferences for particular initiating nucleotides ( ATP > or = GTP > UTP > > CTP ) and for starting positions downstream of the Pribnow box ( 7 > > 6 and 8 > 9 > 10 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "RET / PTC oncogenes , generated by chromosomal rearrangements in papillary thyroid carcinomas , are constitutively activated versions of proto - RET , a gene coding for a receptor - type tyrosine kinase ( TK ) whose ligand is still unknown .",
+    "entities": [
+      {
+        "name": "RET",
+        "type": "GENE",
+        "pos": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "PTC",
+        "type": "GENE",
+        "pos": [
+          6,
+          9
+        ]
+      },
+      {
+        "name": "proto - RET",
+        "type": "GENE",
+        "pos": [
+          137,
+          148
+        ]
+      },
+      {
+        "name": "receptor - type tyrosine kinase",
+        "type": "GENE",
+        "pos": [
+          171,
+          202
+        ]
+      },
+      {
+        "name": "TK",
+        "type": "GENE",
+        "pos": [
+          205,
+          207
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "7 - Nitroindazole ( 7NI ) , a relatively selective neuronal nitric oxide synthase ( nNOS ) inhibitor . was intraperitoneally administered to the guinea pigs 30 minutes before the onset of local anoxia .",
+    "entities": [
+      {
+        "name": "nitric oxide synthase",
+        "type": "GENE",
+        "pos": [
+          60,
+          81
+        ]
+      },
+      {
+        "name": "nNOS",
+        "type": "GENE",
+        "pos": [
+          84,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This distinct biochemical difference between STAT5A and STAT5B was confirmed with purified activated STAT5 recombinant proteins .",
+    "entities": [
+      {
+        "name": "STAT5A",
+        "type": "GENE",
+        "pos": [
+          45,
+          51
+        ]
+      },
+      {
+        "name": "STAT5B",
+        "type": "GENE",
+        "pos": [
+          56,
+          62
+        ]
+      },
+      {
+        "name": "STAT5 recombinant proteins",
+        "type": "GENE",
+        "pos": [
+          101,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Alternative roles of these DNA motifs as activators of early mRNA transcription and as an initiator element for late mRNA transcription help explain how polyomavirus gene expression is regulated during lytic growth and provides a model for cellular transcription during development .",
+    "entities": []
+  },
+  {
+    "sentence": "The results showed differential activation of each parahippocampal region during verbal memory tasks in which the side activated shifted depending on the nature of the task employed ; an increase in rCBF in the left parahippocampal gyrus was associated with retrieval strategy of non - matching , and an increase in rCBF in the right parahippocampal gyrus was associated with retrieval strategy of matching .",
+    "entities": []
+  },
+  {
+    "sentence": "Repeated time course studies in the same patient were reproducible although the absolute concentrations showed some variation .",
+    "entities": []
+  },
+  {
+    "sentence": "In agreement with this model , elimination of the ADAM13 cytoplasmic domain increased developmental alterations attributable to ADAM13 proteolytic activity .",
+    "entities": [
+      {
+        "name": "ADAM13 cytoplasmic domain",
+        "type": "GENE",
+        "pos": [
+          50,
+          75
+        ]
+      },
+      {
+        "name": "ADAM13",
+        "type": "GENE",
+        "pos": [
+          128,
+          134
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The ferric uptake regulation ( fur ) gene product participates in regulating expression of the manganese - and iron - containing superoxide dismutase genes of Escherichia coli .",
+    "entities": [
+      {
+        "name": "ferric uptake regulation",
+        "type": "GENE",
+        "pos": [
+          4,
+          28
+        ]
+      },
+      {
+        "name": "fur",
+        "type": "GENE",
+        "pos": [
+          31,
+          34
+        ]
+      },
+      {
+        "name": "superoxide dismutase genes of Escherichia coli",
+        "type": "GENE",
+        "pos": [
+          129,
+          175
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "There was no correlation between starting platelet - associated IgG levels or changes in platelet - associated IgG levels with therapy and the increment in the patient ' s platelet count .",
+    "entities": [
+      {
+        "name": "IgG",
+        "type": "GENE",
+        "pos": [
+          64,
+          67
+        ]
+      },
+      {
+        "name": "IgG",
+        "type": "GENE",
+        "pos": [
+          111,
+          114
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The median cumulative incidence rates were found to be 341 per million for males and 296 per million for females .",
+    "entities": []
+  },
+  {
+    "sentence": "Our results strongly suggest that activation of the beta origin by a distant replication enhancer element requires a small target sequence essential for initiator protein - mediated DNA looping .",
+    "entities": []
+  },
+  {
+    "sentence": "Interestingly , PMA - , PDGF - , and serum - induced GHR proteolysis was associated with substantial decreases in GH - induced activation of Janus kinase - 2 , which were also prevented by IC3 .",
+    "entities": [
+      {
+        "name": "PDGF",
+        "type": "GENE",
+        "pos": [
+          24,
+          28
+        ]
+      },
+      {
+        "name": "GHR",
+        "type": "GENE",
+        "pos": [
+          53,
+          56
+        ]
+      },
+      {
+        "name": "GH",
+        "type": "GENE",
+        "pos": [
+          114,
+          116
+        ]
+      },
+      {
+        "name": "Janus kinase - 2",
+        "type": "GENE",
+        "pos": [
+          141,
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To investigate its transcription , 1 . 1 kilobases of the 5 ' - flanking sequence were fused to a luciferase reporter gene .",
+    "entities": [
+      {
+        "name": "luciferase reporter gene",
+        "type": "GENE",
+        "pos": [
+          98,
+          122
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The 5 ' - flanking region of the gene , approximately 1 . 1 kbp long , had no known regulatory elements for transcription such as TATA , GC , and CCAAT boxes .",
+    "entities": []
+  },
+  {
+    "sentence": "The most distal active site in TIGA is created by excision of a 66 - bp intron .",
+    "entities": [
+      {
+        "name": "TIGA",
+        "type": "GENE",
+        "pos": [
+          31,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "EMT was localized to chromosome 5q31 - 32 , a region that contains the genes for several growth factors and receptors as well as early activation genes , particularly those involved in the hematopoietic system .",
+    "entities": [
+      {
+        "name": "EMT",
+        "type": "GENE",
+        "pos": [
+          0,
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We now describe a HepG2 cell casein kinase II beta subunit cDNA of 2 . 57 kb containing 96 bases of 5 ' untranslated sequence , 645 bases of open reading frame , and 1832 bases of 3 ' untranslated sequence with two polyadenylation consensus signal sequences and two poly ( A ) stretches .",
+    "entities": [
+      {
+        "name": "HepG2 cell casein kinase II beta subunit cDNA",
+        "type": "GENE",
+        "pos": [
+          18,
+          63
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Homology is much higher ( 64 % ) between the 28 - kDa protein and regions that are strongly conserved among the members of the serine protease family .",
+    "entities": [
+      {
+        "name": "serine protease family",
+        "type": "GENE",
+        "pos": [
+          127,
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In this study we cloned the cDNA of AD1 Ag from a rat basophilic leukemia 2H3 cDNA library .",
+    "entities": [
+      {
+        "name": "AD1 Ag",
+        "type": "GENE",
+        "pos": [
+          36,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The 1031 - bp wild - type HIT1 DNA which contained an open reading frame encoding a protein of 164 amino acids and the AGG arginine tRNA gene complemented all hit1 - 1 mutant phenotypes , indicating that the mutant phenotypes were caused by the deletion of these genes .",
+    "entities": [
+      {
+        "name": "1031 - bp wild - type HIT1 DNA",
+        "type": "GENE",
+        "pos": [
+          4,
+          34
+        ]
+      },
+      {
+        "name": "AGG arginine tRNA gene",
+        "type": "GENE",
+        "pos": [
+          119,
+          141
+        ]
+      },
+      {
+        "name": "hit1 - 1 mutant phenotypes",
+        "type": "GENE",
+        "pos": [
+          159,
+          185
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The present study tries to associate some of the causes of hot ischaemia during the agony of the corpse donor and to evaluate those that may be caused by sympathetic efference during removal .",
+    "entities": []
+  },
+  {
+    "sentence": "The biological activity of these mutants was tested by determining their capacity to ( i ) reconstitute RNA polymerase activity in vivo by cotransfection with proteins NP , PB1 , and PA and a virion - like RNA encoding the cat gene into vaccinia virus T7 - infected COS - 1 cells and ( ii ) complete with the wild - type PB2 activity .",
+    "entities": [
+      {
+        "name": "RNA polymerase",
+        "type": "GENE",
+        "pos": [
+          104,
+          118
+        ]
+      },
+      {
+        "name": "NP",
+        "type": "GENE",
+        "pos": [
+          168,
+          170
+        ]
+      },
+      {
+        "name": "PB1",
+        "type": "GENE",
+        "pos": [
+          173,
+          176
+        ]
+      },
+      {
+        "name": "PA",
+        "type": "GENE",
+        "pos": [
+          183,
+          185
+        ]
+      },
+      {
+        "name": "cat",
+        "type": "GENE",
+        "pos": [
+          223,
+          226
+        ]
+      },
+      {
+        "name": "wild - type PB2",
+        "type": "GENE",
+        "pos": [
+          309,
+          324
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The reporter gene with two copies of the wild - type Repeat 2 + 3 sequence was transcribed actively in sterol - deprived cells and was repressed by more than 80 % when sterols were present .",
+    "entities": []
+  },
+  {
+    "sentence": "No transactivation of the ovalbumin promoter ( pLovTATA ) template control was observed .",
+    "entities": [
+      {
+        "name": "ovalbumin promoter",
+        "type": "GENE",
+        "pos": [
+          26,
+          44
+        ]
+      },
+      {
+        "name": "pLovTATA",
+        "type": "GENE",
+        "pos": [
+          47,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Previous studies have shown that TGFbeta1 expression is upregulated in mouse keratinocytes infected with a v - rasHa retrovirus , although the functional significance of this has not been clear .",
+    "entities": [
+      {
+        "name": "TGFbeta1",
+        "type": "GENE",
+        "pos": [
+          33,
+          41
+        ]
+      },
+      {
+        "name": "v - rasHa",
+        "type": "GENE",
+        "pos": [
+          107,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A long - term follow - up study of a children ' s psychiatric day treatment center .",
+    "entities": []
+  },
+  {
+    "sentence": "To gain further insights into these events , the porcine G alpha i - 3 gene minimal promoter was characterized and found 67 base pairs upstream from the major transcription start site .",
+    "entities": [
+      {
+        "name": "porcine G alpha i - 3 gene minimal promoter",
+        "type": "GENE",
+        "pos": [
+          49,
+          92
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "After 30 weeks of amifostine therapy , the morphology of the MDS switched to a chronic myelomonocytic leukemia ( CMML ) - like appearance , with continuously increasing leukocytes , so that we discontinued amifostine therapy for 1 month to exclude a possible side effect of amifostine .",
+    "entities": []
+  },
+  {
+    "sentence": "A phase II study was initiated to evaluate the effect of a combination of the pure L - isomer of LV and 5 - FU along with epirubicin in patients with advanced pancreatic cancer .",
+    "entities": []
+  },
+  {
+    "sentence": "They contain a large ( 0 . 9 X 10 ( 3 ) to 1 . 88 X 10 ( 3 ) base - pairs ) intron in the middle of the gene and are further interrupted close to the 5 ' end of the gene .",
+    "entities": []
+  },
+  {
+    "sentence": "The atpA reading frame ends with four tandem UGA codons which overlap four tandem AUG codons initiating an unidentified reading frame , orf214 .",
+    "entities": [
+      {
+        "name": "atpA",
+        "type": "GENE",
+        "pos": [
+          4,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Children with repeated proteinuria during follow - up tend to have a higher incidence of pathologic findings on the i . v . - pyelogram .",
+    "entities": []
+  },
+  {
+    "sentence": "The receptor for CSF - 1 , c - Fms , is expressed in osteoclasts , possesses intrinsic tyrosine - kinase activity , and signals via rapid phosphorylation of selected proteins .",
+    "entities": [
+      {
+        "name": "CSF - 1",
+        "type": "GENE",
+        "pos": [
+          17,
+          24
+        ]
+      },
+      {
+        "name": "c - Fms",
+        "type": "GENE",
+        "pos": [
+          27,
+          34
+        ]
+      },
+      {
+        "name": "tyrosine - kinase",
+        "type": "GENE",
+        "pos": [
+          87,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Enoxacin has been shown to be an effective well tolerated and convenient treatment for gonorrhoea .",
+    "entities": []
+  },
+  {
+    "sentence": "A distinct 5 ' - sequence in clone hMIWC2 suggested an alternative upstream transcription initiation site .",
+    "entities": []
+  },
+  {
+    "sentence": "With rats fed on the Zn - sufficient diet , NaFe3 + EDTA and Na2EDTA similarly increased the absorption , urinary excretion and retention of Zn but to a lesser extent .",
+    "entities": []
+  },
+  {
+    "sentence": "Thus , the rates of a - factor receptor endocytosis and consequent vacuolar turnover depend on the available level of ubiquitin in the cell .",
+    "entities": [
+      {
+        "name": "a - factor receptor",
+        "type": "GENE",
+        "pos": [
+          20,
+          39
+        ]
+      },
+      {
+        "name": "ubiquitin",
+        "type": "GENE",
+        "pos": [
+          118,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Nevertheless , lower doses which alone were lacking in activity ( 100 - 250 mg / kg B1 and B6 , 1 - 2 . 5 mg / kg B12 p . o . ) dose - dependently potentiated the antinociceptive of diclofenac .",
+    "entities": []
+  },
+  {
+    "sentence": "Buserelin offers an effective alternative medical treatment of carcinoma of the prostate and , apart from impotence , does not have the side effects of oestrogens .",
+    "entities": []
+  },
+  {
+    "sentence": "trans - activation of the HIV - 1 LTR by the HIV - 1 Tat and HTLV - I Tax proteins is mediated by different cis - acting sequences .",
+    "entities": [
+      {
+        "name": "HIV - 1 LTR",
+        "type": "GENE",
+        "pos": [
+          26,
+          37
+        ]
+      },
+      {
+        "name": "HIV - 1 Tat",
+        "type": "GENE",
+        "pos": [
+          45,
+          56
+        ]
+      },
+      {
+        "name": "HTLV - I Tax proteins",
+        "type": "GENE",
+        "pos": [
+          61,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Viral protein U ( Vpu ) is a protein encoded by human immunodeficiency virus type 1 ( HIV - 1 ) that promotes the degradation of the virus receptor , CD4 , and enhances the release of virus particles from cells .",
+    "entities": [
+      {
+        "name": "Viral protein U",
+        "type": "GENE",
+        "pos": [
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Vpu",
+        "type": "GENE",
+        "pos": [
+          18,
+          21
+        ]
+      },
+      {
+        "name": "CD4",
+        "type": "GENE",
+        "pos": [
+          150,
+          153
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Reduction of p53 protein was detected after 1 day of OM treatment and reached maximal suppression of 10 - 20 % of control after 3 days in H3922 and 40 % of control after 4 days in MCF - 7 cells .",
+    "entities": [
+      {
+        "name": "p53 protein",
+        "type": "GENE",
+        "pos": [
+          13,
+          24
+        ]
+      },
+      {
+        "name": "OM",
+        "type": "GENE",
+        "pos": [
+          53,
+          55
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This mechanism seems to be involved in VIP - induced PRL gene regulation .",
+    "entities": [
+      {
+        "name": "VIP",
+        "type": "GENE",
+        "pos": [
+          39,
+          42
+        ]
+      },
+      {
+        "name": "PRL gene",
+        "type": "GENE",
+        "pos": [
+          53,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "KatA , AhpCF , heme biosynthesis enzymes , and MrgA are also induced upon entry into stationary phase under conditions of iron and manganese limitation .",
+    "entities": [
+      {
+        "name": "KatA",
+        "type": "GENE",
+        "pos": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "AhpCF",
+        "type": "GENE",
+        "pos": [
+          7,
+          12
+        ]
+      },
+      {
+        "name": "MrgA",
+        "type": "GENE",
+        "pos": [
+          47,
+          51
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "An emended diagnosis of Tylocephalum is proposed excluding this feature , along with distribution of the testes in the preovarian field and circummedullary distribution of vitelline follicles .",
+    "entities": []
+  },
+  {
+    "sentence": "Relation between circulating immune complexes and serum ferritin in hemosiderosis of different etiologies",
+    "entities": [
+      {
+        "name": "serum ferritin",
+        "type": "GENE",
+        "pos": [
+          50,
+          64
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "CAT assays demonstrated that overexpression of RXRalpha conferred the best RA response , consistent with our previous observation that 9 - cis - RA is more potent than all - trans - RA for inducing the expression of the AFP gene .",
+    "entities": [
+      {
+        "name": "CAT",
+        "type": "GENE",
+        "pos": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "RXRalpha",
+        "type": "GENE",
+        "pos": [
+          47,
+          55
+        ]
+      },
+      {
+        "name": "AFP gene",
+        "type": "GENE",
+        "pos": [
+          220,
+          228
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "While working on the toxicity of war gases . he formulated ' Haber ' s rule ' , also known as C x T = constant in order to characterize the toxicity of an inhalant .",
+    "entities": []
+  },
+  {
+    "sentence": "There is a good correlation between the occurrence in any particular vascular segment of the transient contractile response and intrinsic tone as assessed by relaxation to papaverine ( 10 ( - 6 ) M ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Hydroxyl radical footprinting of DNA complexes of the ets domain of PU . 1 and its comparison to the crystal structure .",
+    "entities": [
+      {
+        "name": "ets domain",
+        "type": "GENE",
+        "pos": [
+          54,
+          64
+        ]
+      },
+      {
+        "name": "PU . 1",
+        "type": "GENE",
+        "pos": [
+          68,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Radiological imaging such as UGI series and CT scan was useful to arrive at an accurate diagnosis .",
+    "entities": []
+  },
+  {
+    "sentence": "( 5 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Under anaerobic conditions ( a 50 - day experiment ) these organisms degraded 15 - 18 % of the TEM , 20 - 25 % of some alkanes , and 15 - 18 % of selected polycyclic aromatic hydrocarbons .",
+    "entities": []
+  },
+  {
+    "sentence": "RT - PCR analysis of FGFR - 3 mRNA showed the presence of a splice variant in which exons 7 and 8 are deleted .",
+    "entities": [
+      {
+        "name": "FGFR - 3 mRNA",
+        "type": "GENE",
+        "pos": [
+          21,
+          34
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "PEAP was significantly higher in IDC patients compared to controls ( 48 . 7 + / - 32 . 6 vs .",
+    "entities": []
+  },
+  {
+    "sentence": "The transcriptional start site , identified by primer extension and S1 nuclease assay , is 34 nt upstream of the translation initiation codon .",
+    "entities": [
+      {
+        "name": "S1 nuclease",
+        "type": "GENE",
+        "pos": [
+          68,
+          79
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "PTP1 - lacZ studies indicate that PTP1 is spatially localized to prestalk and anterior - like cell types .",
+    "entities": [
+      {
+        "name": "PTP1",
+        "type": "GENE",
+        "pos": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "lacZ",
+        "type": "GENE",
+        "pos": [
+          7,
+          11
+        ]
+      },
+      {
+        "name": "PTP1",
+        "type": "GENE",
+        "pos": [
+          34,
+          38
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Studies on recurrences in gingival hyperplasia",
+    "entities": []
+  },
+  {
+    "sentence": "The major transcription start site , designated as + 1 , was determined by RACE ( rapid amplification of cDNA ends ) analysis of human liver cDNA and was found to be located 50 bp upstream from the translation start site .",
+    "entities": []
+  },
+  {
+    "sentence": "Anatomical considerations in transsphenoidal hypophysectomy .",
+    "entities": []
+  },
+  {
+    "sentence": "Vasodilator and hypotensive effects of the optical isomers of nicardipine ( YC - 93 ) , a new Ca2 + - antagonist .",
+    "entities": []
+  },
+  {
+    "sentence": "CSEn stimulated transcription of a variety of promoters , including the hCS , human growth hormone , thymidine kinase , and Rous sarcoma virus promoters , in human choriocarcinoma cell lines ( BeWo and JEG - 3 ) but not HeLa cells or rat somatolactotrophes ( GC ) .",
+    "entities": [
+      {
+        "name": "CSEn",
+        "type": "GENE",
+        "pos": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "hCS",
+        "type": "GENE",
+        "pos": [
+          72,
+          75
+        ]
+      },
+      {
+        "name": "human growth hormone",
+        "type": "GENE",
+        "pos": [
+          78,
+          98
+        ]
+      },
+      {
+        "name": "thymidine kinase",
+        "type": "GENE",
+        "pos": [
+          101,
+          117
+        ]
+      },
+      {
+        "name": "Rous sarcoma virus promoters",
+        "type": "GENE",
+        "pos": [
+          124,
+          152
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Like pimethixene and cyproheptadine , WA 335 has no distinct antagonistic qualities against bradykinin .",
+    "entities": [
+      {
+        "name": "bradykinin",
+        "type": "GENE",
+        "pos": [
+          92,
+          102
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A case of bilateral testicular germ cell tumors in a 23 - year - old male is reported .",
+    "entities": []
+  },
+  {
+    "sentence": "Here , we provide direct evidence that the meiotic defect caused by either unregulated cAPK activity or unregulated ran1 + kinase activity is due to inability to induce transcription of the mei2 + gene , which is required for meiotic initiation .",
+    "entities": [
+      {
+        "name": "cAPK",
+        "type": "GENE",
+        "pos": [
+          87,
+          91
+        ]
+      },
+      {
+        "name": "ran1 + kinase",
+        "type": "GENE",
+        "pos": [
+          116,
+          129
+        ]
+      },
+      {
+        "name": "mei2 + gene",
+        "type": "GENE",
+        "pos": [
+          190,
+          201
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Titres of antistreptolysin O in mothers of children affected with Down ' s syndrome .",
+    "entities": [
+      {
+        "name": "antistreptolysin O",
+        "type": "GENE",
+        "pos": [
+          10,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Basal JNK MAPK kinase activity was also specifically induced by deltaEGFR , which correlated with increased phosphorylation of a 54 - kDa JNK2 protein observed in deltaEGFR - containing cells .",
+    "entities": [
+      {
+        "name": "JNK MAPK kinase",
+        "type": "GENE",
+        "pos": [
+          6,
+          21
+        ]
+      },
+      {
+        "name": "deltaEGFR",
+        "type": "GENE",
+        "pos": [
+          64,
+          73
+        ]
+      },
+      {
+        "name": "54 - kDa JNK2 protein",
+        "type": "GENE",
+        "pos": [
+          129,
+          150
+        ]
+      },
+      {
+        "name": "deltaEGFR",
+        "type": "GENE",
+        "pos": [
+          163,
+          172
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A previously developed kinetic model was used to identify major chemical reaction pathways involving PAH in the afterburner .",
+    "entities": []
+  },
+  {
+    "sentence": "Glutathione reductase ( GR ) was purified from the cyanobacterium Anabaena PCC 7120 .",
+    "entities": [
+      {
+        "name": "Glutathione reductase",
+        "type": "GENE",
+        "pos": [
+          0,
+          21
+        ]
+      },
+      {
+        "name": "GR",
+        "type": "GENE",
+        "pos": [
+          24,
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The 101st annual meeting of the Japanese Ophthalmological Society .",
+    "entities": []
+  },
+  {
+    "sentence": "Cellular lysates were analyzed for luciferase and beta - galactosidase activities .",
+    "entities": [
+      {
+        "name": "luciferase",
+        "type": "GENE",
+        "pos": [
+          35,
+          45
+        ]
+      },
+      {
+        "name": "beta - galactosidase",
+        "type": "GENE",
+        "pos": [
+          50,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The possible equivalency of a short form and the long form of the Multiple Affect Adjective Check List - Revised ( MAACL - R ; Zuckerman & Lubin , 1985 ) was studied by correlating both forms of the MAACL - R with the State Trait Personality Inventory ( Spielberger , 1995 ) ; the Affect Balance Scale ( Bradburn , 1969 ) ; and the Sensation Seeking Scale ( Zuckerman , 1978 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Simvastatin decreased levels of total cholesterol by 20 . 8 % , LDL cholesterol by 29 . 7 % , triglycerides by 13 . 6 % , apolipoprotein B by 22 . 4 % , alpha - tocopherol by 16 . 2 % , beta - carotene by 19 . 5 % , and ubiquinol - 10 by 22 . 0 % ( P < . 001 for all ) and increased levels of HDL cholesterol by 7 . 0 % ( P < . 001 ) and serum insulin by 13 . 2 % ( P = . 005 ) .",
+    "entities": [
+      {
+        "name": "LDL cholesterol",
+        "type": "GENE",
+        "pos": [
+          64,
+          79
+        ]
+      },
+      {
+        "name": "apolipoprotein B",
+        "type": "GENE",
+        "pos": [
+          122,
+          138
+        ]
+      },
+      {
+        "name": "HDL cholesterol",
+        "type": "GENE",
+        "pos": [
+          293,
+          308
+        ]
+      },
+      {
+        "name": "serum insulin",
+        "type": "GENE",
+        "pos": [
+          338,
+          351
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Pathogenesis of fever .",
+    "entities": []
+  },
+  {
+    "sentence": "Using transgenic lines a detailed analysis of the Hoxa - 7 enhancer - directed expression during embryogenesis was performed . lacZ expression was first detected in the allantois at day 7 . 5 p . c . and in mesoderm and ectoderm at day 8 . 5 of gestation .",
+    "entities": [
+      {
+        "name": "Hoxa - 7",
+        "type": "GENE",
+        "pos": [
+          50,
+          58
+        ]
+      },
+      {
+        "name": "lacZ",
+        "type": "GENE",
+        "pos": [
+          127,
+          131
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "It is not well known that giant cell arteritis can cause fatal complications due to rupture of aortic aneurysms or cerebral and myocardial infarctions .",
+    "entities": []
+  },
+  {
+    "sentence": "Melioidosis in Sika deer ( Cervus nippon nippon ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Western blot analyses reveals that cJun and the C / EBP family member C / EBP - beta are physiologically relevant transcription factors whose expression corresponds with mda - 7 mRNA expression .",
+    "entities": [
+      {
+        "name": "cJun",
+        "type": "GENE",
+        "pos": [
+          35,
+          39
+        ]
+      },
+      {
+        "name": "C / EBP family member",
+        "type": "GENE",
+        "pos": [
+          48,
+          69
+        ]
+      },
+      {
+        "name": "C / EBP - beta",
+        "type": "GENE",
+        "pos": [
+          70,
+          84
+        ]
+      },
+      {
+        "name": "mda - 7 mRNA",
+        "type": "GENE",
+        "pos": [
+          170,
+          182
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To examine the biochemical mechanism of Tax1 transactivation , we have developed an in vitro transactivation assay in which wild - type Tax1 is able to specifically transactivate a polymerase II promoter through upstream Tax1 - responsive elements .",
+    "entities": [
+      {
+        "name": "Tax1",
+        "type": "GENE",
+        "pos": [
+          40,
+          44
+        ]
+      },
+      {
+        "name": "Tax1",
+        "type": "GENE",
+        "pos": [
+          136,
+          140
+        ]
+      },
+      {
+        "name": "polymerase II",
+        "type": "GENE",
+        "pos": [
+          181,
+          194
+        ]
+      },
+      {
+        "name": "Tax1 - responsive elements",
+        "type": "GENE",
+        "pos": [
+          221,
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The results of a study to investigate the effectiveness of a propolis - containing mouthrinse in the inhibition of de novo plaque formation are presented .",
+    "entities": []
+  },
+  {
+    "sentence": "The sequence of the 127 residue NrfF polypeptide , M ( r ) 14 , 522 , is strikingly similar to the CcI2 protein of R . capsulatus , especially in the putative haem - binding motif , RCPQCQNQN . ( ABSTRACT TRUNCATED AT 400 WORDS )",
+    "entities": [
+      {
+        "name": "127 residue NrfF polypeptide , M ( r ) 14 , 522",
+        "type": "GENE",
+        "pos": [
+          20,
+          67
+        ]
+      },
+      {
+        "name": "CcI2 protein",
+        "type": "GENE",
+        "pos": [
+          99,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "By cloning genes encoding benzene - degradative enzymes , we found that strain JS150 also carries genes for a toluene / benzene - 2 - monooxygenase .",
+    "entities": [
+      {
+        "name": "toluene / benzene - 2 - monooxygenase",
+        "type": "GENE",
+        "pos": [
+          110,
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Thus , Shp2 regulates phosphotyrosine - signalling events during the complex ectodermal - mesenchymal interactions that regulate mammalian budding morphogenesis .",
+    "entities": [
+      {
+        "name": "Shp2",
+        "type": "GENE",
+        "pos": [
+          7,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "One of them is its limited sensitivity to weak interactions , which are common in the mammalian cerebral cortex .",
+    "entities": []
+  },
+  {
+    "sentence": "The UASB reactors treated a VFA mixture ( with an acetate : propionate : butyrate ratio of 5 : 3 : 2 on COD basis ) or acetate as the sole substrate at different COD : sulfate ratios .",
+    "entities": []
+  },
+  {
+    "sentence": "Translation of mok is tightly regulated by Sok RNA , and Sok RNA thus regulates hok translation indirectly through mok .",
+    "entities": [
+      {
+        "name": "mok",
+        "type": "GENE",
+        "pos": [
+          15,
+          18
+        ]
+      },
+      {
+        "name": "Sok RNA",
+        "type": "GENE",
+        "pos": [
+          43,
+          50
+        ]
+      },
+      {
+        "name": "Sok RNA",
+        "type": "GENE",
+        "pos": [
+          57,
+          64
+        ]
+      },
+      {
+        "name": "hok",
+        "type": "GENE",
+        "pos": [
+          80,
+          83
+        ]
+      },
+      {
+        "name": "mok",
+        "type": "GENE",
+        "pos": [
+          115,
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "It is suggested that on presentation of tail tip necrosis in kittens a diagnosis of neonatal isoerythrolysis or isoagglutination should be considered .",
+    "entities": []
+  },
+  {
+    "sentence": "Moreover , we show that GATA - 1 and Sp1 synergize from a distance in constructs designed to mimic the architecture of globin locus control regions and downstream globin promoters .",
+    "entities": [
+      {
+        "name": "GATA - 1",
+        "type": "GENE",
+        "pos": [
+          24,
+          32
+        ]
+      },
+      {
+        "name": "Sp1",
+        "type": "GENE",
+        "pos": [
+          37,
+          40
+        ]
+      },
+      {
+        "name": "globin locus control regions",
+        "type": "GENE",
+        "pos": [
+          119,
+          147
+        ]
+      },
+      {
+        "name": "globin promoters",
+        "type": "GENE",
+        "pos": [
+          163,
+          179
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The mean serum CDT increased from 8 . 5 ( SD 2 . 2 ) U / l to 16 . 6 ( SD 7 . 2 ) U / l ( P < 0 . 001 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "These results demonstrate that the entire E3L gene is required for pathogenesis in the mouse model .",
+    "entities": [
+      {
+        "name": "E3L gene",
+        "type": "GENE",
+        "pos": [
+          42,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "From 1977 to 1985 , 42 patients with squamous cell carcinoma of the anal canal were treated with mitomycin C ( 15 mg / m2 ) and 5 - fluorouracil ( 750 mg / m2 ) on day 1 , 5 - FU ( 750 mg / m2 / d ) alone on days 2 to 5 , and radiation therapy ( 3000 cGy ) on days 7 to 28 .",
+    "entities": []
+  },
+  {
+    "sentence": "Plasma hemopexin homeostasis during the acute phase response .",
+    "entities": [
+      {
+        "name": "Plasma hemopexin",
+        "type": "GENE",
+        "pos": [
+          0,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "By contrast , clonidine ( 1 micrograms / kg ) elicited an immediate and prolonged fall in blood pressure and heart rate when given into the vertebral artery , but not intravenously .",
+    "entities": []
+  },
+  {
+    "sentence": "Nitroglycerin ( glyceryl trinitrate ) as a monoamine oxidase inhibitor .",
+    "entities": [
+      {
+        "name": "monoamine oxidase",
+        "type": "GENE",
+        "pos": [
+          43,
+          60
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These include the genes , undefined 1 ( UD1 ) , UD2 , and UD3 , each coding for proteins of unknown function , the ken gene encoding a new Kruppel - like putative transcription factor , the fly homologues of the mammalian mitochondrial trifunctional enzyme ( thiolase ) , and the TAR DNA - binding protein - 43 ( TBPH ) , the first nonvertebrate member of the transmembrane 4 superfamily ( TM4SF ) gene , a new homeodomain gene , and a gene coding for a putative nuclear binding protein ( PNBP ) that is homologous to maleless , and a Copia - like element .",
+    "entities": [
+      {
+        "name": "undefined 1",
+        "type": "GENE",
+        "pos": [
+          26,
+          37
+        ]
+      },
+      {
+        "name": "UD1",
+        "type": "GENE",
+        "pos": [
+          40,
+          43
+        ]
+      },
+      {
+        "name": "UD2",
+        "type": "GENE",
+        "pos": [
+          48,
+          51
+        ]
+      },
+      {
+        "name": "UD3",
+        "type": "GENE",
+        "pos": [
+          58,
+          61
+        ]
+      },
+      {
+        "name": "ken gene",
+        "type": "GENE",
+        "pos": [
+          115,
+          123
+        ]
+      },
+      {
+        "name": "Kruppel - like putative transcription factor",
+        "type": "GENE",
+        "pos": [
+          139,
+          183
+        ]
+      },
+      {
+        "name": "mammalian mitochondrial trifunctional enzyme",
+        "type": "GENE",
+        "pos": [
+          212,
+          256
+        ]
+      },
+      {
+        "name": "thiolase",
+        "type": "GENE",
+        "pos": [
+          259,
+          267
+        ]
+      },
+      {
+        "name": "TAR DNA - binding protein - 43",
+        "type": "GENE",
+        "pos": [
+          280,
+          310
+        ]
+      },
+      {
+        "name": "TBPH",
+        "type": "GENE",
+        "pos": [
+          313,
+          317
+        ]
+      },
+      {
+        "name": "transmembrane 4 superfamily",
+        "type": "GENE",
+        "pos": [
+          360,
+          387
+        ]
+      },
+      {
+        "name": "TM4SF",
+        "type": "GENE",
+        "pos": [
+          390,
+          395
+        ]
+      },
+      {
+        "name": "homeodomain gene",
+        "type": "GENE",
+        "pos": [
+          411,
+          427
+        ]
+      },
+      {
+        "name": "maleless",
+        "type": "GENE",
+        "pos": [
+          518,
+          526
+        ]
+      },
+      {
+        "name": "Copia - like element",
+        "type": "GENE",
+        "pos": [
+          535,
+          555
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "IRA2 , a second gene of Saccharomyces cerevisiae that encodes a protein with a domain homologous to mammalian ras GTPase - activating protein .",
+    "entities": [
+      {
+        "name": "IRA2",
+        "type": "GENE",
+        "pos": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "ras GTPase - activating protein",
+        "type": "GENE",
+        "pos": [
+          110,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A case report .",
+    "entities": []
+  },
+  {
+    "sentence": "Increasing insulin sensitivity in type I diabetic patients should alert clinicians to the possibility of glucocorticoid deficiency .",
+    "entities": [
+      {
+        "name": "insulin",
+        "type": "GENE",
+        "pos": [
+          11,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Blotting analysis of intestinal RNA and hybridization of the blots with carboxy apoB cDNA probes produced a single 15 - kb hybridization band whereas hybridization with amino terminal probes produced two hybridization bands of 15 and 8 kb .",
+    "entities": [
+      {
+        "name": "apoB",
+        "type": "GENE",
+        "pos": [
+          80,
+          84
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The prevalence of microalbuminuria , defined as an UAER in the range of 15 - 150 micrograms min - 1 in an overnight urine sample , was 3 % ( 95 % C . I . interval : 1 . 9 - 4 . 0 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "STUDY SELECTION : Not applicable .",
+    "entities": []
+  },
+  {
+    "sentence": "Two plasmids , one containing the amino terminus of P fused to the DNA - binding domain of the yeast transactivator , GAL4 , and the other containing the amino terminus of NP fused to the herpesvirus transactivator , VP16 , were transfected in COS - 1 cells along with a chloramphenicol acetyltransferase ( CAT ) reporter plasmid containing GAL4 DNA - binding sites .",
+    "entities": [
+      {
+        "name": "GAL4",
+        "type": "GENE",
+        "pos": [
+          118,
+          122
+        ]
+      },
+      {
+        "name": "NP",
+        "type": "GENE",
+        "pos": [
+          172,
+          174
+        ]
+      },
+      {
+        "name": "VP16",
+        "type": "GENE",
+        "pos": [
+          217,
+          221
+        ]
+      },
+      {
+        "name": "chloramphenicol acetyltransferase",
+        "type": "GENE",
+        "pos": [
+          271,
+          304
+        ]
+      },
+      {
+        "name": "CAT",
+        "type": "GENE",
+        "pos": [
+          307,
+          310
+        ]
+      },
+      {
+        "name": "GAL4",
+        "type": "GENE",
+        "pos": [
+          341,
+          345
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Maternal behavior was assessed using observational techniques .",
+    "entities": []
+  },
+  {
+    "sentence": "The University of North Carolina caries risk assessment was conducted between 1986 and 1989 with 5000 children initially in grades 1 and 5 from low fluoride sites in South Carolina and Maine .",
+    "entities": []
+  },
+  {
+    "sentence": "Normal replication of DNA A still carrying the AC3 ORF mutation was found in extracts from these plants .",
+    "entities": [
+      {
+        "name": "DNA A",
+        "type": "GENE",
+        "pos": [
+          22,
+          27
+        ]
+      },
+      {
+        "name": "AC3 ORF",
+        "type": "GENE",
+        "pos": [
+          47,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Gel mobility shift analyses reveal that FRTL - 5 thyroid cell nuclear extracts form a specific protein / DNA complex with this region , which is prevented by the TTF - 1 binding element from the TG promoter ; FRT and BRL cell nuclear extracts do not have TTF - 1 and do not form this complex .",
+    "entities": [
+      {
+        "name": "TTF - 1 binding element",
+        "type": "GENE",
+        "pos": [
+          162,
+          185
+        ]
+      },
+      {
+        "name": "TG promoter",
+        "type": "GENE",
+        "pos": [
+          195,
+          206
+        ]
+      },
+      {
+        "name": "TTF - 1",
+        "type": "GENE",
+        "pos": [
+          255,
+          262
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "98 , 93 - 98 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Of 81 girls cured from the bacteriuria 24 recurred , 5 with a symptomatic pyelonephritis and 3 with cystitis .",
+    "entities": []
+  },
+  {
+    "sentence": "A possible correlation between mandibular growth retardation and palatal clefting is discussed .",
+    "entities": []
+  },
+  {
+    "sentence": "The human IFI16 gene is a member of an interferon - inducible family of mouse and human genes closely linked on syntenic regions of chromosome 1 .",
+    "entities": [
+      {
+        "name": "human IFI16 gene",
+        "type": "GENE",
+        "pos": [
+          4,
+          20
+        ]
+      },
+      {
+        "name": "interferon",
+        "type": "GENE",
+        "pos": [
+          39,
+          49
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Sleeping position and sudden infant death syndrome ( SIDS ) : effect of an intervention programme to avoid prone sleeping .",
+    "entities": []
+  },
+  {
+    "sentence": "Acidosis provoked by 30 % CO2 irreversibly increased the BDRT , however the TRT were not changed .",
+    "entities": []
+  },
+  {
+    "sentence": "Self - consistent calculation of the surface electronic structure of the ( 1 x 2 ) reconstructed Au ( 110 ) surface .",
+    "entities": []
+  },
+  {
+    "sentence": "Shields needed for pacemakers .",
+    "entities": []
+  },
+  {
+    "sentence": "Categorisation of the different substructures within the sections allows them to be analysed and displayed separately .",
+    "entities": []
+  },
+  {
+    "sentence": "Henry Quastler brought experience from an actual x - ray treatment , and Dr .",
+    "entities": []
+  },
+  {
+    "sentence": "Letter : Ballistocardiography .",
+    "entities": []
+  },
+  {
+    "sentence": "Using lasers in diabetic wound healing .",
+    "entities": []
+  },
+  {
+    "sentence": "In addition , mrp17 - 1 , in combination with some mutations affecting another mitochondrial ribosomal protein , caused a synthetic defective phenotype .",
+    "entities": [
+      {
+        "name": "mrp17 - 1",
+        "type": "GENE",
+        "pos": [
+          14,
+          23
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "On guanidine and the treatment of botulism .",
+    "entities": []
+  },
+  {
+    "sentence": "In the absence of shock , sepsis , or other identifiable causes of lactic acidosis , the severe anemia ( hemoglobin 1 . 2 g / dl ) appeared to be the primary etiologic factor .",
+    "entities": [
+      {
+        "name": "hemoglobin",
+        "type": "GENE",
+        "pos": [
+          105,
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The 7 . 2 kb EcoRI fragment of AfMNPV was cloned and the nucleotide sequences of the polyhedrin coding region and its flanking regions were determined .",
+    "entities": [
+      {
+        "name": "7 . 2 kb EcoRI fragment of AfMNPV",
+        "type": "GENE",
+        "pos": [
+          4,
+          37
+        ]
+      },
+      {
+        "name": "polyhedrin",
+        "type": "GENE",
+        "pos": [
+          85,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "AU - rich elements in the 3 ' - untranslated region of a new mucin - type gene family of Trypanosoma cruzi confers mRNA instability and modulates translation efficiency .",
+    "entities": [
+      {
+        "name": "mucin - type gene",
+        "type": "GENE",
+        "pos": [
+          61,
+          78
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Complexities in the host - pathogen interactions during actual infection with Gram - negative bacteria may account for the difficulties in demonstrating this phenomena in vivo .",
+    "entities": []
+  },
+  {
+    "sentence": "However , both peptides 1 - 49 and 63 - 87 bound to PDE alpha / beta in a solid - phase binding assay .",
+    "entities": [
+      {
+        "name": "PDE alpha / beta",
+        "type": "GENE",
+        "pos": [
+          52,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "When using the high - impedance testing device , the post shock rhythm was initially displayed as ' no signal ' ( Hewlett Packard XL ) or ' asystole ' ( Physio - Control LIFEPAK 9 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Periarteritis nodosa with ruptures of the renal vessels and the persistence of the hepatitis B and C viruses in the blood",
+    "entities": []
+  },
+  {
+    "sentence": "This interesting exon junction resulted in novel deduced amino terminal open reading frames , which are completely in - frame with sequences located further downstream .",
+    "entities": []
+  },
+  {
+    "sentence": "In 3 of the 5 patients with AVNRT and AJR , junctional beats served as a trigger for reentry .",
+    "entities": []
+  },
+  {
+    "sentence": "In the future , transoesophageal echocardiography may be used to measure variations in wall thickness which change the global loading conditions in the basal midwall compartments of the left ventricle .",
+    "entities": []
+  },
+  {
+    "sentence": "Pituitary thyrotropic adenoma associated with congenital hypothyroidism .",
+    "entities": []
+  },
+  {
+    "sentence": "HIV - 2 in Spain .",
+    "entities": []
+  },
+  {
+    "sentence": "Transcriptional activation of the proopiomelanocortin gene by cyclic AMP - responsive element binding protein .",
+    "entities": [
+      {
+        "name": "proopiomelanocortin gene",
+        "type": "GENE",
+        "pos": [
+          34,
+          58
+        ]
+      },
+      {
+        "name": "cyclic AMP - responsive element binding protein",
+        "type": "GENE",
+        "pos": [
+          62,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A genomic clone of the chicken osteopontin - encoding gene ( opn ) was isolated and found to be organized as follows : an untranslated 5 ' exon ; a signal peptide ; a recognition sequence for phosphorylation by casein kinase II ; a domain containing a possible O - linkage site for glycosylation ; a second casein kinase II phosphorylation site ; an exon containing three functional regions , the poly - Asp sequence of seven consecutive Asp residues , the RGD integrin recognition site and a potential N - linkage site for glycosylation ; and a large C - terminal exon which also contains a potential N - linkage site for glycosylation .",
+    "entities": [
+      {
+        "name": "chicken osteopontin - encoding gene",
+        "type": "GENE",
+        "pos": [
+          23,
+          58
+        ]
+      },
+      {
+        "name": "opn",
+        "type": "GENE",
+        "pos": [
+          61,
+          64
+        ]
+      },
+      {
+        "name": "casein kinase II",
+        "type": "GENE",
+        "pos": [
+          211,
+          227
+        ]
+      },
+      {
+        "name": "casein kinase II phosphorylation site",
+        "type": "GENE",
+        "pos": [
+          307,
+          344
+        ]
+      },
+      {
+        "name": "RGD integrin recognition site",
+        "type": "GENE",
+        "pos": [
+          457,
+          486
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Serum AFP is a useful tumor marker for monitoring the results of therapy .",
+    "entities": [
+      {
+        "name": "AFP",
+        "type": "GENE",
+        "pos": [
+          6,
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Adenomas in the upper gastrointestinal tract were found in all of the patients : Vater ' s papilla - - 12 , duodenum - - nine , and gastric antrum - - seven .",
+    "entities": []
+  },
+  {
+    "sentence": "Cortical somatosensory evoked potentials to median nerve stimulation revealed significantly delayed peak latencies of N20 , P20 , P25 , and N26 , although N16 latency was normal .",
+    "entities": []
+  },
+  {
+    "sentence": "Like the human gene , the Drosophila gene encodes at least three isoforms of full length dystrophin - like proteins ( dmDLP1 , dmDLP2 and dmDLP3 , ) , regulated by different promoters located at the 5 ' end of the gene , and a smaller product regulated by an internal promoter ( dmDp186 ) .",
+    "entities": [
+      {
+        "name": "full length dystrophin - like proteins",
+        "type": "GENE",
+        "pos": [
+          77,
+          115
+        ]
+      },
+      {
+        "name": "dmDLP1",
+        "type": "GENE",
+        "pos": [
+          118,
+          124
+        ]
+      },
+      {
+        "name": "dmDLP2",
+        "type": "GENE",
+        "pos": [
+          127,
+          133
+        ]
+      },
+      {
+        "name": "dmDLP3",
+        "type": "GENE",
+        "pos": [
+          138,
+          144
+        ]
+      },
+      {
+        "name": "dmDp186",
+        "type": "GENE",
+        "pos": [
+          279,
+          286
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These data suggest that the secreted , truncated receptor encoded by the 2 . 6 - kb c - erbB transcript can bind to TGF alpha and may play an important growth - regulatory function in vitro .",
+    "entities": [
+      {
+        "name": "2 . 6 - kb c - erbB transcript",
+        "type": "GENE",
+        "pos": [
+          73,
+          103
+        ]
+      },
+      {
+        "name": "TGF alpha",
+        "type": "GENE",
+        "pos": [
+          116,
+          125
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Rising antibody titres to the astrovirus particles were demonstrated in one child , and IgM was also demonstrated in this patient ' s serum .",
+    "entities": [
+      {
+        "name": "IgM",
+        "type": "GENE",
+        "pos": [
+          88,
+          91
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The material then was cut with a diamond saw into sheets of 8 x 10 x 3 mm , and the upper surface was polished by colloidal SiO2 and / or covered with a carbon - titanium ( C : Ti ) layer ( 3 . 3 microm ) using the plasma - enhanced physical vapor deposition method .",
+    "entities": []
+  },
+  {
+    "sentence": "On the other hand , NE transport and antagonist ( [ 125I ] RTI - 55 ) binding assays on whole LLC - NET cells treated with tunicamycin reveal a pronounced reduction in NE transport activity and hNET membrane density paralleled by an inability of NET proteins to replenish the higher M ( r ) hNET pool .",
+    "entities": [
+      {
+        "name": "hNET",
+        "type": "GENE",
+        "pos": [
+          194,
+          198
+        ]
+      },
+      {
+        "name": "NET proteins",
+        "type": "GENE",
+        "pos": [
+          246,
+          258
+        ]
+      },
+      {
+        "name": "hNET",
+        "type": "GENE",
+        "pos": [
+          291,
+          295
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The JNK / SAPK activator mixed lineage kinase 3 ( MLK3 ) transforms NIH 3T3 cells in a MEK - dependent fashion .",
+    "entities": [
+      {
+        "name": "JNK",
+        "type": "GENE",
+        "pos": [
+          4,
+          7
+        ]
+      },
+      {
+        "name": "SAPK",
+        "type": "GENE",
+        "pos": [
+          10,
+          14
+        ]
+      },
+      {
+        "name": "mixed lineage kinase 3",
+        "type": "GENE",
+        "pos": [
+          25,
+          47
+        ]
+      },
+      {
+        "name": "MLK3",
+        "type": "GENE",
+        "pos": [
+          50,
+          54
+        ]
+      },
+      {
+        "name": "MEK",
+        "type": "GENE",
+        "pos": [
+          87,
+          90
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Microsporum persicolor , an easily misinterpreted dermatophyt",
+    "entities": []
+  },
+  {
+    "sentence": "Fluorescent in situ hybridization ( FISH ) analysis showed that the novel regions involved in the NFKB2 rearrangement originated from chromosome 7q34 , thus implying the occurrence of a t ( 7 ; 10 ) ( q34 ; q24 ) reciprocal chromosomal translocation .",
+    "entities": [
+      {
+        "name": "NFKB2",
+        "type": "GENE",
+        "pos": [
+          98,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A phase II clinical trial on MDS was conducted in a cooperative study with orally administrable ara - C analogue , PLAC , which is resistant to cytidine deaminase and had shown an anti - tumor activity on various experimental tumors by oral route .",
+    "entities": [
+      {
+        "name": "cytidine deaminase",
+        "type": "GENE",
+        "pos": [
+          144,
+          162
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Studies of HS2 - gamma gene reporter constructs carrying CACCC box deletions revealed that the CACCC box sequence of the gamma gene promoter mediates the activation of the gamma gene by FKLF .",
+    "entities": [
+      {
+        "name": "HS2 - gamma gene reporter constructs",
+        "type": "GENE",
+        "pos": [
+          11,
+          47
+        ]
+      },
+      {
+        "name": "FKLF",
+        "type": "GENE",
+        "pos": [
+          186,
+          190
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In this report we describe the structure and DNA sequence of transcriptional control regions from both human and Wistar - rat single copy EGF genes and their functional analysis in epithelial cell cultures .",
+    "entities": [
+      {
+        "name": "human and Wistar - rat single copy EGF genes",
+        "type": "GENE",
+        "pos": [
+          103,
+          147
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Tax was demonstrated to interact directly with CREB1 but not with other bZIP proteins , including CREB2 and Jun .",
+    "entities": [
+      {
+        "name": "Tax",
+        "type": "GENE",
+        "pos": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "CREB1",
+        "type": "GENE",
+        "pos": [
+          47,
+          52
+        ]
+      },
+      {
+        "name": "bZIP proteins",
+        "type": "GENE",
+        "pos": [
+          72,
+          85
+        ]
+      },
+      {
+        "name": "CREB2",
+        "type": "GENE",
+        "pos": [
+          98,
+          103
+        ]
+      },
+      {
+        "name": "Jun",
+        "type": "GENE",
+        "pos": [
+          108,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We have determined the molecular organization and transcription start points ( tsp ) for the murine gene ( TK ) encoding thymidine kinase .",
+    "entities": [
+      {
+        "name": "TK",
+        "type": "GENE",
+        "pos": [
+          107,
+          109
+        ]
+      },
+      {
+        "name": "thymidine kinase",
+        "type": "GENE",
+        "pos": [
+          121,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The practice of measuring of AChE levels in acute poisoning is limited .",
+    "entities": [
+      {
+        "name": "AChE",
+        "type": "GENE",
+        "pos": [
+          29,
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Reconstruction time for a 64 x 64 matrix is approximately 45 s / transaxial slice .",
+    "entities": []
+  },
+  {
+    "sentence": "Nedocromil sodium shifted the severity of the early allergic reaction ( EAR ) from mean - 34 . 8 % to - 6 . 9 % and inhibited the later allergic reaction ( LAR ) from - 30 . 5 % to + 0 . 4 % ( p less than 0 . 005 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Usefulness of glucocorticoids in the treatment of congestive heart failure",
+    "entities": []
+  },
+  {
+    "sentence": "Functional PET scanning in the preoperative assessment of cerebral arteriovenous malformations .",
+    "entities": []
+  },
+  {
+    "sentence": "Deoxyuridine - suppression test and bone marrow culture for the diagnosis of macrocytic refractory anaemias .",
+    "entities": []
+  },
+  {
+    "sentence": "The chromosomal location of these YACs was verified using FISH , which also demonstrated their nonchimeric nature .",
+    "entities": []
+  },
+  {
+    "sentence": "The cloning of CWH43 showed that it corresponds to YCR017c and encodes a protein with 14 - 16 transmembrane segments containing several putative phosphorylation and glycosylation sites .",
+    "entities": [
+      {
+        "name": "CWH43",
+        "type": "GENE",
+        "pos": [
+          15,
+          20
+        ]
+      },
+      {
+        "name": "YCR017c",
+        "type": "GENE",
+        "pos": [
+          51,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Both DMP2 and DMP3 are closely localized on mouse chromosome 5q21 , corresponding to human chromosome 4q21 .",
+    "entities": [
+      {
+        "name": "DMP2",
+        "type": "GENE",
+        "pos": [
+          5,
+          9
+        ]
+      },
+      {
+        "name": "DMP3",
+        "type": "GENE",
+        "pos": [
+          14,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "88 , 3739 - 3743 ) ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Acad .",
+    "entities": []
+  },
+  {
+    "sentence": "This interaction is functional as it leads to retargeting of NF - kappa B p50 from the nucleus to the cytoplasm .",
+    "entities": [
+      {
+        "name": "NF - kappa B",
+        "type": "GENE",
+        "pos": [
+          61,
+          73
+        ]
+      },
+      {
+        "name": "p50",
+        "type": "GENE",
+        "pos": [
+          74,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Members of the CRE - binding protein ( CREB ) / activating transcription factor transcription family as well as members of the Jun / Fos family have been shown to bind to this sequence .",
+    "entities": [
+      {
+        "name": "CRE - binding protein",
+        "type": "GENE",
+        "pos": [
+          15,
+          36
+        ]
+      },
+      {
+        "name": "CREB",
+        "type": "GENE",
+        "pos": [
+          39,
+          43
+        ]
+      },
+      {
+        "name": "activating transcription factor",
+        "type": "GENE",
+        "pos": [
+          48,
+          79
+        ]
+      },
+      {
+        "name": "Jun",
+        "type": "GENE",
+        "pos": [
+          127,
+          130
+        ]
+      },
+      {
+        "name": "Fos",
+        "type": "GENE",
+        "pos": [
+          133,
+          136
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Aggravation of peripheral - blood cytopenia during the first weeks and hypocellularity of bone - marrow aspirates at the end of therapy suggest that low - dose Ara C exerts its main activity by suppression of leukaemic growth , rather than by induction of differentiation in malignant cells .",
+    "entities": []
+  },
+  {
+    "sentence": "Cox proportional hazard analysis identified dialysis modality and pre - dialysis UV of less than 1 , 000 ml / m2 per 24 h as the only significant risk factors for UV survival .",
+    "entities": []
+  },
+  {
+    "sentence": "As in IncP alpha plasmids , these operons are transcribed from a bidirectional promoter region consisting of trfAp for the trfA operon and trbAp and trbBp for the trb operon .",
+    "entities": [
+      {
+        "name": "trfAp",
+        "type": "GENE",
+        "pos": [
+          109,
+          114
+        ]
+      },
+      {
+        "name": "trfA operon",
+        "type": "GENE",
+        "pos": [
+          123,
+          134
+        ]
+      },
+      {
+        "name": "trbAp",
+        "type": "GENE",
+        "pos": [
+          139,
+          144
+        ]
+      },
+      {
+        "name": "trbBp",
+        "type": "GENE",
+        "pos": [
+          149,
+          154
+        ]
+      },
+      {
+        "name": "trb operon",
+        "type": "GENE",
+        "pos": [
+          163,
+          173
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Blood coagulation Factor X and its activated form Factor Xa play an essential role in the midphase of the clotting cascade .",
+    "entities": [
+      {
+        "name": "Blood coagulation Factor X",
+        "type": "GENE",
+        "pos": [
+          0,
+          26
+        ]
+      },
+      {
+        "name": "Factor Xa",
+        "type": "GENE",
+        "pos": [
+          50,
+          59
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The root - mean - square deviation of bond lengths from the ideal values is 0 . 02 A .",
+    "entities": []
+  },
+  {
+    "sentence": "Interconversions between haloperidol and reduced haloperidol in schizophrenic patients and guinea pigs : a steady - state study .",
+    "entities": []
+  },
+  {
+    "sentence": "Mouse macrophage beta subunit ( CD11b ) cDNA for the CR3 complement receptor / Mac - 1 antigen .",
+    "entities": [
+      {
+        "name": "Mouse macrophage beta subunit ( CD11b ) cDNA",
+        "type": "GENE",
+        "pos": [
+          0,
+          44
+        ]
+      },
+      {
+        "name": "CR3 complement receptor",
+        "type": "GENE",
+        "pos": [
+          53,
+          76
+        ]
+      },
+      {
+        "name": "Mac - 1 antigen",
+        "type": "GENE",
+        "pos": [
+          79,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Laparoscopic examination 1 year after surgery revealed an enlarged , thin - walled , and fluid - filled uterine segment cranial to the midcornus occlusion sites in all animals .",
+    "entities": []
+  },
+  {
+    "sentence": "The role of the medical facilities in the prognosis of the patient with tetanus specially the importance of considering at the same time the severity of the disease and the characteristics of the therapy deserve further study in order to contribute to the development of the medical assistance to the patients with tetanus .",
+    "entities": []
+  },
+  {
+    "sentence": "One ORF extends from nucleotides 415 to 1620 , encodes 402 amino acids , and is preceded by a ribosome - binding site .",
+    "entities": []
+  },
+  {
+    "sentence": "Three modern hematology analyzers ( Abbott Cell - Dyn 3000 , Coulter STKS , and Sysmex NE - 8000 ) with high throughput and 5 - part differential capability were evaluated using a protocol designed by a quality team .",
+    "entities": []
+  },
+  {
+    "sentence": "Following 40 min \" ischemia \" , preparations treated with PC recovered from transmural conduction block more rapidly ( PC1 group , 4 min , P less than 0 . 05 ; PC2 group , 23 min , ns ) , compared to control . ( ABSTRACT TRUNCATED AT 250 WORDS )",
+    "entities": []
+  },
+  {
+    "sentence": "In 5 cases , combined sensitization to mercury and other metal salts , particularly gold sodium thiosulfate ( GST ) and palladium chloride ( PDC ) , was observed .",
+    "entities": []
+  },
+  {
+    "sentence": "Association between diaphragm use and asymptomatic bacteriuria .",
+    "entities": []
+  },
+  {
+    "sentence": "Cross - sectional studies continue to dominate .",
+    "entities": []
+  },
+  {
+    "sentence": "Human CD38 , a leukocyte receptor and ectoenzyme , is a member of a novel eukaryotic gene family of nicotinamide adenine dinucleotide + - converting enzymes : extensive structural homology with the genes for murine bone marrow stromal cell antigen 1 and aplysian ADP - ribosyl cyclase .",
+    "entities": [
+      {
+        "name": "Human CD38",
+        "type": "GENE",
+        "pos": [
+          0,
+          10
+        ]
+      },
+      {
+        "name": "nicotinamide adenine dinucleotide + - converting enzymes",
+        "type": "GENE",
+        "pos": [
+          100,
+          156
+        ]
+      },
+      {
+        "name": "murine bone marrow stromal cell antigen 1",
+        "type": "GENE",
+        "pos": [
+          208,
+          249
+        ]
+      },
+      {
+        "name": "aplysian ADP - ribosyl cyclase",
+        "type": "GENE",
+        "pos": [
+          254,
+          284
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "CONCLUSION : In these patients control of ventricular response rate with either HBA + VVIR pacemaker or atrioventricular modifying drugs + VVI pacemaker will lead to a significant improvement in exercise duration and quality of life .",
+    "entities": []
+  },
+  {
+    "sentence": "The newly identified repressor element is a rare example of a naturally occurring perfect palindromic binding motif for the NF - kappa B / Rel family of transcription factors .",
+    "entities": [
+      {
+        "name": "NF - kappa B",
+        "type": "GENE",
+        "pos": [
+          124,
+          136
+        ]
+      },
+      {
+        "name": "Rel",
+        "type": "GENE",
+        "pos": [
+          139,
+          142
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Some of these physiological responses are regulated via activation of transcription factors such as activator protein 1 ( AP - 1 ) .",
+    "entities": [
+      {
+        "name": "activator protein 1",
+        "type": "GENE",
+        "pos": [
+          100,
+          119
+        ]
+      },
+      {
+        "name": "AP - 1",
+        "type": "GENE",
+        "pos": [
+          122,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The response sequences were localized between - 67 and + 30 in the simian cytomegalovirus IE94 promoter and upstream of position + 9 in the HCMV IE68 promoter .",
+    "entities": [
+      {
+        "name": "IE94 promoter",
+        "type": "GENE",
+        "pos": [
+          90,
+          103
+        ]
+      },
+      {
+        "name": "HCMV IE68 promoter",
+        "type": "GENE",
+        "pos": [
+          140,
+          158
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Alveoli - capillary diffusion .",
+    "entities": []
+  },
+  {
+    "sentence": "Most interestingly , although the effector plasmid containing the ICP27 gene had little effect on its own , two different and marked effects depending on the target were observed when ICP27 was combined with ICP4 or ICP0 or both .",
+    "entities": [
+      {
+        "name": "ICP27 gene",
+        "type": "GENE",
+        "pos": [
+          66,
+          76
+        ]
+      },
+      {
+        "name": "ICP27",
+        "type": "GENE",
+        "pos": [
+          184,
+          189
+        ]
+      },
+      {
+        "name": "ICP4",
+        "type": "GENE",
+        "pos": [
+          208,
+          212
+        ]
+      },
+      {
+        "name": "ICP0",
+        "type": "GENE",
+        "pos": [
+          216,
+          220
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These involve ( 1 ) subcloning a promoterless sucCD fragment downstream of the lac promoter in M13mp10 , and ( 2 ) precise splicing of the suc coding regions with the efficient atpE ribosome - binding site and expression from the thermoinducible lambda promoters in the pJLA503 vector .",
+    "entities": [
+      {
+        "name": "sucCD fragment",
+        "type": "GENE",
+        "pos": [
+          46,
+          60
+        ]
+      },
+      {
+        "name": "lac promoter",
+        "type": "GENE",
+        "pos": [
+          79,
+          91
+        ]
+      },
+      {
+        "name": "suc coding regions",
+        "type": "GENE",
+        "pos": [
+          139,
+          157
+        ]
+      },
+      {
+        "name": "atpE ribosome - binding site",
+        "type": "GENE",
+        "pos": [
+          177,
+          205
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The TaqI and HaeIII RFLPs will provide tools for the genetic analysis of CR2 .",
+    "entities": [
+      {
+        "name": "TaqI",
+        "type": "GENE",
+        "pos": [
+          4,
+          8
+        ]
+      },
+      {
+        "name": "HaeIII",
+        "type": "GENE",
+        "pos": [
+          13,
+          19
+        ]
+      },
+      {
+        "name": "CR2",
+        "type": "GENE",
+        "pos": [
+          73,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A spectrophotometric method for the microdetermination of periodate .",
+    "entities": []
+  },
+  {
+    "sentence": "Growth hormone exerts its effects on the ovarian follicular cycle directly or by local production of insulin - like growth factor 1 ( IGF - 1 ) .",
+    "entities": [
+      {
+        "name": "Growth hormone",
+        "type": "GENE",
+        "pos": [
+          0,
+          14
+        ]
+      },
+      {
+        "name": "insulin - like growth factor 1",
+        "type": "GENE",
+        "pos": [
+          101,
+          131
+        ]
+      },
+      {
+        "name": "IGF - 1",
+        "type": "GENE",
+        "pos": [
+          134,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Pharmacokinetics of skin penetration .",
+    "entities": []
+  },
+  {
+    "sentence": "First , the amino - terminal regulatory arm of the GDI binds to the switch I and II domains of Cdc42 leading to the inhibition of both GDP dissociation and GTP hydrolysis .",
+    "entities": [
+      {
+        "name": "GDI",
+        "type": "GENE",
+        "pos": [
+          51,
+          54
+        ]
+      },
+      {
+        "name": "Cdc42",
+        "type": "GENE",
+        "pos": [
+          95,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "After 5 - h thermal induction of cells carrying the runaway recombinant pBS1 , protein B2 constituted 40 % of the soluble protein fraction of the cells .",
+    "entities": [
+      {
+        "name": "protein B2",
+        "type": "GENE",
+        "pos": [
+          79,
+          89
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In isolated olfactory cilia certain odorants elicit a rapid and transient cAMP response , terminated by a concerted process which requires the action of two protein kinases , protein kinase A ( PKA ) and a receptor - specific kinase ( GRK3 ) ( Schleicher , S . , Boekhoff , I .",
+    "entities": [
+      {
+        "name": "protein kinase A",
+        "type": "GENE",
+        "pos": [
+          175,
+          191
+        ]
+      },
+      {
+        "name": "PKA",
+        "type": "GENE",
+        "pos": [
+          194,
+          197
+        ]
+      },
+      {
+        "name": "receptor - specific kinase",
+        "type": "GENE",
+        "pos": [
+          206,
+          232
+        ]
+      },
+      {
+        "name": "GRK3",
+        "type": "GENE",
+        "pos": [
+          235,
+          239
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The essential oil composition of three Zingiberaceae widely used as medicinal aromatic plants from S .",
+    "entities": []
+  },
+  {
+    "sentence": "The brains were bisected and T1 and T2 relaxation times were determined for the right and left hemispheres by MR spectroscopy immediately after dissection .",
+    "entities": []
+  },
+  {
+    "sentence": "This effect is independent of the Gal4 protein , as it operates in a gal4 mutant background as well .",
+    "entities": [
+      {
+        "name": "Gal4 protein",
+        "type": "GENE",
+        "pos": [
+          34,
+          46
+        ]
+      },
+      {
+        "name": "gal4 mutant",
+        "type": "GENE",
+        "pos": [
+          69,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The fate of ochratoxin A during malting and brewing .",
+    "entities": []
+  },
+  {
+    "sentence": "Fig1p and Fig2p are likely to act at the cell surface as Fig1 : : beta - gal and Fig2 : : beta - gal fusion proteins localize to the periphery of mating cells .",
+    "entities": [
+      {
+        "name": "Fig1p",
+        "type": "GENE",
+        "pos": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "Fig2p",
+        "type": "GENE",
+        "pos": [
+          10,
+          15
+        ]
+      },
+      {
+        "name": "Fig1",
+        "type": "GENE",
+        "pos": [
+          57,
+          61
+        ]
+      },
+      {
+        "name": "beta - gal",
+        "type": "GENE",
+        "pos": [
+          66,
+          76
+        ]
+      },
+      {
+        "name": "Fig2",
+        "type": "GENE",
+        "pos": [
+          81,
+          85
+        ]
+      },
+      {
+        "name": "beta - gal fusion proteins",
+        "type": "GENE",
+        "pos": [
+          90,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In vitro kinase assays on isolated microvilli and microvillar fractions enriched in the putative signal transduction particle showed a high specific activity of tyrosine kinase activity compared to that of membranes from EGF receptor - overexpressing A431 cells maximally activated by EGF .",
+    "entities": [
+      {
+        "name": "tyrosine kinase",
+        "type": "GENE",
+        "pos": [
+          161,
+          176
+        ]
+      },
+      {
+        "name": "EGF receptor",
+        "type": "GENE",
+        "pos": [
+          221,
+          233
+        ]
+      },
+      {
+        "name": "EGF",
+        "type": "GENE",
+        "pos": [
+          285,
+          288
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cloning and sequence analysis of a chymotrypsinlike protease from Treponema denticola .",
+    "entities": [
+      {
+        "name": "chymotrypsinlike protease from Treponema",
+        "type": "GENE",
+        "pos": [
+          35,
+          75
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The cerebellar cortical vessels : they are compared to the cerebral vessels .",
+    "entities": []
+  },
+  {
+    "sentence": "Among the different epithelial cell lines tested , only RTS3b cells allowed an expression pattern similar to that observed in naturally infected benign condylomas .",
+    "entities": []
+  },
+  {
+    "sentence": "Platelet factor 4 levels in patients with coronary artery disease .",
+    "entities": [
+      {
+        "name": "Platelet factor 4",
+        "type": "GENE",
+        "pos": [
+          0,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Screening of a human foetal brain genomic DNA library allowed us to isolate an EcoRI - EcoRI fragment containing 6 kb of the 5 ' - flanking region , the open reading frame and 4 kb of the 3 ' - flanking region of the alpha2C4 gene .",
+    "entities": [
+      {
+        "name": "EcoRI",
+        "type": "GENE",
+        "pos": [
+          79,
+          84
+        ]
+      },
+      {
+        "name": "EcoRI",
+        "type": "GENE",
+        "pos": [
+          87,
+          92
+        ]
+      },
+      {
+        "name": "alpha2C4 gene",
+        "type": "GENE",
+        "pos": [
+          217,
+          230
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Bile salts , hormonal control , and the male disadvantage .",
+    "entities": []
+  },
+  {
+    "sentence": "TGF - beta1 induced phosphorylation of Smad2 and Smad3 in Mv1Lu mink lung epithelial cells .",
+    "entities": [
+      {
+        "name": "TGF - beta1",
+        "type": "GENE",
+        "pos": [
+          0,
+          11
+        ]
+      },
+      {
+        "name": "Smad2",
+        "type": "GENE",
+        "pos": [
+          39,
+          44
+        ]
+      },
+      {
+        "name": "Smad3",
+        "type": "GENE",
+        "pos": [
+          49,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Two putative ATP - binding domains were identified , one in the amino - terminal half of the argA - encoded protein and the other in the carboxy - terminal half .",
+    "entities": [
+      {
+        "name": "argA - encoded protein",
+        "type": "GENE",
+        "pos": [
+          93,
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Whether or not these novel repeated sequences throughout the SMA region are involved in the disease remains to be determined .",
+    "entities": [
+      {
+        "name": "SMA region",
+        "type": "GENE",
+        "pos": [
+          61,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The \" Ulm Zucker Uhr System \" comprises a microdialysis probe , a biosensor ( Glucosensor Unitec Ulm s . c . ) , a sender transferring telemetrically the glucose concentrations , and a receiving indicator .",
+    "entities": []
+  },
+  {
+    "sentence": "RNA determinants required for L4 - mediated attenuation control of the S10 r - protein operon of Escherichia coli .",
+    "entities": [
+      {
+        "name": "L4",
+        "type": "GENE",
+        "pos": [
+          30,
+          32
+        ]
+      },
+      {
+        "name": "S10 r - protein operon of Escherichia coli",
+        "type": "GENE",
+        "pos": [
+          71,
+          113
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The present study also emphasizes the need of establishing dose - response curves to correctly assess the relative contribution of the different regions of steroid hormone receptors in activation of transcription .",
+    "entities": [
+      {
+        "name": "steroid hormone receptors",
+        "type": "GENE",
+        "pos": [
+          156,
+          181
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We conclude that 99mTc - HL91 is a potent marker of myocardial viability when used during the early acute phase after reperfusion .",
+    "entities": []
+  },
+  {
+    "sentence": "For capsules containing only the drug , the value of T50 increased as the particle size of the drug decreased .",
+    "entities": []
+  },
+  {
+    "sentence": "Here we investigate the mechanism of TPA induction of FGF - BP gene expression in the human ME - 180 SCC cell line .",
+    "entities": [
+      {
+        "name": "FGF - BP",
+        "type": "GENE",
+        "pos": [
+          54,
+          62
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "During the burst period ( approximately 5 - 10 min ) , local blood H2O2 concentrations and xanthine oxidase activities were highly correlated ( r = 0 . 999 ) .",
+    "entities": [
+      {
+        "name": "xanthine oxidase",
+        "type": "GENE",
+        "pos": [
+          91,
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The maximum levels of reporter proteins attained in transformed cells after prolonged induction represented from 1 % to 7 % of total cellular protein .",
+    "entities": []
+  },
+  {
+    "sentence": "The data obtained included 1 ) the mean frequency of abnormal teased myelinated fibers and its upper limit value of 95 % confidence interval , and 2 ) the mean densities of total , large and small myelinated fibers and of unmyelinated fibers and their lower limit value of 95 % confidence interval for each decade .",
+    "entities": []
+  },
+  {
+    "sentence": "Furthermore , the data suggest an immunological non - responsiveness to enterotoxin A in a considerable portion of the patients .",
+    "entities": [
+      {
+        "name": "enterotoxin A",
+        "type": "GENE",
+        "pos": [
+          72,
+          85
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "After enzymatic hydrolysis of the water soluble fraction , it is shown that 28 % is again extractable by DCM of which 57 % consists of unchanged SC4453 which is therefore the main partner of conjugated products .",
+    "entities": []
+  },
+  {
+    "sentence": "Experience in a Kenya district hospital",
+    "entities": []
+  },
+  {
+    "sentence": "Therapy and prevention of irreversible shock with pharmacological doses of some corticosteroids",
+    "entities": []
+  },
+  {
+    "sentence": "Our results showed that the 5 - hydroxytryptamine ( 5 - HT ) content in platelets was : ( 1 ) increased in the subgroup of anti - social alcoholics ; ( 2 ) transiently and differently altered in alcoholics compared to opiate addicts ; and ( 3 ) lowered in drinking alcoholics and normal in alcoholics who were drinking as well as smoking ( that may occur via MAO - B inhibition by smoke ) .",
+    "entities": [
+      {
+        "name": "MAO - B",
+        "type": "GENE",
+        "pos": [
+          359,
+          366
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The nramp2 gene is comprised of 17 exons and spans more than 36 kb .",
+    "entities": [
+      {
+        "name": "nramp2 gene",
+        "type": "GENE",
+        "pos": [
+          4,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Basal level expression was reduced to 20 and 50 % when the UGA stop codon was replaced by UAG or UAA , respectively , consistent with the finding that in E . coli translation terminates more efficiently at UAG and UAA than at UGA .",
+    "entities": []
+  },
+  {
+    "sentence": "Polymorphisms in the CCR5 genes of African green monkeys and mice implicate specific amino acids in infections by simian and human immunodeficiency viruses .",
+    "entities": [
+      {
+        "name": "CCR5 genes",
+        "type": "GENE",
+        "pos": [
+          21,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The prgX gene is adjacent to prgQ which provides the promoter for prgB expression .",
+    "entities": [
+      {
+        "name": "prgX gene",
+        "type": "GENE",
+        "pos": [
+          4,
+          13
+        ]
+      },
+      {
+        "name": "prgQ",
+        "type": "GENE",
+        "pos": [
+          29,
+          33
+        ]
+      },
+      {
+        "name": "prgB",
+        "type": "GENE",
+        "pos": [
+          66,
+          70
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In four calves given Haemonchus contortus larvae , the serum pepsinogen concentration rose quickly to reach a mean of 3 . 5 iu tyrosine on day 14 after infection .",
+    "entities": [
+      {
+        "name": "serum pepsinogen",
+        "type": "GENE",
+        "pos": [
+          55,
+          71
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The effects of different sources of commercial rations on the humoral immune response of broilers to Newcastle disease vaccination .",
+    "entities": []
+  },
+  {
+    "sentence": "We have now completed the primary structure of fibrillin , elucidated the exon / intron organization of the gene and derived a physical map of the genetic locus .",
+    "entities": [
+      {
+        "name": "fibrillin",
+        "type": "GENE",
+        "pos": [
+          47,
+          56
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Increased trabecular spacing , such as it occurs in osteoporosis , reduces the spatial field inhomogeneity and thus prolongs T2 * , which has been shown both in vitro and in vivo .",
+    "entities": []
+  },
+  {
+    "sentence": "Earlier reports have localized mutations which affect the processing and transport of herpes simplex virus 1 glycoproteins to a region located between the genes specifying glycoprotein B and the major viral DNA - binding protein ( beta 8 ) .",
+    "entities": [
+      {
+        "name": "glycoprotein B",
+        "type": "GENE",
+        "pos": [
+          172,
+          186
+        ]
+      },
+      {
+        "name": "beta 8",
+        "type": "GENE",
+        "pos": [
+          231,
+          237
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Optimized USF and MYC DNA - binding sites , which differ in the nucleotides bordering the hexanucleotide box displace the E - C4 factor in competition assays but with lesser efficiency than the E - C4 site itself .",
+    "entities": [
+      {
+        "name": "USF",
+        "type": "GENE",
+        "pos": [
+          10,
+          13
+        ]
+      },
+      {
+        "name": "MYC",
+        "type": "GENE",
+        "pos": [
+          18,
+          21
+        ]
+      },
+      {
+        "name": "E - C4 factor",
+        "type": "GENE",
+        "pos": [
+          122,
+          135
+        ]
+      },
+      {
+        "name": "E - C4 site",
+        "type": "GENE",
+        "pos": [
+          194,
+          205
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The delayed activation of the prostaglandin G / H synthase - 2 promoter in bovine granulosa cells is associated with down - regulation of truncated upstream stimulatory factor - 2 .",
+    "entities": [
+      {
+        "name": "prostaglandin G / H synthase - 2",
+        "type": "GENE",
+        "pos": [
+          30,
+          62
+        ]
+      },
+      {
+        "name": "upstream stimulatory factor - 2",
+        "type": "GENE",
+        "pos": [
+          148,
+          179
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Disease - free interval was greater in node - negative Lx patients for both T1 ( P less than 0 . 007 ) and T2 ( P less than 0 . 05 ) presentations .",
+    "entities": []
+  },
+  {
+    "sentence": "It competes with the calcium ion which brings about inhibition of myosine kinase , and therefore a drop in phosphorylated myosine .",
+    "entities": [
+      {
+        "name": "myosine kinase",
+        "type": "GENE",
+        "pos": [
+          66,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The Xenopus homeobox gene twin mediates Wnt induction of goosecoid in establishment of Spemann ' s organizer .",
+    "entities": [
+      {
+        "name": "Xenopus homeobox gene twin",
+        "type": "GENE",
+        "pos": [
+          4,
+          30
+        ]
+      },
+      {
+        "name": "Wnt",
+        "type": "GENE",
+        "pos": [
+          40,
+          43
+        ]
+      },
+      {
+        "name": "goosecoid",
+        "type": "GENE",
+        "pos": [
+          57,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Here we show that one nudF suppressor also suppresses hs - mutations in nudA , nudC , and nudG and deletions in nudA and nudF .",
+    "entities": [
+      {
+        "name": "nudF suppressor",
+        "type": "GENE",
+        "pos": [
+          22,
+          37
+        ]
+      },
+      {
+        "name": "nudA",
+        "type": "GENE",
+        "pos": [
+          72,
+          76
+        ]
+      },
+      {
+        "name": "nudC",
+        "type": "GENE",
+        "pos": [
+          79,
+          83
+        ]
+      },
+      {
+        "name": "nudG",
+        "type": "GENE",
+        "pos": [
+          90,
+          94
+        ]
+      },
+      {
+        "name": "nudA",
+        "type": "GENE",
+        "pos": [
+          112,
+          116
+        ]
+      },
+      {
+        "name": "nudF",
+        "type": "GENE",
+        "pos": [
+          121,
+          125
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The amount of overlap in VFI , EF , and RVF values among the clinical groups was considerable .",
+    "entities": []
+  },
+  {
+    "sentence": "By subtractive and differential screening , we have cloned 12 of these sequences , 2 of which were c - fos and krox - 24 .",
+    "entities": [
+      {
+        "name": "c - fos",
+        "type": "GENE",
+        "pos": [
+          99,
+          106
+        ]
+      },
+      {
+        "name": "krox - 24",
+        "type": "GENE",
+        "pos": [
+          111,
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Sequence analysis of AEBP2 cDNA revealed that it encodes a protein containing three Gli - Kruppel ( Cys2 - His2 ) - type zinc fingers .",
+    "entities": [
+      {
+        "name": "AEBP2 cDNA",
+        "type": "GENE",
+        "pos": [
+          21,
+          31
+        ]
+      },
+      {
+        "name": "Gli",
+        "type": "GENE",
+        "pos": [
+          84,
+          87
+        ]
+      },
+      {
+        "name": "Kruppel",
+        "type": "GENE",
+        "pos": [
+          90,
+          97
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Plasma beta - thromboglobulin ( beta - TG ) , a platelet - specific protein , is a marker of intravascular platelet degranulation .",
+    "entities": [
+      {
+        "name": "Plasma beta - thromboglobulin",
+        "type": "GENE",
+        "pos": [
+          0,
+          29
+        ]
+      },
+      {
+        "name": "beta - TG",
+        "type": "GENE",
+        "pos": [
+          32,
+          41
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Multiple copies of this binding site are found in the viral genomes .",
+    "entities": []
+  },
+  {
+    "sentence": "This is the first report demonstrating specificity at the level of the energy coupling proteins of the PTS .",
+    "entities": []
+  },
+  {
+    "sentence": "Our studies indicate no single trans - acting factor is absolutely essential for enhancer activity , and that the enhancer activity of MerI is mediated via a combinatorial and additive mechanism .",
+    "entities": [
+      {
+        "name": "MerI",
+        "type": "GENE",
+        "pos": [
+          135,
+          139
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In addition , two cis - acting elements direct the first zygotic expression of Kr in a striped subpattern within the central region of the blastoderm embryo .",
+    "entities": [
+      {
+        "name": "Kr",
+        "type": "GENE",
+        "pos": [
+          79,
+          81
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These results indicate that H - 2RIIBP ( i ) is a member of the superfamily of nuclear hormone receptors and ( ii ) may regulate not only MHC class I genes but also genes containing the ERE and related sequences .",
+    "entities": [
+      {
+        "name": "H - 2RIIBP",
+        "type": "GENE",
+        "pos": [
+          28,
+          38
+        ]
+      },
+      {
+        "name": "nuclear hormone receptors",
+        "type": "GENE",
+        "pos": [
+          79,
+          104
+        ]
+      },
+      {
+        "name": "MHC class I genes",
+        "type": "GENE",
+        "pos": [
+          138,
+          155
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In vitro , SHIP catalyzes the conversion of the phosphoinositide 3 - kinase ( PI3K ) product phosphatidylinositol 3 , 4 , 5 - trisphosphate ( PIP3 ) into phosphatidylinositol 3 , 4 - bisphosphate .",
+    "entities": [
+      {
+        "name": "SHIP",
+        "type": "GENE",
+        "pos": [
+          11,
+          15
+        ]
+      },
+      {
+        "name": "phosphoinositide 3 - kinase",
+        "type": "GENE",
+        "pos": [
+          48,
+          75
+        ]
+      },
+      {
+        "name": "PI3K",
+        "type": "GENE",
+        "pos": [
+          78,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The preference for third base codon in Y position prolines is U for the alpha 2 ( VI ) collagen as it is for the human fibrillar collagen genes .",
+    "entities": [
+      {
+        "name": "alpha 2 ( VI ) collagen",
+        "type": "GENE",
+        "pos": [
+          72,
+          95
+        ]
+      },
+      {
+        "name": "human fibrillar collagen genes",
+        "type": "GENE",
+        "pos": [
+          113,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This ligand - independent pathway can function through another androgen - regulated promoter as shown by the use of the mouse mammary tumor virus MMTV - CAT reporter .",
+    "entities": [
+      {
+        "name": "mouse mammary tumor virus MMTV - CAT reporter",
+        "type": "GENE",
+        "pos": [
+          120,
+          165
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The STS sequence WI - 14920 is in fact derived from the 3 ' - untranslated region of the human PUNC gene .",
+    "entities": [
+      {
+        "name": "STS sequence WI - 14920",
+        "type": "GENE",
+        "pos": [
+          4,
+          27
+        ]
+      },
+      {
+        "name": "human PUNC gene",
+        "type": "GENE",
+        "pos": [
+          89,
+          104
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "174 , 233 - 247 ) and Serrate ( Serrate1 and 2 ; Myat , A . , Henrique , D . , Ish - Horowicz , D . and Lewis , J . , 1996 .",
+    "entities": []
+  },
+  {
+    "sentence": "A decrease was also found of the levels of total cholesterol and LDL - cholesterol .",
+    "entities": [
+      {
+        "name": "LDL - cholesterol",
+        "type": "GENE",
+        "pos": [
+          65,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Primer extension experiments using dbcAMP - differentiated U937 RNA indicated a single transcriptional initiation site .",
+    "entities": []
+  },
+  {
+    "sentence": "The lowest PaCO2 values were significantly lower in MCE than in the F , W , and D ( F + W + D ) group or controls .",
+    "entities": []
+  },
+  {
+    "sentence": "In the HIV LTR , this region has been demonstrated to have both positive and negative regulatory effects on HIV gene expression .",
+    "entities": [
+      {
+        "name": "HIV LTR",
+        "type": "GENE",
+        "pos": [
+          7,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Oct - 1 is a ubiquitously expressed regulatory gene of the POU domain family .",
+    "entities": [
+      {
+        "name": "Oct - 1",
+        "type": "GENE",
+        "pos": [
+          0,
+          7
+        ]
+      },
+      {
+        "name": "POU domain family",
+        "type": "GENE",
+        "pos": [
+          59,
+          76
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Their main representatives are the American diagnostic and statistical manual of mental disorders , DSM - III , its revised version DSM - III - R and the new international classification of mental disorders iCD - 10 .",
+    "entities": []
+  },
+  {
+    "sentence": "The longest cDNA insert identified was 2 . 2 kb and encoded the entire 462 - amino acid open reading frame of rat CgA including an 18 - amino acid hydrophobic signal peptide .",
+    "entities": [
+      {
+        "name": "rat CgA",
+        "type": "GENE",
+        "pos": [
+          110,
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In the spontaneous abortion group , the levels of PAPP - A were significantly lower than in normal pregnancy but higher than in non - pregnant controls .",
+    "entities": [
+      {
+        "name": "PAPP - A",
+        "type": "GENE",
+        "pos": [
+          50,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Role of distinct mitogen - activated protein kinase pathways and cooperation between Ets - 2 , ATF - 2 , and Jun family members in human urokinase - type plasminogen activator gene induction by interleukin - 1 and tetradecanoyl phorbol acetate .",
+    "entities": [
+      {
+        "name": "mitogen - activated protein kinase",
+        "type": "GENE",
+        "pos": [
+          17,
+          51
+        ]
+      },
+      {
+        "name": "Ets - 2",
+        "type": "GENE",
+        "pos": [
+          85,
+          92
+        ]
+      },
+      {
+        "name": "ATF - 2",
+        "type": "GENE",
+        "pos": [
+          95,
+          102
+        ]
+      },
+      {
+        "name": "Jun family members",
+        "type": "GENE",
+        "pos": [
+          109,
+          127
+        ]
+      },
+      {
+        "name": "human urokinase - type plasminogen activator gene",
+        "type": "GENE",
+        "pos": [
+          131,
+          180
+        ]
+      },
+      {
+        "name": "interleukin - 1",
+        "type": "GENE",
+        "pos": [
+          194,
+          209
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "To isolate genes that contain zinc finger motifs , a human brain cDNA library was screened with an oligonucleotide complementary to the conserved \" linker \" sequence between adjacent zinc fingers .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutations of SIN4 , ROX3 , SRB8 , SRB9 , SRB10 , SRB11 , and two novel genes , NUT1 and NUT2 , relieve the requirement of Swi4p for expression of this reporter .",
+    "entities": [
+      {
+        "name": "SIN4",
+        "type": "GENE",
+        "pos": [
+          13,
+          17
+        ]
+      },
+      {
+        "name": "ROX3",
+        "type": "GENE",
+        "pos": [
+          20,
+          24
+        ]
+      },
+      {
+        "name": "SRB8",
+        "type": "GENE",
+        "pos": [
+          27,
+          31
+        ]
+      },
+      {
+        "name": "SRB9",
+        "type": "GENE",
+        "pos": [
+          34,
+          38
+        ]
+      },
+      {
+        "name": "SRB10",
+        "type": "GENE",
+        "pos": [
+          41,
+          46
+        ]
+      },
+      {
+        "name": "SRB11",
+        "type": "GENE",
+        "pos": [
+          49,
+          54
+        ]
+      },
+      {
+        "name": "NUT1",
+        "type": "GENE",
+        "pos": [
+          79,
+          83
+        ]
+      },
+      {
+        "name": "NUT2",
+        "type": "GENE",
+        "pos": [
+          88,
+          92
+        ]
+      },
+      {
+        "name": "Swi4p",
+        "type": "GENE",
+        "pos": [
+          122,
+          127
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "D . , Hughes , F .",
+    "entities": []
+  },
+  {
+    "sentence": "RESULTS : Three patients did not tolerate PPI medication and were managed by treatment with type 2 histamine ( H2 ) blockers .",
+    "entities": []
+  },
+  {
+    "sentence": "The signal - to - noise ratio ( SNR ) was calculated in the T2 - weighted sequence .",
+    "entities": []
+  },
+  {
+    "sentence": "Furthermore we elucidate the subtle highly anisotropic interchain correlations and reveal the detailed atomic structure of the low - temperature ( 8x2 ) phase .",
+    "entities": []
+  },
+  {
+    "sentence": "Precision of data from models of sodium kinetics in hemodialysis",
+    "entities": []
+  },
+  {
+    "sentence": "Temporal recruitment of the mSin3A - histone deacetylase corepressor complex to the ETS domain transcription factor Elk - 1 .",
+    "entities": [
+      {
+        "name": "mSin3A",
+        "type": "GENE",
+        "pos": [
+          28,
+          34
+        ]
+      },
+      {
+        "name": "histone deacetylase",
+        "type": "GENE",
+        "pos": [
+          37,
+          56
+        ]
+      },
+      {
+        "name": "ETS domain transcription factor",
+        "type": "GENE",
+        "pos": [
+          84,
+          115
+        ]
+      },
+      {
+        "name": "Elk - 1",
+        "type": "GENE",
+        "pos": [
+          116,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This was tragically highlighted by the death of a 17 year old dental nurse after taking a single 1 g tablet of sodium nitrite .",
+    "entities": []
+  },
+  {
+    "sentence": "Trimethylcolchicinic acid methyl ether d - tartrate ( TMCA ; NSC - 36351 ) was administered daily by mouth to 71 patients with malignant lymphomas .",
+    "entities": []
+  },
+  {
+    "sentence": "U .",
+    "entities": []
+  },
+  {
+    "sentence": "Neurological toxicity occurred in 8 / 219 patients treated with fludarabine ( FAMP ) , 30 mg / m2 per day and cytosine arabinoside ( Ara - C ) , 0 . 5 g / m2 per hour for 2 - 6 hours for 5 days , for new or relapsed acute leukemia or myelodysplasia .",
+    "entities": []
+  },
+  {
+    "sentence": "The results indicate that expression of proU in E . coli is directed from two promoters , one ( P2 ) characterized earlier by other workers with the start site of transcription 60 nucleotides upstream of the initiation codon of the first structural gene ( proV ) , and the other ( P1 ) situated 250 nucleotides upstream of proV .",
+    "entities": [
+      {
+        "name": "proU",
+        "type": "GENE",
+        "pos": [
+          40,
+          44
+        ]
+      },
+      {
+        "name": "proV",
+        "type": "GENE",
+        "pos": [
+          256,
+          260
+        ]
+      },
+      {
+        "name": "proV",
+        "type": "GENE",
+        "pos": [
+          323,
+          327
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Elevated potassium stimulation of GAL mRNA was completely blocked , but pituitary adenylyl cyclase - activating polypeptide and histamine stimulations were only partially blocked , by cycloheximide .",
+    "entities": [
+      {
+        "name": "GAL mRNA",
+        "type": "GENE",
+        "pos": [
+          34,
+          42
+        ]
+      },
+      {
+        "name": "adenylyl cyclase - activating polypeptide",
+        "type": "GENE",
+        "pos": [
+          82,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We were able to demonstrate a significant statistical interaction effect between gender and globulin protein concentration on Vu ( p = 0 . 022 ) .",
+    "entities": [
+      {
+        "name": "globulin protein",
+        "type": "GENE",
+        "pos": [
+          92,
+          108
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In contrast , stem - loop structures 2 , 3 , and 4 of the 3 ' domain showed great variations in size , sequence , and structure .",
+    "entities": []
+  },
+  {
+    "sentence": "Synthetic studies on furan derivatives by the wittig reaction",
+    "entities": []
+  },
+  {
+    "sentence": "Our results suggest that at least some chloroplast - like tRNA genes in wheat mtDNA are transcribed , with transcripts undergoing processing , post - transcriptional modification and 3 ' - CCA addition , to produce mature tRNAs that may participate in mitochondrial protein synthesis .",
+    "entities": [
+      {
+        "name": "chloroplast - like tRNA genes",
+        "type": "GENE",
+        "pos": [
+          39,
+          68
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "On Western blots , the same antibodies recognized the recombinant protein migrating slightly slower on SDS / PAGE than chicken axonin - 1 .",
+    "entities": [
+      {
+        "name": "chicken axonin - 1",
+        "type": "GENE",
+        "pos": [
+          119,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Transfection assays using the first 600 bp of the upstream nucleotide sequences indicated that a region from - 75 to - 120 was necessary for the ALDH2 gene expression , and especially NF - Y / CP1 binding site from - 92 to - 96 ( CCAAT box ) is important in the expression of the gene .",
+    "entities": [
+      {
+        "name": "ALDH2 gene",
+        "type": "GENE",
+        "pos": [
+          145,
+          155
+        ]
+      },
+      {
+        "name": "NF - Y",
+        "type": "GENE",
+        "pos": [
+          184,
+          190
+        ]
+      },
+      {
+        "name": "CP1",
+        "type": "GENE",
+        "pos": [
+          193,
+          196
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These results indicate that the changes in the patient ' s thyroid scan and RAIU were attributable to the presence of TSAb .",
+    "entities": []
+  },
+  {
+    "sentence": "These results suggest that both the distinct DNA binding properties of PMLRAR homodimers and the sequestration of RXR by PMLRARs may contribute to the molecular mechanisms which underlie the pathogenesis of APL .",
+    "entities": [
+      {
+        "name": "PMLRAR homodimers",
+        "type": "GENE",
+        "pos": [
+          71,
+          88
+        ]
+      },
+      {
+        "name": "RXR",
+        "type": "GENE",
+        "pos": [
+          114,
+          117
+        ]
+      },
+      {
+        "name": "PMLRARs",
+        "type": "GENE",
+        "pos": [
+          121,
+          128
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "CRKL , an SH2 - SH3 - SH3 adapter protein , is one of the major tyrosine phosphoproteins detected in primary leukemic neutrophils from patients with CML .",
+    "entities": [
+      {
+        "name": "CRKL",
+        "type": "GENE",
+        "pos": [
+          0,
+          4
+        ]
+      },
+      {
+        "name": "SH2",
+        "type": "GENE",
+        "pos": [
+          10,
+          13
+        ]
+      },
+      {
+        "name": "SH3",
+        "type": "GENE",
+        "pos": [
+          16,
+          19
+        ]
+      },
+      {
+        "name": "SH3",
+        "type": "GENE",
+        "pos": [
+          22,
+          25
+        ]
+      },
+      {
+        "name": "tyrosine phosphoproteins",
+        "type": "GENE",
+        "pos": [
+          64,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Teratospermia is therefore an important factor in evaluating fertilization capacity .",
+    "entities": []
+  },
+  {
+    "sentence": "All exon / intron splice junctions follow the GT / AG rule .",
+    "entities": []
+  },
+  {
+    "sentence": "Other Fischer - 344 rats were also exposed for 1 hr to 0 . 0 or to 0 . 6 ppm O3 .",
+    "entities": []
+  },
+  {
+    "sentence": "The in - plane orientational anisotropy of the 8CB films grown on unidirectionally photopolymerized PVCN substrates is considerably lower than the intrinsic surface orientational anisotropy of these substrates , which can explain the generally found weak surface anchoring of liquid crystals on PVCN alignment layers .",
+    "entities": []
+  },
+  {
+    "sentence": "Influence of long - term zimelidine treatment on LSD - induced behavioural effects .",
+    "entities": []
+  },
+  {
+    "sentence": "By a combination of alternative promoter usage and exon splicing , each ROR gene generates several isoforms that differ only in their amino terminus .",
+    "entities": [
+      {
+        "name": "ROR gene",
+        "type": "GENE",
+        "pos": [
+          72,
+          80
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Utility of thallium - 201 scintigraphy in detecting right ventricular dysfunction in pulmonary embolism .",
+    "entities": []
+  },
+  {
+    "sentence": "Mutation of the HNF3 element significantly reduced promoter activity in HepG2 cells , whereas this element in isolation conferred HNF3beta responsiveness to a heterologous promoter .",
+    "entities": [
+      {
+        "name": "HNF3 element",
+        "type": "GENE",
+        "pos": [
+          16,
+          28
+        ]
+      },
+      {
+        "name": "HNF3beta",
+        "type": "GENE",
+        "pos": [
+          130,
+          138
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Flicker thresholds were measured from 1 to 40 Hz with a vertical - line target used for the asynchrony thresholds .",
+    "entities": []
+  },
+  {
+    "sentence": "To identify and determine the function of Ino2p in yeast cells , we raised antibodies to a beta - galactosidase / Ino2 fusion protein .",
+    "entities": [
+      {
+        "name": "Ino2p",
+        "type": "GENE",
+        "pos": [
+          42,
+          47
+        ]
+      },
+      {
+        "name": "beta - galactosidase",
+        "type": "GENE",
+        "pos": [
+          91,
+          111
+        ]
+      },
+      {
+        "name": "Ino2",
+        "type": "GENE",
+        "pos": [
+          114,
+          118
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This may be another example of the principle - - less is more .",
+    "entities": []
+  },
+  {
+    "sentence": "Extracellular regulated kinases ( ERK ) 1 and ERK2 are authentic substrates for the dual - specificity protein - tyrosine phosphatase VHR .",
+    "entities": [
+      {
+        "name": "Extracellular regulated kinases ( ERK ) 1",
+        "type": "GENE",
+        "pos": [
+          0,
+          41
+        ]
+      },
+      {
+        "name": "ERK2",
+        "type": "GENE",
+        "pos": [
+          46,
+          50
+        ]
+      },
+      {
+        "name": "dual - specificity protein - tyrosine phosphatase VHR",
+        "type": "GENE",
+        "pos": [
+          84,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The delta Mo + SV tumor DNAs from B - lineage tumors were typically rearranged at the immunoglobulin gene loci and contained germ line configurations of the T - cell receptor beta gene .",
+    "entities": [
+      {
+        "name": "immunoglobulin gene loci",
+        "type": "GENE",
+        "pos": [
+          86,
+          110
+        ]
+      },
+      {
+        "name": "T - cell receptor beta gene",
+        "type": "GENE",
+        "pos": [
+          157,
+          184
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Blood samples ( 30 ml ) were collected via an indwelling arm catheter at rest , and at minutes 13 and 28 of exercise for determinations of plasma EPI , serum free fatty acid ( FFA ) , serum glycerol ( GLY ) , blood glucose ( GLU ) , and blood lactate ( LA ) concentrations .",
+    "entities": []
+  },
+  {
+    "sentence": "The hyperpigmentation is linked to the presence of numerous single melanosomes and polymelanosomes in keratinocytes at all levels of the epidermis , and in dermal Factor XIIIa - positive dendrocytes .",
+    "entities": [
+      {
+        "name": "Factor XIIIa",
+        "type": "GENE",
+        "pos": [
+          163,
+          175
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We report that Gcn5 , a histone H3 acetylase , plays a central role in initiation of meiosis via effects on IME2 expression .",
+    "entities": [
+      {
+        "name": "Gcn5",
+        "type": "GENE",
+        "pos": [
+          15,
+          19
+        ]
+      },
+      {
+        "name": "histone H3 acetylase",
+        "type": "GENE",
+        "pos": [
+          24,
+          44
+        ]
+      },
+      {
+        "name": "IME2",
+        "type": "GENE",
+        "pos": [
+          108,
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Peripheral visual acuity with monovision and other contact lens corrections for presbyopia .",
+    "entities": []
+  },
+  {
+    "sentence": "Solution of the Boltzmann equation in a random magnetic field .",
+    "entities": []
+  },
+  {
+    "sentence": "Reversal of biliary sphincter spasm with low dose glucagon during operative cholangiography .",
+    "entities": [
+      {
+        "name": "glucagon",
+        "type": "GENE",
+        "pos": [
+          50,
+          58
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The clinical picture , the light and electron microscopic appearance , and the histochemical findings are described in six cases of fibroma of tendon sheath .",
+    "entities": []
+  },
+  {
+    "sentence": "In order to investigate the effect of the local direct action of danazol upon endometriosis , intravaginal and intrauterine application were tried .",
+    "entities": []
+  },
+  {
+    "sentence": "The biological actions of VHR in oocytes clearly distinguish it from other dual specificity phosphatases , which have shown inhibitory effects when tested in oocytes .",
+    "entities": [
+      {
+        "name": "VHR",
+        "type": "GENE",
+        "pos": [
+          26,
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Ischaemia and reperfusion injury in the kidney : current status and future direction .",
+    "entities": []
+  },
+  {
+    "sentence": "Kudzu extract shows potential for moderating alcohol abuse .",
+    "entities": []
+  },
+  {
+    "sentence": "Structure and regulation of the luteinizing hormone receptor gene .",
+    "entities": [
+      {
+        "name": "luteinizing hormone receptor gene",
+        "type": "GENE",
+        "pos": [
+          32,
+          65
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In HepG2 cells , SREBP - 1c mRNA and precursor protein levels were induced by treatment with 22 ( R ) - hydroxycholesterol and 9 - cis - retinoic acid , confirming that endogenous LXR - RXR activation can induce endogenous SREBP - 1c expression .",
+    "entities": [
+      {
+        "name": "SREBP - 1c mRNA",
+        "type": "GENE",
+        "pos": [
+          17,
+          32
+        ]
+      },
+      {
+        "name": "LXR",
+        "type": "GENE",
+        "pos": [
+          180,
+          183
+        ]
+      },
+      {
+        "name": "RXR",
+        "type": "GENE",
+        "pos": [
+          186,
+          189
+        ]
+      },
+      {
+        "name": "endogenous SREBP - 1c",
+        "type": "GENE",
+        "pos": [
+          212,
+          233
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These operons encode subunits of photosystems I ( psa ) and II ( psb ) , the cytochrome bGf complex ( pet ) , the plastid NAD ( P ) H dehydrogenase ( ndh ) , and the unidentified open reading frame ycf9 .",
+    "entities": [
+      {
+        "name": "photosystems I",
+        "type": "GENE",
+        "pos": [
+          33,
+          47
+        ]
+      },
+      {
+        "name": "psa",
+        "type": "GENE",
+        "pos": [
+          50,
+          53
+        ]
+      },
+      {
+        "name": "psb",
+        "type": "GENE",
+        "pos": [
+          65,
+          68
+        ]
+      },
+      {
+        "name": "cytochrome bGf complex",
+        "type": "GENE",
+        "pos": [
+          77,
+          99
+        ]
+      },
+      {
+        "name": "pet",
+        "type": "GENE",
+        "pos": [
+          102,
+          105
+        ]
+      },
+      {
+        "name": "NAD ( P ) H dehydrogenase",
+        "type": "GENE",
+        "pos": [
+          122,
+          147
+        ]
+      },
+      {
+        "name": "ndh",
+        "type": "GENE",
+        "pos": [
+          150,
+          153
+        ]
+      },
+      {
+        "name": "ycf9",
+        "type": "GENE",
+        "pos": [
+          198,
+          202
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Modern aspects of shock - treatment in extensive burns ( author ' s transl )",
+    "entities": []
+  },
+  {
+    "sentence": "The CHED protein includes the consensus ATP binding and phosphorylation domains characteristic of kinases , displays 34 - 42 % identically aligned amino acid residues with other cdc2 - related kinases , and is considerably longer at its amino and carboxyl termini .",
+    "entities": [
+      {
+        "name": "CHED protein",
+        "type": "GENE",
+        "pos": [
+          4,
+          16
+        ]
+      },
+      {
+        "name": "cdc2 - related kinases",
+        "type": "GENE",
+        "pos": [
+          178,
+          200
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The HPV E1 and E2 proteins along with cellular factors , are required for replication of the viral genome .",
+    "entities": [
+      {
+        "name": "E1",
+        "type": "GENE",
+        "pos": [
+          8,
+          10
+        ]
+      },
+      {
+        "name": "E2",
+        "type": "GENE",
+        "pos": [
+          15,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We conclude that GRF1 and GRF2 can form homo - and hetero - oligomers via their DH domains , that mutational inactivation of oligomer formation by GRF1 is associated with impaired biological and signaling activities , and that in 293T cells GRF1 mediates at least two pathways for Raf activation : one a constitutive signal that is mainly Ras - dependent , and one an ionomycin - induced signal that cooperates with the constitutive signal without further augmenting the level of GTP - Ras .",
+    "entities": [
+      {
+        "name": "GRF1",
+        "type": "GENE",
+        "pos": [
+          17,
+          21
+        ]
+      },
+      {
+        "name": "GRF2",
+        "type": "GENE",
+        "pos": [
+          26,
+          30
+        ]
+      },
+      {
+        "name": "DH domains",
+        "type": "GENE",
+        "pos": [
+          80,
+          90
+        ]
+      },
+      {
+        "name": "GRF1",
+        "type": "GENE",
+        "pos": [
+          147,
+          151
+        ]
+      },
+      {
+        "name": "GRF1",
+        "type": "GENE",
+        "pos": [
+          241,
+          245
+        ]
+      },
+      {
+        "name": "Raf",
+        "type": "GENE",
+        "pos": [
+          281,
+          284
+        ]
+      },
+      {
+        "name": "Ras",
+        "type": "GENE",
+        "pos": [
+          339,
+          342
+        ]
+      },
+      {
+        "name": "GTP - Ras",
+        "type": "GENE",
+        "pos": [
+          480,
+          489
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Adult - onset parkinsonism has appeared in several previously unaffected members in families with DRD suggesting that this may be an additional phenotypical expression of the disease .",
+    "entities": []
+  },
+  {
+    "sentence": "We investigated whether two WT1 splice variants lacking or including a three - amino - acid ( KTS ) insertion between the third and fourth zinc finger in the DNA - binding domain could repress the IR promoter in vitro .",
+    "entities": [
+      {
+        "name": "WT1 splice variants",
+        "type": "GENE",
+        "pos": [
+          28,
+          47
+        ]
+      },
+      {
+        "name": "IR promoter",
+        "type": "GENE",
+        "pos": [
+          197,
+          208
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Developmentally - regulated interaction of a transcription factor complex containing CDP / cut with the early histone H3 gene promoter of the sea urchin Tetrapygus niger is associated with changes in chromatin structure and gene expression .",
+    "entities": [
+      {
+        "name": "CDP",
+        "type": "GENE",
+        "pos": [
+          85,
+          88
+        ]
+      },
+      {
+        "name": "cut",
+        "type": "GENE",
+        "pos": [
+          91,
+          94
+        ]
+      },
+      {
+        "name": "early histone H3 gene promoter of the sea urchin Tetrapygus niger",
+        "type": "GENE",
+        "pos": [
+          104,
+          169
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We also show that in fusions with the DNA binding domain of GAL4 , full activity requires the entire BHV - alpha TIF , although both amino and carboxyl termini display some activity on their own .",
+    "entities": [
+      {
+        "name": "GAL4",
+        "type": "GENE",
+        "pos": [
+          60,
+          64
+        ]
+      },
+      {
+        "name": "BHV - alpha TIF",
+        "type": "GENE",
+        "pos": [
+          101,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The cloned rRNA operon was transcribed in vitro by using purified RNA polymerase of Escherichia coli .",
+    "entities": [
+      {
+        "name": "purified RNA polymerase of Escherichia coli",
+        "type": "GENE",
+        "pos": [
+          57,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The concepts were developed by Mines and Garrey during the next 10 years .",
+    "entities": []
+  },
+  {
+    "sentence": "Wingless / Wnt signaling directs cell - fate choices during embryonic development .",
+    "entities": [
+      {
+        "name": "Wingless",
+        "type": "GENE",
+        "pos": [
+          0,
+          8
+        ]
+      },
+      {
+        "name": "Wnt",
+        "type": "GENE",
+        "pos": [
+          11,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Plasma prolactin in patients with colorectal cancer .",
+    "entities": [
+      {
+        "name": "prolactin",
+        "type": "GENE",
+        "pos": [
+          7,
+          16
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Northern blot analysis demonstrated that the genes are transcribed separately .",
+    "entities": []
+  },
+  {
+    "sentence": "The plasmid was found to confer drug resistance specifically to LMB .",
+    "entities": []
+  },
+  {
+    "sentence": "In addition , 269 mice from a ( Mus spretus x C57BL / 6J ) F1 x C57BL / 6J interspecific backcross were also used to order marker loci and calculate intergene distances for this region .",
+    "entities": []
+  },
+  {
+    "sentence": "These findings suggest that T3R can repress or activate transcription while tethered to the LBD of GAL4 - RXR and that heterodimerization can occur in vivo without stabilization by hormone response elements .",
+    "entities": [
+      {
+        "name": "T3R",
+        "type": "GENE",
+        "pos": [
+          28,
+          31
+        ]
+      },
+      {
+        "name": "GAL4",
+        "type": "GENE",
+        "pos": [
+          99,
+          103
+        ]
+      },
+      {
+        "name": "RXR",
+        "type": "GENE",
+        "pos": [
+          106,
+          109
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A 40 - fold stimulation of chloramphenicol acetyltransferase activity mediated by four tandem repeats of the SNE could be induced within 2 h ( and up to 250 - fold within 6 h ) after addition of TPA in DNA - transfected U - 937 cells , indicating that the stimulation appeared likely to be a true protein kinase C - mediated signal transduction event rather than a differentiation response .",
+    "entities": [
+      {
+        "name": "chloramphenicol acetyltransferase",
+        "type": "GENE",
+        "pos": [
+          27,
+          60
+        ]
+      },
+      {
+        "name": "SNE",
+        "type": "GENE",
+        "pos": [
+          109,
+          112
+        ]
+      },
+      {
+        "name": "protein kinase C",
+        "type": "GENE",
+        "pos": [
+          297,
+          313
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This duplicated genomic region is also linked tightly to D1Z2 , a genetic marker containing a highly polymorphic VNTR ( variable number tandem repeat ) consisting of an unusual 40 - bp reiterated sequence .",
+    "entities": [
+      {
+        "name": "D1Z2",
+        "type": "GENE",
+        "pos": [
+          57,
+          61
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Copyright 1999 Academic Press .",
+    "entities": []
+  },
+  {
+    "sentence": "Tc - 99m HMPAO brain SPECT compared to CT and EEG after seizures in childhood .",
+    "entities": []
+  },
+  {
+    "sentence": "Genome timeline .",
+    "entities": []
+  },
+  {
+    "sentence": "CONCLUSIONS : Transpulmonary stable air microbubbles bound to a galactose carrier represent a useful and safe contrast agent in case of an insufficient native signal in transcranial Doppler investigation .",
+    "entities": []
+  },
+  {
+    "sentence": "The present study demonstrates that the proto - oncogene c - jun represses transcription of the human CG alpha and CG beta promoters . c - Jun repressed the CG alpha promoter through a canonical cAMP response element ( CRE ) that is known to bind c - Jun and other members of the B - Zip transcription factor family .",
+    "entities": [
+      {
+        "name": "proto - oncogene c - jun",
+        "type": "GENE",
+        "pos": [
+          40,
+          64
+        ]
+      },
+      {
+        "name": "human CG alpha",
+        "type": "GENE",
+        "pos": [
+          96,
+          110
+        ]
+      },
+      {
+        "name": "CG beta promoters",
+        "type": "GENE",
+        "pos": [
+          115,
+          132
+        ]
+      },
+      {
+        "name": "c - Jun",
+        "type": "GENE",
+        "pos": [
+          135,
+          142
+        ]
+      },
+      {
+        "name": "CG alpha promoter",
+        "type": "GENE",
+        "pos": [
+          157,
+          174
+        ]
+      },
+      {
+        "name": "c - Jun",
+        "type": "GENE",
+        "pos": [
+          247,
+          254
+        ]
+      },
+      {
+        "name": "B - Zip transcription factor family",
+        "type": "GENE",
+        "pos": [
+          280,
+          315
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The results of the transient - transfection assay showed that the Sp1 binding element located in the core region ( positions - - 64 to + 1 ) of the alpha2 - integrin promoter plays an essential role in the alpha2 - integrin promoter activity and its downregulation by Erb - B2 .",
+    "entities": [
+      {
+        "name": "Sp1 binding element",
+        "type": "GENE",
+        "pos": [
+          66,
+          85
+        ]
+      },
+      {
+        "name": "alpha2 - integrin promoter",
+        "type": "GENE",
+        "pos": [
+          148,
+          174
+        ]
+      },
+      {
+        "name": "alpha2 - integrin promoter",
+        "type": "GENE",
+        "pos": [
+          206,
+          232
+        ]
+      },
+      {
+        "name": "Erb",
+        "type": "GENE",
+        "pos": [
+          268,
+          271
+        ]
+      },
+      {
+        "name": "B2",
+        "type": "GENE",
+        "pos": [
+          274,
+          276
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These segments may represent pseudogenes .",
+    "entities": []
+  },
+  {
+    "sentence": "Adjusting a steady - state warfarin dose depends on the measured INR values and clinical factors : the dose does not need to be adjusted for a single INR that is slightly out of range , and most changes should alter the total weekly dose by 5 % to 20 % .",
+    "entities": []
+  },
+  {
+    "sentence": "The N - terminal sequences of isoforms beta to epsilon contain a PEST region which could induce rapid intracellular degradation of isoforms beta and delta .",
+    "entities": []
+  },
+  {
+    "sentence": "Early attempts for modifying growth functions to annual variations dating back up to 2 decades are recalled together with examples for their application showing rather different degrees of approximation .",
+    "entities": []
+  },
+  {
+    "sentence": "In addition , the findings confirmed previous studies which showed that monkeys with total bilateral striatectomies could require the ability to execute accurate visually guided reaches .",
+    "entities": []
+  },
+  {
+    "sentence": "BACKGROUND .",
+    "entities": []
+  },
+  {
+    "sentence": "Chromaffin cells transfected with a plasmid with the entire coding sequence of c - Rabphilin3a inserted in the antisense orientation inhibited secretion of co - expressed GH by approximately 30 % .",
+    "entities": [
+      {
+        "name": "c - Rabphilin3a",
+        "type": "GENE",
+        "pos": [
+          79,
+          94
+        ]
+      },
+      {
+        "name": "GH",
+        "type": "GENE",
+        "pos": [
+          171,
+          173
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Barium mucosal coating was judged to be better in the members to whom magnesium sulphate was administered ( p = 0 . 0007 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "By incorporating a stent with posts that pivot about their base , such that a 10 % expansion at the commissures is realized , we were able to reduce the compressive commissural stressing from 250 to 150 kPa .",
+    "entities": []
+  },
+  {
+    "sentence": "The MIC90 of ABK against coagulase type IV strains was rather high , 12 . 5 micrograms / ml .",
+    "entities": [
+      {
+        "name": "coagulase type IV",
+        "type": "GENE",
+        "pos": [
+          25,
+          42
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The quantitative analysis of 1 - alpha - acetylmethadol and its principal metabolites in biological specimens by gas chromatography - chemical ionization - multiple ion monitoring mass spectrometry .",
+    "entities": []
+  },
+  {
+    "sentence": "The results indicate that the RNA in T7 RNA polymerase is not free of steric interactions in the ternary complex and not available for structure formation until it is at least 10 bases away from the site of polymerization .",
+    "entities": [
+      {
+        "name": "T7 RNA polymerase",
+        "type": "GENE",
+        "pos": [
+          37,
+          54
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The Ick protein tyrosine kinase is not involved in antibody - mediated CD4 ( CDR3 - loop ) signal transduction that inhibits HIV - 1 transcription .",
+    "entities": [
+      {
+        "name": "Ick",
+        "type": "GENE",
+        "pos": [
+          4,
+          7
+        ]
+      },
+      {
+        "name": "protein tyrosine kinase",
+        "type": "GENE",
+        "pos": [
+          8,
+          31
+        ]
+      },
+      {
+        "name": "CD4",
+        "type": "GENE",
+        "pos": [
+          71,
+          74
+        ]
+      },
+      {
+        "name": "CDR3 - loop",
+        "type": "GENE",
+        "pos": [
+          77,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The human protein is encoded by a 900 - base pair - long mRNA that is expressed in the glandular epithelial cells of the endometrium in a cyclic manner ; in addition , it is found in the mucosal epithelial cells of the fallopian tubes .",
+    "entities": []
+  },
+  {
+    "sentence": "To facilitate the characterization of NF - E2 functions in human cells , we isolated cDNAs encoding two members of the small Maf family , MafK and MafG .",
+    "entities": [
+      {
+        "name": "NF - E2",
+        "type": "GENE",
+        "pos": [
+          38,
+          45
+        ]
+      },
+      {
+        "name": "small Maf family",
+        "type": "GENE",
+        "pos": [
+          119,
+          135
+        ]
+      },
+      {
+        "name": "MafK",
+        "type": "GENE",
+        "pos": [
+          138,
+          142
+        ]
+      },
+      {
+        "name": "MafG",
+        "type": "GENE",
+        "pos": [
+          147,
+          151
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Laser soldering with exogenous fibrinogen is feasible without topical administration of additional clotting agents , significantly improves the bursting strength of primary laser welded anastomoses , and appears to result from urokinase - resistant fibrinogen cross - linking .",
+    "entities": [
+      {
+        "name": "fibrinogen",
+        "type": "GENE",
+        "pos": [
+          31,
+          41
+        ]
+      },
+      {
+        "name": "urokinase",
+        "type": "GENE",
+        "pos": [
+          227,
+          236
+        ]
+      },
+      {
+        "name": "fibrinogen",
+        "type": "GENE",
+        "pos": [
+          249,
+          259
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Mutant M proteins were tested for their ability to complement growth of the temperature - sensitive M protein mutant virus tsO23 at the nonpermissive temperature .",
+    "entities": [
+      {
+        "name": "Mutant M proteins",
+        "type": "GENE",
+        "pos": [
+          0,
+          17
+        ]
+      },
+      {
+        "name": "M protein mutant",
+        "type": "GENE",
+        "pos": [
+          100,
+          116
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We conclude that the BR - C early gene directly activates late gene transcription by interacting with late gene cis - acting regulatory elements and that this interaction is responsible for the temporal linkage of early and late ecdysone - induced gene expression .",
+    "entities": [
+      {
+        "name": "BR - C early gene",
+        "type": "GENE",
+        "pos": [
+          21,
+          38
+        ]
+      },
+      {
+        "name": "late gene",
+        "type": "GENE",
+        "pos": [
+          58,
+          67
+        ]
+      },
+      {
+        "name": "late gene",
+        "type": "GENE",
+        "pos": [
+          102,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "At D28 , 149 of 386 patients ( 49 % ) had had episodes of automatic mode switch prompted by atrial arrhythmias .",
+    "entities": []
+  },
+  {
+    "sentence": "4 382 new mothers were examined retrospectively with the enzyme - linked immunosorbent assay ( ELISA ) for IgG activity to cytomegalovirus ( CMV ) during pregnancy .",
+    "entities": [
+      {
+        "name": "IgG",
+        "type": "GENE",
+        "pos": [
+          107,
+          110
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "A deletion analysis of the FAS1 promoter lacking the previously characterized inositol / choline - responsive - element motif defined a region ( nucleotides - 760 to - 850 ) responsible for most of the remaining activation potency .",
+    "entities": [
+      {
+        "name": "FAS1 promoter",
+        "type": "GENE",
+        "pos": [
+          27,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In the healing tendons , the rate of collagen synthesis decreased and the rate of noncollagen protein synthesis remained unchanged .",
+    "entities": [
+      {
+        "name": "collagen",
+        "type": "GENE",
+        "pos": [
+          37,
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Based on these results , it has been concluded that an IPFSA can promote the healing process in the avascular zone of a torn meniscus in rabbits and that systemic vascularity to the synovium or the meniscus is not essential for healing to occur .",
+    "entities": []
+  },
+  {
+    "sentence": "For Thermus strain ZO5 dihydroorotase ( DHOase ; encoded by pyrC ) , the highest similarity scores ( about 40 % identity ) were obtained with DHOases from B . caldolyticus and Bacillus subtilis .",
+    "entities": [
+      {
+        "name": "ZO5 dihydroorotase",
+        "type": "GENE",
+        "pos": [
+          19,
+          37
+        ]
+      },
+      {
+        "name": "DHOase",
+        "type": "GENE",
+        "pos": [
+          40,
+          46
+        ]
+      },
+      {
+        "name": "pyrC",
+        "type": "GENE",
+        "pos": [
+          60,
+          64
+        ]
+      },
+      {
+        "name": "DHOases",
+        "type": "GENE",
+        "pos": [
+          142,
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Gastric secretory inhibition induced by three methyl analogs of prostaglandin E2 administered intragastrically to man .",
+    "entities": []
+  },
+  {
+    "sentence": "We report that Nim1 possesses intrinsic serine - kinase , threonine - kinase and tyrosine - kinase activities .",
+    "entities": [
+      {
+        "name": "Nim1",
+        "type": "GENE",
+        "pos": [
+          15,
+          19
+        ]
+      },
+      {
+        "name": "serine - kinase",
+        "type": "GENE",
+        "pos": [
+          40,
+          55
+        ]
+      },
+      {
+        "name": "threonine - kinase",
+        "type": "GENE",
+        "pos": [
+          58,
+          76
+        ]
+      },
+      {
+        "name": "tyrosine - kinase",
+        "type": "GENE",
+        "pos": [
+          81,
+          98
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "This element was required for both basal and activated expression and almost certainly functions as a TATA - binding protein interaction site .",
+    "entities": [
+      {
+        "name": "TATA - binding protein",
+        "type": "GENE",
+        "pos": [
+          102,
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Plasma insulin responses to glucose in femoral , hepatic , and pancreatic veins in dogs .",
+    "entities": [
+      {
+        "name": "Plasma insulin",
+        "type": "GENE",
+        "pos": [
+          0,
+          14
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "We used high - resolution ultrasound to characterize postprandial antral excursion characteristics in 15 healthy volunteers .",
+    "entities": []
+  },
+  {
+    "sentence": "The results suggest that both superficial and deep cortical venous drainage of the cat kidney should be considered when measuring renal renin release .",
+    "entities": [
+      {
+        "name": "renal renin",
+        "type": "GENE",
+        "pos": [
+          130,
+          141
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The relation between the changes of bone density and the level of blood calcium , blood phosphorus and alkaline phosphatase ( AKP ) as well as the metabolism of vitamin D was studied .",
+    "entities": [
+      {
+        "name": "alkaline phosphatase",
+        "type": "GENE",
+        "pos": [
+          103,
+          123
+        ]
+      },
+      {
+        "name": "AKP",
+        "type": "GENE",
+        "pos": [
+          126,
+          129
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "When expressed in Escherichia coli , SH - PTP2 displays tyrosine - specific phosphatase activity .",
+    "entities": [
+      {
+        "name": "SH - PTP2",
+        "type": "GENE",
+        "pos": [
+          37,
+          46
+        ]
+      },
+      {
+        "name": "tyrosine - specific phosphatase",
+        "type": "GENE",
+        "pos": [
+          56,
+          87
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The virus must progress past the immediate - early phase and express an early gene product ( s ) for activation of cyclin E expression .",
+    "entities": [
+      {
+        "name": "early gene product ( s )",
+        "type": "GENE",
+        "pos": [
+          72,
+          96
+        ]
+      },
+      {
+        "name": "cyclin E",
+        "type": "GENE",
+        "pos": [
+          115,
+          123
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "All testosterone treatments raised plasma testosterone concentrations above control and pretreatment levels ( testosterone and synovex + testosterone > synovex > control ; all P < 0 . 05 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Acute morphine treatment did not increase the locomotor activity of mice withdrawn for 1 day , after withdrawal for 3 days the increase was similar to that in controls , and after 5 days the increase was clearly larger than in controls .",
+    "entities": []
+  },
+  {
+    "sentence": "The cluster was mapped to nucleotides - 464 to - 434 ( relative to nucleotide A in the initiation codon ) in genomic DNA .",
+    "entities": []
+  },
+  {
+    "sentence": "GAGA factor is known to remodel the chromatin structure in concert with nucleosome - remodeling factor NURF in a Drosophila embryonic S150 extract .",
+    "entities": [
+      {
+        "name": "GAGA factor",
+        "type": "GENE",
+        "pos": [
+          0,
+          11
+        ]
+      },
+      {
+        "name": "nucleosome - remodeling factor",
+        "type": "GENE",
+        "pos": [
+          72,
+          102
+        ]
+      },
+      {
+        "name": "NURF",
+        "type": "GENE",
+        "pos": [
+          103,
+          107
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Routine imaging modalities revealed a total of 79 metastases .",
+    "entities": []
+  },
+  {
+    "sentence": "We report on a case discovered in a 13 year - old girl presenting with anaemia .",
+    "entities": []
+  },
+  {
+    "sentence": "Consequently , during the evolution of mammals , it is the CKbeta4GT - I gene lineage that has been recruited for the biosynthesis of lactose .",
+    "entities": [
+      {
+        "name": "CKbeta4GT - I gene",
+        "type": "GENE",
+        "pos": [
+          59,
+          77
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "S16 , 16 . 8 % , P = 0 . 001 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "In this study , to elucidate the possible mechanism of action of EM , we examined the effect of the drug on the expression of neutrophil adhesion molecules such as L - selectin and Mac - 1 .",
+    "entities": [
+      {
+        "name": "L - selectin",
+        "type": "GENE",
+        "pos": [
+          164,
+          176
+        ]
+      },
+      {
+        "name": "Mac - 1",
+        "type": "GENE",
+        "pos": [
+          181,
+          188
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Amongst 53 \" inoperable \" ( T4 , N0 , N1 , T . , N2 , N3 ) cases , 5 ( 10 % ) had a positive scan and 5 a doubtful scan .",
+    "entities": []
+  },
+  {
+    "sentence": "A heterologous promoter construct containing three repeats of a consensus Sp1 site , cloned upstream of a single copy of the ZII ( CREB / AP1 ) element from the BZLF1 promoter linked to the beta - globin TATA box , exhibited phorbol ester inducibility .",
+    "entities": [
+      {
+        "name": "Sp1 site",
+        "type": "GENE",
+        "pos": [
+          74,
+          82
+        ]
+      },
+      {
+        "name": "ZII",
+        "type": "GENE",
+        "pos": [
+          125,
+          128
+        ]
+      },
+      {
+        "name": "CREB",
+        "type": "GENE",
+        "pos": [
+          131,
+          135
+        ]
+      },
+      {
+        "name": "AP1",
+        "type": "GENE",
+        "pos": [
+          138,
+          141
+        ]
+      },
+      {
+        "name": "BZLF1 promoter",
+        "type": "GENE",
+        "pos": [
+          161,
+          175
+        ]
+      },
+      {
+        "name": "beta - globin",
+        "type": "GENE",
+        "pos": [
+          190,
+          203
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "These aa residues correspond to codons 59 and 108 in the P . falciparum DHFR active site in which similar aa substitutions ( Cys Arg - 59 and Ser Asn - 108 ) are associated with pyrimethamine resistance .",
+    "entities": [
+      {
+        "name": "P . falciparum DHFR active site",
+        "type": "GENE",
+        "pos": [
+          57,
+          88
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "All other cysts showed a unilocular , purely cystic pattern , with homogeneous fluids , although the T2 relaxation times of four lesions overlapped those of odontogenic keratocysts .",
+    "entities": []
+  },
+  {
+    "sentence": "The slope of QD versus QEMF for the four tubes was near unity .",
+    "entities": []
+  },
+  {
+    "sentence": "We propose 2 separate PAI - 1 inductory pathways for PMA and IL - 1alpha in HepG2 , both involving protein tyrosine kinase activation ; the serum - induced signaling pathway may ( partially ) overlap with the PMA - activated protein kinase C / mitogen - activated protein kinase kinase pathway , leading to c - Jun homodimer binding to the PAI - 1 TRE .",
+    "entities": [
+      {
+        "name": "PAI - 1",
+        "type": "GENE",
+        "pos": [
+          22,
+          29
+        ]
+      },
+      {
+        "name": "IL - 1alpha",
+        "type": "GENE",
+        "pos": [
+          61,
+          72
+        ]
+      },
+      {
+        "name": "protein tyrosine kinase",
+        "type": "GENE",
+        "pos": [
+          99,
+          122
+        ]
+      },
+      {
+        "name": "protein kinase C",
+        "type": "GENE",
+        "pos": [
+          225,
+          241
+        ]
+      },
+      {
+        "name": "mitogen - activated protein kinase kinase",
+        "type": "GENE",
+        "pos": [
+          244,
+          285
+        ]
+      },
+      {
+        "name": "c - Jun homodimer",
+        "type": "GENE",
+        "pos": [
+          307,
+          324
+        ]
+      },
+      {
+        "name": "PAI - 1",
+        "type": "GENE",
+        "pos": [
+          340,
+          347
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "CONCLUSIONS : These results suggest that histamine - 2 receptor activation mechanisms may not be involved in postoperative IL - 6 synthesis .",
+    "entities": [
+      {
+        "name": "histamine - 2 receptor",
+        "type": "GENE",
+        "pos": [
+          41,
+          63
+        ]
+      },
+      {
+        "name": "IL - 6",
+        "type": "GENE",
+        "pos": [
+          123,
+          129
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The anesthesiologist and the cardiac surgeon .",
+    "entities": []
+  },
+  {
+    "sentence": "Constant slowing of median MNCV and SNCV and ulnar SNCV without changes in morphology , amplitude and duration of MAP and SAP have been observed in 92 patients , with persistent abnormalities in 64 cases after six months .",
+    "entities": []
+  },
+  {
+    "sentence": "Aspirin therapy in the rheumatic diseases .",
+    "entities": []
+  },
+  {
+    "sentence": "Sequence analysis identifies a ras - associating ( RA ) - like domain in the N - termini of band 4 . 1 / JEF domains and in the Grb7 / 10 / 14 adapter family .",
+    "entities": [
+      {
+        "name": "ras - associating",
+        "type": "GENE",
+        "pos": [
+          31,
+          48
+        ]
+      },
+      {
+        "name": "RA",
+        "type": "GENE",
+        "pos": [
+          51,
+          53
+        ]
+      },
+      {
+        "name": "band 4 . 1 / JEF domains",
+        "type": "GENE",
+        "pos": [
+          92,
+          116
+        ]
+      },
+      {
+        "name": "Grb7 / 10 / 14 adapter family",
+        "type": "GENE",
+        "pos": [
+          128,
+          157
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cytomegalovirus infection - - modern diagnosis",
+    "entities": []
+  },
+  {
+    "sentence": "NF - kappaB only partially mediates Epstein - Barr virus latent membrane protein 1 activation of B cells .",
+    "entities": [
+      {
+        "name": "NF - kappaB",
+        "type": "GENE",
+        "pos": [
+          0,
+          11
+        ]
+      },
+      {
+        "name": "Epstein - Barr virus latent membrane protein 1",
+        "type": "GENE",
+        "pos": [
+          36,
+          82
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "No interaction with epidural anesthesia was observed .",
+    "entities": []
+  },
+  {
+    "sentence": "Here we demonstrate that a region of high homology between the members of this class of proteins contains a type A nucleotide binding site consensus sequence which has ATPase activity and is sufficient to bind DNA containing specific mismatched residues .",
+    "entities": [
+      {
+        "name": "ATPase",
+        "type": "GENE",
+        "pos": [
+          168,
+          174
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In contrast , vRel lacks a strong C - terminal gene activation function , since a LexA fusion protein containing C - terminal vRel sequences alone only weakly activated transcription .",
+    "entities": [
+      {
+        "name": "vRel",
+        "type": "GENE",
+        "pos": [
+          14,
+          18
+        ]
+      },
+      {
+        "name": "LexA fusion protein",
+        "type": "GENE",
+        "pos": [
+          82,
+          101
+        ]
+      },
+      {
+        "name": "C - terminal vRel sequences",
+        "type": "GENE",
+        "pos": [
+          113,
+          140
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Lifestyle characteristics were ascertained by a self - administered questionnaire .",
+    "entities": []
+  },
+  {
+    "sentence": "The side effect of pulmonary fibrosis occurs in 20 to 30 percent of patients receiving this drug .",
+    "entities": []
+  },
+  {
+    "sentence": "Treatment with H7 did not affect IL - 4R - mediated immediate signaling events such as tyrosine phosphorylation of Jak1 , Jak3 , insulin receptor substrate ( IRS ) - 1 and IRS - 2 , or tyrosine phosphorylation and DNA binding of Stat6 .",
+    "entities": [
+      {
+        "name": "IL - 4R",
+        "type": "GENE",
+        "pos": [
+          33,
+          40
+        ]
+      },
+      {
+        "name": "Jak1",
+        "type": "GENE",
+        "pos": [
+          115,
+          119
+        ]
+      },
+      {
+        "name": "Jak3",
+        "type": "GENE",
+        "pos": [
+          122,
+          126
+        ]
+      },
+      {
+        "name": "insulin receptor substrate ( IRS ) - 1",
+        "type": "GENE",
+        "pos": [
+          129,
+          167
+        ]
+      },
+      {
+        "name": "IRS - 2",
+        "type": "GENE",
+        "pos": [
+          172,
+          179
+        ]
+      },
+      {
+        "name": "Stat6",
+        "type": "GENE",
+        "pos": [
+          229,
+          234
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Deletion of this consensus element from the spo6 promoter abolished the transcription of spo6 + and resulted in a sporulation deficiency .",
+    "entities": [
+      {
+        "name": "spo6 promoter",
+        "type": "GENE",
+        "pos": [
+          44,
+          57
+        ]
+      },
+      {
+        "name": "spo6 +",
+        "type": "GENE",
+        "pos": [
+          89,
+          95
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "OBJECTIVE : To report a case of fulminant neuropathy with severe quadriparesis associated with vincristine chemotherapy .",
+    "entities": []
+  },
+  {
+    "sentence": "A novel zinc finger - containing RNA - binding protein conserved from fruitflies to humans .",
+    "entities": []
+  },
+  {
+    "sentence": "A sharp transition from a random chaotic state to a correlated turbulent state of finite coherence time is found when the Rayleigh number becomes larger than a critical value Ra ( c ) approximately equal to 5 x 10 ( 7 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "SF1 / mBBP utilizes a \" maxi - K homology \" ( maxi - KH ) domain for recognition of the single - stranded BPS and requires a cooperative interaction with splicing factor U2AF65 bound to an adjacent polypyrimidine tract ( PPT ) for high - affinity binding .",
+    "entities": [
+      {
+        "name": "SF1",
+        "type": "GENE",
+        "pos": [
+          0,
+          3
+        ]
+      },
+      {
+        "name": "mBBP",
+        "type": "GENE",
+        "pos": [
+          6,
+          10
+        ]
+      },
+      {
+        "name": "\" maxi - K homology \"",
+        "type": "GENE",
+        "pos": [
+          22,
+          43
+        ]
+      },
+      {
+        "name": "maxi - KH",
+        "type": "GENE",
+        "pos": [
+          46,
+          55
+        ]
+      },
+      {
+        "name": "U2AF65",
+        "type": "GENE",
+        "pos": [
+          170,
+          176
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Divergent regions of the posterior left hemisphere used for decoding and storage of information emerged in each working memory versus control task comparison .",
+    "entities": []
+  },
+  {
+    "sentence": "Binding of C / EBPs to all three spi 2 . 3 3 ' UTR repressor sites , although rather weak , was confirmed by electrophoretic mobility shift assays that otherwise failed to reveal specific interactions with other liver nuclear proteins in vitro .",
+    "entities": [
+      {
+        "name": "C / EBPs",
+        "type": "GENE",
+        "pos": [
+          11,
+          19
+        ]
+      },
+      {
+        "name": "spi 2 . 3 3 ' UTR repressor sites",
+        "type": "GENE",
+        "pos": [
+          33,
+          66
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Patients with the chronic photosensitivity dermatitis with actinic reticuloid syndrome have high total serum IgE concentrations .",
+    "entities": [
+      {
+        "name": "IgE",
+        "type": "GENE",
+        "pos": [
+          109,
+          112
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Cord formation in BACTEC 7H12 medium for rapid , presumptive identification of Mycobacterium tuberculosis complex .",
+    "entities": []
+  },
+  {
+    "sentence": "A series of deletion mutants was expressed transiently in two human hepatocytes , HepG2 and PLC .",
+    "entities": []
+  },
+  {
+    "sentence": "Further interventions were : nephrectomy ( 2x ) , resection and ligation of the inferior vena cava ( 1x ) , resection and replacement of the left renal vein ( 1x ) .",
+    "entities": []
+  },
+  {
+    "sentence": "The striking similarity in preference for mismatched and weakly paired nucleotides for binding and for excision suggests a functional relationship between binding and cleavage reactions .",
+    "entities": []
+  },
+  {
+    "sentence": "We examined the contribution of a cryptic plasmid , pRmeGR4b , to the nodulation of Medicago sativa by strain GR4 of Rhizobium meliloti .",
+    "entities": []
+  },
+  {
+    "sentence": "The novel gene spans 16 . 7 kb of genomic sequence and it is formed of 11 exons and 10 intervening introns .",
+    "entities": []
+  },
+  {
+    "sentence": "This is mediated by vascular remodeling , an active process that results in a change in the geometry of the blood vessel .",
+    "entities": []
+  },
+  {
+    "sentence": "Of the CSF tested , 24 stimulated oxygen consumption above our cut off , and 8 did not ( 0 . 84 + / - 0 . 34 , n = 24 compared with the rate of 0 . 27 + / - 0 . 1 mumol / min / g dry wt , respectively ; SD n = 8 ) at 180 minutes .",
+    "entities": []
+  },
+  {
+    "sentence": "Comparison of Healon and Amvisc .",
+    "entities": []
+  },
+  {
+    "sentence": "As expected , the QOLS - N had a lower correlation with physical health ( r = 0 . 24 , p < 0 . 000 ) and self - reported symptoms ( r = - 0 . 20 , p < 0 . 001 ) , and a higher correlation with mental health ( r = 0 . 52 , p < 0 . 000 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "CONCLUSION : high resolution MF - ERG seems more sensitive than low resolution MF - ERG .",
+    "entities": []
+  },
+  {
+    "sentence": "Analysis of nt sequence was carried out on three out of the more than 15 of these regions present in the mouse genome .",
+    "entities": []
+  },
+  {
+    "sentence": "Effect of TNF , IL - 1 , and IL - 6 on the proliferation of human Tenon ' s capsule fibroblasts in tissue culture .",
+    "entities": [
+      {
+        "name": "TNF",
+        "type": "GENE",
+        "pos": [
+          10,
+          13
+        ]
+      },
+      {
+        "name": "IL - 1",
+        "type": "GENE",
+        "pos": [
+          16,
+          22
+        ]
+      },
+      {
+        "name": "IL - 6",
+        "type": "GENE",
+        "pos": [
+          29,
+          35
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The Fugu rubripes ( Fugu ) gene fragment was used to isolate the GH gene from a Fugu genomic library .",
+    "entities": [
+      {
+        "name": "GH gene",
+        "type": "GENE",
+        "pos": [
+          65,
+          72
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The arterial blood pressure was measured by using bloody method in anesthizied animals .",
+    "entities": []
+  },
+  {
+    "sentence": "Desensitization of the growth hormone - induced Janus kinase 2 ( Jak 2 ) / signal transducer and activator of transcription 5 ( Stat5 ) - signaling pathway requires protein synthesis and phospholipase C .",
+    "entities": [
+      {
+        "name": "growth hormone",
+        "type": "GENE",
+        "pos": [
+          23,
+          37
+        ]
+      },
+      {
+        "name": "Janus kinase 2",
+        "type": "GENE",
+        "pos": [
+          48,
+          62
+        ]
+      },
+      {
+        "name": "Jak 2",
+        "type": "GENE",
+        "pos": [
+          65,
+          70
+        ]
+      },
+      {
+        "name": "signal transducer and activator of transcription 5",
+        "type": "GENE",
+        "pos": [
+          75,
+          125
+        ]
+      },
+      {
+        "name": "Stat5",
+        "type": "GENE",
+        "pos": [
+          128,
+          133
+        ]
+      },
+      {
+        "name": "phospholipase C",
+        "type": "GENE",
+        "pos": [
+          187,
+          202
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Measurement of protein in natural rubber latex .",
+    "entities": []
+  },
+  {
+    "sentence": "In EGF receptor - mediated signaling , the protein kinase PKB / Akt and the mitogen - activated protein kinase c - Jun N - terminal kinase , but not extracellular signal - regulated kinase 2 , function downstream of phosphatidylinositol 3 - kinase ( PI 3 - kinase ) .",
+    "entities": [
+      {
+        "name": "EGF receptor",
+        "type": "GENE",
+        "pos": [
+          3,
+          15
+        ]
+      },
+      {
+        "name": "protein kinase PKB",
+        "type": "GENE",
+        "pos": [
+          43,
+          61
+        ]
+      },
+      {
+        "name": "Akt",
+        "type": "GENE",
+        "pos": [
+          64,
+          67
+        ]
+      },
+      {
+        "name": "mitogen - activated protein kinase c - Jun N - terminal kinase",
+        "type": "GENE",
+        "pos": [
+          76,
+          138
+        ]
+      },
+      {
+        "name": "extracellular signal - regulated kinase 2",
+        "type": "GENE",
+        "pos": [
+          149,
+          190
+        ]
+      },
+      {
+        "name": "phosphatidylinositol 3 - kinase",
+        "type": "GENE",
+        "pos": [
+          216,
+          247
+        ]
+      },
+      {
+        "name": "PI 3 - kinase",
+        "type": "GENE",
+        "pos": [
+          250,
+          263
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Transfer of health care to natives holds much promise , lecturers say .",
+    "entities": []
+  },
+  {
+    "sentence": "Our data suggest that the ZF - HD class of homeodomain proteins may be involved in the establishment of the characteristic expression pattern of the C4 PEPCase gene .",
+    "entities": [
+      {
+        "name": "ZF - HD",
+        "type": "GENE",
+        "pos": [
+          26,
+          33
+        ]
+      },
+      {
+        "name": "homeodomain proteins",
+        "type": "GENE",
+        "pos": [
+          43,
+          63
+        ]
+      },
+      {
+        "name": "C4 PEPCase gene",
+        "type": "GENE",
+        "pos": [
+          149,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "After 5 days stimulation with G - CSF ( 10 micrograms / kg ) 1l of blood was drawn , kept unprocessed for 3 days and reinfused 24 h after completion of chemotherapy .",
+    "entities": [
+      {
+        "name": "G - CSF",
+        "type": "GENE",
+        "pos": [
+          30,
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "One hundred men who received alpha - tocopherol were matched on age , study center , and length of time between blood draws to 100 men who received a placebo .",
+    "entities": []
+  },
+  {
+    "sentence": "A Frank vectorcardiogram was recorded before and every 15 - 30 minutes for 10 hours after the occlusion .",
+    "entities": []
+  },
+  {
+    "sentence": "The authors discussed their experience in investigating 20 patients with maxillary malignant tumors using routine x - ray studies and MR - tomography , and 13 patients , investigated in the same way plus CT .",
+    "entities": []
+  },
+  {
+    "sentence": "Modified Grocott ' s methenamine silver nitrate method for quick staining of Pneumocystis carinii .",
+    "entities": []
+  },
+  {
+    "sentence": "Since RIP140 generally down - regulates receptor activity in mammalian cells and specifically down - regulates coactivation mediated by SRC - 1 , we propose a model in which RIP140 indirectly regulates nuclear receptor AF - 2 activity by competition for coactivators such as SRC - 1 .",
+    "entities": [
+      {
+        "name": "RIP140",
+        "type": "GENE",
+        "pos": [
+          6,
+          12
+        ]
+      },
+      {
+        "name": "SRC - 1",
+        "type": "GENE",
+        "pos": [
+          136,
+          143
+        ]
+      },
+      {
+        "name": "RIP140",
+        "type": "GENE",
+        "pos": [
+          174,
+          180
+        ]
+      },
+      {
+        "name": "nuclear receptor AF - 2",
+        "type": "GENE",
+        "pos": [
+          202,
+          225
+        ]
+      },
+      {
+        "name": "SRC - 1",
+        "type": "GENE",
+        "pos": [
+          275,
+          282
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "The extent of the odontoblast process in human dentin .",
+    "entities": []
+  },
+  {
+    "sentence": "Column chromatographic determination of polymyxin B sulfate .",
+    "entities": []
+  },
+  {
+    "sentence": "A case control study ( 1 : 2 ) of 182 pairs of Hepatitis A was carried out in Weng - ling Zhe - jiang during April 1988 .",
+    "entities": []
+  },
+  {
+    "sentence": "Older females had lumbar ( 0 . 6 + / - 1 . 3 ) and TB ( 1 . 1 + / - 1 . 1 ) BMD Z scores greater than 0 ( both , p < 0 . 001 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Comparison of the genes coding for mouse and human p36 ( annexin II ) and mouse , rat and human p35 ( annexin I ) and pigeon cp35 ( an annexin I - related protein ) shows strong genomic structural conservation supporting the hypothesis that these genes had a common ancestor .",
+    "entities": [
+      {
+        "name": "p36",
+        "type": "GENE",
+        "pos": [
+          51,
+          54
+        ]
+      },
+      {
+        "name": "annexin II",
+        "type": "GENE",
+        "pos": [
+          57,
+          67
+        ]
+      },
+      {
+        "name": "p35",
+        "type": "GENE",
+        "pos": [
+          96,
+          99
+        ]
+      },
+      {
+        "name": "annexin I",
+        "type": "GENE",
+        "pos": [
+          102,
+          111
+        ]
+      },
+      {
+        "name": "cp35",
+        "type": "GENE",
+        "pos": [
+          125,
+          129
+        ]
+      },
+      {
+        "name": "annexin I - related protein",
+        "type": "GENE",
+        "pos": [
+          135,
+          162
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Effect of infantile undernutrition on adult sucrose solution consumption in the rat .",
+    "entities": []
+  },
+  {
+    "sentence": "The greatest risk of preterm prelabour rupture of membranes ( PPROM ) is preterm delivery .",
+    "entities": []
+  },
+  {
+    "sentence": "Dose - dependent pharmacokinetics : emphasis on phase I metabolism .",
+    "entities": []
+  },
+  {
+    "sentence": "Cross - talk between transcription factors NF - kappa B and C / EBP in the transcriptional regulation of genes .",
+    "entities": [
+      {
+        "name": "NF - kappa B",
+        "type": "GENE",
+        "pos": [
+          43,
+          55
+        ]
+      },
+      {
+        "name": "C / EBP",
+        "type": "GENE",
+        "pos": [
+          60,
+          67
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Radiation sensitivity of rats irradiated in a condition of hypoxia",
+    "entities": []
+  },
+  {
+    "sentence": "Surprisingly , in adult animals , the suprabasal expression of dnRXR alpha significantly reduced the ability of topically applied tRA to stimulate proliferation of undifferentiated keratinocytes in the basal layer of epidermis .",
+    "entities": [
+      {
+        "name": "dnRXR alpha",
+        "type": "GENE",
+        "pos": [
+          63,
+          74
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In this study , a site of PDGF - induced tyrosine phosphorylation was mapped to Tyr 138 in the SH3 domain ; Tyr 138 is exposed on the SH3 peptide binding surface .",
+    "entities": [
+      {
+        "name": "PDGF",
+        "type": "GENE",
+        "pos": [
+          26,
+          30
+        ]
+      },
+      {
+        "name": "SH3 domain",
+        "type": "GENE",
+        "pos": [
+          95,
+          105
+        ]
+      },
+      {
+        "name": "SH3 peptide binding surface",
+        "type": "GENE",
+        "pos": [
+          134,
+          161
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "SCOF - 1 localized to the nucleus but did not bind directly to either C - repeat / dehydration ( CRT / DRE ) or ABA responsive element ( ABRE ) , cis - acting DNA regulatory elements present in COR gene promoters .",
+    "entities": [
+      {
+        "name": "SCOF - 1",
+        "type": "GENE",
+        "pos": [
+          0,
+          8
+        ]
+      },
+      {
+        "name": "COR gene promoters",
+        "type": "GENE",
+        "pos": [
+          194,
+          212
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Interobserver agreement of the Nottingham histologic grading scheme for infiltrating duct carcinoma breast .",
+    "entities": []
+  },
+  {
+    "sentence": "It is suggested that death of S . mansoni cercariae during penetration of mammalian host skin is probably due to exhaustion of their energy reserves .",
+    "entities": []
+  },
+  {
+    "sentence": "This fragment contains two complete endo - beta - 1 , 4 - glucanase - encoding genes , designated celCCC and celCCG .",
+    "entities": [
+      {
+        "name": "endo - beta - 1 , 4 - glucanase - encoding genes",
+        "type": "GENE",
+        "pos": [
+          36,
+          84
+        ]
+      },
+      {
+        "name": "celCCC",
+        "type": "GENE",
+        "pos": [
+          98,
+          104
+        ]
+      },
+      {
+        "name": "celCCG",
+        "type": "GENE",
+        "pos": [
+          109,
+          115
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Hamdija Karamehmedovic ; Ibn al - Nefis , \" Mudzez al - Kanum \" , Republicki zavod za zdravstvenu zastitu Sarajevo , 1961 , 1 - 219 ; Mr ph Samuel Elazar , Ajnija Omanic : \" Bibliografija medicinskih djela u SR BiH do 1895 . \" Medicinska knjiga Beograd - Zagreb 1984 ; Besides , the great contribution in bibliography was given by dr Lujo Taler , prof . dr .",
+    "entities": []
+  },
+  {
+    "sentence": "Plasmid pSP64E6E7 which contains the reading frames of both E6 and E7 was constructed in order to study the expression of both proteins in a coupled transcription / rabbit reticulocyte translation system .",
+    "entities": [
+      {
+        "name": "E6",
+        "type": "GENE",
+        "pos": [
+          13,
+          15
+        ]
+      },
+      {
+        "name": "E7",
+        "type": "GENE",
+        "pos": [
+          15,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Calcium bilirubinate crystals were seen in gallbladder bile or wall scrapings of 7 of 8 TPN animals but in none of the controls ( P less than 0 . 001 ) .",
+    "entities": []
+  },
+  {
+    "sentence": "Cardiovascular drug use and hospitalizations attributable to type 2 diabetes .",
+    "entities": []
+  },
+  {
+    "sentence": "The other five from within the SRO may provide an entrance point for the cloning of candidate genes for neuroblastoma .",
+    "entities": []
+  },
+  {
+    "sentence": "2 .",
+    "entities": []
+  },
+  {
+    "sentence": "The general concept of RARE - cleavage mapping as well as its applications and limitations are discussed .",
+    "entities": [
+      {
+        "name": "RARE",
+        "type": "GENE",
+        "pos": [
+          23,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In summary , the only treatment - related effect noted in this study was hydrocarbon nephropathy in male rats , which is not considered relevant for human health .",
+    "entities": []
+  },
+  {
+    "sentence": "2 .",
+    "entities": []
+  },
+  {
+    "sentence": "DDD ( R ) pacing with automatic mode switch in patients with paroxysmal atrial fibrillation following AV nodal ablation .",
+    "entities": []
+  },
+  {
+    "sentence": "We conclude from these observations that the cTnC 3 ' Ile element is a composite enhancer that functions through the combined interactions of at least five regulatory elements and their cognate binding factors : three or four E - boxes , a MEF - 2 site , and a MEF - 3 site .",
+    "entities": [
+      {
+        "name": "cTnC 3 ' Ile element",
+        "type": "GENE",
+        "pos": [
+          45,
+          65
+        ]
+      },
+      {
+        "name": "MEF - 2 site",
+        "type": "GENE",
+        "pos": [
+          240,
+          252
+        ]
+      },
+      {
+        "name": "MEF - 3 site",
+        "type": "GENE",
+        "pos": [
+          261,
+          273
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "In alfalfa , the insecticides caused significant mortality to most of the insects evaluated .",
+    "entities": []
+  },
+  {
+    "sentence": "The map is based on the CEPH reference pedigrees and includes over 4000 new genotypes , our previously reported data plus 29 allele systems from the published CEPH version 5 database , and was constructed using the program package CRI - MAP .",
+    "entities": []
+  },
+  {
+    "sentence": "The brains were processed according to the tetramethylbenzidine ( TMB ) protocol of Mesulam ( ' 78 ) and studied with darkfield microscopy .",
+    "entities": []
+  },
+  {
+    "sentence": "Promoting fat utilisation by reducing the carbohydrate - fat ratio of the TPN reduces free radical activity to a similar extent as fat exclusion .",
+    "entities": []
+  },
+  {
+    "sentence": "Management of patients with Ewing ' s sarcoma has been discussed with reference to the need to achieve an excellent local result from radiation therapy now that patients are experiencing long - term survival .",
+    "entities": []
+  },
+  {
+    "sentence": "Radioimmunoassay of plasma gonadotropins ; problems of specificity",
+    "entities": [
+      {
+        "name": "plasma gonadotropins",
+        "type": "GENE",
+        "pos": [
+          20,
+          40
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "During subsequent CS - alone trials , the responses of ( + ) MK - 801 - injected mice were extinguished as easily as those of saline - injected mice .",
+    "entities": []
+  },
+  {
+    "sentence": "Nucleocapsid structure and thermostability of the virion , nucleocapsid and polymerase complex .",
+    "entities": []
+  },
+  {
+    "sentence": "We infer that RecA - mediated cleavage of UmuD is another role for RecA in SOS mutagenesis , probably activating UmuD for its mutagenic function .",
+    "entities": [
+      {
+        "name": "RecA",
+        "type": "GENE",
+        "pos": [
+          14,
+          18
+        ]
+      },
+      {
+        "name": "UmuD",
+        "type": "GENE",
+        "pos": [
+          42,
+          46
+        ]
+      },
+      {
+        "name": "RecA",
+        "type": "GENE",
+        "pos": [
+          67,
+          71
+        ]
+      },
+      {
+        "name": "UmuD",
+        "type": "GENE",
+        "pos": [
+          113,
+          117
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Characterization of an unusual tRNA - like sequence found inserted in a Neurospora retroplasmid .",
+    "entities": []
+  },
+  {
+    "sentence": "Here we demonstrate that several genes associated with NHEJ perform essential functions in the repair of endonuclease - induced DSBs in vivo .",
+    "entities": []
+  },
+  {
+    "sentence": "Peak insulin response to glucose infusion declined from Groups 1 to 3 ( 51 + / - 14 , 42 . 4 + / - 31 , 20 . 4 + / - 6 . 8 microU / ml , respectively ) with Group 3 exhibiting a significantly decreased mean peak level compared to the other groups .",
+    "entities": [
+      {
+        "name": "insulin",
+        "type": "GENE",
+        "pos": [
+          5,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "Activation of the mitogen - activated protein kinase ( MAPK ) pathway enhances long - range transactivation by the beta - globin locus control region ( LCR ) ( W .",
+    "entities": [
+      {
+        "name": "mitogen - activated protein kinase",
+        "type": "GENE",
+        "pos": [
+          18,
+          52
+        ]
+      },
+      {
+        "name": "MAPK",
+        "type": "GENE",
+        "pos": [
+          55,
+          59
+        ]
+      },
+      {
+        "name": "beta - globin locus control region",
+        "type": "GENE",
+        "pos": [
+          115,
+          149
+        ]
+      }
+    ]
+  },
+  {
+    "sentence": "However , there are some cows that fail to produce adequate 1 , 25 - dihydroxyvitamin D at the onset of lactation .",
+    "entities": []
+  },
+  {
+    "sentence": "The aim of this study was to evaluate the impact of the ESRD treatment modality on the quality of life in patients with Type I ( insulin - dependent ) diabetes mellitus .",
+    "entities": [
+      {
+        "name": "insulin",
+        "type": "GENE",
+        "pos": [
+          129,
+          136
+        ]
+      }
+    ]
+  }
+]

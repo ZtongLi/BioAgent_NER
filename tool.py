@@ -177,7 +177,6 @@ def prepare_config(config):
     config.setdefault("retrieval_k", 4)
     if type(config["retrieval_k"]) is not int or not 0 <= config["retrieval_k"] <= 8:
         raise ValueError("retrieval_k must be an integer from 0 to 8")
-    config["system_version"] = "unified_v2"
     rules_path = ROOT / "prompts" / "annotation_rules" / f'{config["dataset"]}.json'
     rules = json.loads(rules_path.read_text())
     sources = {e["source"] for e in rules["examples"]}
@@ -190,12 +189,6 @@ def prepare_config(config):
     config["training_sha256"] = hashlib.sha256(train_path.read_bytes()).hexdigest()
     config["_retriever"] = build_retriever(str(train_path), config["training_sha256"]) if config["retrieval_k"] else None
     config["_rule_count"] = len(rules["rules"])
-    context = json.dumps({"allowed_types": TYPES[config["dataset"]], "rules": [
-        {"id": i, "text": rule} for i, rule in enumerate(rules["rules"])]}, ensure_ascii=False)
-    shared = (ROOT / "prompts" / "shared.txt").read_text() + "\n" + context
-    config["_prompts"] = {stage: shared + "\n" + (ROOT / "prompts" / f"{stage}.txt").read_text()
-                          for stage in ("extraction", "discovery", "boundary", "verification")}
-    config["_prompt_hash"] = hashlib.sha256(json.dumps(config["_prompts"], sort_keys=True).encode()).hexdigest()
     return config
 
 

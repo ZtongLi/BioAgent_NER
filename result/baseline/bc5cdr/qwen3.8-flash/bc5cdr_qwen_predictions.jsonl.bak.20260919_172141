@@ -1,2 +1,0 @@
-{"sentence": "Repetitive stimulation at 2 Hz showed a decremental response in 2 patients .", "gold_entities": [], "pred_entities": []}
-{"sentence": "We interpret this as episodes of cardiac arrest caused by metoclopramide .", "gold_entities": [[58, 72, "CHEMICAL"], [33, 47, "DISEASE"]], "pred_entities": [[58, 72, "CHEMICAL"], [33, 47, "DISEASE"]]}

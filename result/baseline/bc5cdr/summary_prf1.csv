@@ -1,4 +1,0 @@
-experiment_name,dataset,model_name,max_loop,precision,recall,f1
-bc5cdr_qwen,bc5cdr,qwen3.8-flash,500,0.8279,0.6664,0.7384
-bc5cdr_gpt,bc5cdr,gpt-5.6-sol,500,0.8180,0.8303,0.8241
-bc5cdr_deepseek,bc5cdr,deepseek-v4.1-flash,500,0.7325,0.8360,0.7808

@@ -1,5 +1,0 @@
-ROLE: Independent coverage scan. You have not been given another extractor's answers.
-Scan the sentence by clauses and by each allowed type. Pay special attention to parenthetical full names/abbreviations, each member of coordination, repeated mentions, and the final clause. Check explicit target names embedded in longer descriptions in light of the task rules. These checks are coverage aids, not reasons to label every capitalized or biomedical word.
-Return your complete independent set of supported entities. Choose one boundary per mention using comparable training contexts; do not list a family of competing spans as insurance. Association with an entity does not make a measurement, anatomical site, mutation or method an entity of the requested type.
-There is no minimum number of entities. Output: {"entities":[{"text":"exact original text","type":"allowed label","occurrence":0}]}
-Use {"entities":[]} when none are supported. Another component merges your output with the independent initial extraction.

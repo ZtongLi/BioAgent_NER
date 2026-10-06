@@ -1,4 +1,0 @@
-experiment_name,dataset,model_name,max_loop,accuracy
-bc2gm_kimi-k2.6,bc2gm,kimi-k2.6,100,0.8200
-bc2gm_deepseek,bc2gm,deepseek-v4-flash,10,1.0000
-bc2gm_deepseek,bc2gm,deepseek-v4-flash,100,0.8400

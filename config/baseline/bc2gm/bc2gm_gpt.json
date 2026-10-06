@@ -1,12 +1,13 @@
 {
   "experiment_name": "bc2gm_gpt",
   "dataset": "bc2gm",
-  "test_file_path": "bioDataset/bc2gm1/dev.sampled_500.json",
-  "save_file_path": "result/baseline/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl",
-  "log_file_path": "result/baseline/bc2gm/gpt-5.6-sol/bc2gm_gpt.log",
+  "test_file_path": "bioDataset/bc2gm1/test.sampled_500.json",
+  "save_file_path": "result/test_500/baseline/bc2gm/gpt-5.6-sol/bc2gm_gpt_predictions.jsonl",
+  "log_file_path": "result/test_500/baseline/bc2gm/gpt-5.6-sol/bc2gm_gpt.log",
   "model_name": "gpt-5.6-sol",
   "api_key_env": "OPENAI_API_KEY",
   "base_url": "https://zyapi.tuluo.top:8888/v1",
   "max_loop": 500,
-  "sleep_seconds": 2
+  "sleep_seconds": 2,
+  "summary_csv": "result/test_500/test_500_summary_prf1.csv"
 }
