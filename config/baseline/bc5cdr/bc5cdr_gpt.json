@@ -6,7 +6,7 @@
   "log_file_path": "result/test_500/baseline/bc5cdr/gpt-5.6-sol/bc5cdr_gpt.log",
   "model_name": "gpt-5.6-sol",
   "api_key_env": "OPENAI_API_KEY",
-  "base_url": "https://zyapi.tuluo.top:8888/v1",
+  "base_url": "",
   "max_loop": 500,
   "sleep_seconds": 2,
   "summary_csv": "result/test_500/test_500_summary_prf1.csv"
