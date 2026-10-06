@@ -1,6 +1,6 @@
 # BioAgent
 
-面向生物医学命名实体识别（Biomedical NER）的多专家 LLM 框架。\
+面向生物医学命名实体识别（Biomedical NER）的多专家 LLM 框架。
 
 ## 🏗️ Architecture
 
