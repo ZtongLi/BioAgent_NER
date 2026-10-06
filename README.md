@@ -1,8 +1,6 @@
 # BioAgent
 
-面向生物医学命名实体识别（Biomedical NER）的多专家 LLM 框架。通过**训练示例检索、多专家独立抽取、候选投票与受约束汇总**，识别原文中的基因、疾病和化学物质，输出实体类型与字符位置。
-
-项目提供普通 LLM baseline、完整专家框架及消融实验，支持 BC2GM、BC5CDR 和 NCBI 三个数据集。
+面向生物医学命名实体识别（Biomedical NER）的多专家 LLM 框架。\
 
 ## 🏗️ Architecture
 
