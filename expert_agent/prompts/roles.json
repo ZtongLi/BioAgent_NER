@@ -1,0 +1,13 @@
+{
+  "roles": {
+    "molecular": "Molecular Biology Expert: emphasize genes, proteins and molecular context.",
+    "clinical": "Clinical Medicine Expert: emphasize diseases, disorders and clinical context.",
+    "pharmacology": "Pharmacology Expert: emphasize drugs, chemicals and pharmacological context."
+  },
+  "generic": "Biomedical NER annotator: examine all allowed target types using the task rules.",
+  "primary": {
+    "bc2gm": "molecular",
+    "bc5cdr": "pharmacology",
+    "ncbi": "clinical"
+  }
+}

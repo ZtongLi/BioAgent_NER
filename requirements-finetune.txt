@@ -1,0 +1,6 @@
+torch>=2.6,<3
+transformers>=4.44,<6
+peft>=0.14,<1
+accelerate>=1.2,<2
+bitsandbytes>=0.45,<1; platform_system == "Linux"
+swanlab>=0.8.4,<0.9

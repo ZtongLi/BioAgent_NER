@@ -4,6 +4,15 @@
 
 项目提供普通 LLM baseline、完整专家框架及消融实验，支持 BC2GM、BC5CDR 和 NCBI 三个数据集。
 
+另外提供三种监督微调 baseline，共九组实验：BioBERT / PubMedBERT 共用
+`baseline/finetune/bert_ner.py`（BIO token classification），NERLlama3.1 使用
+`baseline/finetune/nerllama.py`（Llama-3.1-8B-Instruct + 4-bit QLoRA 指令微调）。
+三者共用 `utils.py` 的数据和结果接口，采用完整 train 训练、完整 dev 选择最佳
+checkpoint，在相同的 test.sampled_500 上使用现有严格实体级评估器计分。
+运行方法见 [baseline/README.md](baseline/README.md)，服务器参数准备见
+[baseline/model/README.md](baseline/model/README.md)，训练依赖为 `requirements-finetune.txt`。
+`baseline/model/` 除 README 外的参数及 checkpoint 均不进入 Git。
+
 ## 🏗️ Architecture
 
 ![MyBioAgent architecture](figure/structure.png)
@@ -109,7 +118,9 @@ python3 -u main.py --config config/expert_agent/bc5cdr/bc5cdr_gpt.json --variant
 
 `single_expert` 同时移除了投票和汇总，不应解释为仅改变专家数量的单因素实验。
 
-终端实时显示运行进度。普通 baseline 和 full 运行中断后，可在原命令末尾添加 `--resume`，从已完整保存的样本继续；其他消融变体的主入口不支持该参数。
+终端在完成后为每个方案输出一行指标和结果路径；请求、重试及逐阶段记录保存在结果目录的日志中。专家入口添加 `--verbose` 可输出完整 JSON 指标，`--sentence "待识别的句子"` 可直接预测单句。普通 baseline 和 full 运行中断后，可在原命令末尾添加 `--resume`，从已完整保存的样本继续；其他消融变体的主入口不支持该参数。
+
+运行入口统一使用上述命令。临时分片、子分片和指定样本补跑脚本已移除；历史分片结果仍保留，主入口会拒绝向含 `shards/manifest.json` 的旧实验追加记录。需要重新运行时，去掉 `--resume` 即可创建新实验目录。
 
 ## 📊 Evaluation & Results
 
@@ -140,23 +151,39 @@ result/test_500/test_500_summary_prf1.csv
 | `run_config.json` | 配置、提示词与数据校验信息 |
 | `run.log` | 请求、重试与阶段日志 |
 
+从服务器取回的 `test_500/` 已增量归入 `result/test_500/`。服务器汇总表保存为 `test_500_summary_prf1.server_20261008.csv`，原有总表和历史结果保持原样；源目录仍保留。
+
+Qwen3.5 的 24 条实验汇总保存在 `result/test_500/Qwen3.5_summary_prf1.csv`。原独立归档目录的配置和逐句结果与主目录一致，已清理重复副本。
+
+全部结果统一查看 [全部实验结果汇总.csv](outputs/20261011_results/全部实验结果汇总.csv)，共 192 条记录；F1 在第 2 列，数据划分在第 7 列。覆盖逐次指标文件、历史汇总、服务器结果及未完成的主预测文件；重复归档合并来源，分片不另算实验。表内区分 dev/test、随机种子、评分口径和完成状态；18 条历史记录的数据划分未注明，保留原值。未完成记录不代表完整 500 条实验，缺失的最终指标留空。现有 `result/` 文件保持原样。
+
 ## 🧩 Project Structure
 
-以下为运行实验所需的主要目录与文件：
+专家 Agent 核心共 5 个 Python 文件，每个不超过 200 行。借鉴 KDR-Agent 的职责分工，保留本项目的专家流程、提示词、检索、投票和评分规则；baseline 独立训练程序另行保留。
+
+| 文件 | 职责 |
+|---|---|
+| `main.py` | 命令行、实验执行、断点校验与恢复 |
+| `agent.py` | 专家抽取、投票、冲突约束和汇总 |
+| `data.py` | 配置、提示词组装、实体定位和训练集检索 |
+| `tool.py` | API 调用、重试、响应校验和评分基础函数 |
+| `reporting.py` | 实体评分、诊断指标和结果报表 |
 
 ```text
 MyBioAgent/
-├── main.py                  # 专家实验入口
-├── experiment.py            # 实验运行与结果保存
-├── tool.py                  # API、检索、响应校验
-├── evaluation.py            # 实体级评分
-├── reporting.py             # CSV 汇总
+├── main.py                  # 命令行、实验运行与断点恢复
+├── agent.py                 # 专家抽取、投票与汇总
+├── data.py                  # 配置、提示词组装与检索
+├── tool.py                  # API、重试与校验
+├── reporting.py             # 评分与报表
 ├── requirements.txt         # Python 依赖
+├── requirements-finetune.txt # 监督微调依赖
 ├── figure/structure.png     # 框架架构图
 ├── baseline/
-│   └── llm.py               # 普通 LLM baseline
-├── expert_agent/            # 抽取、投票、汇总及运行辅助模块
-│   └── prompts/             # 专家阶段提示词
+│   ├── llm.py               # 普通 LLM baseline
+│   └── finetune/            # BioBERT、PubMedBERT、NERLlama 微调
+├── expert_agent/
+│   └── prompts/             # 专家阶段提示词及角色描述
 ├── prompts/
 │   ├── shared.txt           # 共享任务约定
 │   └── annotation_rules/    # 数据集标注规则
@@ -165,5 +192,14 @@ MyBioAgent/
 │   └── expert_agent/        # 专家实验配置
 ├── bioDataset/              # 训练集与固定测试样本
 ├── result/                  # 实验结果与汇总
+├── tests/                   # 核心功能回归测试
 └── README.md
 ```
+
+核心回归测试不调用外部 LLM API，覆盖请求与结果回放、全部消融变体、断点续跑、实体评分、结果汇总及微调流程：
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+运行微调流程测试需要安装 `requirements-finetune.txt` 中的依赖。

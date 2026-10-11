@@ -1,0 +1,17 @@
+{
+  "dataset": "bc2gm",
+  "model_name": "BioBERT",
+  "pretrained_model_path": "baseline/model/pretrained/biobert",
+  "train_file_path": "bioDataset/bc2gm1/train.json",
+  "dev_file_path": "bioDataset/bc2gm1/dev.json",
+  "test_file_path": "bioDataset/bc2gm1/test.sampled_500.json",
+  "checkpoint_dir": "baseline/model/checkpoints/biobert/bc2gm",
+  "prediction_path": "result/test_500/baseline/bc2gm/BioBERT/predictions.jsonl",
+  "summary_csv": "result/test_500/test_500_summary_prf1.csv",
+  "seed": 42,
+  "max_length": 512,
+  "stride": 128,
+  "learning_rate": 0.00002,
+  "epochs": 5,
+  "batch_size": 16
+}

@@ -18,14 +18,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 # Keep the existing direct CLI: python3 baseline/llm.py ...
 if __package__ in (None, ""):
     sys.path.insert(0, str(PROJECT_ROOT))
-from evaluation import calculate_metrics
-
-ENTITY_TYPES = {
-    "bc2gm": ["GENE"],
-    "bc5cdr": ["CHEMICAL", "DISEASE"],
-    "ncbi": ["DISEASE"],
-}
-
+from tool import TYPES as ENTITY_TYPES, calculate_metrics, RESPONSE_PARSER_VERSION, unwrap_json_fence
 
 def setup_logging(log_path):
     log_path.parent.mkdir(parents=True, exist_ok=True)
@@ -38,9 +31,6 @@ def setup_logging(log_path):
 
 
 def resolve_project_path(path):
-    path = Path(path)
-    if path.is_absolute():
-        return path
     return PROJECT_ROOT / path
 
 
@@ -52,11 +42,6 @@ def parse_args():
     parser.add_argument("--output", help="预测结果 jsonl 保存路径；默认使用配置中的 save_file_path")
     parser.add_argument("--resume", action="store_true", help="校验已有有效结果并从下一条续跑；文件不存在时新建")
     return parser.parse_args()
-
-
-def load_config(config_path):
-    with open(config_path, "r", encoding="utf-8") as f:
-        return json.load(f)
 
 
 def backup_existing_output(output_path):
@@ -117,10 +102,14 @@ def call_llm(prompt, config):
         timeout=config.get("timeout", 60),
         max_retries=0,
     ) as client:
+        extra = {}
+        if "enable_thinking" in config:
+            extra["extra_body"] = {"enable_thinking": bool(config["enable_thinking"])}
         response = client.chat.completions.create(
-            model=config["model_name"],
+            model=config.get("api_model_name", config["model_name"]),
             messages=[{"role": "user", "content": prompt}],
             temperature=1,
+            **extra,
         )
 
     if response.choices[0].finish_reason == "length":
@@ -152,7 +141,6 @@ def normalize_pred_entities(pred_entities, sentence, dataset=None):
             end = start + len(text)
         elif not (type(start) is int and type(end) is int
                 and 0 <= start < end <= len(sentence) and sentence[start:end] == text):
-            matches = [m.start() for m in re.finditer(f"(?={re.escape(text)})", sentence)]
             if len(matches) != 1:
                 raise ValueError(f"Entity {text!r}: found {len(matches)} exact matches; "
                                  "copy exact text and supply a valid occurrence index")
@@ -165,7 +153,7 @@ def normalize_pred_entities(pred_entities, sentence, dataset=None):
 def correction_matches(answer, sentence):
     """Provide locations for model-proposed quotes only, without consulting gold labels."""
     try:
-        entities = json.loads(answer)
+        entities = json.loads(unwrap_json_fence(answer))
     except (ValueError, TypeError):
         return []
     if not isinstance(entities, list):
@@ -244,7 +232,7 @@ class LLMExperiment:
     def __init__(self, config_path, output_path=None, resume=False):
         self.resume = resume
         self.config_path = resolve_project_path(config_path)
-        self.config = load_config(self.config_path)
+        self.config = json.loads(self.config_path.read_text(encoding="utf-8"))
         self.config["_config_path"] = str(self.config_path)
         self.output_path = resolve_project_path(output_path or self.config["save_file_path"])
 
@@ -257,7 +245,11 @@ class LLMExperiment:
             answer = None
             try:
                 answer = call_llm(prompt, self.config)
-                entities = json.loads(answer)
+                normalized = unwrap_json_fence(answer)
+                if normalized != answer:
+                    logging.info("Response parser=%s removed outer JSON fence; raw_response=%r",
+                                 RESPONSE_PARSER_VERSION, answer)
+                entities = json.loads(normalized)
                 result = normalize_pred_entities(entities, sentence, self.config["dataset"])
             except (ValueError, TypeError, IndexError) as exc:
                 logging.warning("Invalid response, attempt=%s: %s; raw_response=%r", attempt, exc, answer)
@@ -274,10 +266,10 @@ class LLMExperiment:
                 logging.warning("Request failed, attempt=%s: %s", attempt, type(exc).__name__)
             else:
                 self.last_attempts = attempt
+                self.last_outer_json_fence_removed = normalized != answer
                 time.sleep(self.config.get("sleep_seconds", 0))
                 return result
             delay = min(self.config.get("retry_delay", 2) * 2 ** min(attempt - 1, 10), 30)
-            print(f"  第 {attempt} 次未通过；{delay}s 后重试，暂不计入 PRF；详见日志", flush=True)
             time.sleep(delay)
 
     def run(self):
@@ -286,19 +278,11 @@ class LLMExperiment:
         get_api_key(config)
         setup_logging(PROJECT_ROOT / config["log_file_path"])
         self.output_path.parent.mkdir(parents=True, exist_ok=True)
-        backup_path = None
 
         logging.info("Config file: %s", self.config_path)
         logging.info("Output jsonl: %s", self.output_path)
-        if backup_path:
-            logging.info("Backed up previous output to: %s", backup_path)
         logging.info("Experiment: %s", config["experiment_name"])
         logging.info("Model: %s", config["model_name"])
-
-        print(f"Config file: {self.config_path}")
-        print(f"Output jsonl: {self.output_path}")
-        if backup_path:
-            print(f"Previous output backup: {backup_path}")
 
         data_bytes = (PROJECT_ROOT / config["test_file_path"]).read_bytes()
         config["_input_sha256"] = hashlib.sha256(data_bytes).hexdigest()
@@ -310,9 +294,7 @@ class LLMExperiment:
         if not self.resume:
             backup_path = backup_existing_output(self.output_path)
             if backup_path:
-                print(f"Previous output backup: {backup_path}")
-        print(f"已完成 {completed}/{len(data)} 条；从第 {completed + 1} 条继续" if completed < len(data)
-              else f"已完成全部 {completed} 条，无需请求", flush=True)
+                logging.info("Backed up previous output to: %s", backup_path)
         with open(self.output_path, "a" if self.resume else "w", encoding="utf-8") as f:
             for sample_id in range(completed, len(data)):
                 sample = data[sample_id]
@@ -331,6 +313,8 @@ class LLMExperiment:
                     "dataset": config["dataset"],
                     "model_name": config["model_name"],
                     "response_format": "exact_text_occurrence_v1",
+                    "response_parser_version": RESPONSE_PARSER_VERSION,
+                    "outer_json_fence_removed": getattr(self, "last_outer_json_fence_removed", False),
                     "fully_executed": True,
                     "attempts": self.last_attempts,
                     "evaluation_scope": "successful_samples_only",
@@ -339,9 +323,6 @@ class LLMExperiment:
                     "pred_entities": list(pred_entities),
                 }, ensure_ascii=False) + "\n")
                 f.flush()
-                p, r, score = calculate_metrics(true_positive, predicted_total, gold_total)
-                print(f"[{sample_id + 1}/{min(len(data), config['max_loop'])}] "
-                      f"P={p:.4f} R={r:.4f} F1={score:.4f}", flush=True)
 
         precision, recall, f1 = calculate_metrics(true_positive, predicted_total, gold_total)
         metrics = (("Precision", precision), ("Recall", recall), ("F1", f1))
@@ -355,10 +336,8 @@ class LLMExperiment:
                                   "evaluation_scope": "successful_samples_only"}
         save_summary(config, precision, recall, f1)
 
-        print(f"Experiment: {config['experiment_name']}")
-        print(f"Model: {config['model_name']}")
-        for name, value in metrics:
-            print(f"{name}: {value:.4f}")
+        print(f"{config['model_name']} precision={precision:.4f} recall={recall:.4f} "
+              f"f1={f1:.4f} predictions={self.output_path}", flush=True)
 
 
 def main():

@@ -1,0 +1,22 @@
+{
+  "dataset": "ncbi",
+  "model_name": "NERLlama3.1",
+  "pretrained_model_path": "baseline/model/pretrained/llama31-8b",
+  "train_file_path": "bioDataset/ncbi/train.json",
+  "dev_file_path": "bioDataset/ncbi/dev.json",
+  "test_file_path": "bioDataset/ncbi/test.sampled_500.json",
+  "checkpoint_dir": "baseline/model/checkpoints/nerllama31/ncbi",
+  "prediction_path": "result/test_500/baseline/ncbi/NERLlama3.1/predictions.jsonl",
+  "summary_csv": "result/test_500/test_500_summary_prf1.csv",
+  "seed": 42,
+  "max_length": 4096,
+  "max_new_tokens": 1536,
+  "learning_rate": 0.0002,
+  "epochs": 3,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 16,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "max_attempts": 3
+}

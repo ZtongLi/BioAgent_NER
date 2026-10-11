@@ -34,15 +34,15 @@ config/ner_agent/*/*.json
 *.jsonl.bak.*
 baseline/llm_predictions.jsonl
 
+# Server-only pretrained weights and fine-tuned checkpoints
+/baseline/model/*
+!/baseline/model/README.md
+
 # Result files are selected explicitly for each release.
 result/**
 
-# Local experiment utilities and development checks
-run_full_shard.py
-run_prefix_subshard.py
-run_variant_shard.py
+# Local development checks and generated artifacts
 tests/
-bioDataset/sample_dev_500.py
 figure/*.pdf
 *.lock
 *.tmp

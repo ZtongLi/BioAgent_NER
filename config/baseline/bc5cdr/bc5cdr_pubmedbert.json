@@ -1,0 +1,17 @@
+{
+  "dataset": "bc5cdr",
+  "model_name": "PubMedBERT",
+  "pretrained_model_path": "baseline/model/pretrained/pubmedbert",
+  "train_file_path": "bioDataset/bc5cdr/train.json",
+  "dev_file_path": "bioDataset/bc5cdr/dev.json",
+  "test_file_path": "bioDataset/bc5cdr/test.sampled_500.json",
+  "checkpoint_dir": "baseline/model/checkpoints/pubmedbert/bc5cdr",
+  "prediction_path": "result/test_500/baseline/bc5cdr/PubMedBERT/predictions.jsonl",
+  "summary_csv": "result/test_500/test_500_summary_prf1.csv",
+  "seed": 42,
+  "max_length": 512,
+  "stride": 128,
+  "learning_rate": 0.00002,
+  "epochs": 5,
+  "batch_size": 16
+}

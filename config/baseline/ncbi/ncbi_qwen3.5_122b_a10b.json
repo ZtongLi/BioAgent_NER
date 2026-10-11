@@ -1,0 +1,15 @@
+{
+  "experiment_name": "ncbi_qwen3.5_122b_a10b",
+  "dataset": "ncbi",
+  "model_name": "Qwen3.5-122B-A10B",
+  "api_model_name": "Qwen/Qwen3.5-122B-A10B",
+  "base_url": "https://api.siliconflow.cn/v1",
+  "api_key_env": "SILICONFLOW_API_KEY",
+  "enable_thinking": false,
+  "test_file_path": "bioDataset/ncbi/test.sampled_500.json",
+  "max_loop": 500,
+  "summary_csv": "result/test_500/test_500_summary_prf1.csv",
+  "save_file_path": "result/test_500/baseline/ncbi/Qwen3.5-122B-A10B/ncbi_qwen3.5_122b_a10b_predictions.jsonl",
+  "log_file_path": "result/test_500/baseline/ncbi/Qwen3.5-122B-A10B/ncbi_qwen3.5_122b_a10b.log",
+  "sleep_seconds": 2
+}
