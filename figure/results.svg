@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350" role="img" aria-labelledby="title desc">
+  <title id="title">Baseline and BioAgent F1 comparison</title>
+  <desc id="desc">Results on BC2GM, BC5CDR, and NCBI Disease using GPT-5.6-sol, DeepSeek-v4.1-flash, and Grok-4.7. Values transcribed from the supplied results image.</desc>
+  <rect width="1000" height="350" fill="white"/>
+  <g stroke="black" fill="none">
+    <path d="M18 10H977 M18 342H977" stroke-width="1.6"/>
+    <path d="M18 50H977 M18 147H977 M18 245H977" stroke-width="1"/>
+  </g>
+  <g font-family="Times New Roman, Times, serif" font-size="23" fill="black">
+    <g font-weight="bold" text-anchor="middle">
+      <text text-anchor="middle" font-weight="bold" x="84" y="37">Dataset</text>
+      <text text-anchor="middle" font-weight="bold" x="254" y="37">Model</text>
+      <text text-anchor="middle" font-weight="bold" x="515" y="37">Baseline F1</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="37">BioAgent F1</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="37">Improvement</text>
+    </g>
+    <text text-anchor="start" font-weight="normal" x="43" y="105">BC2GM</text>
+    <text text-anchor="start" font-weight="normal" x="43" y="203">BC5CDR</text>
+    <text text-anchor="start" font-weight="normal" x="43" y="300">NCBI Disease</text>
+    <g>
+      <text text-anchor="start" font-weight="normal" x="221" y="77">GPT-5.6-sol</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="105">DeepSeek-v4.1-flash</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="134">Grok-4.7</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="175">GPT-5.6-sol</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="203">DeepSeek-v4.1-flash</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="232">Grok-4.7</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="273">GPT-5.6-sol</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="301">DeepSeek-v4.1-flash</text>
+      <text text-anchor="start" font-weight="normal" x="221" y="330">Grok-4.7</text>
+    </g>
+    <g text-anchor="middle">
+      <text text-anchor="middle" font-weight="normal" x="515" y="77">54.48</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="105">54.59</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="134">60.22</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="175">81.82</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="203">75.76</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="232">84.85</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="273">75.76</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="301">64.26</text>
+      <text text-anchor="middle" font-weight="normal" x="515" y="330">80.60</text>
+    </g>
+    <g text-anchor="middle" font-weight="bold">
+      <text text-anchor="middle" font-weight="bold" x="694" y="77">73.14</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="105">70.02</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="134">72.77</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="175">83.05</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="203">83.37</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="232">86.50</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="273">80.12</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="301">83.27</text>
+      <text text-anchor="middle" font-weight="bold" x="694" y="330">85.20</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="77">+18.66</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="105">+15.43</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="134">+12.55</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="175">+1.23</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="203">+7.61</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="232">+1.65</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="273">+4.36</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="301">+19.00</text>
+      <text text-anchor="middle" font-weight="bold" x="880" y="330">+4.60</text>
+    </g>
+  </g>
+</svg>
